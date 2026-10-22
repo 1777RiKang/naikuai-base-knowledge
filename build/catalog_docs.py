@@ -33,7 +33,7 @@ def generate():
         f"- 外部目录：{len(docs)} 条；来源署名："+'，'.join(f'{k} {v}' for k,v in sorted(sources.items()))+'。',
         f"- 完全相同内容的重复目录：{sum('duplicate_of' in d for _,d in docs)} 条，检索去重。",
         '- 外部审核状态：'+ '，'.join(f'{k} {v}' for k,v in sorted(Counter(d['review']['status'] for _,d in docs).items()))+'。',
-        '- 自动导入不计个人积分；原有 50 条种子仍不追溯积分。',
+        '- 外部资料自动导入不计个人积分；初始 50 条种子归“空调房里晒太阳”，已确认计分，待审单列。',
         '','此处的“数据概览”与游戏资料《数据摘要》是不同文档。',
         '《数据摘要》的原始归属显示“作者”，其余站点记录显示“nkwiki”。',
         '','查看 [分类目录](../knowledge/README.md)、[数据摘要接入](data-summary.md) 和 [nkwiki 接入](nkwiki-integration.md)。',
