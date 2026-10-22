@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 传说武器名称 | 传说任务名称 | 传说任务内容 |\n| 传说之剑Ⅱ阶 | 光之剑 | 10分钟内击败城堡核心 |\n| 传说之盾Ⅱ阶 | 光之盾 | 10分钟内击败城堡核心 |\n| 传说之弓Ⅱ阶 | 炎之弓 | 10分钟内击败火焰领主 |\n| 传说箭袋Ⅱ阶 | 炎之箭 | 10分钟内击败火焰领主 |\n| 传说圣杖Ⅱ阶 | 夜之杖 | 10分钟内击败黑夜女神 |\n| 传说法杖Ⅱ阶 | 夜之杖 | 10分钟内击败黑夜女神 |\n| 传说法典Ⅱ阶 | 夜之典 | 10分钟内击败黑夜女神 |\n| 传说镰刀Ⅱ阶 | 暗之镰 | 10分钟内击败黑夜女神 |\n| 传说提灯Ⅱ阶 | 暗之灯 | 10分钟内击败黑夜女神 |\n\n副本时间表\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 遗忘之境T4 | | | |\n| 城堡核心T4 | 时间00-60 | 黑夜女神T4 | 时间00-60 |\n| 火焰领主T4 | 时间00-60 |  | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.3职业-米德加德 / 9.3.1传说武器的升阶任务 / 9.3.1.2Ⅱ阶升Ⅲ阶的升阶任务",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "72f78983055c12632a8d6f5e78967ba28bba92a649743660c604bda7e96f3d34",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 第1关 | 小怪关 | 第2关 | 小怪关 |\n| 第3关 | 小怪关（通关后获得任意装备一个） | 第4关 | 小怪关 |\n| 第5关 | 商店关（可购买最多四个道具） | 第6关 | Boss关 |\n| 第7关 | 小怪关 | 第8关 | 小怪关 |\n| 第9关 | 小怪关（通关后获得任意装备一个） | 第10关 | 小怪关 |\n| 第11关 | 商店关（可购买最多四个道具） | 第12关 | Boss关 |\n| 第13关 | 小怪关 | 第14关 | 小怪关 |\n| 第15关 | 小怪关（通关后获得任意装备一个） | 第16关 | 小怪关 |\n| 第17关 | 商店关（可购买最多四个道具） | 第18关 | Boss关 |\n| 第19关 | 小怪关 | 第20关 | 小怪关 |\n| 第21关 | 小怪关（通关后获得任意装备一个） | 第22关 | 小怪关 |\n| 第23关 | 商店关（可购买最多四个道具） | 第24关 | Boss关 |\n| 第25关 | 小怪关 | 第26关 | 小怪关 |\n| 第27关 | 小怪关（通关后获得任意装备一个） | 第28关 | 小怪关 |\n| 第29关 | 商店关（可购买最多四个道具） | 第30关 | Boss关 |\n| 第31关 | 小怪关 | 第32关 | 小怪关 |\n| 第33关 | 小怪关（通关后获得任意装备一个） | 第34关 | 小怪关 |\n| 第35关 | 商店关（可购买最多四个道具） | 第36关 | Boss关 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.3破晓之路PVE / 5.3.1关卡记录",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "139b0c1fb0295600b528dcdb23d3b26832044f9557e76c318fc5f8106d2fc04b",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

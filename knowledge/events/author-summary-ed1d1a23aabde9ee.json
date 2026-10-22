@@ -7,17 +7,18 @@
     "数据摘要",
     "第十章 奶块活动记录"
   ],
+  "content": "|  |  |\n| --- | --- |\n| ~~圣诞节（三阶）~~ | ~~2018/12/10-2019/01/02~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十章 奶块活动记录 / 10.2年份：2018",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "8cd5e2f539183d6e60ea053d94c7d195dd9e870f31812d96cb44f1bda26dfb81",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1级 | 暂无 | 11级 | 暂无 | 21级 | 暂无 | 31级 | 暂无 | 41级 | 暂无 |\n| 2级 | 暂无 | 12级 | 暂无 | 22级 | 暂无 | 32级 | 暂无 | 42级 | 暂无 |\n| 3级 | 暂无 | 13级 | 暂无 | 23级 | 暂无 | 33级 | 暂无 | 43级 | 暂无 |\n| 4级 | 暂无 | 14级 | 暂无 | 24级 | 暂无 | 34级 | 暂无 | 44级 | 暂无 |\n| 5级 | 暂无 | 15级 | 暂无 | 25级 | 暂无 | 35级 | 暂无 | 45级 | 暂无 |\n| 6级 | 暂无 | 16级 | 暂无 | 26级 | 暂无 | 36级 | 暂无 | 46级 | 暂无 |\n| 7级 | 暂无 | 17级 | 暂无 | 27级 | 暂无 | 37级 | 暂无 | 47级 | 暂无 |\n| 8级 | 暂无 | 18级 | 暂无 | 28级 | 暂无 | 38级 | 暂无 | 48级 | 暂无 |\n| 9级 | 暂无 | 19级 | 暂无 | 29级 | 暂无 | 39级 | 暂无 | 49级 | 暂无 |\n| 10级 | 暂无 | 20级 | 暂无 | 30级 | 暂无 | 40级 | 暂无 | 50级 | 193 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.13跟宠副本破甲表（未完成）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f1e71746254b2fd946d825c9c269281b955085fc67ce356c71a0a00740cc74b3",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

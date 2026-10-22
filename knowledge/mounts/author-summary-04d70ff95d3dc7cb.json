@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 抗寒进化 | |\n| 组合名称 | 组合效果 |\n| 抗寒进化Ⅰ | 提升10%抗寒效果，拥有4种精良坐骑可激活，在坐骑上永久生效 |\n| 抗寒进化Ⅱ | 提升20%抗寒效果，拥有7种精良坐骑可激活，在坐骑上永久生效 |\n| 抗寒进化Ⅲ | 提升25%抗寒效果，拥有8种精良坐骑可激活，在坐骑上永久生效 |\n| 耐热进化 | |\n| 组合名称 | 组合效果 |\n| 耐热进化Ⅰ | 提升10%耐热效果，拥有4种精良坐骑可激活，在坐骑上永久生效 |\n| 耐热进化Ⅱ | 提升20%耐热效果，拥有7种精良坐骑可激活，在坐骑上永久生效 |\n| 耐热进化Ⅲ | 提升25%耐热效果，拥有8种精良坐骑可激活，在坐骑上永久生效 |\n| 陆行进化 | |\n| 组合名称 | 组合效果 |\n| 陆行进化Ⅰ | 提升10%陆地移速，拥有6种精良坐骑可激活，在坐骑上生效 |\n| 陆行进化Ⅱ | 提升20%陆地移速，拥有8种精良坐骑可激活，在坐骑上生效 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.3精良坐骑 / 8.2.3.3组合效果",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "be4280116c8640bce177db5febcb0250077b095ac966d709f81921c0c53af2b9",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

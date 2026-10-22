@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| PVE | | | |\n| 防具 | | 武器 | |\n| T1 | ~~被攻击N次后失效~~ | T1 | ~~攻击250次后失效~~ |\n| T2 | ~~被攻击N次后失效~~ | T2 | ~~攻击1000次后失效~~ |\n| T3 | ~~被攻击12500次后失效~~ | T3 | ~~攻击3000次后失效~~ |\n| T4 | ~~被攻击25000次后失效（待测）~~ | T4 | ~~攻击5000次后失效（待测）~~ |\n| T5 | ~~被攻击50000次后失效（待测）~~ | T5 | ~~攻击N次后失效~~ |\n| T6 | ~~被攻击N次后失效~~ | T6 | ~~攻击N次后失效~~ |\n| T7 | ~~被攻击N次后失效~~ | T7 | ~~攻击4680次后失效~~ |\n| 戒指 | ~~被攻击N次后失效~~ | T8 | ~~攻击N次后失效~~ |\n| T8 | ~~被攻击N次后失效~~ |  |  |\n| PVP | | | |\n| 防具 | | 武器 | |\n| S3 | ~~被攻击N次后失效~~ | S3 | ~~攻击N次后失效~~ |\n| S4 | ~~被攻击N次后失效~~ | S4 | ~~攻击N次后失效~~ |\n| S5 | ~~被攻击N次后失效~~ | S5 | ~~攻击N次后失效~~ |\n| S6 | ~~被攻击N次后失效~~ | S6 | ~~攻击N次后失效~~ |\n| S7 | ~~被攻击N次后失效~~ | S7 | ~~攻击N次后失效~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.7装备耐久度测试（未完成）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5b7fa2727434dceffc278c288edfc2bfdaec84d3e866511a5e44a2173599585b",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

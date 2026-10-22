@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "红色字体颜色的附魔属性均为重点附魔",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.1装备附魔权重及附魔属性类型",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "cf9fe6f123f0f7b67ae65797b9b8d9d7c078b3196503925610254498beaa1fec",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -4,7 +4,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# 本地外部全文、导入缓存和数据库；公开目录只含元数据
+# 本地缓存和生成数据库；已授权正文位于 sources/data-summary/ 与 knowledge/
 .local/
 *.sqlite
 *.sqlite-*

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 唐风矮凳 | 在尼伯龙根的卡戎处购买配方 |\n| 唐风围栏凳子 | 在尼伯龙根的卡戎处购买配方 |\n| 唐风端椅 | 在尼伯龙根的卡戎处购买配方 |\n| 唐风石头椅子 | 在艾芙海姆的地精商人处购买配方 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.3唐风 / 7.5.3.4其他",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5e99173b85a9e9b3dd2f9b4b7d1cfc4b72ce7d4705831f2756d3f8774ddfc41b",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

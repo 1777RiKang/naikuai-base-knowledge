@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 骑士防具四件 | 抗性 | 护甲 | 生命 | |\n| 骑士套 | 48 | 48 | 24 | |\n| 圣殿套 | 66 | 66 | 50 | |\n| 魂铸套 | 90 | 90 | 81 | |\n| 无畏套 | 120 | 120 | 120 | |\n| 亚玟套 | 150 | 150 | 162 | |\n| 毁灭套 | 186 | 186 | 210 | |\n| 断浪套 | 227 | 227 | 264 | |\n| 射手防具四件 | 抗性 | 护甲 | 生命 | 伤害 |\n| 狩猎套 | 7 | 24 | 20 | 24 |\n| 梦魇套 | 11 | 32 | 44 | 42 |\n| 深渊套 | 17 | 44 | 74 | 65 |\n| 羽落套 | 24 | 59 | 107 | 90 |\n| 卓尔套 | 29 | 74 | 146 | 120 |\n| 吞噬套 | 35 | 92 | 192 | 155 |\n| 逆流套 | 44 | 113 | 240 | 192 |\n| 法师防具四件 | 抗性 | 护甲 | 生命 | 伤害 |\n| 能量套 | 24 | 7 | 20 | 24 |\n| 堕落套 | 32 | 11 | 44 | 42 |\n| 黑暗套 | 44 | 17 | 74 | 65 |\n| 神圣套 | 59 | 24 | 107 | 90 |\n| 艾达套 | 74 | 29 | 146 | 120 |\n| 轮回套 | 92 | 35 | 192 | 155 |\n| 唤潮套 | 113 | 44 | 240 | 192 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.1各职业的基础数据 / 2.3.1.2防具四件总面板",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d2c7573934c4df19bb03a9e37f04a05f477ae6abe56d81134c8f46127ce8c355",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

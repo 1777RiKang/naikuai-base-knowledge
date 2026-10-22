@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 近战攻击力 | 远程攻击力 | 法术攻击力 | 物防 | 魔防 |\n| 琳的庇护Ⅰ | 100 | 150 | 150 | 100% | 100% |\n| 琳的庇护Ⅱ | 150 | 250 | 250 | 150% | 150% |\n| 琳的庇护Ⅲ | 200 | 350 | 350 | 200% | 200% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.4琳的庇护（仅对海拉五人本提供对应等级效果）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "ae211ca302cd909b2d159c5ae33da42bf438d69af5c440f820d67d621744c5e0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

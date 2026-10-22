@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 生命Ⅰ | +22最大生命值 |\n| 生命Ⅱ | +33最大生命值 |\n| 生命Ⅲ | +44最大生命值 |\n| 生命Ⅳ | +55最大生命值 |\n| 生命Ⅴ | +66最大生命值 |\n\n第二章2.5戒指技能对其他特殊附魔属性进行详细介绍！！！",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.2戒指特殊附魔属性 / 1.2.1属性：生命Ⅰ-Ⅴ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "e1ebab9e7196cb92de683e4f68e459e8dff4762b268498470a7510a1f335fa02",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

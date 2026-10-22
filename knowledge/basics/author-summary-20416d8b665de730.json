@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "魔咒即远程魔法，增加玩家远程魔法攻击力，对魔导师、召唤师、占星师有加伤效果\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 武器/防具 | | 食物汤 | |\n| 魔咒Ⅰ | +7远程魔法攻击力 | 魔咒Ⅲ | +25远程魔法攻击力 |\n| 魔咒Ⅱ | +16远程魔法攻击力 | 魔咒Ⅳ | +36远程魔法攻击力 |\n| 魔咒Ⅲ | +25远程魔法攻击力 | 魔咒Ⅴ | +48远程魔法攻击力 |\n| 魔咒Ⅳ | +36远程魔法攻击力 | 魔咒Ⅵ | +64远程魔法攻击力 |\n| 魔咒Ⅴ | +48远程魔法攻击力 | 魔咒Ⅶ | +91远程魔法攻击力 |\n| 魔咒Ⅵ | +64远程魔法攻击力 | 魔咒Ⅷ | +100远程魔法攻击力 |\n| 魔咒Ⅶ | +81远程魔法攻击力 | 魔咒Ⅸ | +145远程魔法攻击力 |\n| 魔咒Ⅷ | +100远程魔法攻击力 | 戒指 | |\n| 魔咒Ⅸ | +115远程魔法攻击力 | 魔咒Ⅳ | +16远程魔法攻击力 |\n| ~~魔咒Ⅹ~~ | ~~+130远程魔法攻击力~~ | 魔咒Ⅴ | +24远程魔法攻击力 |\n|  | | 魔咒Ⅵ | +32远程魔法攻击力 |\n| 魔咒Ⅶ | +40远程魔法攻击力 |\n| 魔咒Ⅷ | +48远程魔法攻击力 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.2加成：魔咒Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "2f336d4510760b23f7b629fb05809b2940d06e5da6688ff127edc8964f8e8513",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

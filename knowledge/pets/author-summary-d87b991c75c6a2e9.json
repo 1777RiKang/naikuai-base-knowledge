@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 竞技每场结算经验 | |\n| y：我方跟宠获得经验总和（单个跟宠获得经验m=y/3取整）  x：敌方跟宠的等级总和 | |\n| 成功 | y=25x+750 |\n| 失败 | y=25x/3+250 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.2跟宠竞技PVP / 5.2.2竞技每场结算经验",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "1d690593240704e897faa8bf62117368864a678c559e0a54ab3bee0e8ef67017",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

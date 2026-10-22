@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 副本名称 | 开启时间 | 开启人数 | 总经验值 | 坐标 |\n| 埃及金字塔 | 00-20 | 2-5 | 9k | 8639-8736/4029-6662/1283-1255  1718-8713/8782-1152/6895-4106 |\n| 阿努比斯-未知上线时间，12000生命，60攻击，204防御，攻击等级3，防御等级10 | | | | |\n| 普通攻击：造成50%近战物理伤害，并在造成50%近战物理的小范围AOE伤害；  地狱烈焰：血量低于80%后释放技能，造成10%近战物理的大范围AOE伤害，随机给玩家添加燃烧状态，每3秒造成30%最大生命值伤害（此伤害不受免伤护盾等影响），持续15秒，并在战场上生成不会消失的火焰，对周围玩家添加灼伤，每1.5秒造成20%最大生命值+1点固定伤害，持续3秒；  天神之怒：血量低于50%后释放技能，造成80%近战物理的大范围AOE伤害，并召唤1个木乃伊（70生命，20攻击，0防御，攻击等级3，防御等级10）和1个陵墓守卫（70生命，20攻击，0防御，攻击等级3，防御等级10）；  炽焰之力：击杀阿努比斯后获得12小时的“炽焰之力”。 | | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.1秘境 / 4.1.2炽热大陆T3-20170100 / 4.1.2.1埃及金字塔",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "370123419b23f20f51f6fb9a1c3592bf88599064e6a8a7169847070d348feda7",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

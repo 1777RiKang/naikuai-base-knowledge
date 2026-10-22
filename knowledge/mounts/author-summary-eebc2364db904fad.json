@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 水中加速 | |\n| 组合名称 | 组合效果 |\n| 水中加速Ⅰ | 提升5%水中移速，拥有4种传说坐骑可激活，在坐骑上永久生效 |\n| 水中加速Ⅱ | 提升10%水中移速，拥有7种传说坐骑可激活，在坐骑上永久生效 |\n| 水中加速Ⅲ | 提升15%水中移速，拥有8种传说坐骑可激活，在坐骑上永久生效 |\n| 飞行进化 | |\n| 组合名称 | 组合效果 |\n| 飞行进化Ⅰ | 提升20%空中移速，拥有6种传说坐骑可激活，在坐骑上永久生效 |\n| 飞行进化Ⅱ | 提升50%空中移速，拥有8种传说坐骑可激活，在坐骑上永久生效 |\n| 跌落减伤 | |\n| 组合名称 | 组合效果 |\n| 跌落减伤Ⅰ | 减少高处跌落伤害20%，拥有8种传说坐骑可激活，在坐骑上生效 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.4传说坐骑 / 8.2.4.3组合效果",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5401b3c41c84f3d80bc51093ad5bb804559a60ab7f093d32b4a03f48b46bf03a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

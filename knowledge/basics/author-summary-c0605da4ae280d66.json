@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "锋利即近战物理，增加玩家近战物理攻击力，对骑士、龙骑士、影刃、猎魔人、触须宝石有加伤效果\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 武器/防具 | | 食物汤 | |\n| 锋利Ⅰ | +4近战物理攻击力 | 锋利Ⅲ | +14近战物理攻击力 |\n| 锋利Ⅱ | +9近战物理攻击力 | 锋利Ⅳ | +20近战物理攻击力 |\n| 锋利Ⅲ | +14近战物理攻击力 | 锋利Ⅴ | +27近战物理攻击力 |\n| 锋利Ⅳ | +20近战物理攻击力 | 锋利Ⅵ | +36近战物理攻击力 |\n| 锋利Ⅴ | +27近战物理攻击力 | 锋利Ⅶ | +45近战物理攻击力 |\n| 锋利Ⅵ | +36近战物理攻击力 | 锋利Ⅷ | +56近战物理攻击力 |\n| 锋利Ⅶ | +45近战物理攻击力 | 锋利Ⅸ | +90近战物理攻击力 |\n| 锋利Ⅷ | +56近战物理攻击力 | 戒指 | |\n| 锋利Ⅸ | +70近战物理攻击力 | 锋利Ⅳ | +9近战物理攻击力 |\n| ~~锋利Ⅹ~~ | ~~+80近战物理攻击力~~ | 锋利Ⅴ | +13近战物理攻击力 |\n|  | | 锋利Ⅵ | +18近战物理攻击力 |\n| 锋利Ⅶ | +22近战物理攻击力 |\n| 锋利Ⅷ | +27近战物理攻击力 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.1加成：锋利Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "fcdfd710a8bc9b01d3d95117e745648ab43c5664ebbe0f935ba4d1824ebd17f6",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

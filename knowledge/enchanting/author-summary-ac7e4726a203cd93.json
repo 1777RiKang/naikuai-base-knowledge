@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 附魔属性 | 修理所需经验 | 价值量 |\n| 坚固Ⅰ/Ⅱ/Ⅲ | 800/2400/7200 | 01/01/01 |\n| 生命Ⅰ/Ⅱ/Ⅲ/Ⅳ/Ⅴ | 800/2400/7200/7200/7200 | 02/02/02/02/02 |\n| 抗性护甲锋利力量魔咒灵攻Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 800/2400/7200/7200/7200 | 02/02/02/02/02 |\n| 烈焰花环寒冰花环龙吼致伤弹射石化魔法抑制Ⅰ/Ⅱ/Ⅲ | 3600/7200/10800 | 03/03/03 |\n| 雷霆花环生命花环缴械沉默狂怒猛击不屈驱散净化Ⅱ/Ⅲ | 7200/10800 | 03/03 |\n| 盾牌反射庇护赐福Ⅲ | 10800 | 03 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.2装备修理所需经验及修理优先级 / 11.1.2.6戒指",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "48b45b209d2766f61bf85b7b64763cc0da31c2b680ad32db2c6fde56a76ca344",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

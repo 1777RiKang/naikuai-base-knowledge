@@ -1,76 +1,36 @@
 {
-  "source": "offline-user-supplied-snapshot",
-  "fetched_at": "2026-10-22T03:24:44+00:00",
-  "external_content_publication": "metadata-only",
+  "source": "authorized-author-summary",
+  "fetched_at": "2026-10-22T13:12:39+00:00",
+  "external_content_publication": "fulltext",
   "summary_attribution": "乱走丶沙城",
-  "site_attribution": "nkwiki",
-  "source_files": {
-    "articles.json": {
-      "sha256": "9803f438e87688c566151fed7b77233562f147fbd9f03b25e868b8b529bab39a",
-      "bytes": 1645942
-    },
-    "equipment.json": {
-      "sha256": "484f438dc044f8bd8251c18fff26b7b758cf6a7d1708951ead3c2e4d64ae28e6",
-      "bytes": 886510
-    },
-    "gems.json": {
-      "sha256": "2b7d49d02a3a51fcd9630ff18145a012428c0b3de077fcbf44aafb08f3f6bc03",
-      "bytes": 19989
-    },
-    "gem_attributes.json": {
-      "sha256": "db86b5b8832f34bd463eb6b684f629152823477ba180728a60386f2543e8908f",
-      "bytes": 28743
-    },
-    "fairies.json": {
-      "sha256": "56b0e396fb4e925053c4bd99b7cbbb2d0ddffdea9214d30f8832c925ea5f6021",
-      "bytes": 3427
-    },
-    "encyclopedia.json": {
-      "sha256": "41c869a941cffa89a55b84aad8b406b29beadc9394418577d3456a229d1c5e63",
-      "bytes": 1632
-    },
-    "encyclopedia_detail.json": {
-      "sha256": "3394b7cc3bb7c08cc9e4bf928947beb3b34a31948829b8b50cb8be02ad8c7e05",
-      "bytes": 12647
-    }
+  "summary_version": "8.6.26.10",
+  "summary_sha256": "fad111ecd964a37fbeb1fd7b52011c61fc081ed474540e55c0f8334bc7ded5e2",
+  "authorization": {
+    "confirmed_by": "maintainer",
+    "confirmed_on": "2026-10-22",
+    "public_fulltext_requested_on": "2026-10-22",
+    "license": "LicenseRef-Original-Source"
   },
-  "summary_sha256": "4e781c28ed8ad4ff603b3a929c22f5ff2a44db104c1f7574b2b90566fdc56597",
-  "wiki_database_sha256": "02fc029a0ddbecc82a1036fc160a2c3307ca5554791c8c674632115189bf31f8",
   "counts": {
-    "knowledge_catalog": 1392,
+    "knowledge_entries": 387,
     "categories": {
-      "basics": 42,
-      "crafting": 10,
-      "dungeons": 155,
-      "enchanting": 40,
-      "encyclopedia": 6,
-      "equipment": 497,
-      "events": 19,
-      "fairies": 105,
-      "gem-attributes": 70,
-      "gems": 30,
-      "mounts": 30,
-      "notices": 12,
-      "pets": 82,
-      "pve": 111,
-      "pvp": 39,
-      "quests": 16,
-      "systems": 97,
-      "worlds": 31
+      "basics": 20,
+      "crafting": 5,
+      "dungeons": 71,
+      "enchanting": 25,
+      "equipment": 22,
+      "events": 9,
+      "fairies": 47,
+      "mounts": 15,
+      "notices": 1,
+      "pets": 43,
+      "pve": 52,
+      "pvp": 19,
+      "quests": 8,
+      "systems": 50
     },
     "sources": {
-      "author": 787,
-      "nkwiki": 605
-    },
-    "exact_duplicates": 235
-  },
-  "source_snapshot_counts": {
-    "articles": 432,
-    "equipment": 455,
-    "gems": 30,
-    "gemAttributes": 70,
-    "fairies": 12,
-    "encyclopedia": 6,
-    "encyclopediaDetails": 6
+      "author": 387
+    }
   }
 }

@@ -34,3 +34,14 @@ class PublicContactTest(unittest.TestCase):
     def test_credentials_in_author_document_are_rejected(self):
         secret = 'ghp_' + 'a' * 30
         self.assertTrue(self.scan(privacy.PUBLIC_CONTACT_PATH, privacy.PUBLIC_CONTACT_LINE + '\n' + secret))
+
+    def test_original_author_contact_is_allowed_only_in_approved_sources(self):
+        contact = privacy.AUTHOR_PUBLIC_CONTACT
+        self.assertEqual(self.scan('sources/data-summary/full.md', contact), [])
+        self.assertEqual(self.scan('knowledge/notices/author-summary-test.json', contact), [])
+        self.assertTrue(self.scan('knowledge/equipment/author-summary-test.json', contact))
+        self.assertTrue(self.scan('terms/author.yaml', contact))
+
+    def test_other_contacts_remain_blocked_inside_public_summary(self):
+        contact = privacy.AUTHOR_PUBLIC_CONTACT + ' 联系Q群：' + '12345' + '67890'
+        self.assertTrue(self.scan('sources/data-summary/full.md', contact))

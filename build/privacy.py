@@ -11,6 +11,7 @@ PUBLIC_CONTACT_LINE = (
     "作者公开联系 " + "QQ：" + "24134" + "93480"
     + "（维护者于 2026-10-22 指定公开）。"
 )
+AUTHOR_PUBLIC_CONTACT = "通讯作者Q" + "24134" + "93480"
 LONG_NUMBER = re.compile(r"(?<!\d)\d{6,}(?!\d)")
 SECRET_PATTERNS = (
     re.compile(r"gh[pousr]_[A-Za-z0-9]{20,}"),
@@ -70,7 +71,12 @@ def scan_repository(root=ROOT):
         for number, line in enumerate(content.splitlines(), 1):
             if contains_secret(line):
                 errors.append(f"{rel}:{number}: 疑似凭据，请删除（不回显内容）")
-            if CONTACT.search(line) and not (rel == PUBLIC_CONTACT_PATH and line == PUBLIC_CONTACT_LINE):
+            contact_line = line
+            if rel == "sources/data-summary/full.md" or (
+                    rel.startswith("knowledge/notices/author-summary-") and rel.endswith(".json")):
+                contact_line = CONTACT.sub(
+                    lambda match: "[作者公开联系]" if match.group() == AUTHOR_PUBLIC_CONTACT else match.group(), line)
+            if CONTACT.search(contact_line) and not (rel == PUBLIC_CONTACT_PATH and line == PUBLIC_CONTACT_LINE):
                 errors.append(f"{rel}:{number}: 疑似个人联系方式，请脱敏（不回显内容）")
     return errors
 

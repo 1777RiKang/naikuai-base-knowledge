@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 玩家行为 | 回血效果 |\n| 从泉水复活后的单次恢复 | 立刻恢复最大生命值\\*100% |\n| 进入泉水范围内 | 每次恢复10+最大生命值\\*10% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.1水晶回血机制数据",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "b9428bf658f5802519ea5e018b08f68f9060c27dbdc69973b44fb160957e5578",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

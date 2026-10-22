@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 尖晶石指环  （开放Ⅳ-Ⅵ级基础附魔、Ⅰ-Ⅲ级生命附魔和Ⅰ级特殊附魔，且指环品质影响Ⅰ级特殊附魔） | | | | | |\n| 简约款 | | 耀动款 |  |  | |\n| 紫翠玉指环  （开放Ⅳ-Ⅶ级基础附魔、Ⅰ-Ⅳ级生命附魔和Ⅰ-Ⅱ级特殊附魔，且指环品质影响Ⅱ级附魔） | | | | | |\n| 简约款 | | 耀动款 |  |  | |\n| 蓝塔菲指环  （开放Ⅳ-Ⅷ级基础附魔、Ⅰ-Ⅴ级生命附魔和Ⅰ-Ⅲ级特殊附魔，且指环品质影响Ⅲ级附魔） | | | | | |\n| 简约款 | | 耀动款 | 雅致款 | 星夜款 | |\n| 指环品质对应技能 | | | | | |\n| 简约款 | 石化123、魔法抑制123、缴械23、沉默23、驱散23、净化23、龙吼123、致伤123、猛击23 | | | |\n| 耀动款 | 石化123、魔法抑制123、缴械23、沉默23、驱散23、净化23、烈焰花环123、寒冰花环123、弹射123 | | | |\n| 雅致款 | 石化3、魔法抑制3、缴械3、沉默3、驱散3、净化3、雷霆花环3、生命花环3、不屈3 | | | |\n| 星夜款 | 石化3、魔法抑制3、缴械3、沉默3、驱散3、净化3、狂怒3、盾牌反射3、庇护3、赐福3 | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.5戒指 / 2.5.2附魔说明",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "90640336b03c48b11c3b114d49859b5371ffc67a34474dfca2663afc20f9dec4",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

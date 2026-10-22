@@ -1,51 +1,46 @@
-# 《数据摘要》接入说明
+# 《数据摘要》全文与接入说明
 
-原始资料署名：**乱走丶沙城**。此页是接入说明和目录入口，不是《数据摘要》正文。
+原始资料署名：**乱走丶沙城**。当前版本 **8.6.26.10**。
 
-《数据摘要》是玩家整理的游戏资料，涵盖基础数据、PVE、PVP、副本、跟宠、精灵、玩家机制、坐骑、传说装备、活动、附魔与占卜。
-已检查的本地正文版本为 8.6.26.10。作者说明资料有效期为一个月，仍需按最新游戏版本核对。
+[完整正文](../sources/data-summary/full.md) · [原图](../sources/data-summary/images/) · [分类章节](../knowledge/README.md)
 
 ## 作者授权与联系
 
-维护者于 2026-10-22 确认已取得《数据摘要》作者“乱走丶沙城”的授权，并指定公开以下作者联系方式。
-本记录依据维护者确认；授权原文和具体许可条件尚未收录，不据此推定可改编、商用或按 CC BY-NC-SA 重新授权。
+维护者于 2026-10-22 确认已取得作者授权，并于同日要求公开《数据摘要》全部正文。
+本记录依据维护者确认；授权原文尚未收录。不据此推定可商用或按 CC BY-NC-SA 重新授权。
 
 作者公开联系 QQ：2413493480（维护者于 2026-10-22 指定公开）。
 
-授权仅涉及《数据摘要》作者有权授权的内容，不延伸为 nkwiki 其他资料的授权。
-后续发布正文时，应按实际授权范围保留作者署名、原作免责声明和必要的来源说明。
+## 公开范围与原作声明
 
-## 公开与本地范围
+公开完整 Markdown、372 张表格、41 处原始图片引用及分类章节 JSON 正文。
+来源为维护者已有的 Word 文件及其全文提取版本，不依赖任何第三方站点转载。
+原有《系列文件使用说明》保留在全文开头，包含非官方性质、数据准确性限制、一个月有效期及禁止商业牟利等说明。
+原文引用的独立《数据摘要-免责声明》文件未随本地资料提供；本仓库不编造其内容。
+作者指定公开的联系方式保留；其他联系方式脱敏。原始本地 Word 与 Markdown 不修改。
 
-按维护者确认的范围，公开仓库只提交标题、分类、来源定位、内容哈希和审核状态。
-正文与免责声明原文仍留在原始本地文件中；作者指定公开的联系方式见上文。此次更新授权记录和联系方式，不改变全文的发布范围。
-本地检索副本对联系方式及常见凭据格式脱敏，不改写原始文件，不把原作重新授权为本仓库的 CC 数据。
+完整 Markdown 和图片为阅读版；knowledge/<category>/*.json 的 content 为独立章节正文。
+从 487 个标题中提取 387 个含正文的章节，父章节只保留自身文字，避免重复包含子章节。
+原文图片从 Word 恢复；章节 JSON 使用可直接访问的原图 URL。
+提取记录见 [extraction-manifest.json](../sources/data-summary/extraction-manifest.json)，保留原始文件哈希、正文与图片校验信息。
 
-本批次从本地 Markdown 的 487 个标题中提取出 387 个含正文的独立章节块；
-父章节只保留自身文字，不重复包含所有子章节。章节路径生成稳定 ID，内容变化更新哈希并重新待审。
-分类按主题组织，查看 [知识目录](../knowledge/README.md)。
+## 构建与查询
 
-## 来源归属
-
-直接来自原始正文的条目标 `source: author`、`attribution: 乱走丶沙城`、`acquired_via: local-file`。
-nkwiki 上转载或拆分的章节仍标原始归属“乱走丶沙城”，同时记 `acquired_via: nkwiki` 和原文章定位。
-章节归属判断规则保存在 origin_rule 中，可人工检查；来源不确定的记录仍是 draft。
-
-## 本地接入
-
-```powershell
-python build/import_sources.py --nkwiki-dir 'D:\qq_bot\.review\nkwiki' --summary 'D:\qq_bot\.review\gamekb\v10\full.md'
+```bash
+python build/import_sources.py
 python build/catalog_docs.py
 python build/build_sqlite.py dist
-python build/build_knowledge.py --out .local --local-bodies .local/bodies.jsonl
+python build/build_knowledge.py --out dist
+python build/query.py dist/glossary.sqlite "锋利" --knowledge-db dist/knowledge.sqlite --include-unconfirmed
 ```
 
-输出 .local/bodies.jsonl、.local/knowledge.sqlite 和本地回执；这些路径被 Git 忽略。
-查询示例见 [AI 接入说明](ai-usage.md)。新导入记录均为 draft，AI 默认不引用。
+仓库已有公开正文，克隆后即可构建，不需要维护者的 .local 文件或原始 Word。
+CI 的 glossary-sqlite 产物包含全文 knowledge.sqlite、清单及 data-summary/ 阅读版。
+保留署名、来源使用说明与许可文件；不得把原作重新授权为本仓库的 CC 数据。
 
 ## 更新与审核
 
-重新运行离线导入前更新本地来源快照。导入先核对原始文件哈希，内容哈希未变时保留已有审核；
-内容变化时退回 draft，来源移除的记录保留并标 deprecated。
-通过 PR 审查公开目录变化，确认来源、版本、知识内容及使用范围后再更新审核状态。
-《数据摘要》的授权状态以上文记录为准；其他第三方内容仍须分别确认授权。
+授权发布不等于完成事实核验。387 个导入章节保持 draft，不自动计个人贡献积分。
+默认 AI 仅引用 confirmed；--include-unconfirmed 用于预览待审正文，不能当作已经确认的结论。
+内容更新时需复核适用版本；内容哈希变化退回 draft，未变的章节保留原审核状态。
+已移除站点抓取记录与转载副本，只以此原作生成章节和全文检索库。

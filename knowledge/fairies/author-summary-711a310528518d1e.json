@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 诺姆（精灵装备为霜之凌系列，地精商人商店兑换） | |\n| 精灵面板对照6.3.6.3精灵显性面板，精灵技能面板对照6.3.7.1精灵隐性面板 | |\n| 50级面板+壹命加成 | |\n| 近战物攻：20+4，远程物攻：105+21，近战魔攻：20+4，远程魔攻：20+4  物理防御：0%+50+10，魔法防御：0%+30+6 | |\n| 精灵礼物 | |\n| 转生前喜欢的礼物：水晶玫瑰、精灵香水瓶、晨星石玉镯  转生后喜欢的礼物：黑暗玫瑰、摄魂香水瓶、魔眼石玉镯 | |\n| 50级精灵技能数值 | |\n| 爆炸陷阱 | 零命技能（200S）：当敌人靠近时开始攻击，第一次攻击造成400远程物攻伤害，接下来并对周围的敌人持续造成120远程物攻伤害。 |\n| 贰命技能（180S）：（主动冷却时被动失效）常驻被动：提升20远程物理攻击力；主动：当敌人靠近时开始攻击，第一次攻击造成800远程物攻伤害，每秒对周围的敌人造成200点远程物攻伤害，持续10秒。 |\n| 冰霜陷阱 | 零命技能（200S）：当敌人靠近时开始攻击，对周围的敌人减速70%。 |\n| 贰命技能（180S）：（主动冷却时被动失效）常驻被动：提升20远程物理攻击力；主动：当敌人靠近时开始攻击，每秒对周围的敌人造成120远程物攻伤害并附带75%减速效果，持续10秒。 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.3诺姆-200817（三星）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "50875d654a94f3b058912ebffa950a9dca3e0e7cffbebd81fc6426eabe4abbc6",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

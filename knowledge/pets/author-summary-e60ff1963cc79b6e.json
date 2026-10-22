@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 跟宠图鉴：组合效果 | | |\n| 普通收藏：造成伤害+1%  解锁需获得10种初级跟宠 | 小火灵 | 小水灵 |\n| 小电灵 | 小冰灵 |\n| 小草灵 | 小石灵 |\n| 小风灵 | 小毒灵 |\n| 小暗灵 | 小光灵 |\n| 中级收藏：攻击力+1.5%  解锁需获得10种高级跟宠 | 小火狐 | 小水母 |\n| 小电蛇 | 小冰鹅 |\n| 小草花 | 小石鼠 |\n| 小风鹿 | 小毒蜂 |\n| 小暗鸦 | 小光星 |\n| 中级收藏Ⅱ：攻击力+1%  解锁需获得10种高级跟宠 | 小火烈鸟 | 小水蟹 |\n| 小电松鼠 | 小冰海豹 |\n| 小草菇 | 小石猪 |\n| 小风鸽 | 小毒瓶 |\n| 小暗魂 | 小光灯 |\n| 高级收藏：暴击伤害+10%  解锁需获得10种珍稀跟宠 | 小火兽 | 小水蛙 |\n| 小电猫 | 小冰鸟 |\n| 小草猴 | 小石龟 |\n| 小风羊 | 小毒蛾 |\n| 小暗枭 | 小光犬 |\n| 高级收藏Ⅱ：暴击伤害+7%  解锁需获得10种珍稀跟宠 | 小火牛 | 小水鸭 |\n| 小电龙 | 小冰熊 |\n| 小草狸 | 小石刺猬 |\n| 小风兔 | 小毒蝶 |\n| 小暗狼 | 小光狮 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.12跟宠图鉴 / 5.12.2组合效果",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "b9992dc9b4e02cc39d0273e556de3f1c26ca1597c6cb03b1855485d74e594bf0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

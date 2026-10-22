@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 家具 | Buff名称 | Buff效果 |\n| 浴缸（1min） | 我爱洗澡 | 移除游园打雪仗的冰冻状态，移速+5%，持续15min，CD120min |\n| 床（1min） | 不想起床 | 10%基础生命的护盾，持续60min，CD360min |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.0家具特殊buff",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "139e9584680148ded075e80010236f689d72265e7f1370edae4722890ccfbaf2",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

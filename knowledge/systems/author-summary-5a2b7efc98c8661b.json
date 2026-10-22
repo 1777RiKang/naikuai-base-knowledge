@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 暮色女妖秘境 | |\n| 女妖秘境普通怪 | 50生命，12攻击，0防御，攻击等级1，防御等级10 |\n| 绿色史莱姆 | 50生命，12攻击，138物防，0魔防，攻击等级1，防御等级10 |\n| 紫色史莱姆 | 50生命，12攻击，0物防，138魔防，攻击等级1，防御等级10 |\n| 女妖秘境精英怪 | 435生命，35攻击，24防御，攻击等级1，防御等级10 |\n| 暮色女妖 | 200000生命，60攻击，72防御，攻击等级2，防御等级10 |\n| 冰霜女巫秘境 | |\n| 女巫秘境普通怪 | 70生命，15攻击，0防御，攻击等级1，防御等级10 |\n| 女巫秘境精英怪 | 550生命，45攻击，24防御，攻击等级1，防御等级10 |\n| 冰霜女巫 | 200000生命，60攻击，72防御，攻击等级2，防御等级10 |\n| 黑夜女神秘境 | |\n| 女神秘境普通怪 | 125生命，25攻击，0防御，攻击等级1，防御等级10 |\n| 小恶魔/石像鬼 | 125生命，25攻击，34防御，攻击等级1，防御等级10 |\n| 女神秘境精英怪 | 2000生命，60攻击，34防御，攻击等级1，防御等级10 |\n| 黑夜女神 | 200000生命，60攻击，72防御，攻击等级2，防御等级10 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.5村庄秘境 / 7.3.5.1村庄秘境NPC数据",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "ee7f89b184bd19a2227df0960ede8b707723687ae488b8beb3d13554442d0d5e",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 坐骑名称 | 坐骑高度 | 受伤高度 |\n| 斑马 | 2.6 | 2.6 |\n| 灰熊 | 2.6 | 2.6 |\n| 灰狼 | 2.75 | 2.75 |\n| 土狼 | 2.75 | 2.75 |\n| 霜狼 | 2.75 | 2.75 |\n| 熊猫 | 2.6 | 2.6 |\n| 北极熊 | 2.7 | 2.7 |\n| 麋鹿 | 2.7 | 2.7 |\n| 马 | 2.65 | 2.65 |\n| 河马 | 2.55 | 2.55 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.2普通坐骑 / 8.2.2.2骑乘信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "aadfa96d3fbdaa1b720026e5ec3cb65736afad21c127bef7532d8f68d872e078",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

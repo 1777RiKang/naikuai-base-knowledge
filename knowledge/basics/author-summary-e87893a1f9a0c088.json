@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 使用道具：女妖泪石、机械核心、巫毒娃娃，花费1000经验窥探一次 | |\n| 锋利Ⅳ（30min） | +20近战物理攻击力，-20物理防御 |\n| 魔咒Ⅳ（30min） | +20远程魔法攻击力，-20魔法防御 |\n| 力量Ⅳ（30min） | +20远程物理攻击力，-20物理防御 |\n| 抗性Ⅳ（30min） | +40魔法防御，-10近战魔法攻击力，-10远程魔法攻击力 |\n| 护甲Ⅳ（30min） | +40物理防御，-10近战物理攻击力，-10远程物理攻击力 |\n| 狂怒（30min） | 增加最终造成和受到的物理伤害6点 |\n| 呓语（30min） | 增加最终造成和受到的魔法伤害6点 |\n| 守护（30min） | 降低最终受到和造成的物理伤害6点 |\n| 魔障（30min） | 降低最终受到和造成的魔法伤害6点 |\n| 急速（30min） | 移动速度提升30%，降低饥饿值5%/5s |\n| 回春（30min） | 移动速度降低10%，恢复最大生命值5%/10s |\n| 充沛（30min） | 经验额外获取50%，降低饥饿值5%/10s |\n| 保存（30min） | 死亡不会损失经验（无任何效果） |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.4符石属性数据基础 / 1.4.2献祭材料：暮色玩具",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "8ef30980b0bf65cc423158b956d007a4800eabcf2f30a6529ef7a0da001c6afe",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

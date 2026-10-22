@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 陆地行走Ⅰ | +15%陆地移速，-30%水中移速 |\n| 陆地行走Ⅱ | +35%陆地移速，-30%水中移速 |\n| 陆地行走Ⅲ | +70%陆地移速，-30%水中移速 |\n| 水舞行走Ⅲ | +70%陆地移速，-20%水中移速 |\n| 水舞行走Ⅲ（艾芙海姆） | +80%陆地移速，-20%水中移速 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.1玩家坐骑面板 / 8.1.1陆地行走",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "17caed9956aa73a5c8fdc02d634c51d303b7406788616c1b1e21b442b082b944",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

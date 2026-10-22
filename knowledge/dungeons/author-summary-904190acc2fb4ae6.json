@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 副本名称 | 开启时间 | 开启人数 | 总经验值 | 坐标 |\n| 沙漠皇陵 | 40-60 | 2-5 | 9k | 6657-6462/4154-3781 |\n| 埃及艳后-20180921，12000生命，60攻击，204防御，攻击等级3，防御等级10 | | | | |\n| 普通攻击：造成100%远程魔法伤害；  随机3个子弹：造成75%远程魔法的子弹伤害；  召唤蝎子：80血以下召唤2只毒蝎子（70生命，20攻击，0防御，攻击等级3，防御等级10），造成100%近战物理伤害，死亡后在原地生成一个毒液池，每秒造成10%最大生命值伤害；  召唤蛇怪：50血以下召唤1只剧毒眼镜蛇（999999生命，20攻击，9999防御，攻击等级3，防御等级10），造成200%远程魔法的子弹伤害，剧毒之咬对目标造成25%最大生命值伤害并附带猛毒之噬，每秒造成20%远程魔法伤害，持续5秒；  灭团aoe：造成1000%最大生命值伤害。 | | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.1秘境 / 4.1.2炽热大陆T3-20170100 / 4.1.2.3沙漠皇陵",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "7166299bc1d17840886bf166a51bd8299ce222ec141a8afb546dbc2b0da939d6",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

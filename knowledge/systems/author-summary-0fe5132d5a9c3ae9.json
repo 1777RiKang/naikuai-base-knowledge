@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 村庄等级 | 通关奖励 |\n| 1 | 无 |\n| 2 | 无 |\n| 3 | 暮色封印石\\*5 |\n| 4 | 暮色封印石\\*6 |\n| 5 | 暮色封印石\\*7 |\n| 6 | 暮色封印石\\*8 |\n| 7 | 暮色封印石\\*9 |\n| 8 | 暮色封印石\\*10+冰火封印石\\*2 |\n| 9 | 暮色封印石\\*10+冰火封印石\\*3 |\n| 10 | 暮色封印石\\*10+冰火封印石\\*4 |\n| 11 | 暮色封印石\\*10+冰火封印石\\*5 |\n| 12 | 暮色封印石\\*15+冰火封印石\\*7 |\n| 13 | 暮色封印石\\*15+冰火封印石\\*8 |\n| 14 | 暮色封印石\\*15+冰火封印石\\*9 |\n| 15 | 暮色封印石\\*20+冰火封印石\\*10 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.5村庄秘境 / 7.3.5.3村庄秘境通关奖励（村长可领）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "e01f7a75ff66b71453911b7714975ce784ba9ecbefeec17a3d21bcdf07783d5a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

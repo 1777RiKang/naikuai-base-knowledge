@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "纵轴坐标{-1000,-25}时可在地图中显示大致位置\n\n|  |  |\n| --- | --- |\n| 地精商店 | 4051，997 |\n| 地精商店 | 5025，975 |\n| 地精商店 | 5976，1013 |\n| 地精商店 | 4053，1932 |\n| 地精商店 | 4988，1964 |\n| 地精商店 | 6055，1913 |\n| 地精商店 | 3975，2970 |\n| 地精商店 | 4907，2939 |\n| 地精商店 | 6001，3055 |\n| 地精商店 | 4008，3988 |\n| 地精商店 | 4964，4053 |\n| 地精商店 | 6039，4028 |\n| 地精商店 | 4013，5081 |\n| 地精商店 | 5021，5007 |\n| 地精商店 | 6034，4994 |\n| 地精商店 | 4024，5985 |\n| 地精商店 | 5033，6009 |\n| 地精商店 | 6002，5937 |\n| 地精商店 | 3931，6972 |\n| 地精商店 | 4968，6993 |\n| 地精商店 | 5958，6988 |\n| 地精商店 | 3932，8000 |\n| 地精商店 | 4945，7944 |\n| 地精商店 | 5917，8019 |\n| 地精商店 | 3885，8994 |\n| 地精商店 | 5071，8980 |\n| 地精商店 | 5945，8998 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.2异世界商人 / 2.2.2.1艾芙海姆地精商人坐标",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "003a7382a58d184198a74d4d5682f86a7548e4964dc163a5993398e06483089d",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

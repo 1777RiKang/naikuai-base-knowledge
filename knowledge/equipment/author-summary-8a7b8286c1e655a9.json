@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 兑换阶段 | 手持武器 | 兑换物品 | 所需材料 |\n| Ⅰ阶升Ⅱ阶 | Ⅰ阶传说武器 | 传说秘石\\*1 | Ⅰ阶对应碎片\\*3+蓝钻\\*9 |\n| Ⅱ阶升Ⅲ阶 | Ⅱ阶传说武器 | 传说魂晶块\\*1 | Ⅰ阶对应碎片\\*9+蓝钻\\*27 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.3职业-米德加德 / 9.3.1传说武器的升阶任务 / 9.3.1.3传说武器升阶的每日兑换",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "bb175b3a259874560319a05ba63d5b3c2e660135d79985981bff841b82f418c3",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

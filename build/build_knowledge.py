@@ -1,4 +1,4 @@
-"""Build a public metadata catalog, or an explicitly local full-text database."""
+"""Build the authorized public full-text knowledge database."""
 import argparse
 from datetime import datetime, timezone
 import hashlib
@@ -6,11 +6,12 @@ import json
 import os
 from pathlib import Path
 import re
+import shutil
 import sqlite3
 import tempfile
 
 from common import ROOT, norm, tokenize
-from knowledge import digest, redact, validate_catalog
+from knowledge import digest, validate_catalog
 
 SCHEMA = """
 PRAGMA foreign_keys=ON;
@@ -57,30 +58,15 @@ def chunks(text, size=1200):
         yield block.strip()
 
 
-def build(out_dir, bodies_path=None):
+def build(out_dir):
     out_dir=Path(out_dir)
     docs=validate_catalog()
-    bodies={}
-    if bodies_path is not None:
-        for path in (Path(bodies_path),out_dir):
-            try:
-                path.resolve().relative_to((ROOT/'.local').resolve())
-            except ValueError:
-                raise ValueError('全文数据库及全文输入必须位于被忽略的 .local/ 中，禁止公开构建') from None
-        with Path(bodies_path).open(encoding='utf-8') as f:
-            for line in f:
-                body=json.loads(line)
-                if body['id'] in bodies:
-                    raise ValueError('本地正文 id 重复')
-                if digest(body['content'])!=body['content_sha256'] or redact(body['content'])!=body['content']:
-                    raise ValueError('本地正文校验失败或仍含联系方式/凭据')
-                bodies[body['id']]=body
     out_dir.mkdir(parents=True,exist_ok=True)
     handle,path=tempfile.mkstemp(prefix='knowledge-',suffix='.sqlite',dir=out_dir)
     os.close(handle)
     path=Path(path)
     db=sqlite3.connect(path)
-    scope='local-fulltext' if bodies_path is not None else 'metadata-only'
+    scope='public-fulltext'
     source_commit=os.environ.get('GITHUB_SHA','working-tree')
     counts={'entries':len(docs),'confirmed':sum(d['review']['status']=='confirmed' for _,d in docs),
             'chunks':0,'body_entries':0,'duplicates':sum('duplicate_of' in d for _,d in docs)}
@@ -99,22 +85,18 @@ def build(out_dir, bodies_path=None):
             tokens.update(set().union(*(tokenize(tag) for tag in doc['tags'])))
             db.executemany('INSERT INTO knowledge_tokens VALUES (?,?,?)',
                            [(token,'title',entry_id) for token in sorted(tokens)])
-            body=bodies.get(entry_id)
-            if body is None:
-                if bodies_path is not None and doc['review']['status']!='deprecated':
-                    raise ValueError('本地正文缺失，请重新运行离线导入')
-                continue
-            if body['content_sha256']!=doc['provenance']['content_sha256']:
-                raise ValueError('正文与公开目录快照不一致，请重新导入')
+            body=doc['content']
+            if digest(body)!=doc['provenance']['content_sha256']:
+                raise ValueError('正文哈希校验失败')
             if doc.get('duplicate_of') or doc['category']=='notices':
                 continue
-            parts=list(chunks(body['content']))
+            parts=list(chunks(body))
             counts['body_entries']+=bool(parts)
             counts['chunks']+=len(parts)
             db.executemany('INSERT INTO knowledge_chunks VALUES (?,?,?)',
                            [(entry_id,i,text) for i,text in enumerate(parts,1)])
             db.executemany('INSERT INTO knowledge_tokens VALUES (?,?,?)',
-                           [(token,'content',entry_id) for token in sorted(tokenize(body['content']))])
+                           [(token,'content',entry_id) for token in sorted(tokenize(body))])
         built_at=datetime.now(timezone.utc).replace(microsecond=0).isoformat()
         db.executemany('INSERT INTO meta VALUES (?,?)',[
             ('schema_version','1'),('content_scope',scope),('source_commit',source_commit),
@@ -130,6 +112,10 @@ def build(out_dir, bodies_path=None):
     db.close()
     destination=out_dir/'knowledge.sqlite'
     os.replace(path,destination)
+    source_dir=ROOT/'sources/data-summary'
+    if source_dir.is_dir():
+        shutil.copytree(source_dir,out_dir/'data-summary',dirs_exist_ok=True)
+        shutil.copy2(ROOT/'docs/data-summary.md',out_dir/'data-summary/SOURCE-NOTICE.md')
     manifest={'schema_version':1,'content_scope':scope,'source_commit':source_commit,
               'built_at':built_at,'counts':counts,'data_license':'LicenseRef-Original-Source',
               'sqlite':{'path':'knowledge.sqlite','sha256':hashlib.sha256(destination.read_bytes()).hexdigest(),
@@ -194,6 +180,5 @@ def search(path,text,expanded_names=(),limit=5,include_unconfirmed=False):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out',type=Path,default=ROOT/'dist')
-    parser.add_argument('--local-bodies',type=Path)
     args=parser.parse_args()
-    print(json.dumps(build(args.out,args.local_bodies),ensure_ascii=False,indent=2))
+    print(json.dumps(build(args.out),ensure_ascii=False,indent=2))

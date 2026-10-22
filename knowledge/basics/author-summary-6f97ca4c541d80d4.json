@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 活动道具名称 | Buff名称及作用效果 |\n| 樱花冰皮月饼 | 伤害Ⅰ：+6近战物理攻击力，+12远程魔法攻击力，+12远程物理攻击力，持续5min |\n| 雄黄酒 | 抗性Ⅲ：+16魔法防御，持续30min（与buff不重叠，buff优先级高）  护甲Ⅲ：+16物理防御，持续30min（与buff不重叠，buff优先级高） |\n| 姜饼 | 耐性Ⅰ：+20魔法防御，+20物理防御，持续2min |\n| 团子 | 耐性Ⅰ：+20魔法防御，+20物理防御，持续2min |\n| 饺子 | 抗寒Ⅱ：低温环境下使你体温不会下降，持续3min |\n| 元宵 | 清凉Ⅱ：高温环境下使你体温不会上升，持续3min |\n| 棉花糖 | 使用后立刻加17滴血 |\n| 圣诞糖果 | 使用后立刻加17滴血 |\n| 桂花冰皮月饼 | 再生Ⅱ：+2滴血/2秒，持续1min |\n| 粽子 | 再生Ⅱ：+2滴血/2秒，持续1min |\n| 太妃糖 | 快乐Ⅰ：+10%移速，持续2min  快乐Ⅱ：+20%移速，持续2min  快乐Ⅲ：+30%移速，持续2min |\n| 元宵祝福  （随机七选一） | 元宵：锋利：+14近战物理攻击力，持续10min  元宵：力量：+25远程物理攻击力，持续10min  元宵：魔咒：+25远程魔法攻击力，持续10min  元宵：护甲：+16物理防御，持续10min  元宵：抗性：+16魔法防御，持续10min  元宵：再生：每秒恢复1点生命值，持续10min  元宵：迅捷：+5%移速，持续10min |\n| 口罩效果 | 口罩效果1-6：+13魔法防御，+13物理防御，低温/高温环境下使你体温不会下降/上升，持续60min |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.3 活动道具加成",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "2a9f9173e37ff4eb171b2bb404f8dfa041f45dabc76063881ce79db6ecc59dae",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

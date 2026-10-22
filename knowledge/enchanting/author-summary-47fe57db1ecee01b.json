@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 附魔属性 | 附魔权重-总权重154980 | 附魔属性类型 |\n| 坚固Ⅰ/Ⅱ/Ⅲ | 5000/3000/2000 | 1 |\n| 生命Ⅰ/Ⅱ/Ⅲ/Ⅳ/Ⅴ | 10000/5000/2500/1200/500 | 2 |\n| 抗性护甲Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 10000/5000/2500/1200/500 | 2 |\n| 灵攻Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 10000/5000/2500/1200/500 | 3 |\n| 锋利力量魔咒Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 10000/5000/2500/1200/500 | 3 |\n| 龙吼致伤弹射Ⅰ/Ⅱ/Ⅲ | 1000/200/20 | 4 |\n| 烈焰花环寒冰花环Ⅰ/Ⅱ/Ⅲ | 1000/200/20 | 4 |\n| 石化魔法抑制Ⅰ/Ⅱ/Ⅲ | 1000/200/20 | 4 |\n| 缴械沉默狂怒猛击Ⅱ/Ⅲ | 200/20 | 4 |\n| 雷霆花环生命花环Ⅱ/Ⅲ | 200/20 | 4 |\n| 不屈驱散净化Ⅱ/Ⅲ | 200/20 | 4 |\n| 盾牌反射庇护赐福Ⅲ | 20 | 4 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.1装备附魔权重及附魔属性类型 / 11.1.1.6戒指",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "6838a429ff42ac85f91dfdd646b41307ec2bb2011e8da2c5928176008714a5cb",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

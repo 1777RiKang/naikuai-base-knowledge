@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "施法者释放回复技能后30秒内治疗能力降低50%，可叠最多10层\n\n受到回复技能后30秒内受到的治疗效果降低50%",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.6跟宠技能记录",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "2dc10f574b8804432fdf30463cd3f1e74bcc42d95e1b89e6e4ace1b367c34516",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 跟宠进化备注 | |\n| 进化为高级跟宠的概率 | ~~15%~~ |\n| 进化为珍惜跟宠的概率 | 100% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.10跟宠进化 / 5.10.1跟宠进化备注",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "add071dbcb2b8c3aa8bc2be071d21dc524b2ee7ecce4b3369446bc5932d97bae",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

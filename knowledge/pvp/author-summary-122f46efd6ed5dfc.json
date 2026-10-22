@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "（机制地图存在问题：己方女武神位置错误）\n\n![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image26.png)",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.0地图 / 3.6.0.2机制地图",
     "source_updated_at": null,
-    "fetched_at": "2026-10-22T03:24:44+00:00",
-    "content_sha256": "8f72384c77361a37cef5fbf0b83106eb1ac2fa8a744f4cf477a43b4e31e6ea50",
+    "fetched_at": "2026-10-22T13:12:39+00:00",
+    "content_sha256": "d3d84a858aa9b20e3b141e2b14ed87b799a0ff10a754aca51f51df6ea184b356",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

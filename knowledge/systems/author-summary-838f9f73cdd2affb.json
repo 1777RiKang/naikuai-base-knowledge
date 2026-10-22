@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| 祭坛升级材料 | | | | | | |\n| 印记名称 | 来源 | | 目标祭坛等级 | | 供奉值 | |\n| 光之印记 | 主世界精英怪 | | 1级 | | 10点/个 | |\n| 水之印记 | 暮色森林精英怪 | | 2级 | | 10点/个 | |\n| 风之印记 | 炽热大陆或极寒之境精英怪或首领 | | 3-4级 | | 10点/个 | |\n| 火之印记 | 遗忘之境精英怪或首领 | | 5-7级 | | 10点/个 | |\n| 祭坛等级 | | 供奉值区间 | | 维护成本/周 | |\n| 1 | | 0-300 | | 60 | |\n| 2 | | 300-900 | | 120 | |\n| 3 | | 900-4600 | | 750 | |\n| 4 | | 4600-14000 | | 1800 | |\n| 5 | | 14000-46000 | | 6000 | |\n| 6 | | 46000-130000 | | 16000 | |\n| 7 | | 130000-MAX | | 30000 | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.6村庄祭坛 / 7.3.6.3村庄祭坛升级材料及维护成本",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "ec33a5202ae144fd35be37e02bac9aee1f1dccbb32dd7c8fb089cb537bb6cdca",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

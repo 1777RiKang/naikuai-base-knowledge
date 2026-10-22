@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "修理耗材数量为对应附魔属性的不同等级（Ⅰ/Ⅱ/Ⅲ/Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ/Ⅸ）的单个词条的修理耗材数量，根据修理优先级判断装备修理所需的修理耗材，其数值为最高优先级对应“修理耗材数量”与词条数的乘积",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.3装备修理耗材数量及等级限制",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "9cb2e2cd7848ab735be31ef6843f5482423f1a80a394ce8b816ecbb9a97070f9",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

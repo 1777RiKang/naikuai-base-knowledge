@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 副本名称 | 开启时间 | 开启人数 | 总经验值 | 坐标 |\n| 女妖圣殿 | 40-60 | 1-5 | 9k | 2553-8755/6612-3363 |\n| 女妖-未知上线时间，6500生命，26攻击，144防御，攻击等级2，防御等级10 | | | | |\n| 普通攻击：每2秒对最大仇恨目标造成100%远程魔法的子弹伤害；  远程群攻：每15秒对所有玩家造成90%远程魔法的子弹伤害；  骷髅召唤：每30秒召唤一个骷髅战士和一个骷髅射手（50生命，6攻击，0防御，攻击等级2，防御等级10），骷髅射手每2秒造成100%远程物理伤害，骷髅战士每2秒造成100%近战物理伤害，每10秒造成100%近战物理的范围伤害。 | | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.1秘境 / 4.1.1暮色森林T2-20160926 / 4.1.1.3女妖圣殿",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f75db165abc1773869f3ba1c4323759d7a64ecf112a7b369e8f80d837f8ed044",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| （只有村长、长老、居民能够参与村庄任务） | |\n| 每日刷新21个任务 | 工作日玩家最多完成4次任务 |\n| 节假日玩家最多完成6次任务 |\n| 同一时间能够领取的任务有且仅有1个 | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "9bf6653b0e153e18d41d164edaf54feb768409bc1b51a23e1a31bf99f15d8931",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

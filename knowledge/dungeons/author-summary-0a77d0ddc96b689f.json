@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "玩家在提升自身基础防御时，在不同副本内的防御免伤增益不同。\n\n防御免伤增益的公式为R=(1+∆x/x)/(1+∆x/(a+x))\n\n其中，∆x为防御变化量，x为基础防御，a为副本npc攻等对应数值，∆x/x为x的相对变化量，∆x/(a+x)为(a+x)的相对变化量。\n\n例如，玩家基础防御为600，增加30防御时在攻等8副本内的防御免伤增益，首先计算x的相对变化量∆x/x为0.05，再计算(a+x)的相对变化量∆x/(a+x)为0.03623189，套入公式计算R≈1.013287，故当玩家基础防御为600时预增加30点防御值提高自身防御免伤，此时的防御免伤增益为101.3287%，然后由4.0.3.1防御免伤表可知参考值600的防御免伤比为0.7246，那么增加30点防御后的防御免伤比为0.7246\\*101.3287%≈0.7342，与实际630点对应的防御免伤比0.7342657343非常接近。",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.0副本信息 / 4.0.3防御免伤 / 4.0.3.2防御免伤增益",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "634e24a765dd42d7e464b64c56d1e3b94d5d6a48f715ea88f75f49eaabdd6aa5",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

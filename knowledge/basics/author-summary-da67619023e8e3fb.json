@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "护甲即物理防御，增加玩家物理防御力，对龙骑士有加伤效果\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 武器/防具 | | 食物汤 | |\n| 护甲Ⅰ | +5物理防御 | 护甲Ⅲ | +16物理防御 |\n| 护甲Ⅱ | +10物理防御 | 护甲Ⅳ | +23物理防御 |\n| 护甲Ⅲ | +16物理防御 | 护甲Ⅴ | +31物理防御 |\n| 护甲Ⅳ | +23物理防御 | 护甲Ⅵ | +40物理防御 |\n| 护甲Ⅴ | +31物理防御 | 护甲Ⅶ | +51物理防御 |\n| 护甲Ⅵ | +40物理防御 | 护甲Ⅷ | +63物理防御 |\n| 护甲Ⅶ | +51物理防御 | 护甲Ⅸ | +90物理防御 |\n| 护甲Ⅷ | +63物理防御 | 戒指 | |\n| 护甲Ⅸ | +70物理防御 | 护甲Ⅳ | +17物理防御 |\n| ~~护甲Ⅹ~~ | ~~+80物理防御~~ | 护甲Ⅴ | +26物理防御 |\n|  | | 护甲Ⅵ | +35物理防御 |\n| 护甲Ⅶ | +44物理防御 |\n| 护甲Ⅷ | +53物理防御 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.5加成：护甲Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5b36089a12eb8af1f6cd698c5f5cd3e7724434cebe6792c4bc995fe9f9384cf5",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第十章 奶块活动记录"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 新春活动 | 2024/01/19-2024/02/25 |\n| 八周年周年庆 | 2024/03/07-2024/03/19 |\n| 踏青 | 2024/03/28-2024/04/14 |\n| 五一 | 2024/04/18-2024/05/12 |\n| 跟宠初步系统 | 2024/05/24 |\n| 双节活动（六一+端午） | 2024/05/24-2024/06/12 |\n| 夏日狂欢 | 2024/06/27-2024/09/01 |\n| 新世界-无尽之海（无尽之海三人本） | 2024/07/10 |\n| 跟宠进化系统 | 2024/09/05 |\n| 双节活动（中秋+国庆） | 2024/09/05-2024/10/07 |\n| 万圣节 | 2024/10/24-2024/11/06 |\n| 无尽之海五人本 | 2024/10/25 |\n| 大粥生日季 | 2024/11/21-2024/12/04 |\n| 圣诞节 | 2024/12/12-2025/01/01 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十章 奶块活动记录 / 10.8年份：2024",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "974474fdee7544a04a440754e8d4d73cea887e1b3542b4cbc97c3f50535eeb8e",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

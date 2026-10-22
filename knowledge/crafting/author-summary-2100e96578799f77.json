@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 剑之毁灭赐福台 | 暗淡战甲碎片\\*3+古代神魂晶·剑\\*3+古代神魂晶·盾\\*3+蓝钻\\*99 |\n| 枪之毁灭赐福台 | 暗淡战甲碎片\\*3+古代神魂晶·枪\\*3+古代神魂晶·爪\\*3+蓝钻\\*99 |\n| 弓之吞噬赐福台 | 暗淡皮甲碎片\\*3+古代神魂晶·弓\\*3+古代神魂晶·箭\\*3+蓝钻\\*99 |\n| 刃之吞噬赐福台 | 暗淡皮甲碎片\\*3+古代神魂晶·刃\\*3+古代神魂晶·刺\\*3+蓝钻\\*99 |\n| 猎魔吞噬赐福台 | 暗淡皮甲碎片\\*3+古代神魂晶·刺剑\\*3+古代神魂晶·火铳\\*3+蓝钻\\*99 |\n| 杖之轮回赐福台 | 暗淡法袍碎片\\*3+古代神魂晶·杖\\*3+古代神魂晶·典\\*3+蓝钻\\*99 |\n| 镰之轮回赐福台 | 暗淡法袍碎片\\*3+古代神魂晶·镰\\*3+古代神魂晶·灯\\*3+蓝钻\\*99 |\n| 占星轮回赐福台 | 暗淡法袍碎片\\*3+古代神魂晶·星仪\\*3+古代神魂晶·命盘\\*3+蓝钻\\*99 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.6赐福 / 9.6.1赐福台合成材料",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "0b2c5b8bde97f8211feeb0c368229ccc4a6a559555bfc4235dbab69bb0b1d1f0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

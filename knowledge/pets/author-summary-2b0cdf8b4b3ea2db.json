@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image27.png)",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.7跟宠克制关系 / 5.7.1克制关系一览图",
     "source_updated_at": null,
-    "fetched_at": "2026-10-22T03:24:44+00:00",
-    "content_sha256": "c7f14f0d58ab31288a39d6adbb3d9bace1cda8bd0e173accebab12e15218b5ac",
+    "fetched_at": "2026-10-22T13:12:39+00:00",
+    "content_sha256": "7f32219a5a9740561f735a67c16fb99014545388857fef15e5f833fe8d7083bd",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

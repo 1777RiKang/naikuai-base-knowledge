@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 温蒂妮（精灵装备为霜之凌系列，光精灵军需官商店兑换） | |\n| 精灵面板对照6.3.6.4精灵显性面板，精灵技能面板对照6.3.7.1精灵隐性面板 | |\n| 50级面板+壹命加成 | |\n| 近战物攻：20+4，远程物攻：20+4，近战魔攻：20+4，远程魔攻：105+21  物理防御：0%+30+6，魔法防御：0%+50+10 | |\n| 精灵礼物 | |\n| 转生前喜欢的礼物：繁花手绢、晨星石戒指、精灵皇冠  转生后喜欢的礼物：幽冥真丝手绢、魔眼石戒指、荆棘皇冠 | |\n| 50级精灵技能数值 | |\n| 牺牲契约 | 零命技能（200S）：转移目标10点生命值给自己，目标每2秒恢复2生命值，持续10秒。 |\n| 贰命技能（180S）：（主动冷却时被动失效）常驻被动：提升20远程魔法攻击力；主动：和目标玩家签订契约，吸收目标受到的伤害，吸收上限为200+50%玩家最大生命值，双方每秒回复8生命值，持续10秒。 |\n| 黑暗契约 | 零命技能（200S）：与目标玩家交换生命值。 |\n| 贰命技能（180S）：（主动冷却时被动失效）常驻被动：提升20远程魔法攻击力；主动：和敌对目标签订契约，每秒对其造成120远程魔攻伤害且根据伤害的30%回复自身生命值。 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.7温蒂妮-200817（三星）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d5ddad56c8ad356280ead25a863d15073f36654d42e49a0cc65be2dbe0c620c4",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

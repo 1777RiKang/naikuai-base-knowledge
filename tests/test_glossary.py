@@ -73,7 +73,7 @@ class GlossaryTest(unittest.TestCase):
             db.close()
 
     def test_privacy_checks_all_sources_and_fields(self):
-        for source in ('community', 'nkwiki', 'in-game'):
+        for source in ('community', 'in-game'):
             doc = {'provenance': {'source': source}, 'senses': [{'notes': '9' * 8}]}
             errors = term_privacy_errors(doc, 'example.yaml')
             self.assertTrue(errors)

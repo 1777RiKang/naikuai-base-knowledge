@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 展开的绿色窗帘 | 可在切割台直接合成 |\n| 展开的米色窗帘 | 击败水晶守卫精英怪获得配方 |\n| 米色窗帘头 | 击败陵墓守卫精英怪获得配方 |\n| 雕花木柱子边位 | 击败苔石巨人精英怪获得配方 |\n| 雕花木柱子中段 | 击败石巨人精英怪获得配方 |\n| 单本绿皮摆饰书 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 三本绿皮堆叠书 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 单本白皮装饰书 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 五本堆叠白皮书 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 粗制木花盘 | 在天空之城的木匠（450，2，535）处购买配方 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.2田园 / 7.5.2.4装饰",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "22580704250958b8534229671d0062a2dcd109fe9e9ac60ceb0c2b6ed0fecebb",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

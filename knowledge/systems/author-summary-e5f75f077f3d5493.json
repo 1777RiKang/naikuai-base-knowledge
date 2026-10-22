@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 私域大小 | 消耗道具 |\n| 80\\*80（默认） | 无 |\n| 112\\*112 | 蓝钻结晶\\*1+私域扩展卡\\*2 |\n| 144\\*144 | 蓝钻结晶\\*2+私域扩展卡\\*4 |\n| 176\\*176 | 蓝钻结晶\\*5+私域扩展卡\\*8 |\n| 208\\*208 | 蓝钻结晶\\*10+私域扩展卡\\*16 |\n| 240\\*240 | 蓝钻结晶\\*15+私域扩展卡\\*32 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.4私域 / 7.4.1规模",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "c0f7450d0a5b0444089d91137061878c7b873111e7698fed1ae5d395ddcbe490",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

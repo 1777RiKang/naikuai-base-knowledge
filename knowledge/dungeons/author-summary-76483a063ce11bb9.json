@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "副本限制是秘境内无额外加伤的不含主手的最小T级要求，常用于比较副本的难易程度（副本防御值由4.1.2秘境boss基础及技能和4.2.2轮回塔NPC基础及技能提供）。\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 副本限制（秘境内无额外加伤的不含主手的最小T级要求） | | | |\n| 暮色森林 | | 米德加德 | |\n| 女妖 | 8T | 瓦尔基里 | 18T |\n| 怨灵 | 8T | 芬里尔 | 18T |\n| 丛林领主 | 8T | 无界之地 | |\n| 魔女小樱 | 8T | 天启四骑士 | 18T |\n| 精英小樱 | 13T | 伯爵狗 | 23T |\n| 炽热大陆 | | 双生女神 | 23T |\n| 阿努比斯 | 13T | 黑暗巨龙 | 23T |\n| 斯芬克斯 | 13T | 艾芙海姆 | |\n| 埃及法老 | 13T | 丝卡蒂 | 23T |\n| 精英艳后 | 13T | 卓尔 | 23T |\n| 极寒之境 | | 提尔 | 28T |\n| 黑曜石守卫 | 13T | 尼伯龙根 | |\n| 冰霜女巫 | 13T | 三人本 | 23T |\n| 精英女巫 | 13T | 双仆 | 28T |\n| 遗忘之境 | | 海拉 | 33T |\n| 城堡核心 | 18T | 无尽之海 | |\n| 精英厄运 | 18T | 三人本 | 33T |\n| 火焰领主 | 18T | 双神 | 38T |\n| 黑夜女神 | 18T | 群星之界 | |\n| 精英黑女 | 18T | 三人本 | 33T |\n|  |  | 碎星城 | 38T |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.0副本信息 / 4.0.4副本T级 / 4.0.4.1副本限制",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5bc3fea260e3766ecc321589ddc349c4a6be6ae2a2b62637760604df1dfa537b",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

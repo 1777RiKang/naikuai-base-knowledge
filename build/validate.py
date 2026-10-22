@@ -88,8 +88,6 @@ def collect_errors(docs):
         for i, ev in enumerate(prov.get("evidence", [])):
             if not ev.get("redacted"):
                 errors.append(f"{rel}: 证据 #{i + 1} 未标记 redacted")
-        if prov["source"] == "nkwiki" and not prov.get("url"):
-            errors.append(f"{rel}: nkwiki 来源必须提供 url")
 
         rel_block = doc.get("relations", {})
         if doc["kind"] == "composite":
@@ -129,7 +127,7 @@ def main():
     knowledge = load_knowledge()
     errors.extend(collect_knowledge_errors(knowledge))
     print(f"扫描 {len(docs)} 个词条文件")
-    print(f"扫描 {len(knowledge)} 条外部知识目录（仅元数据）")
+    print(f"扫描 {len(knowledge)} 条已授权知识正文")
     if errors:
         for err in errors:
             print(f"  ✗ {err}")

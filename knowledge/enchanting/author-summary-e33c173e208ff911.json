@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 附魔属性 | 修理耗材数量 | 附魔等级要求 |\n| 耐久Ⅰ/Ⅱ/Ⅲ | 3/5/7 | ~~≥1/≥28/≥42~~ |\n| 抗性护甲锋利力量魔咒灵咒灵攻灵防Ⅱ/Ⅲ/Ⅳ/Ⅴ | 5/7/7/7 | ~~≥1/≥21/≥42/≥42~~ |\n| 韧性Ⅰ/Ⅱ/Ⅲ/Ⅳ | 1/2/3/5 | ~~≥1/≥21/≥42/≥42~~ |\n| 盾墙爆裂Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 治愈Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 寒冰Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 魔灵水灵火灵Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 挑衅隐蔽Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥1/≥21/≥42~~ |\n| 暴击Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 强化龙枪强化龙血Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 强化影袭强化月影Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥42/≥42/≥42~~ |\n| 突袭龙之领域Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥1/≥28/≥42~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.3装备修理耗材数量及等级限制 / 11.1.1.2T4防具/武器",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5e4270d9ffd0b371f5410cda56a47f8995f2778e6d71e46cb2dd37b27c9b06fd",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 普通怪 | | 70生命，20攻击，0防御，攻击等级2，防御等级10 | | | |\n| 精英怪 | | 1000生命，35攻击，0防御，攻击等级2，防御等级10 | | | |\n| 祭坛自身 | | 24000生命，50攻击，0防御，攻击等级2，防御等级10 | | | |\n| 祭坛等级 | 击杀普通怪获得经验 | | 击杀精英怪获得经验 | 击杀自身获得经验 |\n| 1 | 25 | | 500 | 10000 |\n| 2 | 30 | | 600 | 26400 |\n| 3 | 40 | | 700 | 32000 |\n| 4 | 50 | | 800 | 46000 |\n| 5 | 60 | | 1000 | 61200 |\n| 6 | 80 | | 1300 | 82600 |\n| 7 | 100 | | 1600 | 104000 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.6村庄祭坛 / 7.3.6.2村庄祭坛NPC数据及获得经验",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "cd6869f34cd069eb6151260159115a2759b3cd14e61df591df45bf9d002ec8fb",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

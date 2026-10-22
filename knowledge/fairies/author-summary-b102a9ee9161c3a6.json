@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "转生前1-20所需经验：73220（普通小书+100，普通中书+1200，普通高书+15000）\n\n733普通小书/61普通中书+1普通小书/4普通高书+133普通小书\n\n转生前20-30所需经验：202480（普通小书+100，普通中书+1200，普通高书+15000）\n\n2025普通小书/168普通中书+9普通小书/13普通高书+75普通小书\n\n转生后30-50所需经验：354050（转生小书+200，转生中书+750，转生高书+3000）\n\n3转生中书+1759转生小书/471转生中书+4转生小书/117转生高书+3转生中书+4转生小书",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.3其他记录 / 6.3.1精灵经验 / 6.3.1.1经验书升级",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "8ab46fe6d5e4aee0898dcab3327e4a2b1816594d580d921484a3a320e2b32edd",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

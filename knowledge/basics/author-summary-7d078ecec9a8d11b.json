@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "暴击，增加玩家造成伤害时的暴击概率\n\n|  |  |\n| --- | --- |\n| 暴击Ⅰ | 暴击率5% |\n| 暴击Ⅱ | 暴击率10% |\n| 暴击Ⅲ/暴击Ⅳ | 暴击率20% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.3属性：暴击Ⅰ-Ⅳ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "80d1335d2add6bd4d36fdef6582510330bcbf794abefd325c56ea9180075104f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

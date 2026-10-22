@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 物品名称 | 刷新数据 |\n| 泉水内羊毛 | 每5s刷新1次生成3个，有4个生成位置 |\n| 主岛银币 | 每15s刷新1次生成1个，最多生成20个，有4个生成位置 |\n| 主岛金币 | 每20s刷新1次生成1个，最多生成15个，有1个生成位置 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.3道具刷新数据",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "484754efa2113dce7d05fa182b6ed1914bff1eea653a41ec2292d2ba932a1942",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

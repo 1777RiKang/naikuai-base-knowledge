@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 跟宠结晶消耗蓝钻 | |\n| 跟宠资质分级：零星，一星，二星，三星，四星，五星 | |\n| 初级跟宠 | 每个星级3钻 |\n| 高级跟宠 | 每个星级6钻 |\n| 珍稀跟宠 | 每个星级9钻 |\n| 暴暴龙/奶龙 | 每个星级27钻 |\n| 如：6满暗鸦需要36\\*6=216钻，6满暴暴龙需要36\\*27=972钻 | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.1跟宠结晶消耗蓝钻",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3aa8f95fafa44870c6e35afb775f1150070141084f91e32e4ee4603979204783",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

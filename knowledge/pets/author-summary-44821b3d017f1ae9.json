@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 元素属性招式强化N | 元素属性跟宠造成的伤害提升N% |\n| 元素属性招式加速N | 元素属性技能的冷却时间减少N% |\n| 对元素属性强化N | 自身对元素属性跟宠造成的伤害提升N% |\n| 元素属性抵抗N | 元素属性跟宠对自身造成的伤害减少N% |\n| 物攻/魔攻提升能力N | 跟宠的物攻面板/魔攻面板提升N% |\n| 物攻/魔攻技能强化N | 跟宠造成的物理/魔法伤害提升N% |\n| 提升自身护甲能力N | 跟宠的护甲提升N% |\n| 提升自身抗性能力N | 跟宠的抗性提升N% |\n| 提升自身血量能力N | 跟宠的血量提升N% |\n| 提升自身速度能力N | 跟宠的速度提升N% |\n| 提升自身闪躲能力N/提升自身命中能力N | 跟宠的闪躲提升N%/跟宠的命中提升N% |\n| 子弹技能强化N | 跟宠子弹类型的伤害提升N% |\n| 治疗技能强化N | 跟宠的治疗效果提升N% |\n| 提升自身致命攻击概率N/提升自身致命攻击伤害N | 跟宠的暴击率提升2N%/跟宠造成的暴击伤害提升10N% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.4跟宠天赋及羁绊 / 5.4.2跟宠特殊天赋 / 5.4.2.2特殊天赋加成",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "4c0ee171721da9e82ecc14b1bd81c3dccafd318a6a796f82e1e9376dfed4c87e",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

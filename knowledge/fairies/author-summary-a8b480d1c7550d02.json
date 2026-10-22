@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n|  | | 所需材料 |\n| 一命 | 所有精灵 | 对应精灵召唤石\\*1 |\n| 二命 | 三星精灵 | 精灵石\\*30+蓝钻结晶\\*10+命定之心\\*3 |\n| 四星精灵 | 精灵石\\*60+蓝钻结晶\\*18+命定之心\\*6 |\n| 五星精灵 | 精灵石\\*90+蓝钻结晶\\*30+命定之心\\*3+羁绊之心\\*1 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.3其他记录 / 6.3.2精灵材料 / 6.3.2.2羁绊耗材",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "ac54527862adbefd056b4d1c316fd925b3d51c6422368dd5cfdd600d8cffc5a0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

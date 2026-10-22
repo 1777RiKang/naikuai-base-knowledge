@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 竞技段位奖励 | | | |\n| 段位（初始分数1000） | 分数区间 | | 段位奖励（装饰有效期为90天） |\n| 青铜 | 0-1080 | | 无 |\n| 白银 | 1081-1161 | | 奶酪\\*100 |\n| 黄金 | 1162-1251 | | 奶酪\\*200 |\n| 铂金 | 1252-1350 | | 奶酪\\*300+青铜披风 |\n| 钻石 | 1351-1452 | | 奶酪\\*500+白银披风 |\n| 王者 | 2001+ | | 奶酪\\*1000+黄金披风 |\n| 竞技排名奖励 | | | |\n| 排名 | | 排名奖励（装饰和称号有效期为90天） | |\n| 1 | | 奶酪\\*2000+背饰：王者+称号：战神 | |\n| 2-3 | | 奶酪\\*1500+背饰：王者+称号：统帅 | |\n| 4-6 | | 奶酪\\*1000+背饰：王者+称号：英雄 | |\n| 7-10 | | 奶酪\\*1000+背饰：王者+称号：斗士 | |\n| 11-50 | | 奶酪\\*700+背饰：宗师 | |\n| 51-150 | | 奶酪\\*500+背饰：高手 | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.6竞技段位与排名奖励",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f471c398bd4938ef37f8ea629edf829a401d4a291ccf962c44a454b6bc1c7aa1",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

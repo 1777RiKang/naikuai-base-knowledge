@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "修理所需经验为对应附魔属性的不同等级（Ⅰ/Ⅱ/Ⅲ/Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ/Ⅸ）的单个词条的修理经验，根据价值量判断装备修理所需的总经验，其数值为最高价值量对应“修理所需经验”与词条数的乘积。",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.2装备修理所需经验及修理优先级",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "995791b66949e8b458f1c7d0cd590b011a65679643ce751d611eb23dba6d600f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

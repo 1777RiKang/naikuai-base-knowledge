@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "（占星师、猎魔人）",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.5职业-群星之界",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "705f0851bbcd2ca7097bd33ef2f7d50fb4cdd88ccfa6bc996d3821a5203d7961",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

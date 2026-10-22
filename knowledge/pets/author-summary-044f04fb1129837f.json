@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | 生命 | 速度 | 物攻 | 魔攻 | 物防 | 魔防 |\n| 名将虎 | 2931 | 375 | 633 | 1809 | 134 | 134 |\n| 大师虎 | 2931 | 375 | 633 | 1809 | 134 | 134 |\n| 王者虎 | 2931 | 375 | 633 | 1809 | 134 | 134 |\n| 暴暴龙 | 3996 | 375 | 905 | 905 | 118 | 118 |\n| 暴暴龙战士 | 4396 | 375 | 995 | 995 | 134 | 134 |\n| 奶龙 | 4396 | 375 | 995 | 995 | 134 | 134 |\n| 奶龙骑士 | 4796 | 375 | 1086 | 1086 | 151 | 151 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.5跟宠资质 / 5.5.2跟宠五星50级面板数值 / 5.5.2.3特殊跟宠",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "9611caa0520905ea996a441d4ea4cc64950b334aaa046073b6cf4fc70226c099",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

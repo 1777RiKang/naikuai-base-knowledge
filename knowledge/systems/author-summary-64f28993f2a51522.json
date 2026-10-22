@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 领地信息 | |\n| 领地大小 | 20\\*20\\*20 |\n| 领地储物箱数量上限 | 600个 |\n| 领地传送CD | 600s |\n| 建造领地消耗材料 | |\n| 第一个（开通会员消耗降低） | 经验\\*10（会员：经验\\*5） |\n| 第二个（开通会员消耗降低） | 奶酪\\*30（会员：奶酪\\*10） |\n| 第三个（开通会员消耗降低） | 奶酪\\*30（会员：奶酪\\*10） |\n| 第四个（需要开通会员资格） | 会员：奶酪\\*10 |\n| 第五个（需要开通会员资格） | 会员：奶酪\\*10 |\n| 第六个（需要开通会员资格） | 会员：奶酪\\*10 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.2个人领地",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "a9bcb9c351c8cc02272d4925d4f7bc6c623627185fe3c7ce2949d0b236bdbd6a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

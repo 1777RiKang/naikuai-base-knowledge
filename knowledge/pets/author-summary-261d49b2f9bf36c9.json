@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 赛季奖励（通关24关及以上可领取奖励，一赛季一结算，每赛季头像不同） | |\n| 排名 | 奖励 |\n| 1-10 | 珍惜跟宠头像\\*1+远征蓝券\\*200 |\n| 11-50 | 珍惜跟宠头像\\*1+远征蓝券\\*150 |\n| 51-150 | 高级跟宠头像\\*1+远征蓝券\\*150 |\n| 151-300 | 高级跟宠头像\\*1+远征蓝券\\*100 |\n| 301-1000 | 远征蓝券\\*100 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.3破晓之路PVE / 5.3.2奖励记录 / 5.3.2.2赛季奖励",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "af1670530df45f88ef699c9a496bb36bddd0f7eb38d3ad23b54092aa81297846",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

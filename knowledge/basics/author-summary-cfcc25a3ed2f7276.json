@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| T级 | 可附魔属性等级 | 隐藏属性等级 |\n| T1 | 属性Ⅰ、属性Ⅱ、属性Ⅲ、属性Ⅳ | 无 |\n| T2 | 属性Ⅰ、属性Ⅱ、属性Ⅲ、属性Ⅳ | 无 |\n| T3 | 属性Ⅰ、属性Ⅱ、属性Ⅲ、属性Ⅳ | 无 |\n| T4 | 属性Ⅱ、属性Ⅲ | 属性Ⅳ、属性Ⅴ |\n| T5 | 属性Ⅲ、属性Ⅳ | 属性Ⅴ、属性Ⅵ |\n| T6 | 属性Ⅳ、属性Ⅴ | 属性Ⅵ、属性Ⅶ |\n| T7 | 属性Ⅳ、属性Ⅴ、属性Ⅵ | 属性Ⅶ、属性Ⅷ |\n| T8 | 属性Ⅴ、属性Ⅵ、属性Ⅶ | 属性Ⅷ、属性Ⅸ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.6不同T级防具/武器可附魔的属性等级",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f6b49c55eb7544d07620f07e7fb668384cbff8dffd25ebd7ec2effd481b25e5a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

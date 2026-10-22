@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 副本名称 | 开启时间 | 开启人数 | 总经验值 | 坐标 |\n| 地堡地窖 | 全天 | 3-5 | 1.8w | 7555-7287/7426-2891/5080-4771  1921-7725/2055-2447 |\n| 城堡核心-20190523，50000生命，130攻击，276防御，攻击等级4，防御等级10 | | | | |\n| 普通攻击：对最高仇恨目标造成100%近战魔法的小范围AOE伤害；  AOE降疗：每30秒施放AOE造成50%远程魔法伤害，并附带致伤效果，减少50%受到治疗，持续30秒；  破甲：每10秒对最近目标造成20%最大生命值伤害，并附带破甲效果，使其受到近战魔法伤害增加1000%，持续20秒；  拉人：每20秒将最远目标拉至自身附近；  P3AOE：每30秒对全场玩家造成100%远程魔法伤害，并召唤火焰和击退；  灭团AOE：造成500%最大生命值的AOE伤害；  圣光之力：进入战斗后全场玩家会附加十分钟的圣光之息buff；  轮转之力：击杀城堡核心后获得12小时的“轮转之力”。 | | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.1秘境 / 4.1.4遗忘之境T4-20171127 / 4.1.4.1地堡地窖",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "a95e27d5d439c8e263c859bbd06aceae8eda32770b29b4641a02dc37e71d5e86",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

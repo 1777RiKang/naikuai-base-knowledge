@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 满足时间 | 纪念礼物 |\n| 1月 | 玫瑰花瓣\\*5 |\n| 3月 | 玫瑰花瓣\\*9+背饰：哈哈\\*7天 |\n| 6月 | 玫瑰花瓣\\*9+背饰：哈哈\\*7天+满地珍珠（蓝、黄、红）\\*1 |\n| 1年 | 钻块\\*3+粉色婚礼\\*30天+喜结良缘\\*20+拉炮彩带\\*20+玫瑰花瓣\\*20 |\n| 2年 | 钻块\\*6+粉色婚礼\\*45天+喜结良缘\\*20+拉炮彩带\\*20+玫瑰花瓣\\*20 |\n| 3年 | 钻块\\*9+粉色婚礼\\*60天+喜结良缘\\*30+拉炮彩带\\*30+玫瑰花瓣\\*30 |\n| 4年 | 钻块\\*18+粉色婚礼\\*90天+喜结良缘\\*40+拉炮彩带\\*40+玫瑰花瓣\\*40 |\n| 5年 | 钻块\\*40+粉色婚礼\\*120天+喜结良缘\\*50+拉炮彩带\\*50+玫瑰花瓣\\*50 |\n| 6年 | 钻块\\*60+粉色婚礼\\*180天+喜结良缘\\*60+拉炮彩带\\*60+玫瑰花瓣\\*60 |\n| 7年 | 钻块\\*99+粉色婚礼\\*永久+喜结良缘\\*99+拉炮彩带\\*99+玫瑰花瓣\\*99 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.1玩家基础数据（未完成） / 7.1.3伴侣 / 7.1.3.2伴侣纪念礼物",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "1445acba8c2c2967546eca1806d0e31f95decba9e7e24dda999245701096cee9",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

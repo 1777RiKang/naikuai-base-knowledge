@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "TIPS：召唤物不锁挑衅/隐蔽，只与造成伤害时玩家当前挑衅/隐蔽有关\n\n|  |  |  |\n| --- | --- | --- |\n| 挑衅 | 挑衅Ⅰ  Ⅰ阶+400% | T4及以下+400% |\n| T5及以上+50% |\n| 挑衅Ⅱ  Ⅱ阶+600% | T4及以下+600% |\n| T5及以上+70% |\n| 挑衅Ⅲ  Ⅲ阶/Ⅳ阶+800%，Ⅴ阶/Ⅵ阶+100% | T4及以下+800% |\n| T5及以上+100% |\n| 隐蔽 | 隐蔽Ⅰ  Ⅰ阶-50% | T4及以下-50% |\n| T5及以上-6% |\n| 隐蔽Ⅱ  Ⅱ阶-66.6% | T4及以下-66.6% |\n| T5及以上-10% |\n| 隐蔽Ⅲ  Ⅲ阶-75%，Ⅳ阶/Ⅴ阶/Ⅵ阶-15% | T4及以下-75% |\n| T5及以上-15% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.5属性：挑衅/隐蔽Ⅰ-Ⅲ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d0d001d58833937dcadbe9d40f32a9fcc633399caadd36785222cbe14950c0b5",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

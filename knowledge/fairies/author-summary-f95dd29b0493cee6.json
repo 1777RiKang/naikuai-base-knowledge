@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 精灵召回 | |\n| 材料花费 | 精灵石\\*10 |\n| 精灵远程修理 | |\n| （绑定精灵） | 消耗材料 |\n| 远程修理 | 精灵石\\*18+蓝钻\\*198+远修书\\*1 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.3其他记录 / 6.3.5精灵召回及精灵远程修理",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3d576318c59fcfd83c0041e2383c0f99f45228a6539a5ce14ecc01e61e4a2180",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

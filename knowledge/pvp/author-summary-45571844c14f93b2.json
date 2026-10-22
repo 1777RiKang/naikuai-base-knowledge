@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image25.jpeg)",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.0地图 / 3.6.0.1俯瞰地图",
     "source_updated_at": null,
-    "fetched_at": "2026-10-22T03:24:44+00:00",
-    "content_sha256": "70f52e49958b9d2ce49ca6b2b3538d6e4c4917a04e334ea82dd3e8d76dc1b7e5",
+    "fetched_at": "2026-10-22T13:12:39+00:00",
+    "content_sha256": "7b0df189721a336185bf1d1a27cf3c6bd5a3190d27ee34756b6d7cc2af045352",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

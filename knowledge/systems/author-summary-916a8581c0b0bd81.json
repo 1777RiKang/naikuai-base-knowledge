@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 外景名称 | 消耗道具 |\n| 薰衣草平原（默认） | 无 |\n| 荒漠 | 私域扩展卡\\*20 |\n| 雪地 | 私域扩展卡\\*20 |\n| 热带雨林 | 私域扩展卡\\*20 |\n| 枫叶林 | 私域扩展卡\\*20 |\n| 樱花树林 | 私域扩展卡\\*20 |\n| 岛屿 | 私域扩展卡\\*20 |\n| 空岛 | 无 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.4私域 / 7.4.2外景",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "72e1674f43dcd1024f879b6245daff791b0f4192424f5d9dc24fc082661f66aa",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

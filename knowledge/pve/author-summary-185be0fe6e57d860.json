@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 骑士 | |\n| 长剑（攻速0.8秒） | |\n| T5以下长剑 | 伤害倍率：1.0倍 |\n| T5及以上长剑 | 伤害倍率：1.5倍，分摊范围半径3格，分摊上限20% |\n| 壁垒 | |\n| 无盾墙 | 无免伤效果 |\n| 盾墙Ⅰ（Ⅰ阶传说盾） | 盾墙Ⅱ：受到伤害减少15% |\n| 盾墙Ⅱ（Ⅱ阶传说盾） | 盾墙Ⅲ：受到伤害减少25% |\n| 盾墙Ⅲ（Ⅲ阶及以上传说盾） | 盾墙Ⅳ：受到伤害减少50% |\n| Ⅳ阶及以上神转盾 | 盾墙Ⅳ：受到伤害减少60% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.2骑士/龙骑士数据 / 2.3.2.1骑士",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "a4b6c1c30be8ef5c9e50a3cdb0ec031c1ffc26ee7ffe97f8cf6860a451c12b71",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

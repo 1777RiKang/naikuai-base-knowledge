@@ -7,17 +7,18 @@
     "数据摘要",
     "第十章 奶块活动记录"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 新春活动 | 2022/12/30-2023/02/01 |\n| 七周年周年庆 | 2023/02/23-2023/03/14 |\n| 踏青 | 2023/03/31-2023/04/12 |\n| 五一 | 2023/04/21-2023/05/10 |\n| 六一 | 2023/05/19-2023/06/07 |\n| 端午 | 2023/06/16-2023/06/24 |\n| 夏日游园 | 2023/06/30-2023/08/30 |\n| 双节活动（中秋+国庆） | 2023/09/14-2023/10/15 |\n| 万圣庆典 | 2023/10/26-2023/11/07 |\n| 大粥生日季 | 2023/11/23-2023/12/06 |\n| 圣诞节狂欢 | 2023/12/15-2024/01/03 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十章 奶块活动记录 / 10.7年份：2023",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "bbfbdebd89bedfd72b85aa6bcdae84838aa259654b0354dc9fc744b9b6df7353",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

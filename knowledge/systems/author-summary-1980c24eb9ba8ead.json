@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 任务名称 | 任务内容 | 每颗星任务奖励（额外奖励） |\n| 使用炼金台进行炼金 | 炼金5次 | 10勇者5活跃 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务 / 7.3.4.3化学反应",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f52aae186fd2bfb1b91e4153225d2ed5832339736c11360296737ebf22f1c5df",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

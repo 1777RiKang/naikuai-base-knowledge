@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |\n| --- | --- |\n| ~~装备部件~~ | ~~分解数量及概率~~ |\n| ~~发饰~~ | ~~碎片\\*1：55%，碎片\\*2：30%，碎片\\*3：15%~~ |\n| ~~项链~~ | ~~碎片\\*1：55%，碎片\\*2：30%，碎片\\*3：15%~~ |\n| ~~戒指~~ | ~~碎片\\*1：55%，碎片\\*2：30%，碎片\\*3：15%~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.1精灵装备 / 6.1.4精灵装备分解",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "ac00b96770e7926772fa3d49f06bda94167023c6d83dce8096b9b0ae58e01118",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

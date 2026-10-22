@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 效率Ⅰ | -23%使用时间（+30%挖掘速度） |\n| 效率Ⅱ | -40.8%使用时间（+70%挖掘速度） |\n| 效率Ⅲ | -54.5%使用时间（+120%挖掘速度） |\n| 效率Ⅳ | -65%使用时间（+185%挖掘速度） |\n| 效率Ⅴ | -73%使用时间（+270%挖掘速度） |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.5工具属性数据基础 / 1.5.1属性：效率Ⅰ-Ⅴ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "aae821f281b5a3a2e3ccd71ca1c668904a594dbd438a476ba68e744b69ac2e93",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

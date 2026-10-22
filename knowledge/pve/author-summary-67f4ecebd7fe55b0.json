@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 伊登二命 | |\n| 任务总数量 | 5个 |\n| 任务总奖励 | 初级精灵学识宝典\\*25+初级转生精灵宝典\\*25+羁绊之心\\*1 |\n| 任务副本 | 埋骨之冢（伊登剧情本） |\n| 伊登：精灵粉尘 | 目标：在艾芙海姆击败15个【任意种族的精灵】 |\n| 伊登：除恶务尽 | 目标：在尼伯龙根击败15个【任意幽冥族普通生物】 |\n| 伊登：封印死气 | 目标：在尼伯龙根击败3个【任意幽冥族精英生物】 |\n| 伊登：探寻真相 | 目标：在米德加德击败5个【月泉守卫】 |\n| 伊登：水落石出 | 目标：通过无界之地深处的传送门，进入并完成秘境 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.9精灵羁绊故事线 / 2.8.9.2伊登",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "21ee4205b2bc2f6c8a230e18e5520e4f69c227ffa1ec0f4654528bdd66e62377",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

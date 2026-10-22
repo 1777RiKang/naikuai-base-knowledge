@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 传说Ⅳ阶武器 | 古代神魂晶\\*5+传说碎片\\*10+蓝钻块\\*18+星灵彩石\\*2 |\n| 传说Ⅴ阶武器 | 传说Ⅴ阶武器+审判石\\*1+古代神魂晶\\*2+传说碎片\\*3+蓝钻块\\*5 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.4职业-尼伯龙根 / 9.4.3传说Ⅳ阶和传说Ⅴ阶神转材料",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "6f6a4be2e0d1c593ec74a74edd79dd2ee2574b4d366597a19ee8b5993dc1777c",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {
@@ -26,6 +27,5 @@
     "reviewed_at": null
   },
   "imported": true,
-  "credit_eligible": false,
-  "duplicate_of": "knowledge.author-summary-6fba82ff0554b0c8"
+  "credit_eligible": false
 }

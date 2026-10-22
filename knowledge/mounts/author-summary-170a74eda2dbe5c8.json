@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 坐骑名称 | 来源 | 坐骑食物 |\n| 猪 | 主世界 | 一筐马铃薯、一捆胡萝卜、一捆小麦、黑麦草、一筐玉米 |\n| 奶牛 | 主世界 | 一筐马铃薯、一捆胡萝卜、一捆小麦、黑麦草、一筐玉米 |\n| 绵羊 | 主世界 | 一筐马铃薯、一捆胡萝卜、一捆小麦、黑麦草、一筐玉米 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.1初级坐骑 / 8.2.1.1坐骑信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "e3d36a448683181f170b9744b8722e573277b0c0c4c24ee1ddd2c56b88cda3db",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

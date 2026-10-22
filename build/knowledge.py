@@ -1,4 +1,4 @@
-"""Public external-source catalog validation and local-only content utilities."""
+"""Validate authorized summary content, provenance and privacy."""
 import hashlib
 import json
 import re
@@ -7,16 +7,18 @@ from pathlib import Path
 import jsonschema
 
 from common import ROOT
-from privacy import contains_secret, SECRET_PATTERNS
+from privacy import contains_secret, SECRET_PATTERNS, AUTHOR_PUBLIC_CONTACT
 
 KNOWLEDGE_DIR = ROOT / 'knowledge'
 CONTACT = re.compile(r'(?i)(?:QQ(?:群)?|[Qq]\s*群|通讯作者\s*[Qq]?|联系\s*[Qq]群)\s*[:：]?\s*[Qq]?\s*\d{5,12}')
-PUBLIC_BODY_KEYS = {'content', 'text', 'body', 'raw', 'description', 'summary'}
+PUBLIC_BODY_KEYS = {'text', 'body', 'raw', 'description', 'summary'}
 ATTRIBUTIONS = json.loads((ROOT / 'sources/attributions.json').read_text(encoding='utf-8'))
 
 
-def redact(text):
-    text = CONTACT.sub('[联系方式已隐藏]', text)
+def redact(text, allow_author_contact=False):
+    text = CONTACT.sub(lambda match: match.group() if (
+        allow_author_contact and match.group() == AUTHOR_PUBLIC_CONTACT
+    ) else '[联系方式已隐藏]', text)
     for pattern in SECRET_PATTERNS:
         text = pattern.sub('[凭据已隐藏]', text)
     return text
@@ -43,7 +45,7 @@ def collect_knowledge_errors(docs):
             errors.append(f'{label}: 目录记录必须是对象')
             continue
         if PUBLIC_BODY_KEYS.intersection(doc):
-            errors.append(f'{label}: 外部全文禁止进入公开目录')
+            errors.append(f'{label}: 正文必须使用 content 字段')
             continue
         invalid = list(validator.iter_errors(doc))
         if invalid:
@@ -56,7 +58,13 @@ def collect_knowledge_errors(docs):
             errors.append(f'{label}: 文件路径必须与 id、category 一致')
         if doc['provenance']['attribution'] != ATTRIBUTIONS[doc['provenance']['source']]:
             errors.append(f'{label}: 来源署名不一致')
-        if contains_secret(json.dumps(doc, ensure_ascii=False)) or CONTACT.search(json.dumps(doc, ensure_ascii=False)):
+        body = doc['content']
+        if digest(body) != doc['provenance']['content_sha256']:
+            errors.append(f'{label}: 正文哈希不一致')
+        if redact(body, allow_author_contact=doc['category'] == 'notices') != body:
+            errors.append(f'{label}: 正文含未经允许的联系方式或凭据')
+        metadata = {key: value for key, value in doc.items() if key != 'content'}
+        if contains_secret(json.dumps(metadata, ensure_ascii=False)) or CONTACT.search(json.dumps(metadata, ensure_ascii=False)):
             errors.append(f'{label}: 目录含疑似凭据或联系方式（不回显）')
         if doc['review']['status'] == 'confirmed' and not (
                 doc['review']['reviewer'] and doc['review']['reviewed_at']):
