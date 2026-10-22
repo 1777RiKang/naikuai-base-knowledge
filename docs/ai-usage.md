@@ -44,7 +44,7 @@ python build/query.py dist/glossary.sqlite "黑奶2" --knowledge-db .local/knowl
 ```
 
 检索先利用术语的规范名称关联知识目录，精确名称优先，再按标题和正文 token 召回。
-术语结果的 retrieval.attribution 为自选贡献名；知识结果分别是“作者”和“nkwiki”。
+术语结果的 retrieval.attribution 为自选贡献名；知识结果分别是“乱走丶沙城”和“nkwiki”。
 知识返回 excerpt、body_available、来源定位与审核状态，重复目录合并展示。
 已导入资料全部先为 draft，默认查询不会将它们作为确定答案。
 公开资料只有元数据时 body_available=false，AI 不应据此编造正文内容。

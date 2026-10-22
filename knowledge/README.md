@@ -24,9 +24,9 @@
 | [systems](systems/) | 97 |
 | [worlds](worlds/) | 31 |
 
-来源署名：nkwiki 605 条；作者 787 条。
+来源署名：nkwiki 605 条；乱走丶沙城 787 条。
 
 [《数据摘要》接入说明](../docs/data-summary.md) · [nkwiki 接入说明](../docs/nkwiki-integration.md)
 
-部分 nkwiki 文章转载《数据摘要》，它们的原始来源标为“作者”，发布渠道保留 nkwiki。
+部分 nkwiki 文章转载《数据摘要》，它们的原始来源标为“乱走丶沙城”，发布渠道保留 nkwiki。
 重复记录通过 duplicate_of 关联，检索时合并；每条记录都有独立稳定 ID。

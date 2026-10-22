@@ -17,7 +17,7 @@ text/ 有 1,005 篇 Markdown：articles 432、equipment 455、gem-attributes 70�
 
 - 装备、宝石、宝石属性、精灵、百科按其主题目录组织。
 - articles 按基础数据、PVE、PVP、副本、任务、制作、机制、坐骑、活动等主题分类。
-- 站点记录用 source=nkwiki、attribution=nkwiki；转载《数据摘要》的原始来源是 author/作者。
+- 站点记录用 source=nkwiki、attribution=nkwiki；转载《数据摘要》的原始来源是 author/乱走丶沙城。
 - URL 保留已确认的站点首页，locator 保留原始类型与 ID，例如 equipment:481。
   未验证页面路由前不编造文章深层链接，可在站点按标题定位。
 - 内容哈希和 raw 文件 SHA-256 用于核对快照；不以文件修改时间代替来源更新时间。
@@ -41,7 +41,7 @@ CI 的 glossary-sqlite 包含术语 glossary.sqlite 和仅元数据的 knowledge
 ## 本地全文与检索
 
 按 [数据摘要接入说明](data-summary.md) 的离线命令导入，全文只输出到被忽略的 .local/。
-构建器会拒绝把全文数据库输出到 dist/ 或公开产物目录。检索按来源返回“作者”或“nkwiki”，
+构建器会拒绝把全文数据库输出到 dist/ 或公开产物目录。检索按来源返回“乱走丶沙城”或“nkwiki”，
 并带原始定位、更新时间、审核状态。默认仅 confirmed，显式调试参数才允许查看待审内容。
 
 更新过程为“本地快照 → 校验与分类 → 生成目录差异 → PR 审核 → 合并”，不自动确认游戏事实。

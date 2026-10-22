@@ -53,7 +53,7 @@ tests/                    数据、查询、归因与计分测试
 
 ## 数据摘要与 nkwiki
 
-- [《数据摘要》接入说明](docs/data-summary.md)：原始归属标为“作者”。
+- [《数据摘要》接入说明](docs/data-summary.md)：原始归属标为“乱走丶沙城”。
 - [nkwiki 接入说明](docs/nkwiki-integration.md)：站点资料标为“nkwiki”，转载部分保留作者归属。
 - [分类知识目录](knowledge/README.md) · [本批次来源与数量概览](docs/source-overview.md)。
 
@@ -62,13 +62,27 @@ tests/                    数据、查询、归因与计分测试
 
 ## 贡献排行榜
 
-![贡献排行榜](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/leaderboard/leaderboard.svg?v=seed-credit-20261022)
+下表为最近一次合并的贡献快照；[完整榜单](https://github.com/1777RiKang/naikuai-base-knowledge/blob/leaderboard/README.md)每次 main 合并后自动更新。
+计分变化时，机器人会提交原生表格同步 PR，由维护者审核合并。
+
+<!-- leaderboard:snapshot:start -->
+| 排名 | 公开贡献名 | GitHub 数字 ID | 已确认 | 待审 | 已记录合计 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 空调房里晒太阳 | 141936832 | 46 | 4 | 50 |
+<!-- leaderboard:snapshot:end -->
+
+<details>
+<summary>图形榜单</summary>
+
+![贡献排行榜](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/leaderboard/leaderboard.svg?v=native-table-20261022)
+
+</details>
 
 [完整榜单](https://github.com/1777RiKang/naikuai-base-knowledge/blob/leaderboard/leaderboard.md)
 · [JSON 数据](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/leaderboard/leaderboard.json)
 · [计分与贡献名规则](docs/leaderboard.md)
 
-每次 main 合并后自动更新，README 图片可能稍有缓存延迟。
+完整榜单每次 main 合并后自动更新；README 原生表格通过同步 PR 更新，图形榜单可能存在缓存延迟。
 每个当前为 confirmed 的独立词条计 1 分；新增词条归给最初引入词条的 PR 作者。
 初始 50 条种子归属“空调房里晒太阳”，已确认计分，待审核单列并在确认后自动计分。
 字数、别名、PR 数、格式调整和审核不单独计分。

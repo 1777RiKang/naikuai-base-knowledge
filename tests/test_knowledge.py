@@ -36,7 +36,7 @@ class KnowledgeTest(unittest.TestCase):
 
     def test_source_attribution_and_privacy(self):
         author,_=fixture(source='author')
-        self.assertEqual(author['provenance']['attribution'],'作者')
+        self.assertEqual(author['provenance']['attribution'],'乱走丶沙城')
         author['provenance']['attribution']='nkwiki'
         self.assertTrue(collect_knowledge_errors([(Path('equipment/nkwiki-equipment-1.json'),author)]))
         private='联系'+'Q群：'+('9'*8)
