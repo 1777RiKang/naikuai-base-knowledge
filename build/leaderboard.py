@@ -161,6 +161,25 @@ def markdown(board):
     return "\n".join(lines) + "\n"
 
 
+SNAPSHOT_START = '<!-- leaderboard:snapshot:start -->'
+SNAPSHOT_END = '<!-- leaderboard:snapshot:end -->'
+
+
+def readme_snapshot(board):
+    visible = {**board, 'contributors': board['contributors'][:15]}
+    table = [line for line in markdown(visible).splitlines() if line.startswith('|')]
+    return '\n'.join([SNAPSHOT_START, *table, SNAPSHOT_END]) + '\n'
+
+
+def update_readme_snapshot(text, snapshot):
+    if text.count(SNAPSHOT_START) != 1 or text.count(SNAPSHOT_END) != 1:
+        raise ValueError('README 必须包含唯一的排行榜表格标记')
+    start, end = text.index(SNAPSHOT_START), text.index(SNAPSHOT_END)
+    if end < start:
+        raise ValueError('README 排行榜标记顺序错误')
+    return text[:start] + snapshot.rstrip('\n') + text[end+len(SNAPSHOT_END):]
+
+
 def svg(board):
     rows = board["contributors"][:15]
     height = 170 + max(len(rows), 1) * 48
@@ -195,6 +214,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repository", default=os.environ.get("GITHUB_REPOSITORY", "1777RiKang/naikuai-base-knowledge"))
     parser.add_argument("--out", type=Path, default=ROOT / "dist")
+    parser.add_argument('--update-readme', action='store_true', help='同步 README 原生表格快照')
     args = parser.parse_args()
     docs = load_terms()
     from validate import collect_errors
@@ -213,6 +233,11 @@ def main():
     (args.out / "leaderboard.json").write_text(json.dumps(board, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (args.out / "leaderboard.md").write_text(markdown(board), encoding="utf-8")
     (args.out / "leaderboard.svg").write_text(svg(board), encoding="utf-8")
+    snapshot = readme_snapshot(board)
+    (args.out / 'readme.snapshot.md').write_text(snapshot, encoding='utf-8')
+    if args.update_readme:
+        readme = ROOT / 'README.md'
+        readme.write_text(update_readme_snapshot(readme.read_text(encoding='utf-8'), snapshot), encoding='utf-8')
     print(f"贡献榜生成：{len(board['contributors'])} 位贡献者，{board['total_points']} 个知识点")
 
 

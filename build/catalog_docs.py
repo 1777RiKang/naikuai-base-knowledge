@@ -22,7 +22,7 @@ def generate():
         rows.append(f'| [{category}]({category}/) | {count} |')
     rows+=['','来源署名：'+ '；'.join(f'{k} {v} 条' for k,v in sorted(sources.items()))+'。',
            '','[《数据摘要》接入说明](../docs/data-summary.md) · [nkwiki 接入说明](../docs/nkwiki-integration.md)',
-           '','部分 nkwiki 文章转载《数据摘要》，它们的原始来源标为“作者”，发布渠道保留 nkwiki。',
+           '','部分 nkwiki 文章转载《数据摘要》，它们的原始来源标为“乱走丶沙城”，发布渠道保留 nkwiki。',
            '重复记录通过 duplicate_of 关联，检索时合并；每条记录都有独立稳定 ID。']
     (ROOT/'knowledge/README.md').write_text('\n'.join(rows)+'\n',encoding='utf-8')
     stats=[
@@ -35,7 +35,7 @@ def generate():
         '- 外部审核状态：'+ '，'.join(f'{k} {v}' for k,v in sorted(Counter(d['review']['status'] for _,d in docs).items()))+'。',
         '- 外部资料自动导入不计个人积分；初始 50 条种子归“空调房里晒太阳”，已确认计分，待审单列。',
         '','此处的“数据概览”与游戏资料《数据摘要》是不同文档。',
-        '《数据摘要》的原始归属显示“作者”，其余站点记录显示“nkwiki”。',
+        '《数据摘要》的原始归属显示“乱走丶沙城”，其余站点记录显示“nkwiki”。',
         '','查看 [分类目录](../knowledge/README.md)、[数据摘要接入](data-summary.md) 和 [nkwiki 接入](nkwiki-integration.md)。',
     ]
     (ROOT/'docs/source-overview.md').write_text('\n'.join(stats)+'\n',encoding='utf-8')

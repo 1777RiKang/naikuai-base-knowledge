@@ -96,6 +96,17 @@ class LeaderboardTest(unittest.TestCase):
         self.assertNotIn('<script>', rendered)
         self.assertNotIn('<script>', leaderboard.markdown(board))
         self.assertIn('&#124;', leaderboard.markdown(board))
+        snapshot = leaderboard.readme_snapshot(board)
+        self.assertNotIn('<script>', snapshot)
+        self.assertIn('&#124;', snapshot)
+        original = '介绍\n' + leaderboard.SNAPSHOT_START + '\n旧表\n' + leaderboard.SNAPSHOT_END + '\n其他内容\n'
+        updated = leaderboard.update_readme_snapshot(original, snapshot)
+        self.assertTrue(updated.startswith('介绍\n'))
+        self.assertTrue(updated.endswith('\n其他内容\n'))
+        self.assertNotIn('旧表', updated)
+        self.assertEqual(updated, leaderboard.update_readme_snapshot(updated, snapshot))
+        with self.assertRaises(ValueError):
+            leaderboard.update_readme_snapshot('缺少标记', snapshot)
 
     def test_origin_uses_original_pr_author_not_merger(self):
         with tempfile.TemporaryDirectory() as temporary:

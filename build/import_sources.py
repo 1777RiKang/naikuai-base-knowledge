@@ -10,7 +10,7 @@ import re
 import sqlite3
 
 from common import ROOT, norm
-from knowledge import collect_knowledge_errors, digest, load_knowledge, redact
+from knowledge import ATTRIBUTIONS, collect_knowledge_errors, digest, load_knowledge, redact
 
 CATEGORIES = {
     '一': 'basics', '二': 'pve', '三': 'pvp', '四': 'dungeons',
@@ -89,7 +89,7 @@ def make_record(entry_id, title, category, source, via, locator, fetched_at,
         'aliases': sorted({clean_metadata(a) for a in aliases if norm(str(a)) != norm(title)}),
         'tags': sorted({clean_metadata(t)[:128] for t in tags if t}),
         'provenance': {
-            'source': source, 'attribution': '作者' if source == 'author' else 'nkwiki',
+            'source': source, 'attribution': ATTRIBUTIONS[source],
             'acquired_via': via, 'url': 'https://nkwiki.cc/',
             'locator': locator, 'source_updated_at': updated_at,
             'fetched_at': fetched_at, 'content_sha256': digest(redact(body)),
@@ -181,7 +181,7 @@ def collect_snapshot(wiki_dir, summary_path):
     receipt = {
         'source': 'offline-user-supplied-snapshot', 'fetched_at': fetched_at,
         'external_content_publication': 'metadata-only',
-        'summary_attribution': '作者', 'site_attribution': 'nkwiki',
+        'summary_attribution': ATTRIBUTIONS['author'], 'site_attribution': ATTRIBUTIONS['nkwiki'],
         'source_files': {k: {'sha256': v['sha256'], 'bytes': v['bytes']}
                          for k,v in manifest['files'].items()},
         'summary_sha256': hashlib.sha256(summary_path.read_bytes()).hexdigest(),

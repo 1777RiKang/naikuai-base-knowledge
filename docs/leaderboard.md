@@ -34,11 +34,14 @@
 
 main 每次合并后运行 leaderboard 工作流。它先校验已审核主分支，再生成：
 
-- leaderboard.svg：README 内显示前 15 名；超长贡献名在图片中省略，完整榜单保留全名。
+- README.md / leaderboard.md：GitHub 原生表格，完整榜单保留全部贡献名。
+- leaderboard.svg：可选图形展示，超长贡献名在图片中省略。
 - leaderboard.md：完整可读榜单。
 - leaderboard.json：全部积分、贡献者 ID、贡献名及其计分词条 id，便于复核。
 
-以上文件发布到独立的 leaderboard 分支，包含来源提交和生成时间，README 引用该分支图片。
-不为更新榜单向 main 写自动提交；外部 PR 校验没有仓库写权限。
-图片可能受 GitHub 缓存影响稍晚刷新。可在 Actions 手动运行工作流重建。
+以上文件发布到独立的 leaderboard 分支，包含来源提交和生成时间，完整榜单每次 main 合并后自动更新。
+主分支 README 直接展示原生表格快照，图片折叠为可选展示，不依赖外链图片显示数据。
+表格数值变化时，工作流自动向 main 提交同步 PR，由维护者审查后手动合并；它不直接推送 main。
+同步 PR 使用 automation/leaderboard-readme 生成分支，并显式触发 validate 校验。
+外部 PR 校验没有仓库写权限；机器人不审批或合并 PR。可在 Actions 手动运行工作流重建。
 生成失败时保留上次成功榜单，并在 Actions 显示失败。
