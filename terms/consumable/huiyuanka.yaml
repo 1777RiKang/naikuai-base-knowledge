@@ -1,0 +1,24 @@
+id: consumable.huiyuanka
+term: 会员卡
+canonical: 会员卡（七天）
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 使用后获得 7 天会员。
+provenance:
+  source: community
+  evidence:
+  - text: 收个海上村,出会员卡
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

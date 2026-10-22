@@ -1,0 +1,25 @@
+id: material.suipian
+term: 碎片
+canonical: 赐福碎片
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 这里指赐福碎片；其他语境也可能指装备碎片或传说碎片。
+  notes: 默认语境为赐福碎片，遇到歧义需追问。
+provenance:
+  source: community
+  evidence:
+  - text: T7T8 45兰塔戒11经验瓶5赐福碎片6经验书
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

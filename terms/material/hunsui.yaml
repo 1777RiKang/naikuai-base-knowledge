@@ -1,0 +1,26 @@
+id: material.hunsui
+term: 魂碎
+canonical: 魂晶 / 碎片
+aliases:
+- 碎魂
+kind: material
+senses:
+- context: 材料
+  definition: 碎片用于合成1阶传说武器；魂晶是3阶传说武器升级4阶的关键材料。
+  notes: 与「碎魂」语序互为变体，统一收录为魂碎。
+provenance:
+  source: community
+  evidence:
+  - text: 出 魂碎,t6精华稀矿,虚无羽毛,t8炼金修理种子,五角
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

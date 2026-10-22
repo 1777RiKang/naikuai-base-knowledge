@@ -1,0 +1,24 @@
+id: mount.duya
+term: 渡鸦
+canonical: 金羽渡鸦
+aliases: []
+kind: mount
+senses:
+- context: 坐骑
+  definition: 金羽渡鸦坐骑。
+provenance:
+  source: community
+  evidence:
+  - text: 17会员19改名卡11低台21独角23渡鸦
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

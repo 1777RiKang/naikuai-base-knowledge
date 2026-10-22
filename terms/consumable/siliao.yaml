@@ -1,0 +1,25 @@
+id: consumable.siliao
+term: 饲料
+canonical: 坐骑饲料
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 坐骑饲料这一大类，用于喂食坐骑。
+  notes: 具体档次需按饲料等级确认。
+provenance:
+  source: community
+  evidence:
+  - text: 出坐骑饲料,经验果,红水晶,绿水晶,蓝水晶,最全精灵礼物
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

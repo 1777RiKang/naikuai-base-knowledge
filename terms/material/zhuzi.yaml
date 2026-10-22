@@ -1,0 +1,24 @@
+id: material.zhuzi
+term: 柱子
+canonical: 虚无石英柱
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 一种矿物，用来升级宝石。
+provenance:
+  source: community
+  evidence:
+  - text: 出/t8果/t7花/t6礼物花/精灵礼物/柱子
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

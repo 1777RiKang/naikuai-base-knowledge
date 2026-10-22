@@ -1,0 +1,29 @@
+id: item.heinai2
+term: 黑奶2
+canonical: 黑暗信使法杖
+aliases:
+- 黑奶
+kind: item
+senses:
+- context: 装备/道具
+  definition: 带有治愈2附魔的黑暗信使法杖。
+  notes: 无附魔时通常叫「黑杖」；「黑奶2」是交易行话简称。
+provenance:
+  source: community
+  evidence:
+  - text: 出骑士盾3黑奶2收t34奶3收单3断浪
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'
+relations:
+  variant_of:
+  - item.heizhang

@@ -1,0 +1,30 @@
+name: 新词条
+description: 提交一个公屏/群聊里常见、但词库还没有的说法
+title: "[新词] "
+labels: ["new-term"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: 说法
+      description: 你听到的原文，保留错别字和简称
+    validations:
+      required: true
+  - type: textarea
+    id: meaning
+    attributes:
+      label: 你理解的意思
+      description: 它指什么？在什么场景出现？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据
+      description: 公屏原句或截图描述；请去掉昵称和 QQ 号
+    validations:
+      required: true
+  - type: input
+    id: seen_at
+    attributes:
+      label: 大概时间（不要填写服务器编号或个人信息）

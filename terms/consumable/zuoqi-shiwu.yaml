@@ -1,0 +1,25 @@
+id: consumable.zuoqi-shiwu
+term: 坐骑食物
+canonical: 坐骑食物
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 坐骑食物这一大类，用于喂食坐骑。
+  notes: 与「饲料」在实际交易中常混用。
+provenance:
+  source: community
+  evidence:
+  - text: 出经验果,精灵礼物,坐骑食物,红绿蓝水晶
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

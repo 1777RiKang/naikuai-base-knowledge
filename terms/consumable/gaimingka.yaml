@@ -1,0 +1,25 @@
+id: consumable.gaimingka
+term: 改名卡
+canonical: 改名卡
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 软糖道具，用于修改玩家昵称。
+  notes: 与「角色改名卡」不同，改名卡改的是账号昵称。
+provenance:
+  source: community
+  evidence:
+  - text: 21出飞行精灵石17会员19改名卡11低台21独角23渡鸦
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

@@ -1,0 +1,25 @@
+id: consumable.huanguang-bao
+term: 幻光成长包
+canonical: 幻光成长包
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 选择获得某职业全套幻光装备并解锁权限，可完成部分主线；不包含猎魔人和占星师。
+  notes: 影刃和龙骑士的职业任务仍需自行完成。
+provenance:
+  source: community
+  evidence:
+  - text: 17会员卡21精灵飞行10.5低台93高安38使徒38幻光成长包
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

@@ -1,0 +1,25 @@
+id: material.pimaoding
+term: 皮毛锭
+canonical: 皮 / 毛 / 锭
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 皮（射手）、毛（法师）、锭（骑士）三类合成装备的关键材料合称。
+  notes: 单独出现时需确认是哪一类。
+provenance:
+  source: community
+  evidence:
+  - text: 3.7出T6药水 T567皮毛锭药水 1块T7花
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

@@ -1,0 +1,25 @@
+id: material.hexin
+term: 核心
+canonical: 核心
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 用于跟宠进化的材料。
+  notes: 与「核心」在其他语境中的含义无关。
+provenance:
+  source: community
+  evidence:
+  - text: 8收毒瓶核心,收恶毒娃娃,收满命满攻,满命高防御胚子
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

@@ -1,0 +1,25 @@
+id: material.mingyun-baoshi
+term: 命运宝石
+canonical: 命运宝石
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 命运等级的宝石，可指三角、四角、五角、绿、蓝、紫的任意搭配；三角只有绿色。
+  notes: 颜色与形状都需要确认，不能只按「命运」报价。
+provenance:
+  source: community
+  evidence:
+  - text: 41命运宝石,T7,蓝塔单3三角,T3毛皮锭
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

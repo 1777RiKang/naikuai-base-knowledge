@@ -1,0 +1,29 @@
+id: material.wujiao
+term: 五角
+canonical: 五角宝石
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 可指绿龙晶、蓝龙晶或紫龙晶，需结合上下文判断具体颜色。
+  notes: 不同颜色的五角价格差异大，报价时应追问颜色。
+provenance:
+  source: community
+  evidence:
+  - text: 出 魂碎,t6精华稀矿,虚无羽毛,t8炼金修理种子,五角
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'
+relations:
+  related:
+  - material.mingyun-baoshi
+  - material.zi-mingyun

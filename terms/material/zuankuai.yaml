@@ -1,0 +1,25 @@
+id: material.zuankuai
+term: 钻块
+canonical: 蓝钻块
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 玩家通用货币之一，可参考钻晶（蓝钻结晶）的换算说明。
+  notes: 99蓝钻=11蓝钻块=1蓝钻结晶。
+provenance:
+  source: community
+  evidence:
+  - text: 出精灵装备, 出钻块
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

@@ -1,0 +1,29 @@
+id: material.shenpan
+term: 审判
+canonical: 审判
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 四阶武器升级5阶的关键材料，一般很贵。
+  notes: 与跟宠、魂碎、钻晶并列报价。
+provenance:
+  source: community
+  evidence:
+  - text: 跟宠-审判-碎魂-钻晶 高收低卖
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'
+relations:
+  related:
+  - material.hunsui
+  - material.zuankuai

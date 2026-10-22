@@ -1,0 +1,26 @@
+id: item.heizhang
+term: 黑杖
+canonical: 黑暗信使法杖
+aliases:
+- 黑仗
+kind: item
+senses:
+- context: 装备/道具
+  definition: 一般指无附魔的黑暗信使法杖。
+  notes: 带治愈2附魔时叫「黑奶2」；「黑仗」是常见错别字。
+provenance:
+  source: community
+  evidence:
+  - text: t678装备,宝石 全 材料 20黑杖 12堕落杖 4能量杖
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

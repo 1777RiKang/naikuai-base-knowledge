@@ -1,0 +1,24 @@
+id: consumable.chuzhiliao
+term: 初治疗
+canonical: 初级治疗药水
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 饮用后回复少量血量的初级治疗药水。
+provenance:
+  source: community
+  evidence:
+  - text: 9.5中桌、buff汤、小初桌、初治疗、南瓜灯、饲料
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

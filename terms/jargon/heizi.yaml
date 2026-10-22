@@ -1,0 +1,25 @@
+id: jargon.heizi
+term: 黑子
+canonical: 黛丽拉
+aliases: []
+kind: jargon
+senses:
+- context: 黑话
+  definition: 黛丽拉精灵的外号。
+  notes: 与「黑子」在其他游戏语境中的含义无关。
+provenance:
+  source: community
+  evidence:
+  - text: 收/出 精灵蛋/坐骑蛋/软糖道具,收出伊登/黑子/龙蛋
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

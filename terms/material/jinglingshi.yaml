@@ -1,0 +1,25 @@
+id: material.jinglingshi
+term: 精灵石
+canonical: 精灵石
+aliases: []
+kind: material
+senses:
+- context: 材料
+  definition: 用于精灵转生等用途。
+  notes: 由「精灵飞行」组合条目的拆分需要而建，说明待补充。
+provenance:
+  source: community
+  evidence:
+  - text: 出v卡,飞行精灵石,使徒幻光包,誓言台
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: draft
+  reviewer: null
+  reviewed_at: null
+version: 1
+updated_at: '2026-10-22'

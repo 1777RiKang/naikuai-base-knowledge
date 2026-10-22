@@ -1,0 +1,25 @@
+id: item.ditai
+term: 低台
+canonical: 低级誓言台
+aliases: []
+kind: item
+senses:
+- context: 装备/道具
+  definition: 用于玩家结婚的低级誓言台。
+  notes: 「高台 / 低台」按婚礼档次区分。
+provenance:
+  source: community
+  evidence:
+  - text: 17会员卡21精灵飞行10.5低台93高安38使徒38幻光成长包
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

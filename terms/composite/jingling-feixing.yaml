@@ -1,0 +1,30 @@
+id: composite.jingling-feixing
+term: 精灵飞行
+canonical: 精灵石 + 飞行契约
+aliases:
+- 飞行精灵石
+kind: composite
+senses:
+- context: 组合缩写
+  definition: 组合缩写：精灵石用于精灵转生等，飞行契约用于解锁坐骑飞行；公屏常把两者连写。
+  notes: 拆开报价时是两种不同道具，不能按一个价格成交。
+provenance:
+  source: community
+  evidence:
+  - text: 出v卡,飞行精灵石,使徒幻光包,誓言台
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'
+relations:
+  composes:
+  - material.jinglingshi
+  - item.feixing-qiyue

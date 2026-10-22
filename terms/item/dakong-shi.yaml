@@ -1,0 +1,25 @@
+id: item.dakong-shi
+term: 打孔石
+canonical: 打孔石
+aliases: []
+kind: item
+senses:
+- context: 装备/道具
+  definition: 用于填满装备孔位的垃圾宝石。镶孔流程：打孔石填满、打垫子宝石、再打入有效宝石。
+  notes: 打孔石和垫子宝石是宝石镶嵌机制中的必要消耗。
+provenance:
+  source: community
+  evidence:
+  - text: 高 扩散屏障穿刺宝石,单生双生宝石,打孔石, 宝石
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

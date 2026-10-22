@@ -1,0 +1,25 @@
+id: consumable.juese-gaimingka
+term: 角色改名卡
+canonical: 角色改名卡
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 软糖道具，用于角色改名。
+  notes: 与账号昵称用的「改名卡」不同。
+provenance:
+  source: community
+  evidence:
+  - text: 高 黑子,抽奖,海盗箱,飞行契约,精灵石,角色改名卡
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

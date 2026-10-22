@@ -1,0 +1,25 @@
+name: 纠错
+description: 现有词条的释义、别名或来源有误
+title: "[纠错] "
+labels: ["correction"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: 词条 id 或说法
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 哪里不对
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 建议怎么改
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据（已脱敏）

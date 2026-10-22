@@ -1,0 +1,24 @@
+id: consumable.zhuansheng-liwu
+term: 转生礼物
+canonical: 转生礼物
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 转生之后使用的精灵礼物。
+provenance:
+  source: community
+  evidence:
+  - text: T7T8 装备 t3-t8皮毛锭 成品蓝塔 转生礼物
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

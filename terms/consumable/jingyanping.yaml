@@ -1,0 +1,24 @@
+id: consumable.jingyanping
+term: 经验瓶
+canonical: 经验瓶
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 使用后获得玩家经验，可用于附魔、修理装备等。
+provenance:
+  source: community
+  evidence:
+  - text: 48出蓝塔t7.t8装备.经验瓶.出软糖
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

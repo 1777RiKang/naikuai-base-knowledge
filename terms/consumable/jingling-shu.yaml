@@ -1,0 +1,25 @@
+id: consumable.jingling-shu
+term: 精灵书
+canonical: 精灵学识宝典
+aliases: []
+kind: consumable
+senses:
+- context: 消耗品
+  definition: 给精灵增加经验。分初级/中级/高级及对应转生宝典；转生宝典只能喂30级以上转生的精灵，非转生宝典只能喂30级以下。
+  notes: 交易时通常按「初级/中级/高级/转生」再细分。
+provenance:
+  source: community
+  evidence:
+  - text: 魂碎-结晶-审判宠物-精灵书- ,就赚几钻
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

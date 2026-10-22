@@ -1,0 +1,25 @@
+id: service.zhongzhuo
+term: 中桌
+canonical: 中级食物桌
+aliases: []
+kind: service
+senses:
+- context: 服务档位
+  definition: 用于给群体提供大量 buff 的食物桌服务档位。
+  notes: 服务类报价按「桌」计价，不是可交易道具本身。
+provenance:
+  source: community
+  evidence:
+  - text: 出中桌,buff,农作物,1酒精
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

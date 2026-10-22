@@ -1,0 +1,37 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate term files
+        run: python build/validate.py
+      - name: Check source credentials
+        run: python build/privacy.py
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Build sqlite
+        run: python build/build_sqlite.py dist
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: glossary-sqlite
+          path: dist/
+          if-no-files-found: error

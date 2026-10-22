@@ -1,0 +1,25 @@
+id: item.feixing-qiyue
+term: 飞行契约
+canonical: 飞行契约
+aliases: []
+kind: item
+senses:
+- context: 装备/道具
+  definition: 用于解锁坐骑飞行。
+  notes: 由「精灵飞行」组合条目的拆分需要而建，说明待补充。
+provenance:
+  source: community
+  evidence:
+  - text: 海盗箱,精灵石,飞行契约,经验瓶,精灵礼物
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: draft
+  reviewer: null
+  reviewed_at: null
+version: 1
+updated_at: '2026-10-22'

@@ -1,0 +1,24 @@
+id: item.gaoan
+term: 高安
+canonical: 精致鞍具
+aliases: []
+kind: item
+senses:
+- context: 装备/道具
+  definition: 捕捉高级坐骑时使用的鞍具。
+provenance:
+  source: community
+  evidence:
+  - text: 17会员卡21精灵飞行10.5低台93高安38使徒38幻光成长包
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'

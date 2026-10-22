@@ -1,0 +1,25 @@
+id: jargon.jinzhan
+term: 近战
+canonical: 近战
+aliases: []
+kind: jargon
+senses:
+- context: 黑话
+  definition: 指带有近战属性的精灵项链。
+  notes: 不是职业，是装备属性黑话。
+provenance:
+  source: community
+  evidence:
+  - text: 收雨之信(敖烈)近战利1
+    channel: 公屏
+    captured_at: '2026-08-09'
+    redacted: true
+contributors:
+- name: 奶块玩家（M0 迁移）
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-22'
+version: 1
+updated_at: '2026-10-22'
