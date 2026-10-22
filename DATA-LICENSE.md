@@ -1,16 +1,13 @@
 # 数据许可
 
-`terms/`、`schema/` 与构建产物中的词条数据采用
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
-许可：署名、非商业使用、相同方式共享。
+`terms/` 原创词条及 glossary.sqlite 词条数据采用
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)：署名、非商业使用、相同方式共享。
+引用词库时注明「奶块知识库（玩家整理）」并链接本仓库。
 
-`build/`、`tests/`、`.github/` 下的代码采用 MIT 许可，见 `LICENSE`。
+构建代码、测试、工作流与 schema 的代码部分采用 MIT，见 LICENSE。
 
-引用词库时请注明「奶块知识库（玩家整理）」并链接本仓库；不得去掉署名后
-打包进商业产品。攻略正文版权归奶块攻略站 nkwiki.cc 所有，本仓库只做引用，
-不复制正文。
-
-`knowledge/` 是外部资料的标题、分类、来源与校验信息目录，不含第三方正文。
-这些记录标记 `LicenseRef-Original-Source`；原作权利归原作者或相应权利人，
-不能因本仓库公开而视为已获 CC BY-NC-SA 再许可。`.local/` 中的外部全文与
-本地数据库不分发、不上传为 CI 产物。
+《数据摘要》的正文、图片、分类章节及 knowledge.sqlite 中的来源内容，权利归原作者“乱走丶沙城”。
+根据维护者确认的作者授权公开，标记 LicenseRef-Original-Source，不适用本仓库 MIT 或 CC BY-NC-SA 再许可。
+保留原始署名和系列文件使用说明；原作者说明禁止商业牟利，使用须遵循实际授权条件。
+授权记录、作者联系及原作声明的可用范围见 docs/data-summary.md；完整阅读版位于 sources/data-summary/。
+CI 产物随附阅读版与本许可说明。授权发布不代表内容已获官方认证或完成事实审核。
