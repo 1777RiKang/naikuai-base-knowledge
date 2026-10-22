@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e40af9b7f3bd9ef3",
+  "title": "7.5.3.2门窗",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.5家具 / 7.5.3唐风 / 7.5.3.2门窗",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "de037e033f32552fc7685c6f2293d43297dfeeeb904a2d73160da735468ef512",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

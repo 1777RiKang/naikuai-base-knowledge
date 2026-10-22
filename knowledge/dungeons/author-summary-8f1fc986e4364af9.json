@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-8f1fc986e4364af9",
+  "title": "4.1.3.1火山",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.3极寒之境T3-20170100 / 4.1.3.1火山",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "adcc0909c6b147543e0a461dfe37c71ff71c3069e9931fc2940789adb6668a24",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-446",
+  "title": "星夜蓝塔菲指环",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "蓝塔菲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:446",
+    "source_updated_at": "2026-10-13T09:55:39.261Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "08d19daa4c85ad17338f96b601f8be648e1c0aa7b72f7fabbbcc84cf13f41631",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

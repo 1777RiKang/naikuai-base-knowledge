@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-8046dbae88f36d0f",
+  "title": "9.1.1Ⅰ阶（破甲T4，面板T3.5）",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.1传说武器面板 / 9.1.1Ⅰ阶（破甲T4，面板T3.5）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e331b23787ac50ff09e2d5ac8f2ec695969cbd021d3ec6f053155178ffa5ed14",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

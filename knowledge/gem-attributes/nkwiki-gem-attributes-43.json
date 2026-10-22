@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-43",
+  "title": "飞鱼",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:43",
+    "source_updated_at": "2026-10-19T07:40:54.250Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "17c88512ca8f0904779d2225a7ad7d96f9339c05a41cdb43184c894d3dc8968f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

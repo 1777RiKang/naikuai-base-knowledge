@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-261",
+  "title": "铁弓",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:261",
+    "source_updated_at": "2026-07-02T01:42:38.997Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "eed9b7e91d4f980dcd3adb8190ede5023d53e6d7b1a9e7527b68e3e2899a3404",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

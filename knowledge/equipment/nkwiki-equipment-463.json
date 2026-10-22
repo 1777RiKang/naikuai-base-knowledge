@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-463",
+  "title": "传说法典 III 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:463",
+    "source_updated_at": "2026-10-14T13:01:51.886Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "cbbe8da7f82ad5ea7128ca15b17440b8126a7a603a4cff517936c275ad8b5dd8",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

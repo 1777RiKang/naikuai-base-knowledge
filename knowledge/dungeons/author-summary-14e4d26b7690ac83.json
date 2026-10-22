@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-14e4d26b7690ac83",
+  "title": "4.1.4.4城堡天台",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.4遗忘之境T4-20171127 / 4.1.4.4城堡天台",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "97a50ce0e6698dd9f8a1277312c094c7deb42f44cb35d6b4c4ae1c847177d2be",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

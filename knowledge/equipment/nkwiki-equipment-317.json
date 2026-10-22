@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-317",
+  "title": "复仇软鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:317",
+    "source_updated_at": "2026-07-08T01:18:15.371Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a72797559690e26a20460a32f2d1f05ffdcb3d93fe9d95ddeebab91f980fee64",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

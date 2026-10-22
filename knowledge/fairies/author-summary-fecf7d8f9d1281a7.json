@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fecf7d8f9d1281a7",
+  "title": "6.2.10菲黛尔-210625（四星）",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.10菲黛尔-210625（四星）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f0a72d0bb208e820c30f00d85017f517445901431f850d26aedb270105b8352d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

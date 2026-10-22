@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-402",
+  "title": "5.3.4赛季记录",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:402",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3b37f136241ebf000e56205763fade30bed4b76f262705a59442b31e8cd33a35",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-fd8ea4b82cd34697"
+}

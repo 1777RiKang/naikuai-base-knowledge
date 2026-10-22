@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-12470f7e626a6c6b",
+  "title": "5.4.1.1天赋对应50级数值",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.4跟宠天赋及羁绊 / 5.4.1基础天赋 / 5.4.1.1天赋对应50级数值",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "95cc471d897440bc20b708cf0b3d8d8eaebe6063960bce51950542c0ed1c9b70",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

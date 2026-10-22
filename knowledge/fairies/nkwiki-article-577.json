@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-577",
+  "title": "6.3.6.5充值赠送精灵",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:577",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1d7e0bf1cbca8d93286a6a15a579d4e0f9faecdf09f74910d0b727af418750d2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-59d1f8290c136e93"
+}

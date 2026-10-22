@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-425",
+  "title": "浴血法杖",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:425",
+    "source_updated_at": "2026-08-31T10:27:26.112Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5b6ab1ac9f95632ff4d199af747509ee70bda489804493419a3b8b6de5192cde",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

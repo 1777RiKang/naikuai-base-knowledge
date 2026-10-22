@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-349",
+  "title": "轮回长裤",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:349",
+    "source_updated_at": "2026-07-08T01:51:14.062Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "24b16111c879a7e340b1d5a516200b8ad3e6e2910b081978f7247cd4364877c1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

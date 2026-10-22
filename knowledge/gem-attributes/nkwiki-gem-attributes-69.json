@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-69",
+  "title": "加护",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:69",
+    "source_updated_at": "2026-10-19T07:51:32.006Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6fce1d931b12086e67ea926ba40845881607b045fe96e1ce1a9978ae10bf052c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-43",
+  "title": "狂怒战靴",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:43",
+    "source_updated_at": "2026-06-24T06:48:12.264Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "adca412bef9d411ba7db9cc956b630426de52288a8f687d6bc39a1f0d80689c3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

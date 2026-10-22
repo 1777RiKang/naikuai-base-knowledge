@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-449",
+  "title": "能量法典",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:449",
+    "source_updated_at": "2026-10-14T12:46:39.106Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "819aa4e4572a3034cadacc419c2af7952fec886cdd0d877ced8a1a3284939aa3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

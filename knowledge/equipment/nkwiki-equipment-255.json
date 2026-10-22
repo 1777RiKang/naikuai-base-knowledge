@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-255",
+  "title": "传说之剑 II 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:255",
+    "source_updated_at": "2026-07-01T02:50:05.310Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d7f1bb37d981365fa6837c03356b93ebdea345df67dd245a235de2ccad47b0a1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

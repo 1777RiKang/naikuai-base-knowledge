@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-b67253b4d257fe64",
+  "title": "5.6.2跟宠技能数值-20260521",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.6跟宠技能记录 / 5.6.2跟宠技能数值-20260521",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "33bbc78a274258926ef0e4d8761a8b2fbe33dfcbe6d1ecedf0174c018655e3bc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

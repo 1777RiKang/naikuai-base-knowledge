@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0dce802e0a81c9ac",
+  "title": "2.3.4.2召唤师",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.4魔导师/召唤师/占星师数据 / 2.3.4.2召唤师",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3a210f0cafffd14bd2a0959d68b896bf0b22e87cfbdfb0683897f29c5262e422",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

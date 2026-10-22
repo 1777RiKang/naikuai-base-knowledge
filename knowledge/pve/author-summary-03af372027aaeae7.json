@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-03af372027aaeae7",
+  "title": "2.2.1.3负面效果",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.1异世界基础信息 / 2.2.1.3负面效果",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3670ddfeca7a624deafbb1e6e63189706655cfc046970b1e33be29a2b9cd792a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

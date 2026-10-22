@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-554",
+  "title": "6.2.17哈弗古法-260127（五星）（未二命加成）",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:554",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bb72e5666c1804744a8660e02b45682a13cc32dba2b1eb82771505210db25791",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

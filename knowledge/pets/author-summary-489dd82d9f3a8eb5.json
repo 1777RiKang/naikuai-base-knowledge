@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-489dd82d9f3a8eb5",
+  "title": "5.9.2跟宠仓库",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.9跟宠栏位及跟宠仓库 / 5.9.2跟宠仓库",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "21bb1b36add524b8fb97bbc0650e5c5ed05b91d66ced55b53c1f39fce806f5d6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

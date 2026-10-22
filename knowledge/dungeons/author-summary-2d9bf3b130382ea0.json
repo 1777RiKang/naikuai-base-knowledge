@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-2d9bf3b130382ea0",
+  "title": "4.1.2.4精英沙漠皇陵",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.2炽热大陆T3-20170100 / 4.1.2.4精英沙漠皇陵",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "10533bdd3841b4f432fe039888a1e89811bb0c59e0d089a4e8367caa7d336efc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-134",
+  "title": "英勇提灯",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:134",
+    "source_updated_at": "2026-06-25T08:08:32.563Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bdf42fa2c621f5480b8507ad569af9b72cb3f84367170e65039f69ad5746f672",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

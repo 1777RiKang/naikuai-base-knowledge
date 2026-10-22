@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-7f8dd9e8adbc012f",
+  "title": "4.1.4.3熔岩树",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.4遗忘之境T4-20171127 / 4.1.4.3熔岩树",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9af0d03ab73c1c1f49323c68383cacfcc6abe8cd602b75f8639b6a7e5f3989bf",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

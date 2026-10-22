@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-145",
+  "title": "传说宝珠 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:145",
+    "source_updated_at": "2026-06-25T08:28:48.043Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7b404a0718e692f42e3439c1eddbc1b0bdbbb4803429f55ef0c8e36456618657",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

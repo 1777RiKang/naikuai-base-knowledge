@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-10",
+  "title": "圣殿骑士头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:10",
+    "source_updated_at": "2026-06-24T04:23:28.111Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "55e7329c96739eb5e7970b2735e0f405dc70e5ca805e20daef46fc2dc91cfcf6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-604e88cec30c0e11",
+  "title": "2.2.3.4无尽巨鲲",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.3世界boss基础信息及技能 / 2.2.3.4无尽巨鲲",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f64f3e36467d94a788d858239e15e013b0dea3f051fde54a5f372d0b97284178",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

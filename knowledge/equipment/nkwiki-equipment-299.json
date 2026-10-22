@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-299",
+  "title": "传说箭袋 III 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:299",
+    "source_updated_at": "2026-07-03T20:11:36.660Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f8bfb2714d6fc599a41f7c7302046157153a3070bc7267c2dba2219b92e6cc36",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

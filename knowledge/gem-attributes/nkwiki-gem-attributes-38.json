@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-38",
+  "title": "屏障",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:38",
+    "source_updated_at": "2026-10-19T07:39:15.750Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "30fd6afc4767c43aa6b1512152c8d6f0d62316f3fce326753f251b393f9da350",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

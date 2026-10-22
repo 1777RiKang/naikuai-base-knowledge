@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-232",
+  "title": "传说之盾 I 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:232",
+    "source_updated_at": "2026-06-30T07:02:39.043Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8a185ee01a2efbef546c35114c0b67104c61df6d49bc6fe1e526bdb7a815580b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

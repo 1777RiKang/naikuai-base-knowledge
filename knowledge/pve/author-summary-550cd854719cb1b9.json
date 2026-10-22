@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-550cd854719cb1b9",
+  "title": "2.2.1.5npc信息",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.1异世界基础信息 / 2.2.1.5npc信息",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7117fb42a37b9c766fdce7f7f44946e2007d804a132be815fdca472c8d0abe06",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

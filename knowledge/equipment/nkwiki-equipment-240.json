@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-240",
+  "title": "骑士长剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:240",
+    "source_updated_at": "2026-07-01T02:14:39.663Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "61cc449595a530ce290bb72c696877a2c81af2b996ed01065ec0a4051fb47b01",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

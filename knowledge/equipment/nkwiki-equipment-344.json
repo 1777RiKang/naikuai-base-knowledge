@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-344",
+  "title": "浴血软鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:344",
+    "source_updated_at": "2026-07-08T01:46:11.114Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6b7ff03c698b9209ff111b280a6aec5cf32de0fe148a54dae426fc05bb4bc7b4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

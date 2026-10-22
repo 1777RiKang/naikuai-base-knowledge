@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fe29c5d6e99863e3",
+  "title": "4.1.6.3恐惧之地",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.6无界之地T5-20190920 / 4.1.6.3恐惧之地",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "575c545fade4d906b7c48df8ab3b0af8a7cab255be358641eede66900e871e41",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

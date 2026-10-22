@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-da67619023e8e3fb",
+  "title": "1.0.5加成：护甲Ⅰ-Ⅹ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.5加成：护甲Ⅰ-Ⅹ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5b36089a12eb8af1f6cd698c5f5cd3e7724434cebe6792c4bc995fe9f9384cf5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

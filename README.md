@@ -1,7 +1,7 @@
 # 奶块知识库
 
 玩家共同维护的奶块（Naikuai）术语与知识点库，面向 AI 检索和机器人问答。
-首版包含 50 条种子词条；词条内容由社区提供，审核状态不代表官方认证。
+首版包含 50 条种子词条，公开贡献名为“空调房里晒太阳”。外部资料已按主题建立来源目录；审核状态不代表官方认证。
 
 欢迎 Fork 后提交 PR：词条新增、纠错、文档与脚本改进均可。
 由仓库维护者审查并手动合并；维护者自己的改动也通过 PR，CI 通过后自行合并。
@@ -14,6 +14,7 @@ python build/validate.py
 python build/privacy.py
 python -m unittest discover -s tests -v
 python build/build_sqlite.py dist
+python build/build_knowledge.py --out dist
 python build/query.py dist/glossary.sqlite "燃料"
 ```
 
@@ -33,6 +34,8 @@ terms/<kind>/<slug>.yaml   词条源数据
 schema/term.schema.json    JSON Schema
 build/                    校验、SQLite 构建、查询和排行榜
 credits/                  种子清单与自选公开贡献名配置
+knowledge/<category>/     外部知识目录（仅元数据）
+sources/                  离线快照校验与来源记录
 .github/workflows/        PR 校验、合并后排行榜发布
 tests/                    数据、查询、归因与计分测试
 ```
@@ -41,11 +44,21 @@ tests/                    数据、查询、归因与计分测试
 
 - `glossary.sqlite`：保留全部词条、义项、证据、来源与审核信息；`ai_entries` 视图只含 confirmed。
 - `manifest.json`：schema 版本、词库版本、来源提交、数量、SHA-256 和许可。
+- `knowledge.sqlite`、`knowledge-manifest.json`：分类知识目录，仅含元数据，不包含外部全文。
 - `DATA-LICENSE.md`、`LICENSE`：随产物分发的许可说明。
 
 从 [Actions](https://github.com/1777RiKang/naikuai-base-knowledge/actions/workflows/validate.yml)
 打开成功运行，在 Artifacts 下载 `glossary-sqlite`。下载需要登录，产物会按仓库保留期限过期。
 接入端应验证 manifest 的 SHA-256 后原子替换数据库。`dist/` 与 Python 缓存不提交。
+
+## 数据摘要与 nkwiki
+
+- [《数据摘要》接入说明](docs/data-summary.md)：原始归属标为“作者”。
+- [nkwiki 接入说明](docs/nkwiki-integration.md)：站点资料标为“nkwiki”，转载部分保留作者归属。
+- [分类知识目录](knowledge/README.md) · [本批次来源与数量概览](docs/source-overview.md)。
+
+公开仓库和 CI 产物只包含第三方资料的标题、分类、来源定位和校验信息。
+本地全文位于被忽略的 `.local/`，默认 AI 仍只引用 confirmed；导入内容不自动计分。
 
 ## 贡献排行榜
 
@@ -72,7 +85,8 @@ tests/                    数据、查询、归因与计分测试
 ## 许可
 
 - 代码：MIT，见 [LICENSE](LICENSE)。
-- 词条数据与数据产物：CC BY-NC-SA 4.0，见 [DATA-LICENSE.md](DATA-LICENSE.md)。
+- 本仓库原创术语词条及其产物：CC BY-NC-SA 4.0，见 [DATA-LICENSE.md](DATA-LICENSE.md)。
+- 外部资料目录与原作保留来源权利，标记 LicenseRef-Original-Source，不按本仓库许可重新授权。
 
 引用时署名「奶块知识库（玩家整理）」并链接本仓库；遵守非商业及相同方式共享条件。
 攻略站资料只记录条目名和链接，不复制正文；第三方内容须另行确认授权。

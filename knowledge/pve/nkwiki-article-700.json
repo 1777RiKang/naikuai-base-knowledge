@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-700",
+  "title": "2.8.9.3妲己",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:700",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2a9c106a90f375eabe8e9d02461cff421d3e1308a0cab3d013222df78ab57546",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

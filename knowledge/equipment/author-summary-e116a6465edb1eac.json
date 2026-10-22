@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e116a6465edb1eac",
+  "title": "9.2.1Ⅳ/Ⅴ阶传说武器被动技能",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.2传说武器技能效果 / 9.2.1Ⅳ/Ⅴ阶传说武器被动技能",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "86f248daac4f15edcdfd866fc039bb8a30350a813ff8e9cb8f9968c8666e364c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

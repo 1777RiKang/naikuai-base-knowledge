@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-244",
+  "title": "春天女神/伊登",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "无尽之海"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:244",
+    "source_updated_at": "2026-04-28T10:19:50.102Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bf85dd47a99d0619e58e734d4866917ac1d68ea12418be102c3ca3bd0fdfe197",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

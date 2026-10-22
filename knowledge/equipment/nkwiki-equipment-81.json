@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-81",
+  "title": "英勇命盘",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:81",
+    "source_updated_at": "2026-06-24T14:56:59.504Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "12ac8b8dc47dc59a084b30131ec1200e95fe8556e1639a1ab1c380ce41dbe246",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

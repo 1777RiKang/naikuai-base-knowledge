@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-13",
+  "title": "圣殿骑士战靴",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:13",
+    "source_updated_at": "2026-06-24T04:25:56.695Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "0dfa3d3389e86d3eca8d713e310ed74a4362276a36a8170ff896e97d79528bbc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

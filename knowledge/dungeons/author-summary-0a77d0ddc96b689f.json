@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0a77d0ddc96b689f",
+  "title": "4.0.3.2防御免伤增益",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.0副本信息 / 4.0.3防御免伤 / 4.0.3.2防御免伤增益",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "634e24a765dd42d7e464b64c56d1e3b94d5d6a48f715ea88f75f49eaabdd6aa5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

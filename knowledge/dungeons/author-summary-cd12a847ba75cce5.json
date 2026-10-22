@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-cd12a847ba75cce5",
+  "title": "4.2.3轮回塔第三层-20220121",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.2轮回塔 / 4.2.3轮回塔第三层-20220121",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ad164de136ea92a016a53328ec8a10a6dfe8b642515fe74b2387efdee5fbfa8f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

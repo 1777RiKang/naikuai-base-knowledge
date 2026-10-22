@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-203",
+  "title": "征服短匕",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:203",
+    "source_updated_at": "2026-06-30T03:19:43.982Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6955b53a8eeff800fed12a7a0f20fbdac14a06f99b3f1a3c97e19b482fd98305",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

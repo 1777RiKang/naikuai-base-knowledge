@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-33",
+  "title": "断浪胸甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:33",
+    "source_updated_at": "2026-06-24T06:09:01.101Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f24a40ab34e1e555453c058bb8b7b8099e92849cb5f08c97341a6b22ab781e8e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

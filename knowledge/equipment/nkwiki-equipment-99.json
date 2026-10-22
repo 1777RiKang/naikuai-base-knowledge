@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-99",
+  "title": "传说秘仪·吉V阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:99",
+    "source_updated_at": "2026-06-25T05:40:39.066Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "24340d89eb20328cd3c8cb8d587325da049823965f13ce2d39d3cefd14979074",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

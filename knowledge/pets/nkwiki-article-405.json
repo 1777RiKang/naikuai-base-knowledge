@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-405",
+  "title": "5.4.2.2特殊天赋加成",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:405",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5d7bc9a723c11ccfb124a217a10fd2da1c69da56a9e9c857da07b58af9e634cc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-44821b3d017f1ae9"
+}

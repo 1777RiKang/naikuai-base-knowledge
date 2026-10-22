@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-281",
+  "title": "传说之弓 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:281",
+    "source_updated_at": "2026-10-14T13:14:06.249Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "967a53f09d4134a4f59c52b95cd362d53d020d4ee4557cc28154ab5c8e6c1a07",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

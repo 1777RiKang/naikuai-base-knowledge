@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-209",
+  "title": "传说之刺 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:209",
+    "source_updated_at": "2026-06-30T05:40:13.308Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "54e05b25db2510808019060989a9160388b301cfe6579e9517b68f2994acacd4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

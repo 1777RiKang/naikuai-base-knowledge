@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-190bf442c324c8ae",
+  "title": "9.1.3Ⅲ阶（破甲T4，面板T5.5）",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.1传说武器面板 / 9.1.3Ⅲ阶（破甲T4，面板T5.5）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1a654ba31bab74b73b66463ac316c2fb1e0833ea711aa242eca20f36352c99d9",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

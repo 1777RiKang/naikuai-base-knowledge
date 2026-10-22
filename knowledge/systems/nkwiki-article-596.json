@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-596",
+  "title": "7.3.3.2每周福利",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:596",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e9ded7eb06b9b6c7e6c80b7ce39dc60000870b9a8aa7b576fc81ccede1eab878",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-8d7ecdb1bcc12e72"
+}

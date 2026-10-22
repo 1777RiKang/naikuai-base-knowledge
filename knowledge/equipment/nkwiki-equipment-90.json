@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-90",
+  "title": "传说星仪·凶IV阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:90",
+    "source_updated_at": "2026-06-25T03:19:39.788Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4f56dbfbceb48ce895d145c2df4423ec351abcafe0601e1d24bca5271be5bd12",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

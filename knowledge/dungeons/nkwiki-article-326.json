@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-326",
+  "title": "4.1.0.5敖烈",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:326",
+    "source_updated_at": "2026-08-06T09:23:14.849Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4fcef88ba4a97b0f09fcef2b99f47fe59b4c5779566573ba94fac1d26cf5266a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

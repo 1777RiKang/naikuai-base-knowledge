@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-204",
+  "title": "逆流短匕",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:204",
+    "source_updated_at": "2026-06-30T03:21:33.037Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "65f5552e98b59c8b80ca91f6cd4e095852bf8f7ce6c78954c184f33aa2c942ec",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

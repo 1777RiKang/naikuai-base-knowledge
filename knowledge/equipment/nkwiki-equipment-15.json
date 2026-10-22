@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-15",
+  "title": "魂铸意志胸甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:15",
+    "source_updated_at": "2026-06-24T04:44:26.452Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3846db89037d0171c00a5564c5b2f607d22fe80ddeda4e0f980fa8098d5010d9",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-232",
+  "title": "养鸦人",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "无尽之海"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:232",
+    "source_updated_at": "2026-04-09T09:18:37.576Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "cee266462f02174f30a52daa106a21d0853affac8414dc9e0baf8e35d5841595",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

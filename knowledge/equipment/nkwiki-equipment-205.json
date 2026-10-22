@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-205",
+  "title": "传说之刺 I 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:205",
+    "source_updated_at": "2026-06-30T03:23:12.728Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ab7a6be967ac98e30514cd1c7e8b16366a7478724b9a4d9429d4b1ff5f94892e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

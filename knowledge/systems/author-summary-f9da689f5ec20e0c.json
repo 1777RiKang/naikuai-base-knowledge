@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f9da689f5ec20e0c",
+  "title": "7.5.3.1基础",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.5家具 / 7.5.3唐风 / 7.5.3.1基础",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2c5370d0a408cd1581cd9823ffabdcf63a9b588c2518dd61ae32433a359409af",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

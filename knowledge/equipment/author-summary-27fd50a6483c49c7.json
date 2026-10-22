@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-27fd50a6483c49c7",
+  "title": "9.2.2.3特殊buff效果",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.2传说武器技能效果 / 9.2.2Ⅵ阶传说武器技能 / 9.2.2.3特殊buff效果",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "057e715d442d22aa032a6fd00623347e401d7cc4e9b005ebc540772ead72a1a1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

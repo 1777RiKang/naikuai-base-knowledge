@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-333",
+  "title": "神圣信念长裤",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:333",
+    "source_updated_at": "2026-07-08T01:34:53.098Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "abbffc4e1ca884b208bde824ddcfb0aa7f1b63fc30d53a4ce0d864cafab2efb4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

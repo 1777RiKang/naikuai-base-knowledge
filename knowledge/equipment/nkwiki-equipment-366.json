@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-366",
+  "title": "永恒梦魇面甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:366",
+    "source_updated_at": "2026-08-07T08:05:00.351Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "49c168400a3bb630bb08dbfee3cce724c9d9ef842306485ac603a593218e2789",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

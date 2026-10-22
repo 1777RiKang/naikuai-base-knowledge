@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-838f9f73cdd2affb",
+  "title": "7.3.6.3村庄祭坛升级材料及维护成本",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.6村庄祭坛 / 7.3.6.3村庄祭坛升级材料及维护成本",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ec33a5202ae144fd35be37e02bac9aee1f1dccbb32dd7c8fb089cb537bb6cdca",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

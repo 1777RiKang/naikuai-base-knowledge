@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-490",
+  "title": "2.3.5.2占星师攻击逻辑",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:490",
+    "source_updated_at": "2026-08-06T09:23:14.849Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5ddaaffcd595d9eeebc788c71a88019723bffc5f5f3c1313c41ea139d9bafeb3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

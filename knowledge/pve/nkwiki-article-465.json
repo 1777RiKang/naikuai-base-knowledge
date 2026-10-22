@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-465",
+  "title": "2.2.1.6无尽之海远航岛屿位置",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:465",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3083b4db5d5d1526c866a70f43cbc04adeda714e3a52b6aad4afbfcce4fc592c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-7b60fa49bdca1c63"
+}

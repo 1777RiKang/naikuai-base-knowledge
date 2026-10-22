@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-44",
+  "title": "幻光 · 孔雀石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "孔雀石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:44",
+    "source_updated_at": "2026-10-19T06:57:46.410Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "696dabbc212e3bc71633f9196f295b216d962a7982edeaf8e9f4532bc5852ff6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

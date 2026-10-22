@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-a5743a0b51d59e2a",
+  "title": "7.1.1玩家经验",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.1玩家基础数据（未完成） / 7.1.1玩家经验",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1ee9dc94d9152c0ab8174eef84c932204a151f85c972e5ad52d4c5a3af9efa83",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

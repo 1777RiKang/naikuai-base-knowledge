@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-185",
+  "title": "浴血战刃",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:185",
+    "source_updated_at": "2026-06-30T02:43:30.651Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f20594b4eafa5f38f59533c6198225acee35a5023a11705192f744bc0462f655",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

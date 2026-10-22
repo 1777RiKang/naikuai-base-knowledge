@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-67",
+  "title": "百相",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:67",
+    "source_updated_at": "2026-10-19T07:50:46.253Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a4f93ee07da4b8c49e3509d8f075355d8b793ed83e16c6deb36f89f7c241b082",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

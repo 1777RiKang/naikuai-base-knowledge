@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-d894f82ae352c9ac",
+  "title": "7.3.4.2下矿时间",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务 / 7.3.4.2下矿时间",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f46511bbfdc7817279bb8099d7d887ae9f3fedb2ab51a45ee796e26ba31e2e08",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

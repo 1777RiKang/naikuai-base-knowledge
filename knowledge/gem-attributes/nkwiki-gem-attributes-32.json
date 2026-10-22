@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-32",
+  "title": "铰链",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:32",
+    "source_updated_at": "2026-10-19T07:36:53.836Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b518c4cbd0897615e5b53240ffccba72e7b0929ee30aec82094c6af54bae4259",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

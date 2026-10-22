@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-456",
+  "title": "2.1.1药水：基础效果",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:456",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "97d188010ee803e0e9ed9ba031a7b7c01e1381be63fad40cd36205629004e45a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-24b2ce5836cb51f1"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-237",
+  "title": "甘洛特密室/女仆",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "尼伯龙根"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:237",
+    "source_updated_at": "2026-04-09T10:03:23.825Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f47420b56a7637a0b072354e2e2fe5878cdfc78d6ab0864b332284586adc6bf4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

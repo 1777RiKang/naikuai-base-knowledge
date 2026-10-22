@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fee971fefcf4e641",
+  "title": "4.2.5轮回塔第五层-20240808",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.2轮回塔 / 4.2.5轮回塔第五层-20240808",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "189c009e9f3d88efc15f09d36756d88a08c679edf19a7f3947bb1f3d4f99702d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

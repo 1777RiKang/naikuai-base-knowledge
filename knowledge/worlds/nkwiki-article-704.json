@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-704",
+  "title": "死亡天启/天启四骑士",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "无界之地"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:704",
+    "source_updated_at": "2026-10-14T03:34:51.489Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "35fb4f150caf5859ec032da88ec4edf5d7701aa7bb66e38dc97e6bd0d6574350",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "knowledge.author-summary-78b1d8953a8918f0",
+  "title": "9.5.2传说Ⅳ阶和传说Ⅴ阶神转材料",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.5职业-群星之界 / 9.5.2传说Ⅳ阶和传说Ⅴ阶神转材料",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6f6a4be2e0d1c593ec74a74edd79dd2ee2574b4d366597a19ee8b5993dc1777c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-6fba82ff0554b0c8"
+}

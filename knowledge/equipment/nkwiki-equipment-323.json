@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-323",
+  "title": "黑暗信使法袍",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:323",
+    "source_updated_at": "2026-07-08T01:22:13.166Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9dd99966eb6bece0ab0b6ea0570c57c3e7239fac8ad4a83cb97a0c42ccf259af",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

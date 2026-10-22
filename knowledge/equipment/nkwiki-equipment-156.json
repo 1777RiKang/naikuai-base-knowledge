@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-156",
+  "title": "断浪龙爪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:156",
+    "source_updated_at": "2026-06-29T02:47:20.094Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6e47dd756d86172152f864e46c0400e26978341900c8f447b76ec8ffe2de47b6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

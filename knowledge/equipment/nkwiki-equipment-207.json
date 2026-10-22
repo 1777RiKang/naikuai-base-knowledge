@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-207",
+  "title": "传说之刺 II 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:207",
+    "source_updated_at": "2026-06-30T03:24:24.825Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7f563d4bc838f2cddba8e5fde9c72ba0c035975a5755d1fb412b1dbe9d3d5587",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-73",
+  "title": "传说刺剑 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:73",
+    "source_updated_at": "2026-06-24T09:26:51.187Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ca97f4442ae9b4baf7a5ad39954e89366720433a4194568a750e0f1613c27d37",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

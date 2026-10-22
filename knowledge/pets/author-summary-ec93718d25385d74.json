@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ec93718d25385d74",
+  "title": "5.12.1激活属性",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.12跟宠图鉴 / 5.12.1激活属性",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c2d6924ae80fc3fc72b6e13c434810f22c7a4d6fc81a7e8b1a02a1105cf2b3ef",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

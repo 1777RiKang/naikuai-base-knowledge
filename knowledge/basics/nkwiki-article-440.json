@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-440",
+  "title": "1.8T级表",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:440",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e9586c1294564d7f039d5830879809b1d61f8a12cf6331a7465c8760fc2e1f9c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-9e407e9d1d6192a7"
+}

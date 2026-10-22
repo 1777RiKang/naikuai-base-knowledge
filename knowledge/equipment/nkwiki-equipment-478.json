@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-478",
+  "title": "浴血猎弓",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:478",
+    "source_updated_at": "2026-10-21T05:56:42.272Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2cdef089a260b36c79c913f997ec5819ea7af93367367d8d014025f5114681e7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

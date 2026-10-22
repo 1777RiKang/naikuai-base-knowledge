@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-c8d21bb733ac2f1f",
+  "title": "9.1.6Ⅵ阶（破甲T8，面板T8.5）",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.1传说武器面板 / 9.1.6Ⅵ阶（破甲T8，面板T8.5）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "67fb1704c5f7538e7d109ff27f820c2d20dbe4959bde28053b5ffa53daffd93c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

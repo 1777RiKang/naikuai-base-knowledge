@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f391193a5cab158e",
+  "title": "8.1.1陆地行走",
+  "category": "mounts",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第八章 坐骑"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第八章 坐骑 / 8.1玩家坐骑面板 / 8.1.1陆地行走",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "17caed9956aa73a5c8fdc02d634c51d303b7406788616c1b1e21b442b082b944",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

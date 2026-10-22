@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-535",
+  "title": "9.5.1传说武器的升阶材料",
+  "category": "crafting",
+  "aliases": [],
+  "tags": [
+    "第九章 传说武器-装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:535",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7ef41c8070ee73a43f4ab4354a7803b1985f9d127b1ac9d074bd643104df60d6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

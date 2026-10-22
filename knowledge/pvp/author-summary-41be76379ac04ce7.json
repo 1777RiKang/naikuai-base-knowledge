@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-41be76379ac04ce7",
+  "title": "3.7.3场内不同阶段",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第三章 PVP数据总结 / 3.7埃琉德尼尔 / 3.7.3场内不同阶段",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c01257677b1c917a4db0008fa0a67ef4a54202e43f10587b2e702351395e359a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0a33ef6d6c27ab75",
+  "title": "4.1.6.5灰烬圣殿",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.6无界之地T5-20190920 / 4.1.6.5灰烬圣殿",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ff5c74fd81663eda41ddc4f495a0acf1cfdd9d7879cb74b3e4fd31013fbc5919",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

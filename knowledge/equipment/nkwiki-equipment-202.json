@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-202",
+  "title": "吞噬短匕",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:202",
+    "source_updated_at": "2026-06-30T03:19:18.105Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3458a67f23ee276e93cb5640eecb1b0d79befac0b157b8be6ba9de243357ec43",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

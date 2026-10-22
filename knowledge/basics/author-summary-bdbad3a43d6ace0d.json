@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-bdbad3a43d6ace0d",
+  "title": "1.4.1献祭材料：羽毛",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.4符石属性数据基础 / 1.4.1献祭材料：羽毛",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3a2b30e49071b809cbaec70131e03d6dda1569d1f39fe8d93ff75ea8251f3581",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

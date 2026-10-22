@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-282",
+  "title": "传说烈弓 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:282",
+    "source_updated_at": "2026-10-21T05:33:29.847Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "eacfe7f2c04c54664709625302121e51348ad634807c88c553b679ce70bc3916",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

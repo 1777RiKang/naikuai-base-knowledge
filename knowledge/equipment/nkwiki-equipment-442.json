@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-442",
+  "title": "耀动紫翠玉指环",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "紫翠玉"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:442",
+    "source_updated_at": "2026-10-13T03:54:57.963Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f36b779d22c875792b967964a213acefddcac707f4bc62d586132ea1311d46be",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

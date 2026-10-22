@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-af732aada53fb3ad",
+  "title": "7.3.3.3排名福利",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.3村庄福利 / 7.3.3.3排名福利",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "dd1ad255e7889c0de50d8e410d7b76cd2f15637c56123cc5b31151d67f5925e2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

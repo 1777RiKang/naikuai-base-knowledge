@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-496",
+  "title": "2.6.2.1破甲或冲撞（物理防御-30%）",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:496",
+    "source_updated_at": "2026-08-06T09:23:14.849Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ebbef6f2d536644593837451fb039cd25137ba8c8e991ae92c8ca70e615ee1e8",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

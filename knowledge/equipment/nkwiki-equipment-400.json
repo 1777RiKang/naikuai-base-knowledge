@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-400",
+  "title": "吞噬护胸",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:400",
+    "source_updated_at": "2026-08-07T08:54:51.365Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f54b0290de93f7500d851647ea955ce646b6e78a63e0272efc3444d4fee36646",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

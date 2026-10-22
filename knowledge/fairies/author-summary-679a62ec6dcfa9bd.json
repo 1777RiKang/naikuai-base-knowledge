@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-679a62ec6dcfa9bd",
+  "title": "6.2.11露莎法斯-210625（四星）",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.11露莎法斯-210625（四星）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b506eadeed2d499e61b379c83960bb6b8ca4e605bba06fa80861604b87b74ae5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-a9d5c234344b7f3f",
+  "title": "7.1.5玩家称号及来源（未完成）",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.1玩家基础数据（未完成） / 7.1.5玩家称号及来源（未完成）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "be8a77fd9b851ca52348025da446c76a53a2bc46123ef08869e5f1d2c9d36d6e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

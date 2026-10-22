@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-649",
+  "title": "3.5暮色峡谷（未完成）",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:649",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3e3d9aa44a0da4deb9abfba229377c7d53cb87310db2673c156fec1b29037885",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

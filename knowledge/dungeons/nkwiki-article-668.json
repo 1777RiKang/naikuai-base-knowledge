@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-668",
+  "title": "4.1.0.5敖烈的试炼",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:668",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f6fc8468f350a14868e7cd1f60923e5cfd860646406ff9efd672a87bebe4941e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-98760bed2d540f84"
+}

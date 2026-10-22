@@ -27,4 +27,25 @@ SQLite schema_version 为 2：
 
 接入端下载 glossary-sqlite 产物，验证 manifest 中的 SHA-256 和 schema_version，
 然后原子替换数据库。保留署名、许可链接与来源仓库链接。
-数据许可为 CC BY-NC-SA 4.0，代码为 MIT，两者分别适用。
+术语数据许可为 CC BY-NC-SA 4.0，代码为 MIT；外部资料保留来源权利，不按本仓库许可重新授权。
+
+## 分类知识联合检索
+
+公开知识目录可以和术语库联合检索，返回来源定位；公开包不包含第三方正文：
+
+```bash
+python build/query.py dist/glossary.sqlite "逆流长弓" --knowledge-db dist/knowledge.sqlite
+```
+
+本地完成离线导入和全文构建后，可在维护者调试时显式查看待审内容：
+
+```bash
+python build/query.py dist/glossary.sqlite "黑奶2" --knowledge-db .local/knowledge.sqlite --include-unconfirmed
+```
+
+检索先利用术语的规范名称关联知识目录，精确名称优先，再按标题和正文 token 召回。
+术语结果的 retrieval.attribution 为自选贡献名；知识结果分别是“作者”和“nkwiki”。
+知识返回 excerpt、body_available、来源定位与审核状态，重复目录合并展示。
+已导入资料全部先为 draft，默认查询不会将它们作为确定答案。
+公开资料只有元数据时 body_available=false，AI 不应据此编造正文内容。
+目录记录数、文本块数与已审核知识点数口径不同，导入数量不计入贡献排行榜。

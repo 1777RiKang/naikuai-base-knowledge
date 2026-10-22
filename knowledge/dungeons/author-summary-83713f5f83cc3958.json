@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-83713f5f83cc3958",
+  "title": "4.1.5.1寒冰洞窟",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.5米德加德T5-20190103 / 4.1.5.1寒冰洞窟",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "716027bf6cef46c4c2414ce8d5c8303775a5ca83bcf5a4efee6929acd45c6a73",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

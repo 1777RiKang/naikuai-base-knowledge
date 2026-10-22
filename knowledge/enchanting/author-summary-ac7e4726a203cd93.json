@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ac7e4726a203cd93",
+  "title": "11.1.2.6戒指",
+  "category": "enchanting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十一章 附魔、占卜"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.2装备修理所需经验及修理优先级 / 11.1.2.6戒指",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "48b45b209d2766f61bf85b7b64763cc0da31c2b680ad32db2c6fde56a76ca344",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

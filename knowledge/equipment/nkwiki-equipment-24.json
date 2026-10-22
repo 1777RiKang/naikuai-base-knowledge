@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-24",
+  "title": "亚玟头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:24",
+    "source_updated_at": "2026-06-24T05:35:14.928Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1057ec204bfed926612590a21b0fc503d9804c448c2b8a1bc1d0fce1391cbab6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

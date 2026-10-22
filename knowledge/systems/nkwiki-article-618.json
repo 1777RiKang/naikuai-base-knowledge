@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-618",
+  "title": "7.5.2.2门窗",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:618",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1174533d060583f3ce5cbd84620af4787e454e7eab9b6862f7876ed4214e8171",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-f722a50e1803015a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-94",
+  "title": "传说秘仪·福IV阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:94",
+    "source_updated_at": "2026-06-25T03:26:22.450Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9f272c88c05c19f144a1fe2824e96a0968378458fc3a5ac8494a1b068f46e23c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

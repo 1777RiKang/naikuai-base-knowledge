@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e089818903bfa42c",
+  "title": "2.8.9.3妲己",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.9精灵羁绊故事线 / 2.8.9.3妲己",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "847dc698f72d813a9d3b0220dcf20bc437fb4eec2b897d2625594224469830c4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

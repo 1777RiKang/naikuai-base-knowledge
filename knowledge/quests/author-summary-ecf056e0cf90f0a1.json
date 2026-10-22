@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ecf056e0cf90f0a1",
+  "title": "2.8.7.2群星主线第二章节",
+  "category": "quests",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.7群星主线 / 2.8.7.2群星主线第二章节",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ec483007d0ab36ab3308c87df6280248f6f460ecea775fe923d86337950a2177",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

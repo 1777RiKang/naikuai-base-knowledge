@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-4",
+  "title": "熬烈",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:4",
+    "source_updated_at": "2026-05-08T06:45:33.899Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7215b500f0b5e42a3be91e1474b92e2a8a88a2340da36c5cdde27a4e8ce6f268",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

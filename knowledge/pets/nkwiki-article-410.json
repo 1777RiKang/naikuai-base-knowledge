@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-410",
+  "title": "5.5.2.1跟宠-20240905",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:410",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9b11c23b8c27f070ef58a2f1c47bccfcc769f7c32b756ca78fe65ab46e210b84",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

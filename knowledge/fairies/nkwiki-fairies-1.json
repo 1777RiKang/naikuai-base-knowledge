@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-1",
+  "title": "伊莲娜",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:1",
+    "source_updated_at": "2026-05-08T06:43:50.259Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3f3acbf059e9d0c3a3fda02b67bfde1e758fe5bf98231b96fdcadf0ba0913eb7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

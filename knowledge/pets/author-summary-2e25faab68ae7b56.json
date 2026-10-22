@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-2e25faab68ae7b56",
+  "title": "5.11.3经验书与经验果对比",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.11跟宠经验 / 5.11.3经验书与经验果对比",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ed4e98fdcb4f6fad4f7bf51a01f1d9b99415c4abb9ccaa648e0e80ca34cf064b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

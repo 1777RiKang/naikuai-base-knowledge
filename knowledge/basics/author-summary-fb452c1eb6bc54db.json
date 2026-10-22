@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fb452c1eb6bc54db",
+  "title": "1.0.6加成：灵攻Ⅰ-Ⅹ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.6加成：灵攻Ⅰ-Ⅹ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "795bc3eceff06706202d4144c93723d35d41d9f44cadba2f464dcd54f94bd85a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

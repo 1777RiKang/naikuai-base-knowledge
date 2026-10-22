@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e8cb0ed06e66890c",
+  "title": "7.3.3.1每日福利",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.3村庄福利 / 7.3.3.1每日福利",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "021960bfceb8a95b4266826446e77381bb9c82f97039fb2ae923842f590b7c4f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

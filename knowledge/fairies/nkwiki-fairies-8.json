@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-8",
+  "title": "妲己",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:8",
+    "source_updated_at": "2026-05-08T06:48:35.729Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ee07868d5596ed065c86a19fd21ed55940a3b6a4913f1fe150f17ba0ea821740",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-395",
+  "title": "浴血护腿",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:395",
+    "source_updated_at": "2026-08-07T08:49:44.324Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f1f2a982833b8ee17abf6ef85bea6afcb80b1b3c1be178f8f1c19ada76122118",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

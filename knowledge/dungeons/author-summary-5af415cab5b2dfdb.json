@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-5af415cab5b2dfdb",
+  "title": "4.1.2.2狮身人面像",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.2炽热大陆T3-20170100 / 4.1.2.2狮身人面像",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "61ed820bee2a56d54199f44ddc972a15875e60f4e8a8cf47127cb01fc7d02f33",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

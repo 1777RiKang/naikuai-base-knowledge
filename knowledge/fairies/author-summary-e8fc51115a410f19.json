@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e8fc51115a410f19",
+  "title": "6.1.3精灵装备套装属性",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.1精灵装备 / 6.1.3精灵装备套装属性",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4838e12a05d5f6c123f2d939c5033cc4c5b51804ca53937fff4faf585cc77284",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

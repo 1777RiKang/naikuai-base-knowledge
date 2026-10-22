@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-600",
+  "title": "7.3.4.2下矿时间",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:600",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7b7ab3e6fe5a5fa7293c218ba7d76a4113039949a5ae7685e594fc2fe029c139",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-d894f82ae352c9ac"
+}

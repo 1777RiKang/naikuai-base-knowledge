@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-cf8082c5e8ed0b36",
+  "title": "7.3.4.5渔乐时光",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务 / 7.3.4.5渔乐时光",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f304ecc2a87f269f6c494432d7e58965a06e0ed6acb4ca3560f39cfb8f004002",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

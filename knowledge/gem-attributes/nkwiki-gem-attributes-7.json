@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-7",
+  "title": "淬毒",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:7",
+    "source_updated_at": "2026-10-19T07:24:13.212Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2d13eee73459bf2900930bf0541cd55e4cd81694c62325ba5a1a8182a3e9ea83",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-36",
+  "title": "复仇头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:36",
+    "source_updated_at": "2026-06-24T06:48:51.212Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4496b9a5f659eb5445012287b4946cc6a0ba25e3a52cd12dbeec5b639cebceeb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f4e4b48d50eb5143",
+  "title": "1.5.2属性：时运Ⅰ-Ⅲ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.5工具属性数据基础 / 1.5.2属性：时运Ⅰ-Ⅲ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f12bb6fb49c8e2fe48a4865c350a981eaf291d66b92fa874acda9f1247cf5b3b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

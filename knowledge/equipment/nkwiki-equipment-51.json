@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-51",
+  "title": "浴血战靴",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:51",
+    "source_updated_at": "2026-06-24T07:36:37.207Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d6dd68f31df3b908aac08afdd77abfd4d0fc5cbdbca648aeeabd328e4fde8202",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-58",
+  "title": "溯时 · 孔雀石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "孔雀石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:58",
+    "source_updated_at": "2026-10-19T07:06:30.314Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c52c496682bb16a4e57e6d8dcc0b7ebff02921938045878860154cf830532d22",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

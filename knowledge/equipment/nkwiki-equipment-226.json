@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-226",
+  "title": "亚玟壁垒",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:226",
+    "source_updated_at": "2026-06-30T06:09:34.095Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f51782090aa1dcbcf02bf85d65a56cc100bd5937b6e50660bb18de97f3782f30",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

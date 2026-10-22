@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-465",
+  "title": "传说魔典 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:465",
+    "source_updated_at": "2026-10-14T13:07:26.722Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c8bfc7a892b21a3efffe713eed0e439475bbfbc83b3ec23d574ef362b24f71da",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

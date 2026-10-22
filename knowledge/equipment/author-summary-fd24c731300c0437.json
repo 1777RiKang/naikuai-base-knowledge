@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fd24c731300c0437",
+  "title": "9.4.1.1Ⅰ阶升Ⅱ阶的升阶任务",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.4职业-尼伯龙根 / 9.4.1传说武器的升阶任务 / 9.4.1.1Ⅰ阶升Ⅱ阶的升阶任务",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e83d8e3b02d4832a6c4b44b0545c0d534b251cd4613c17579fbd91a3a14b5da2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-c8a82c051be01faf",
+  "title": "4.2.4轮回塔第四层-20220121",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.2轮回塔 / 4.2.4轮回塔第四层-20220121",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e5ddcab03f157962f6ce206f89857f9c439ef6c3adf0a131812e7aecc90f20f6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

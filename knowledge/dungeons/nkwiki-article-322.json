@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-322",
+  "title": "4.1.0.1调皮的大粥",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:322",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9e28b27435d59778cac26ed71405b518d4bf3abbdb506faff5112863abb29207",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-ddabfc624a6764c1"
+}

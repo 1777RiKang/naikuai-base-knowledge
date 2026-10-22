@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-45",
+  "title": "幻光 · 海青石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "海青石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:45",
+    "source_updated_at": "2026-10-19T07:00:46.997Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8cad7d56e554d297d298e4b4364ba081a6d61629e6a254fd3b045b8c5943c73d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

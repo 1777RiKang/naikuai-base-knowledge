@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-1e4a6771af3cd803",
+  "title": "2.2.1.7无尽之海远航岛屿关系记录",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.1异世界基础信息 / 2.2.1.7无尽之海远航岛屿关系记录",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b013a73275fd6a343e39e0e731f48ec0d9c517ad9ca5eaf8ba9155cbc9f8707b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

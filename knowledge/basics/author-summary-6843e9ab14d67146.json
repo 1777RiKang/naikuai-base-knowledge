@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-6843e9ab14d67146",
+  "title": "1.1.1属性：灵防Ⅰ-Ⅴ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.1属性：灵防Ⅰ-Ⅴ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7dc8d5f215dd10be36e4587b32a0073ac12769634d073f7d75b5e4f34cc2b5eb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

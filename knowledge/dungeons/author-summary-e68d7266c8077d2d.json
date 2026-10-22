@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e68d7266c8077d2d",
+  "title": "4.1.3.3精英寒冰宫殿",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.3极寒之境T3-20170100 / 4.1.3.3精英寒冰宫殿",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "608be8e48464fe38b2635b8f415fb54dd77092f1cfbe5d91fb469bd5d75fec7e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

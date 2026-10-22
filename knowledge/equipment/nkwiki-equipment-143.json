@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-143",
+  "title": "传说提灯 III 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:143",
+    "source_updated_at": "2026-06-25T08:16:13.321Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "edf9c803e5fa1098161de762df8132a22576f17a86a032e3f4ec0e41d540fcf1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

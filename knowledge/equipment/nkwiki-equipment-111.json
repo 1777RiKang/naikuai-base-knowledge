@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-111",
+  "title": "堕落天使镰刀",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:111",
+    "source_updated_at": "2026-06-25T06:55:12.289Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a8e87c6eeea26a4802c9000914f76c23191f0643df0943a14096b248ecf13355",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

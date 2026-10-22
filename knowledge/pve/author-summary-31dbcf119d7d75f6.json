@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-31dbcf119d7d75f6",
+  "title": "2.4琳的庇护（仅对海拉五人本提供对应等级效果）",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.4琳的庇护（仅对海拉五人本提供对应等级效果）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ae211ca302cd909b2d159c5ae33da42bf438d69af5c440f820d67d621744c5e0",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-6e568d8a4cab4173",
+  "title": "7.3.4.6荣耀与伤痕",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务 / 7.3.4.6荣耀与伤痕",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e86fa22d392b0bfd923489e6c3bc1a0d39ac733e66c6d8553303abaf50f71e7f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

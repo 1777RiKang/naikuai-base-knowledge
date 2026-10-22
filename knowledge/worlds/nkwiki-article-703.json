@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-703",
+  "title": "饥荒天启/天启四骑士",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "无界之地"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:703",
+    "source_updated_at": "2026-10-14T03:32:14.361Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c28a0b198bd2b21c31e67c458a48682d9d70705af02693524ec1c74d301b74f6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

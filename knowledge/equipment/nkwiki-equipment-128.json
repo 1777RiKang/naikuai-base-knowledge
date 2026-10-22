@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-128",
+  "title": "传说圣镰 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:128",
+    "source_updated_at": "2026-06-25T08:00:26.590Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "11b22b1b38f5b5e82a9d740ed938bfa4824d2817df1e008f829f2d7c1c8f1d31",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

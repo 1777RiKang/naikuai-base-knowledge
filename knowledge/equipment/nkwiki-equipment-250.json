@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-250",
+  "title": "浴血长剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:250",
+    "source_updated_at": "2026-07-01T02:41:40.020Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4a04808b8875fc83885a08dd7e30175baae68ccedb97a979e0caeb63c795c1d2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

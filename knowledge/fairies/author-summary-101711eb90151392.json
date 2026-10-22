@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-101711eb90151392",
+  "title": "6.3.6.1骑士物防精灵-希尔芙",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.3其他记录 / 6.3.6精灵显性面板 / 6.3.6.1骑士物防精灵-希尔芙",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "aa2f964e40de8521bac7628feaab98f102eb51ccac725361f6598046fcb9367f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

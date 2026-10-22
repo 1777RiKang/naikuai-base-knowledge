@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-42",
+  "title": "蓝龙晶",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "蓝龙晶"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:42",
+    "source_updated_at": "2026-10-19T06:56:39.470Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "604661fc1ee2ae0465ec2c0e83ebe7e5e83686a991eab20ae93ebfa966d2c0e5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

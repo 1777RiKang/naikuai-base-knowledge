@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-5553ca9260f04a07",
+  "title": "6.2.19莫德琳-260101（四星）",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.19莫德琳-260101（四星）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4f77dbf0baa7b3eed6b48cc44b61c904c1dab1a30c061d289ee19424b36066e6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

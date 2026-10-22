@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-589",
+  "title": "7.1.3.2伴侣纪念礼物",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:589",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7b22da1a99c1050772dad56faa3d8fd1ca357cb19ff91c98d5d05972787a6bf0",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

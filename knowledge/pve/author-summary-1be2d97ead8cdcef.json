@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-1be2d97ead8cdcef",
+  "title": "2.3.4.3占星师",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.4魔导师/召唤师/占星师数据 / 2.3.4.3占星师",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a6968a3c534dbf66470e0e694c1f5e319344556d06bb6bd189522be58a7e75e2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

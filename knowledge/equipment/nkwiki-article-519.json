@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-519",
+  "title": "9.1.5Ⅴ阶（破甲T8，面板T8）",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "第九章 传说武器-装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:519",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1eeb64d35deaf8156583d4f7e63f669ac3524e26d2cd67810393d55b6c48e2db",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

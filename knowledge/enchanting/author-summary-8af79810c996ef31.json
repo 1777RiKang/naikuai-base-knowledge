@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-8af79810c996ef31",
+  "title": "11.1.2.5T7防具/武器",
+  "category": "enchanting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十一章 附魔、占卜"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.2装备修理所需经验及修理优先级 / 11.1.2.5T7防具/武器",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "290eab379b4200c4d7166a4fc22781eebe2b9ba4e781535fa6d5618209f27a12",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

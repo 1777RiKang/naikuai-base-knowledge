@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-34",
+  "title": "断浪腿甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:34",
+    "source_updated_at": "2026-06-24T06:09:04.753Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ba558ff85374588f4dc04921f2da894f773927808632d8d21dba0db04cbb7fd5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

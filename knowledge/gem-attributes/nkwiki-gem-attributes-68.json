@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-68",
+  "title": "升腾",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:68",
+    "source_updated_at": "2026-10-19T07:51:13.240Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ac875756b98d3e6898f9e4b17a658bfa4b707d04403d3a5a49250e3a54323c4a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

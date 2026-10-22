@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-247",
+  "title": "无畏勇气长剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:247",
+    "source_updated_at": "2026-07-01T02:38:13.939Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2762d140a3e37a60aebdeda64e8eee571a45012e585c63a17283552b18a627b2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

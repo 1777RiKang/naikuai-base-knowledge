@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ca8fa8ea2a9ef735",
+  "title": "1.1.4属性：耐久/坚固Ⅰ-Ⅲ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.4属性：耐久/坚固Ⅰ-Ⅲ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "94d187b2dc11dee0112a47646b3464863af43efac75a0175c9e46e5246e76459",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

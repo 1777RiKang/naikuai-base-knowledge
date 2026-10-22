@@ -1,0 +1,31 @@
+{
+  "id": "knowledge.author-summary-153d10682d64a2bc",
+  "title": "9.4.1.3传说武器升阶的每日兑换",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.4职业-尼伯龙根 / 9.4.1传说武器的升阶任务 / 9.4.1.3传说武器升阶的每日兑换",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bb175b3a259874560319a05ba63d5b3c2e660135d79985981bff841b82f418c3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-8a7b8286c1e655a9"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-401",
+  "title": "征服护胸",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:401",
+    "source_updated_at": "2026-08-07T08:55:11.146Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f99213841a64ba215bc4938ef4b15ce64104ff4fedff505614fee05f2159282d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

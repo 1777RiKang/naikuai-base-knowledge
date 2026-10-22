@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f5efd6e93ac0e760",
+  "title": "6.2.16伊登-250108（五星）",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.16伊登-250108（五星）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f7bdf3c6f209bae4e55a83cbdb2b26cc2448f4eb25c10463646821196c511c9c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-55",
+  "title": "征服战靴",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:55",
+    "source_updated_at": "2026-06-24T07:43:11.908Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8c41ff269d4e70ff6a8a511c82f990b38b51647cf812ace6050a8fee0675a298",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-421",
+  "title": "1.0.1加成：锋利Ⅰ-Ⅹ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:421",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5455cf4a8312bc5a262ef4ffb4df0bf5688ef6836b79135d9d1376d11f3cb88e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-58",
+  "title": "羽落星辰刺剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:58",
+    "source_updated_at": "2026-06-24T08:50:25.184Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8575bb7c1c40d073ac3af120b603aa537f04e7bb20a0f7d80f13ff9932913a2d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

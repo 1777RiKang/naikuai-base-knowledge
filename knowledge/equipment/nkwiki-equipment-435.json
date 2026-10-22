@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-435",
+  "title": "传说法杖 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:435",
+    "source_updated_at": "2026-09-02T09:52:27.277Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d5bfa93bd0ca0bd4ef956bdfdba1d48b70c220cf1d1379e78a37d52c01a487aa",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

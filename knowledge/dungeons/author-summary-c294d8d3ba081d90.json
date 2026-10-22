@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-c294d8d3ba081d90",
+  "title": "4.1.10.4尼奥尔德神殿",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.10无尽之海T8-20240710 / 4.1.10.4尼奥尔德神殿",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "75bc2d39395956df962a8985051b9b6f074b3d508ce8c461bb78a3c2b9bf021a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

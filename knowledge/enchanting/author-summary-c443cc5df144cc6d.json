@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-c443cc5df144cc6d",
+  "title": "11.2占卜",
+  "category": "enchanting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十一章 附魔、占卜"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十一章 附魔、占卜 / 11.2占卜",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1cdb17e5387eea0cf06348750fb4abf7b8f6f497e5d330ddc0d5a9603d3606b0",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

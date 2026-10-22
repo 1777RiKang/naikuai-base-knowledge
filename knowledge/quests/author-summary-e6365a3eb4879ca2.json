@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e6365a3eb4879ca2",
+  "title": "2.8.6哈佛古法支线",
+  "category": "quests",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.6哈佛古法支线",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "746907010cc5b8e7a99c6a970ef22d11e75eeb9b0ab354c42439164a0026add3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

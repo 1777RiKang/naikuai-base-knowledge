@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-327",
+  "title": "4.1.0.6蜃",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:327",
+    "source_updated_at": "2026-08-06T09:23:14.849Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a899585ff2a10701d169670b3725442cda3961cb9840cf9bb6005e5d3478e913",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

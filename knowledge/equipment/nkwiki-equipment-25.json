@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-25",
+  "title": "亚玟胸甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:25",
+    "source_updated_at": "2026-06-24T05:38:54.438Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "eb0581f4f3796d8e3a6b08417045dfe4edf533d8544fd65d26cbb757a124a5b6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

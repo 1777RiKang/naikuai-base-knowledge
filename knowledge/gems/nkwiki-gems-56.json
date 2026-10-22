@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-56",
+  "title": "命运 · 蓝龙晶",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "蓝龙晶"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:56",
+    "source_updated_at": "2026-10-19T07:05:40.983Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "300e22fff995b14477d3daaf1a16014d295e006e54b8414d2234faaef564c733",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

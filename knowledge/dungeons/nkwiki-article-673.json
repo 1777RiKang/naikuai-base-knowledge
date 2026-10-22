@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-673",
+  "title": "4.1.10.3养鸦人",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:673",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c7481658a5fc105c15308f5666d2539a7db41bcf8e123656a3288c92de990ddc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-e5c2e3688b72e95f"
+}

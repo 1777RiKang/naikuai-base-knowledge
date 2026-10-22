@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-603",
+  "title": "7.3.4.5渔乐时光",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:603",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "118bc2acda72cc6854e8b1266a92a54b7bc2721a4f644a0a1aca9df84518c7dc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-cf8082c5e8ed0b36"
+}

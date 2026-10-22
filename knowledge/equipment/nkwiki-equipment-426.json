@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-426",
+  "title": "轮回法杖",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:426",
+    "source_updated_at": "2026-09-02T09:36:21.495Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1e23176af86674714b86e63a0cf3c3e6d81a0e25d4725c5a507503b3ad86ad22",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

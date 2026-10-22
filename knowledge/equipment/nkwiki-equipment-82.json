@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-82",
+  "title": "浴血命盘",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:82",
+    "source_updated_at": "2026-06-25T02:35:04.619Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "00b8093ffd72ef7c0505d9d4fd0637a12866fa46c6971de786582d5276b288bf",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

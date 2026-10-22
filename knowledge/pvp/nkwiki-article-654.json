@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-654",
+  "title": "3.6.3道具刷新数据",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:654",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b6de45ebb45de3c5c00169f2041e322e27f5af20f045324a4ecd3e5c5232f81a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-e13af4ba3dca07af"
+}

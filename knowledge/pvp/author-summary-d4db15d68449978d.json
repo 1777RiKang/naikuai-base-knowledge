@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-d4db15d68449978d",
+  "title": "3.7.2场内NPC基础信息",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第三章 PVP数据总结 / 3.7埃琉德尼尔 / 3.7.2场内NPC基础信息",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b82538f86d9b101e2d25487e230611944ee97b272e96e71f45231f828f3588ed",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

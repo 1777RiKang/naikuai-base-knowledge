@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-251",
+  "title": "熔岩树/火焰领主",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "遗忘之境"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:251",
+    "source_updated_at": "2026-05-25T07:18:20.752Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2fa98664720593631b233d3aa9ce3e22ece2b7c201c230b96d853ca57903e3ee",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

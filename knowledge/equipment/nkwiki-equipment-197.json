@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-197",
+  "title": "深渊行者短匕",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:197",
+    "source_updated_at": "2026-06-30T03:14:22.807Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a096e633f9f172e7b6e0a5f9a1913b8377260a22af44ff1836fa3abd4bf9be61",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

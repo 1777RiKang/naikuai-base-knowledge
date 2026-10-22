@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-6417195d842e49f1",
+  "title": "3.6.6竞技段位与排名奖励",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.6竞技段位与排名奖励",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f471c398bd4938ef37f8ea629edf829a401d4a291ccf962c44a454b6bc1c7aa1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

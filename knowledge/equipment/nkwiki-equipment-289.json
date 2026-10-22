@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-289",
+  "title": "狂怒箭袋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:289",
+    "source_updated_at": "2026-07-03T17:46:04.342Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c6dfc19bafbc5cd177458a58de415068506ce93acaf0173e07934a8e8695e335",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

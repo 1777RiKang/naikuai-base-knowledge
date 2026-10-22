@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-324",
+  "title": "狂怒法袍",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:324",
+    "source_updated_at": "2026-07-08T01:23:03.255Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e187c7265854eaf7ee37f47bd76cf740165de1721fbb0bef0df2a1dac70eae13",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

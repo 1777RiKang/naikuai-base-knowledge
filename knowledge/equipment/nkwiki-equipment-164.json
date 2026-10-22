@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-164",
+  "title": "魂铸意志龙枪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:164",
+    "source_updated_at": "2026-06-29T02:58:58.179Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7ae97485b184e33b685908dce4486487d9770494257b570d212ad5b22ef1e425",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-124",
+  "title": "传说镰刀 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:124",
+    "source_updated_at": "2026-06-25T07:58:27.817Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2bf73d641b89756407b27191a20321c1210a9ed48ba3b6ef20809a6c5e281748",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

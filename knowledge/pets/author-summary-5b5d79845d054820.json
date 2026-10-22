@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-5b5d79845d054820",
+  "title": "5.3.2.1关卡通关奖励",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.3破晓之路PVE / 5.3.2奖励记录 / 5.3.2.1关卡通关奖励",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d46160a999e6562eae6ed98a96612ea2ff280a3d975be4bb7f137aaab52129d3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

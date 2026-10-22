@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-12",
+  "title": "露莎法斯",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:12",
+    "source_updated_at": "2026-05-08T08:47:23.528Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b1f9581a99074fb8dd7425b3917ce302cc04500108e2432c9184491949858363",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

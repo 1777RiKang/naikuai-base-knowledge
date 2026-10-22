@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0255f17bb8087a07",
+  "title": "2.2.2.2尼伯龙根卡戎商人坐标",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.2异世界商人 / 2.2.2.2尼伯龙根卡戎商人坐标",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "75101de350c7ea894a046ea0bb5aa32cd4b021df5063a71715bc4aba9cc758d0",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

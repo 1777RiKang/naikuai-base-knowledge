@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-248",
+  "title": "英勇长剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:248",
+    "source_updated_at": "2026-07-01T02:39:10.357Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "09f2fdba92e0d132663eff73ee3e0ef2bc9c0725603b3e50110f2c3bde563f3f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

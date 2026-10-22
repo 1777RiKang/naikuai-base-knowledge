@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-215",
+  "title": "骑士壁垒",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:215",
+    "source_updated_at": "2026-06-30T05:55:05.085Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1197f41bd237e0c3883d56569081b41d2a6a7139dc1449c860c5c0122f3566da",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

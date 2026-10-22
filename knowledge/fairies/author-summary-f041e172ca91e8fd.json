@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f041e172ca91e8fd",
+  "title": "6.3.6.6氪金精灵Ⅰ",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.3其他记录 / 6.3.6精灵显性面板 / 6.3.6.6氪金精灵Ⅰ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "95b10b15d0ce6f10b3a8b21593e037a24f142858d23b155337b842462583d15e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

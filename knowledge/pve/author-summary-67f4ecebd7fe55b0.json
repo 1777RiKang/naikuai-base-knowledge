@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-67f4ecebd7fe55b0",
+  "title": "2.8.9.2伊登",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.9精灵羁绊故事线 / 2.8.9.2伊登",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "21ee4205b2bc2f6c8a230e18e5520e4f69c227ffa1ec0f4654528bdd66e62377",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

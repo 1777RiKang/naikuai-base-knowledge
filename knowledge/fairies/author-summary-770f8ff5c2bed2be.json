@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-770f8ff5c2bed2be",
+  "title": "6.2.2凯兰崔尔-200817（三星）",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.2凯兰崔尔-200817（三星）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5264f330216fbdc466cbc2aa8b13e62fea8b014633883581c77d5505b36e6118",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

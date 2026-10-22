@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-19",
+  "title": "契约",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:19",
+    "source_updated_at": "2026-10-19T07:29:58.336Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "af29c74ae1ab048cf0bc62878aea565002e8af8a10841bcb2cc2567131bc8698",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

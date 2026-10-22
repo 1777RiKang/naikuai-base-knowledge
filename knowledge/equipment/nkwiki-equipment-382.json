@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-382",
+  "title": "羽落星辰面甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:382",
+    "source_updated_at": "2026-08-07T08:44:17.115Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "facf231bb6e065b2a8001460e6dbe485d6d84fec014075ab0c82f0f9782b1e8c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

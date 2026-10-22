@@ -7,7 +7,7 @@ from pathlib import Path
 from common import norm, tokenize
 
 
-def search(db_path, text, limit=5, include_unconfirmed=False):
+def search(db_path, text, limit=5, include_unconfirmed=False, knowledge_db=None):
     if not text.strip() or limit < 1:
         return []
     uri = Path(db_path).resolve().as_uri() + "?mode=ro"
@@ -33,8 +33,15 @@ def search(db_path, text, limit=5, include_unconfirmed=False):
             row = conn.execute("SELECT document_json, source_path FROM entry_metadata WHERE entry_id=?",
                                (entry_id,)).fetchone()
             document = json.loads(row["document_json"])
-            document["retrieval"] = {"score": score, "source_path": row["source_path"]}
+            document["retrieval"] = {"score": score, "source_path": row["source_path"],
+                                     "kind": "term", "body_available": True,
+                                     "attribution": document['contributors'][0]['name']}
             results.append(document)
+        if knowledge_db is not None:
+            from build_knowledge import search as search_knowledge
+            expanded = [d['canonical'] for d in results[:3]]
+            related = search_knowledge(knowledge_db, text, expanded, limit, include_unconfirmed)
+            results = sorted(results + related, key=lambda d: (-d['retrieval']['score'], d['id']))[:limit]
         return results
     finally:
         conn.close()
@@ -46,6 +53,7 @@ if __name__ == "__main__":
     parser.add_argument("text")
     parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--include-unconfirmed", action="store_true")
+    parser.add_argument("--knowledge-db", type=Path, help="联合检索公开目录或 .local/ 全文库")
     args = parser.parse_args()
-    print(json.dumps(search(args.database, args.text, args.limit, args.include_unconfirmed),
+    print(json.dumps(search(args.database, args.text, args.limit, args.include_unconfirmed, args.knowledge_db),
                      ensure_ascii=False, indent=2))

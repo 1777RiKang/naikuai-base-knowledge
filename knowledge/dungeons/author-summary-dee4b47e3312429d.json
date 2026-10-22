@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-dee4b47e3312429d",
+  "title": "4.1.9.5甘洛特秘室",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.9尼伯龙根T7-20220106 / 4.1.9.5甘洛特秘室",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8f27cd25f17bf5779a36cb6b7852fe7810aff5dfa2d718ed355565d23321479e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-136",
+  "title": "艾达提灯",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:136",
+    "source_updated_at": "2026-06-25T08:10:21.726Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6c4c66029db4124840e77664b7276d0378a51c49abfe6afcaa8e9340d95f4b1a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

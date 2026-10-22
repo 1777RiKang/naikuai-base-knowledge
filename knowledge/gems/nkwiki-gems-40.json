@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-40",
+  "title": "海靛石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "海靛石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:40",
+    "source_updated_at": "2026-10-19T06:55:23.015Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2a0661681ce2e8294ceee0c707d285532b0a98b77dab1e58189e87fe480c40bc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

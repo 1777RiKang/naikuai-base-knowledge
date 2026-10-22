@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-726e22013f593613",
+  "title": "2.8.8.2十周年第二章节",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.8十周年主线 / 2.8.8.2十周年第二章节",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "882545b05c8519d6f1383e70862c19738a08394af9fce67e88078c9b57749ac9",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

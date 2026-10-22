@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-6a6a990b80846df0",
+  "title": "2.6.2.2破甲和冲撞（未完成）",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.6宝石 / 2.6.2破甲和冲撞宝石解释 / 2.6.2.2破甲和冲撞（未完成）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f1fe97fbd749a44dab73441155cbdceee3fc879b58fab46cb12fde1374b0c5d5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-432",
+  "title": "1.2.1属性：生命Ⅰ-Ⅴ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:432",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2f9c39db7be36af511ef914aa53cb80f0a4a47315e9652d8dd0bafb1192d19bf",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-f69476f292194a84"
+}

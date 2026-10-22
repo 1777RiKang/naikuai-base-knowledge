@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-309",
+  "title": "能量兜帽",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:309",
+    "source_updated_at": "2026-07-03T20:29:28.595Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9bddc45312e699333dda35163f802e2224dde6dfddf01bedf7548c8df73bb324",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

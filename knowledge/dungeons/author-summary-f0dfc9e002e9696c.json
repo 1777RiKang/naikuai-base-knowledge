@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f0dfc9e002e9696c",
+  "title": "4.2.1轮回塔第一层-20220106",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.2轮回塔 / 4.2.1轮回塔第一层-20220106",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3f8cbbd5a9fa459f25de6afb038c83a4ced261f729a25d5aed7bc8554e710c10",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

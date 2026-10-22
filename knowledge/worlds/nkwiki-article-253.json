@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-253",
+  "title": "火山/黑曜石守卫",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "极寒之境"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:253",
+    "source_updated_at": "2026-05-25T07:35:06.358Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d01720e1b31b56c34023582587995add4dcd0e908583740336398ff627ca9140",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

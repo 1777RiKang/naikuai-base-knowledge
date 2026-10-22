@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-213",
+  "title": "传说匕首 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:213",
+    "source_updated_at": "2026-06-30T05:45:25.031Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b20fce99ff8b4030960da21407d6e84c88f7a2a1ba22692c6b8d6ac6d04bce1f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

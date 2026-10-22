@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-28",
+  "title": "嗜血",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:28",
+    "source_updated_at": "2026-10-19T07:35:17.353Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "69913edd1a51193111eeeeca40a80d45c689ab095d805a82d0a25391e83223c7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

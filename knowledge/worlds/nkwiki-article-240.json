@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-240",
+  "title": "钢铁森林",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "尼伯龙根"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:240",
+    "source_updated_at": "2026-04-11T06:46:28.351Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a66f56972da39ad6b055212e28ee728cdb4fed8c9a7bc775f4474241b6bf0cd6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

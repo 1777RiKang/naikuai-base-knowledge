@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-144",
+  "title": "传说提灯 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:144",
+    "source_updated_at": "2026-06-25T08:22:22.730Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1ec1bdc231539ba42ae9b83a55d2963c5f5b55b459b4b1bfcac69b8ae7e02b3a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

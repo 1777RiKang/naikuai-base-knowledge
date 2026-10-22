@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-560a8d70c8cc33f0",
+  "title": "10.7年份：2023",
+  "category": "events",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十章 奶块活动记录"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十章 奶块活动记录 / 10.7年份：2023",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bbfbdebd89bedfd72b85aa6bcdae84838aa259654b0354dc9fc744b9b6df7353",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

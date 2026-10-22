@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-84",
+  "title": "英勇星仪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:84",
+    "source_updated_at": "2026-06-25T03:07:54.932Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "13890493772c34501974a88de59e4ad9840e1094c3f7ecee64cdb38979d575ff",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}
