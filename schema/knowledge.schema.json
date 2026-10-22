@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "外部知识目录（仅元数据）",
+  "title": "已授权数据摘要知识正文",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -12,7 +12,8 @@
     "provenance",
     "review",
     "imported",
-    "credit_eligible"
+    "credit_eligible",
+    "content"
   ],
   "properties": {
     "id": {
@@ -82,22 +83,13 @@
       ],
       "properties": {
         "source": {
-          "enum": [
-            "author",
-            "nkwiki"
-          ]
+          "const": "author"
         },
         "attribution": {
-          "enum": [
-            "乱走丶沙城",
-            "nkwiki"
-          ]
+          "const": "乱走丶沙城"
         },
         "acquired_via": {
-          "enum": [
-            "local-file",
-            "nkwiki"
-          ]
+          "const": "local-file"
         },
         "url": {
           "type": "string",
@@ -125,18 +117,10 @@
           "const": "LicenseRef-Original-Source"
         },
         "publication": {
-          "const": "metadata-only"
+          "const": "fulltext"
         },
         "origin_rule": {
-          "type": "string",
-          "enum": [
-            "direct-source",
-            "direct-summary",
-            "summary-chapter",
-            "summary-heading",
-            "summary-text-match",
-            "site-record"
-          ]
+          "const": "direct-summary"
         }
       }
     },
@@ -181,6 +165,10 @@
     "duplicate_of": {
       "type": "string",
       "pattern": "^knowledge\\.[a-z0-9-]+$"
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1
     }
   }
 }

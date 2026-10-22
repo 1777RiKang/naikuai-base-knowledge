@@ -7,17 +7,18 @@
     "数据摘要",
     "第十章 奶块活动记录"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 新春活动 | 2025/01/08-2025/02/19 |\n| 花朝节 | 2025/02/28-2025/03/16 |\n| 九周年周年庆 | 2025/03/27-2025/04/13 |\n| 五一 | 2025/04/24-2025/05/14 |\n| 端午（地图常驻） | 2025/05/22-2025/06/11 |\n| 夏日季 | 2025/06/20-2025/09/03 |\n| 新世界-群星之界 | 2025/08/18 |\n| 双节活动（中秋+国庆）（群星之界三人本） | 2025/09/18-2025/10/08 |\n| 万圣节 | 2025/10/23-2025/11/05 |\n| 大粥生日季 | 2025/11/20-2025/12/03 |\n| 圣诞节 | 2025/12/18-2026/01/03 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十章 奶块活动记录 / 10.9年份：2025",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5dea036be3a6e7f636d5734dd59355ae112f14ccab90ffc9ed00f94a167463c6",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "灵咒，增加玩家魔灵攻击数值，对召唤师、触须宝石有加伤效果\n\n|  |  |\n| --- | --- |\n| 灵咒Ⅰ | +3魔灵攻击 |\n| 灵咒Ⅱ | +4魔灵攻击 |\n| 灵咒Ⅲ | +5魔灵攻击 |\n| 灵咒Ⅳ | +11魔灵攻击 |\n| 灵咒Ⅴ | +18魔灵攻击 |\n| 灵咒Ⅵ | +25魔灵攻击 |\n| 灵咒Ⅶ | +42魔灵攻击 |\n| 灵咒Ⅷ | +55魔灵攻击 |\n| 灵咒Ⅸ | +70魔灵攻击 |\n| 灵咒Ⅹ | +90魔灵攻击 |\n\n灵咒采用映射附魔制度，对T3及以上装备（防具和武器），分为装备T级与灵咒属性等级，映射灵咒等级计算规则为：映射灵咒等级=装备T级+灵咒属性等级-3\n\n如唤潮灵咒Ⅳ，映射值为8+4-3=9，即映射灵咒等级对应灵咒Ⅸ",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.2属性：灵咒Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "937d743f1d743608d7b745b09e6900c2419199b31f582e88eda45883833c9b95",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "灵防即魔灵防御，增加魔灵自身的防御力\n\n|  |  |\n| --- | --- |\n| 灵防Ⅰ | +3魔灵自身防御 |\n| 灵防Ⅱ | +5魔灵自身防御 |\n| 灵防Ⅲ | +8魔灵自身防御 |\n| 灵防Ⅳ | +12魔灵自身防御 |\n| 灵防Ⅴ | +16魔灵自身防御 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.1属性：灵防Ⅰ-Ⅴ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "7dc8d5f215dd10be36e4587b32a0073ac12769634d073f7d75b5e4f34cc2b5eb",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 异世界名称 | 更新时间 | 更新内容 |\n| 暮色森林 | 2016-09-26 | 开放T2 |\n| 炽热大陆、极寒之境 | 2017-01-00 | 开放T3 |\n| 遗忘之境 | 2017-11-27 | 开放T4/传说Ⅲ阶，新职业-召唤师 |\n| 米德加德 | 2019-01-03 | 开放T5，宝石系统 |\n| 无界之地 | 2019-09-20 | 开放传说Ⅳ阶 |\n| 艾芙海姆 | 2020-08-17 | 开放T6，幻光宝石，精灵系统 |\n| 尼伯龙根 | 2022-01-06 | 开放T7，命运宝石，精灵转生，新职业-龙骑影刃 |\n| 无尽之海 | 2024-07-10 | 开放T8/传说Ⅴ阶，溯时宝石，跟宠系统 |\n| 群星之界 | 2025-08-18 | 新职业-猎魔人占星师 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.1异世界基础信息 / 2.2.1.1更新时间及内容",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d07a047e4353a3a1332aaa8d18ffbfde9e30c54f72fefb6f56ba8fa1d86e60c3",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 音乐名称 | 消耗道具 |\n| 夏日风情 | 蓝钻结晶\\*2 |\n| 仲秋赏月 | 蓝钻结晶\\*2 |\n| 深海奇遇 | 蓝钻结晶\\*2 |\n| 龙飞凤舞 | 蓝钻结晶\\*2 |\n| 沙漠之舟 | 蓝钻结晶\\*2 |\n| 中世纪往日 | 蓝钻结晶\\*2 |\n| 西班牙风情 | 蓝钻结晶\\*2 |\n| 漫步法兰西 | 蓝钻结晶\\*2 |\n| 和风三味线 | 蓝钻结晶\\*2 |\n| 弗拉明戈 | 蓝钻结晶\\*2 |\n| 中东古镇 | 蓝钻结晶\\*2 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.4私域 / 7.4.3音乐",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "0ad3333026c4c52866ff0f97cd4d106d8779df95a185ad008f85e94350c27c22",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

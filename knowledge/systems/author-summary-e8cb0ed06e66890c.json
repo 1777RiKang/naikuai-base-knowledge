@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 每日福利 | | |\n| 村庄等级 | 精力充沛等级 | 精力充沛效果（下线时间可保留） |\n| 1 | 精力充沛Ⅰ | 经验额外获取50%，持续30min |\n| 2 | 精力充沛Ⅰ | 经验额外获取50%，持续30min |\n| 3 | 精力充沛Ⅰ | 经验额外获取50%，持续45min |\n| 4 | 精力充沛Ⅰ | 经验额外获取50%，持续45min |\n| 5 | 精力充沛Ⅰ | 经验额外获取50%，持续45min |\n| 6 | 精力充沛Ⅰ | 经验额外获取50%，持续45min |\n| 7 | 精力充沛Ⅰ | 经验额外获取50%，持续45min |\n| 8 | 精力充沛Ⅰ | 经验额外获取50%，持续60min |\n| 9 | 精力充沛Ⅰ | 经验额外获取50%，持续60min |\n| 10 | 精力充沛Ⅰ | 经验额外获取50%，持续60min |\n| 11 | 精力充沛Ⅰ | 经验额外获取50%，持续60min |\n| 12 | 精力充沛Ⅰ | 经验额外获取70%，持续60min |\n| 13 | 精力充沛Ⅱ | 经验额外获取70%，持续60min |\n| 14 | 精力充沛Ⅱ | 经验额外获取70%，持续60min |\n| 15 | 精力充沛Ⅲ | 经验额外获取100%，持续60min |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.3村庄福利 / 7.3.3.1每日福利",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "021960bfceb8a95b4266826446e77381bb9c82f97039fb2ae923842f590b7c4f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

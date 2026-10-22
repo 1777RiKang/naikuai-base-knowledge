@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 精灵背包 | |\n| 开启格数 | 档次花费 |\n| 0至10 | 蓝钻\\*99+精灵石\\*5 |\n| 11至20 | 蓝钻\\*198+精灵石\\*10 |\n| 21至30 | 蓝钻\\*396+精灵石\\*25 |\n| 31至40 | 蓝钻\\*990+精灵石\\*50 |\n| 41至50 | 蓝钻结晶\\*20+精灵石\\*75 |\n| 51至60 | 蓝钻结晶\\*40+精灵石\\*100 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.3其他记录 / 6.3.4精灵背包",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3ccdd9928e85a6c321fb5d1fc4d7f636cfe86f1c678328ba924c973ba966e730",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

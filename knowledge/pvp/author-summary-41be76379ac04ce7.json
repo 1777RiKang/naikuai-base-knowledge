@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "匹配成功后进入埃琉德尼尔，场地大小为1000\\*1000；\n\n冒险开始后，在埃琉德尼尔内立刻刷新一次精英怪，然后每隔10分钟刷新一次精英怪，精英怪刷新不受迷雾圈限制，迷雾中也会刷新精英怪。\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 时间点 | 阶段 | 生存圈范围 | 迷雾造成伤害 |\n| 0：00 | 进入埃琉德尼尔 | 100% | 0点真实伤害/s |\n| 1：00 | 冒险开始 | 100% | 0点真实伤害/s |\n| 16：00 | 第一次蔓延 | 25% | 5点真实伤害/s |\n| 31：00 | 第二次蔓延 | 6.25% | 10点真实伤害/s |\n| 41：00 | 第三次蔓延 | 3.125% | 20点真实伤害/s |\n| 51：00 | 第四次蔓延 | 1.5625% | 40点真实伤害/s |\n| 60：00 | 埃琉德尼尔关闭 | 1.5625% | 40点真实伤害/s |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.7埃琉德尼尔 / 3.7.3场内不同阶段",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "c01257677b1c917a4db0008fa0a67ef4a54202e43f10587b2e702351395e359a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

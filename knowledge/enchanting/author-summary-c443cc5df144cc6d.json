@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 类型 | 附魔修正概率 | 炼金修正概率 |\n| 太阳 | ~~+5%~~ | ~~+2.5%~~ |\n| 世界 | ~~+3%~~ | ~~+1.5%~~ |\n| 隐士 | ~~+0%~~ | ~~+0%~~ |\n| 恶魔 | ~~-1%~~ | ~~-0.5%~~ |\n| 死神 | ~~-2%~~ | ~~-1%~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.2占卜",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "1cdb17e5387eea0cf06348750fb4abf7b8f6f497e5d330ddc0d5a9603d3606b0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 时间点 | 阶段 |\n| 15：00 | 神殿坍塌（水晶岛、女武神岛坍塌） |\n| 18；00 | 浮岛坍塌（鹿岛、守卫岛、天马岛坍塌、主岛向内坍塌至中心区） |\n| 22：00 | 天神降临 |\n| 额外备注 | |\n| 3：05 | 双方女武神第一次生成 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.7场内不同阶段",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "61f6bc6b2e15c24541af19dcaae6d3b83e71886730592476e413639c14f42482",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

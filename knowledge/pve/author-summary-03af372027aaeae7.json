@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 尼伯龙根（可使用净化药剂降低迷雾进度）（净化药剂-25%） | |\n| 效果 | 效果内容 |\n| 迷雾Ⅰ（50%） | 自然生命回复间隔+100%，受到治疗-25%，受到伤害+25% |\n| 迷雾Ⅱ（75%） | 自然生命回复间隔+3000%，受到治疗-50%，受到伤害+25%  造成伤害-25%，移动速度-10%，坐骑飞行速度-30% |\n| 迷雾Ⅲ（90%） | 自然生命回复间隔+3000%，受到治疗-50%，受到伤害+50%  造成伤害-50%，移动速度-20%，坐骑飞行速度-30%，坐骑移动速度-30% |\n| 迷雾Ⅲ（100%） | 角色立即传送回到个人领地 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.1异世界基础信息 / 2.2.1.3负面效果",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3670ddfeca7a624deafbb1e6e63189706655cfc046970b1e33be29a2b9cd792a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

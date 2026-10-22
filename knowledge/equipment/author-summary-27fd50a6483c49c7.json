@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| ~~BUFF名称~~ | ~~作用效果（使用特殊技能后前置技能层数清零）~~ | ~~持续时间~~ |\n| ~~风暴能量~~ | ~~增加0.5%挑衅，0.5点近战物理攻击力，可叠加100层~~ | ~~15秒~~ |\n| ~~潮汐能量~~ | ~~增加0.5点近战物理攻击力，可叠加100层~~ | ~~15秒~~ |\n| ~~飓风能量~~ | ~~增加0.8点远程物理攻击力，可叠加100层~~ | ~~15秒~~ |\n| ~~暗影能量~~ | ~~增加0.5点近战物理攻击力，可叠加100层~~ | ~~15秒~~ |\n| ~~猎魔人能量~~ | ~~暂无内容~~ | ~~暂无内容~~ |\n| ~~元素能量~~ | ~~增加0.8点远程魔法攻击力，可叠加100层~~ | ~~15秒~~ |\n| ~~虚空能量~~ | ~~增加0.8点远程魔法攻击力，可叠加100层~~ | ~~15秒~~ |\n| ~~占星师能量~~ | ~~暂无内容~~ | ~~暂无内容~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.2传说武器技能效果 / 9.2.2Ⅵ阶传说武器技能 / 9.2.2.3特殊buff效果",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "057e715d442d22aa032a6fd00623347e401d7cc4e9b005ebc540772ead72a1a1",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

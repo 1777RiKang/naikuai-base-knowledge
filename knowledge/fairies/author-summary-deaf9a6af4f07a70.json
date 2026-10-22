@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "精灵隐性面板：\n\n近战物攻ENPA，远程物攻EFPA，近战魔攻ENMA，远程魔攻EFMA\n\n精灵隐性面板介绍：\n\n近战物攻ENPA：精灵技能造成伤害/治疗时近战物攻的数值；\n\n远程物攻EFPA：精灵技能造成伤害/治疗时远程物攻的数值；\n\n近战魔攻ENMA：精灵技能造成伤害/治疗时近战魔攻的数值；\n\n远程魔攻EFMA：精灵技能造成伤害/治疗时远程魔攻的数值；\n\n面板+壹命加成：\n\n近战物攻NPA1+NPA2，远程物攻FPA1+FPA2\n\n近战魔攻NMA1+NMA2，远程魔攻FMA1+FMA2\n\n物理防御：物防百分比1+PDF1+物防百分比2+PDF2\n\n魔法防御：魔防百分比1+MDF1+魔防百分比2+MDF2\n\n面板+壹命加成介绍：\n\n近战物攻NPA1+NPA2：精灵为玩家增加近战物攻的基础数值；\n\n远程物攻FPA1+FPA2：精灵为玩家增加远程物攻的基础数值；\n\n近战魔攻NMA1+NMA2：精灵为玩家增加近战魔攻的基础数值；\n\n远程魔攻FMA1+FMA2：精灵为玩家增加远程魔攻的基础数值；\n\n物防百分比：基于装备面板物理防御数值的一定比例，精灵为玩家增加物理防御数值；\n\n物理防御PDF：精灵为玩家增加物理防御数值；\n\n魔防百分比：基于装备面板魔法防御数值的一定比例，精灵为玩家增加魔法防御数值；\n\n魔法防御MDF：精灵为玩家增加魔法防御数值；",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.0精灵面板介绍",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "2f45f75e7a20ed51f491ae8d8487b7cef18bc2c839624b8e5497ad8a10529f5f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

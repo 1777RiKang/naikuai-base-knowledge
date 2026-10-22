@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 坐骑名称 | 来源 | 坐骑食物 |\n| 斑马 | 艾芙海姆 | 一筐青干草、一筐苹果、皇竹草 |\n| 灰熊 | 艾芙海姆 | 一盆鱼肉、一盆生肉、皇竹草 |\n| 灰狼 | 暮色森林 | 一捆骨头、一盆生肉、皇竹草 |\n| 土狼 | 炽热大陆 | 一捆骨头、一盆生肉、皇竹草 |\n| 霜狼 | 极寒之境 | 一捆骨头、一盆生肉、皇竹草 |\n| 熊猫 | 主世界 | 一捆竹笋、一捆甘蔗、皇竹草 |\n| 北极熊 | 极寒之境 | 一盆鱼肉、一盆生肉、皇竹草 |\n| 麋鹿 | 暮色森林 | 一筐西红柿、一筐南瓜、皇竹草 |\n| 马 | 炽热大陆 | 一筐青干草、一筐苹果、皇竹草 |\n| 河马 | 暮色森林 | 一筐西红柿、一筐苹果、皇竹草 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.2普通坐骑 / 8.2.2.1坐骑信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "1a715e9a548f57fd3b97a2b17468e302380810b0ea2052ebee715476bcb048ff",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

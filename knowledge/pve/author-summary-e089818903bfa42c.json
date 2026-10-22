@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 妲己二命 | |\n| 任务总数量 | 5个 |\n| 任务总奖励 | 初级精灵学识宝典\\*25+初级转生精灵宝典\\*25+羁绊之心\\*1 |\n| 任务副本 | 瑶台琼室（妲己剧情本） |\n| 妲己：准备出发 | 目标：使用熔炉烤制1块任意【熟肉】 |\n| 妲己：景点 | 前往各个地点并给妲己拍照（米德加德坐标4992,536,5009；无尽之海坐标3253,114,5542） |\n| 妲己：目的地 | 前往各个地点并给妲己拍照（极寒之境坐标5124,-2,8805；炽热大陆坐标5958,4,3579） |\n| 妲己：“野餐” | 前往各个地点并给妲己拍照（艾芙海姆坐标5088,14,5035；无尽之海坐标5000,10,5037） |\n| 妲己：活动一下 | 目标：通过天空之城的妲己，进入并完成秘境 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.9精灵羁绊故事线 / 2.8.9.3妲己",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "847dc698f72d813a9d3b0220dcf20bc437fb4eec2b897d2625594224469830c4",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

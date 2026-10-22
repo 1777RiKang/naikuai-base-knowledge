@@ -19,9 +19,9 @@
 | `relations.composes` | 否 | 仅 composite 使用，指向拆分出的成分 id |
 | `relations.variant_of` | 否 | 指向同物的另一写法/版本 |
 | `relations.related` | 否 | 相关词条，不做强约束 |
-| `provenance.source` | 是 | community / nkwiki / in-game |
+| `provenance.source` | 是 | community / in-game |
 | `provenance.evidence` | 是 | 至少一条；含 `text`、`channel`、`captured_at`、`redacted` |
-| `provenance.url` | 条件 | source=nkwiki 时必填 |
+| `provenance.url` | 否 | 可核对的公开来源链接 |
 | `contributors` | 是 | 自选公开贡献名（1–32 字），可与 GitHub 名不同；不填玩家隐私或 QQ 号 |
 | `review.status` | 是 | draft / confirmed / disputed / deprecated |
 | `review.reviewer` | 条件 | confirmed、disputed 必填 |
@@ -44,7 +44,7 @@ draft ──审核──> confirmed ──过期/被推翻──> deprecated
 | source | 用途 | 回答时的标注 |
 | --- | --- | --- |
 | `community` | 玩家标注的简称、黑话、组合缩写 | 「社区标注」 |
-| `nkwiki` | 攻略站正文与数据 | 「奶块攻略站 nkwiki.cc」 |
+| 知识章节的 `author` | 已授权《数据摘要》正文 | 「乱走丶沙城《数据摘要》」 |
 | `in-game` | 实测截图/录屏 | 「游戏内实测」 |
 
 一个回答如果同时用了两层，必须分别标注，不能把玩家标注写成攻略站来源。

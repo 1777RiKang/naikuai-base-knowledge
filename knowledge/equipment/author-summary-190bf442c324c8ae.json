@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 传说之剑Ⅲ阶 | 近战伤害+53 | 耐久Ⅲ锋利Ⅴ挑衅Ⅲ |\n| 传说之盾Ⅲ阶 | 生命+47物理防御+45魔法防御+45 | 耐久Ⅲ锋利Ⅴ盾墙Ⅲ |\n| 传说龙枪Ⅲ阶 | 近战伤害+53 | 耐久Ⅲ锋利Ⅴ挑衅Ⅲ强化龙枪Ⅲ |\n| 传说龙爪Ⅲ阶 | 生命+47物理防御+45魔法防御+45 | 耐久Ⅲ锋利Ⅴ强化龙血Ⅲ |\n| 传说之弓Ⅲ阶 | 远程伤害+53 | 耐久Ⅲ力量Ⅴ隐蔽Ⅲ多重Ⅲ |\n| 传说箭袋Ⅲ阶 | 远程伤害+53 | 耐久Ⅲ力量Ⅴ |\n| 传说战刃Ⅲ阶 | 近战伤害+53 | 耐久Ⅲ锋利Ⅴ隐蔽Ⅲ强化影袭Ⅲ |\n| 传说之刺Ⅲ阶 | 近战伤害+53 | 耐久Ⅲ锋利Ⅴ强化月影Ⅲ |\n| 传说圣杖Ⅲ阶 | 魔法强度+53 | 耐久Ⅲ魔咒Ⅴ隐蔽Ⅲ治愈Ⅲ |\n| 传说法杖Ⅲ阶 | 魔法强度+53 | 耐久Ⅲ魔咒Ⅴ隐蔽Ⅲ |\n| 传说法典Ⅲ阶 | 魔法强度+53 | 耐久Ⅲ魔咒Ⅴ |\n| 传说镰刀Ⅲ阶 | 魔法强度+53 | 耐久Ⅲ魔咒Ⅴ隐蔽Ⅲ死灵召唤Ⅲ |\n| 传说提灯Ⅲ阶 | 魔法强度+53 | 耐久Ⅲ魔咒Ⅴ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.1传说武器面板 / 9.1.3Ⅲ阶（破甲T4，面板T5.5）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "1a654ba31bab74b73b66463ac316c2fb1e0833ea711aa242eca20f36352c99d9",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

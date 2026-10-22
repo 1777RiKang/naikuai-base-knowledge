@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 精灵状态 | 所需材料 | 所需时间 |\n| 进化 | 精灵石\\*20+蓝钻\\*99 | 22：00 |\n| 转生（三星精灵） | 精灵石\\*30+蓝钻\\*198+星空晶块\\*5+金伦加冰铁/世界树残根/初始地之泉\\*50+归途霜雾\\*1 | 22：00 |\n| 转生（四星及以上精灵） | 精灵石\\*30+蓝钻\\*198+星空晶块\\*10+归途霜雾\\*1 | 22：00 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.3其他记录 / 6.3.2精灵材料 / 6.3.2.1进化/转生所需材料及时间",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "17401731d965fb7ca7ef5266a15fd5c544c55ca48d5c19625d0e2e15cd73da47",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

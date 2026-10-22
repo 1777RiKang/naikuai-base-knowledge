@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 使用道具：羽毛，花费500经验窥探一次 | |\n| 锋利Ⅲ（30min） | +10近战物理攻击力，-20物理防御 |\n| 魔咒Ⅲ（30min） | +10远程魔法攻击力，-20魔法防御 |\n| 力量Ⅲ（30min） | +10远程物理攻击力，-20物理防御 |\n| 抗性Ⅲ（30min） | +20魔法防御，-10近战魔法攻击力，-10远程魔法攻击力 |\n| 护甲Ⅲ（30min） | +20物理防御，-10近战物理攻击力，-10远程物理攻击力 |\n| 舍身（30min） | 增加最终造成和受到的物理伤害3点 |\n| 禁咒（30min） | 增加最终造成和受到的魔法伤害3点 |\n| 防护（30min） | 降低最终受到和造成的物理伤害3点 |\n| 屏障（30min） | 降低最终受到和造成的魔法伤害3点 |\n| 加速（30min） | 移动速度提升20%，降低饥饿值5%/5s |\n| 梦境（30min） | 移动速度降低20%，恢复最大生命值5%/10s |\n| 新生（20s） | 恢复最大生命值5%/s，降低饥饿值5%/s |\n| 死亡（5s） | 死亡不会损失经验（无任何效果），造成最大生命值20%/s的伤害 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.4符石属性数据基础 / 1.4.1献祭材料：羽毛",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3a2b30e49071b809cbaec70131e03d6dda1569d1f39fe8d93ff75ea8251f3581",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

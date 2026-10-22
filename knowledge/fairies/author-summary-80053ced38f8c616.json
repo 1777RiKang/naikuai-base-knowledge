@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| 精灵装备加成-物理防御 | | 精灵装备加成-魔法防御 | | 精灵装备加成-防暴击 | |\n| 0级 | 物理防御+15 | 0级 | 魔法防御+15 | 0级 | 防暴击+0.75% |\n| 1级 | 物理防御+33 | 1级 | 魔法防御+33 | 1级 | 防暴击+1.60% |\n| 2级 | 物理防御+51 | 2级 | 魔法防御+51 | 2级 | 防暴击+2.45% |\n| 3级 | 物理防御+69 | 3级 | 魔法防御+69 | 3级 | 防暴击+3.30% |\n| 4级 | 物理防御+87 | 4级 | 魔法防御+87 | 4级 | 防暴击+4.15% |\n| 5级 | 物理防御+105 | 5级 | 魔法防御+105 | 5级 | 防暴击+5.00% |\n| 6级 | 物理防御+123 | 6级 | 魔法防御+123 | 6级 | 防暴击+5.85% |\n| 7级 | 物理防御+141 | 7级 | 魔法防御+141 | 7级 | 防暴击+6.70% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.1精灵装备 / 6.1.1精灵装备加成（仅与精灵属性发挥百分比有关） / 6.1.1.3戒指",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d423435f739f7179935d8023abca60415d25816d65e43555f2f4ba32caaa1943",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

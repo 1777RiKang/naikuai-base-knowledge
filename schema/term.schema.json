@@ -119,7 +119,6 @@
         "source": {
           "enum": [
             "community",
-            "nkwiki",
             "in-game"
           ]
         },

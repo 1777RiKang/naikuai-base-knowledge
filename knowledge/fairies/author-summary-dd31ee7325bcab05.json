@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "~~三本转生高书+四本转生低书，从兴奋刚好降到了忧愁~~\n\n|  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| ~~精灵心情状态~~ | ~~兴奋~~ | | ~~愉悦~~ | ~~普通~~ | ~~忧愁~~ | | ~~不开心~~ |\n| ~~状态对应心情点数~~ | ~~178-130~~ | | ~~130-106~~ | ~~106-58~~ | ~~58-1~~ | | ~~0~~ |\n| ~~状态对应心情点数~~ | ~~410-301~~ | | ~~300-201~~ | ~~200-101~~ | ~~100-1~~ | | ~~0~~ |\n| ~~喜欢礼物~~ | | | | ~~+120心情点数/个~~ | | | |\n| ~~普通礼物~~ | | | | ~~+60心情点数/个~~ | | | |\n| ~~普通经验书~~ | | | | ~~转生经验书~~ | | | |\n| ~~小书~~ | | ~~-10心情点数~~ | | ~~小书~~ | | ~~-20心情点数~~ | |\n| ~~中书~~ | | ~~-50心情点数~~ | | ~~中书~~ | | ~~-35心情点数~~ | |\n| ~~高书~~ | | ~~-220心情点数~~ | | ~~高书~~ | | ~~-110心情点数~~ | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.3其他记录 / 6.3.3经验书影响心情值",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "45cd531a6395cdf0a1997afaa8a163fc40cc7852e9fd02420cd6418fa0723693",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

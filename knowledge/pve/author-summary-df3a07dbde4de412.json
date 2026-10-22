@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 通用技能 | 三角相位  1红1黄1蓝  ~~不锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image5.png) | 打出3张星象卡：凶灾祸  对被命中的敌方目标施加“阴星印记”，每3秒造成90%远程魔法伤害~~（穿刺宝石有伤害加成）~~，持续15秒，最多可叠加5层，每次叠层都会刷新持续时间 |\n| 凶星专有技能 | 黄道回归  2红1黄  ~~锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image6.png) | 打出3张星象卡：凶凶灾  对被命中的敌方目标造成150%远程魔法的子弹伤害~~（穿刺宝石有伤害加成）~~，并附加5层“凶星印记”，“凶星印记”持续15秒；当“星相卜算·阴”命中带有凶星印记的目标时，会引爆1层“凶星印记”，造成63%远程魔法的范围伤害~~（扩散宝石有伤害加成）~~ |\n| 黄道震慑  2红1蓝  ~~锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image7.png) | 打出3张星象卡：凶凶祸  对被命中的敌方目标造成390%远程魔法的子弹伤害~~（穿刺宝石有伤害加成）~~；如果目标正受到“阴星印记”的影响，则此技能造成的伤害必定暴击 |\n| 黄道投影  3红  ~~不锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image8.png) | 打出3张星象卡：凶凶凶  选中敌方目标，5秒后对其6格范围内所有目标造成150%远程魔法伤害~~（扩散宝石有伤害加成）~~，将选中的目标标记为“凶星”；10秒后“凶星”会自爆，对其6格范围内所有目标造成150%远程魔法伤害~~（扩散宝石有伤害加成）~~，这段时间内如果“凶星”受到总量超过技能施放时500%远程魔法的伤害则会进化为“超凶星”：10秒后“超凶星”会自爆，对其6格范围内所有目标造成315%远程魔法伤害~~（扩散宝石有伤害加成）~~，这段时间内如果“超凶星”受到总量超过凶星进化时500%远程魔法的伤害则会立刻引爆，对其8格范围内所有目标造成520%远程魔法伤害~~（扩散宝石有伤害加成）~~  TIPS：当目标正在受到“超凶星”影响时，无法再次标记为“凶星” |\n| 灾星专有技能 | 陨星坠落  2黄1红  ~~不锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image9.png) | 打出3张星象卡：灾灾凶  以选中的敌方目标为中心，为其和周围的目标附加“灾星印记”，每3秒造成81%远程魔法伤害~~（扩散宝石有伤害加成）~~，持续15秒 |\n| 恒星坍缩  2黄1蓝  ~~不锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image10.png) | 打出3张星象卡：灾灾祸  对被命中的敌方目标添加瞬时易伤buff（根据目标已损失的生命值增加其受到的远程魔法伤害，最高增加300%），并造成335%远程魔法伤害~~（穿刺宝石有伤害加成）~~ |\n| 新星爆发  3黄  ~~锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image11.png) | 打出3张星象卡：灾灾灾  对被命中的敌方目标造成1000%远程魔法伤害~~（穿刺宝石有伤害加成）~~ |\n| 祸星专有技能 | 虛弱预兆  2蓝1红  ~~不锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image12.png) | 打出3张星象卡：祸祸凶  以选中的敌方目标为中心，造成205%远程魔法的范围伤害，并使这些目标攻击力降低20%，持续5秒 |\n| 迟缓预兆  2蓝1黄  ~~锁T~~ | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image13.png) | 打出3张星象卡：祸祸灾  对被命中的敌方目标造成450%远程魔法的子弹伤害~~（穿刺宝石有伤害加成）~~，并使其移动速度降低50%，持续5秒（目标为玩家和首领怪物时，移动速度降低20%，持续5秒） |\n| 灾祸预兆  3蓝 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image14.png) | 打出3张星象卡：祸祸祸  使选中的敌方目标受到的伤害提升50%，持续10秒（优先级高于二命沙拉曼德-寒冰风暴的“冻伤”、哈弗古法-魂灵之主的“号令之殇”、“诅咒魂灵”、蜃-梦里南柯的“无常”、易燃宝石效果和黛丽拉-风雷旋天的“雷击”易伤buff） |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.5占星师备注 / 2.3.5.1占星师输出效果",
     "source_updated_at": null,
-    "fetched_at": "2026-10-22T03:24:44+00:00",
-    "content_sha256": "ebefe2e465a41f581aba6d52d5d7fc40a9e4e77b8cac4d26d39438608fcb847f",
+    "fetched_at": "2026-10-22T13:12:39+00:00",
+    "content_sha256": "0e633cd62c4b503b137d9fffbd7feb9af5dc790c5ef4da5066648fa4495144d4",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

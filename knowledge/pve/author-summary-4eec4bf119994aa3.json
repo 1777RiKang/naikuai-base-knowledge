@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 通用技能 | 均衡元素  1红1黄1蓝 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image15.png) | 打出3张星象卡：吉福耀  为选中的友方单位提供20%远程魔法的护盾，护盾持续期间，其造成的伤害提升20%，受到的伤害降低20%，持续10秒（该技能对魔灵伤害提升无效果） |\n| 吉星专有技能 | 星轨倒转  2红1黄 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image16.png) | 打出3张星象卡：吉吉福  以选中的目标为中心，范围内友方单位恢复12%远程魔法的生命，并对范围内敌方目标造成125%远程魔法伤害~~（扩散宝石有伤害加成）~~ |\n| 星轨跃迁  2红1蓝 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image17.png) | 打出3张星象卡：吉吉耀  为选中的友方目标施加5层“吉星高照”效果，持续20秒；当目标受到伤害后，会立即恢复10%远程魔法的生命，并获得14%远程魔法的护盾，持续5秒；之后“吉星高照”会跳跃至范围生命值最低的友方单位处，最多跳跃4次或持续60秒 |\n| 星轨加护  3红 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image18.png) | 打出3张星象卡：吉吉吉  以选中的目标为中心，为范围内友方单位附加10%远程魔法的护盾和5层“吉星护佑“效果，持续15秒；当护盾被击碎后，会立即消耗1层“吉星护佑“，刷新护盾；“吉星护佑“效果结束时，根据剩余层数恢复目标生命，每层恢复6%远程魔法的生命 |\n| 福星专有技能 | 星灵的祝福  2黄1红 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image19.png) | 打出3张星象卡：福福吉  以选中的目标为中心，范围内友方单位恢复8%远程魔法的生命，并附加12%远程魔法的护盾和受到伤害降低20%，持续5秒 |\n| 星灵的垂怜  2黄1蓝 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image20.png) | 打出3张星象卡：福福耀  为选中的友方目标施加3层“福星印记”，持续30秒；持续时间结束或持续时间内目标血量低于50%，印记触发，恢复目标20%远程魔法的生命 |\n| 星灵的愤怒  3黄 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image21.png) | 打出3张星象卡：福福福  以选中的友方目标为中心，6格范围内友方恢复30%远程魔法的生命；为选中目标附加“福星高照”效果，持续10秒，福星高照效果消失后会根据目标在持续期间内受到的伤害总量，造成250%伤害总量的范围伤害（部分副本无效果） |\n| 耀星专有技能 | 天穹对偶  2蓝1红 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image22.png) | 打出3张星象卡：耀耀吉  对选中的敌方目标造成235%\\*（100%+25%\\*（目标数-1））远程魔法的可分摊的范围伤害，增伤收益上限为235%\\*200%，分摊上限20%；并对自身周围友方单位恢复50%伤害总量的生命，百分比治疗量随治疗人数衰减，衰减上限20% |\n| 天穹卫护  2蓝1黄 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image23.png) | 打出3张星象卡：耀耀福  为选中的友方目标附加“耀星护佑”效果，使其造成的伤害提升50%，受到的伤害降低50%，持续10秒（该技能对魔灵伤害提升无效果） |\n| 天穹陷落  3蓝 | ![](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/image24.png) | 打出3张星象卡：耀耀耀  以选中的目标为中心，使范围内友方单位造成伤害提升35%，持续10秒，并提供20%远程魔法的护盾，持续5秒（该技能对魔灵伤害提升无效果） |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.5占星师备注 / 2.3.5.2占星师辅助效果",
     "source_updated_at": null,
-    "fetched_at": "2026-10-22T03:24:44+00:00",
-    "content_sha256": "dc318ffcfa77a43015a25818062a5ef6614536e69c66d6b3126f3e1b08d49fac",
+    "fetched_at": "2026-10-22T13:12:39+00:00",
+    "content_sha256": "5212ea2ad37bd53ab2f6791473e350fafd60ea524cad3de2389dc5b8ea545985",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

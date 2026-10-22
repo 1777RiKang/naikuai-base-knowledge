@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 垂着的长串小灯泡 | 击败狼骑士精英怪获得配方 |\n| 长串小灯泡 | 击败幽灵狼精英怪获得配方 |\n| 木质小提灯 | 击败冰霜娜迦精英怪获得配方 |\n| 铜制三叉烛台 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 铜制双叉烛台 | 在艾芙海姆的地精商人处购买配方 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.2田园 / 7.5.2.3照明",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "732f15e5858df88f648cc70e4e97fd062ff659ed77534cfc00b843cd38d977bf",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 灭火药水 | |\n| 初级灭火药水101 | 移除燃烧效果 |\n| 中级灭火药水201 | 移除燃烧效果 |\n| 高级灭火药水301 | 移除燃烧效果 |\n| 强效灭火药水401 | 移除燃烧效果 |\n| 特效灭火药水501 | 移除燃烧效果 |\n| 极效灭火药水601 | 移除燃烧效果 |\n| 破冰药水 | |\n| 初级破冰药水18 | 移除冰冻效果 |\n| 中级破冰药水19 | 移除冰冻效果 |\n| 高级破冰药水49 | 移除冰冻效果 |\n| 强效破冰药水50 | 移除冰冻效果 |\n| 特效破冰药水51 | 移除冰冻效果 |\n| 极效破冰药水61 | 移除冰冻效果 |\n| 解毒药水 | |\n| 初级解毒药水30 | 移除中毒效果 |\n| 中级解毒药水50 | 移除中毒效果 |\n| 高级解毒药水100 | 移除中毒效果 |\n| 强效解毒药水300 | 移除中毒效果 |\n| 特效解毒药水400 | 移除中毒效果 |\n| 极效解毒药水700 | 移除中毒效果 |\n| 中和药水 | |\n| 初级中和药水11 | 移除反胃效果 |\n| 中级中和药水21 | 移除反胃效果 |\n| 高级中和药水31 | 移除反胃效果 |\n| 强效中和药水41 | 移除反胃效果 |\n| 特效中和药水51 | 移除反胃效果 |\n| 极效中和药水61 | 移除反胃效果 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.1药水加成 / 2.1.4药水：移除效果",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "cde11a8eb08367d374c375f2de38ee057d0cc22b408961fc4876c6cec606ff2e",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 圣光祝福Ⅰ | 近战物理攻击力+20，远程物理攻击力+60，远程魔法攻击力+60  物理防御+50，魔法防御+50，移速+10%  免疫被定义的减速效果，持续180秒 |\n| 圣光祝福Ⅱ | 近战物理攻击力+40，远程物理攻击力+80，远程魔法攻击力+80  物理防御+75，魔法防御+75，移速+20%  免疫被定义的减速效果，每秒恢复5%最大生命值，持续180秒 |\n| 圣光祝福Ⅲ | 近战物理攻击力+60，远程物理攻击力+120，远程魔法攻击力+120  物理防御+100，魔法防御+100，移速+30%  免疫被定义的减速效果，每秒恢复10%最大生命值，持续180秒 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.5女武神buff加成",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "30570d62736b6b05bac1293eb6f2777648cabb35483677e317e5256698892d00",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

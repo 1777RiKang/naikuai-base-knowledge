@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 精灵对应精灵装备-三星精灵数量、四星精灵数量、五星精灵数量 | | | |\n|  | 三星精灵 | 四星精灵 | 五星精灵 |\n| 雨之信-212 | 希尔芙、沙拉曼德 | 蜃 | 妲己、敖烈 |\n| 霜之凌-221 | 诺姆、温蒂妮 | 黛丽拉、露莎法斯 | 哈弗古法 |\n| 雪之华-221 | 阿尔温、欧若拉 | 菲黛尔、莫德琳 | 伊登 |\n| 风之歌-112 | 凯兰崔尔 | 伊莲娜 | 辉夜姬、嫦娥 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.1精灵装备 / 6.1.5精灵对应精灵装备",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "133bddf140f89c15a14c56f2676d04361bb753e2aeff763743026a7f9d4656f9",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "破甲计算公式为：破甲比例=攻击等级对应破甲值/（攻击等级对应破甲值+目标对应属性防御值）\n\n攻击等级对应破甲值根据目标不同分为玩家主手武器T级和NPC攻击等级，主手武器T级和NPC攻击等级由1.8T级表提供；\n\n目标对应属性防御值根据目标不同分为玩家防御值和副本防御值，其中副本防御值由4.1.2秘境boss基础及技能和4.2.2轮回塔NPC基础及技能提供；\n\n例如：\n\n计算T5主手在T8防御本造成伤害时的破甲比例为120/（120+684）=0.1492537313，小数点后四位取整则为4.0.2副本破甲表中T级等级T5在T8级首领中的破甲数值0.1493；\n\n计算攻击等级为8的副本，玩家防御为600时，NPC对玩家造成伤害时的破甲比例为228/（228+600）=0.2753623188，小数点后四位取整则为4.0.3.1防御免伤表中参考值600防御在攻击等级8中的破甲数值0.2754。",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.0副本信息 / 4.0.1副本破甲计算公式",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "53695bf9fd886c72f16e4f44371b1f17491ae3ab0ab0e0a83e811a4d36344108",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

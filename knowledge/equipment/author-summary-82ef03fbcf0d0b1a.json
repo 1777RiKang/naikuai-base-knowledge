@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 传说之剑Ⅱ阶 | 近战伤害+39 | 耐久Ⅱ锋利Ⅳ挑衅Ⅱ |\n| 传说之盾Ⅱ阶 | 生命+33物理防御+35魔法防御+35 | 耐久Ⅱ锋利Ⅳ盾墙Ⅱ |\n| 传说龙枪Ⅱ阶 | 近战伤害+39 | 耐久Ⅱ锋利Ⅳ挑衅Ⅱ强化龙枪Ⅱ |\n| 传说龙爪Ⅱ阶 | 生命+33物理防御+35魔法防御+35 | 耐久Ⅱ锋利Ⅳ强化龙血Ⅱ |\n| 传说之弓Ⅱ阶 | 远程伤害+39 | 耐久Ⅱ力量Ⅳ隐蔽Ⅱ多重Ⅱ |\n| 传说箭袋Ⅱ阶 | 远程伤害+39 | 耐久Ⅱ力量Ⅳ |\n| 传说战刃Ⅱ阶 | 近战伤害+39 | 耐久Ⅱ锋利Ⅳ隐蔽Ⅱ强化影袭Ⅱ |\n| 传说之刺Ⅱ阶 | 近战伤害+39 | 耐久Ⅱ锋利Ⅳ强化月影Ⅱ |\n| 传说圣杖Ⅱ阶 | 魔法强度+39 | 耐久Ⅱ魔咒Ⅳ隐蔽Ⅱ治愈Ⅱ |\n| 传说法杖Ⅱ阶 | 魔法强度+39 | 耐久Ⅱ魔咒Ⅳ隐蔽Ⅱ |\n| 传说法典Ⅱ阶 | 魔法强度+39 | 耐久Ⅱ魔咒Ⅳ |\n| 传说镰刀Ⅱ阶 | 魔法强度+39 | 耐久Ⅱ魔咒Ⅳ隐蔽Ⅱ死灵召唤Ⅱ |\n| 传说提灯Ⅱ阶 | 魔法强度+39 | 耐久Ⅱ魔咒Ⅳ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.1传说武器面板 / 9.1.2Ⅱ阶（破甲T4，面板T4.5）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "c938ec386353079f8b7ae204e01d5308e633c718090d04e150bc79092bc37ea1",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

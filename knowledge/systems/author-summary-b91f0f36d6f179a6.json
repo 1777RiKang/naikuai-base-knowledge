@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 誓言台等级 | 伴侣召唤 |\n| 誓言台（低台）：黄金钻戒 | 20次/天 |\n| 誓言台（高台）：铂金钻戒 | 无限次/天 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.1玩家基础数据（未完成） / 7.1.3伴侣 / 7.1.3.1伴侣异世界召唤",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "e7d7f58b41f08d66ab3f65ff17c4a774fb1a1a23c1f04b35fd8a0297ffc19589",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

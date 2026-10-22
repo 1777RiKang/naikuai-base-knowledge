@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| ~~跟宠资质~~ | ~~资质概率~~ |\n| ~~零星~~ | ~~40.01%~~ |\n| ~~一星~~ | ~~20.00%~~ |\n| ~~二星~~ | ~~13.00%~~ |\n| ~~三星~~ | ~~10.00%~~ |\n| ~~四星~~ | ~~9.00%~~ |\n| ~~五星~~ | ~~7.99%~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.5跟宠资质 / 5.5.1跟宠资质概率",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "57f67c33bfbc014a92b611457ce2e90c61a1609b96e051a75de3f91154afb082",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

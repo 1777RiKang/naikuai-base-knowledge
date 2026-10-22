@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 唐风缃色纱帘 | ~~通过精英怪掉落配方~~ |\n| 唐风藕荷色纱帘 | ~~通过精英怪掉落配方~~ |\n| 唐风缥色纱帘 | ~~通过精英怪掉落配方~~ |\n| 唐风霁色纱帘 | ~~通过精英怪掉落配方~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.3唐风 / 7.5.3.3装饰",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "c683c661c034c1e38f033641ff4a61b677a1a9049da6c768ace99387d833d232",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 租赁飞行 | 无增益效果 |\n| 空中飞行Ⅰ | +40%空中移速，-20%水中移速 |\n| 空中飞行Ⅱ | +80%空中移速，-20%水中移速 |\n| 空中飞行Ⅲ | +120%空中移速，-20%水中移速 |\n| 水舞飞行Ⅲ | +120%空中移速，-20%水中移速 |\n| 水舞飞行Ⅲ（艾芙海姆） | +130%空中移速，-20%水中移速 |\n| 龙舞飞行Ⅲ | +120%空中移速，-10%水中移速 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.1玩家坐骑面板 / 8.1.2空中飞行",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "a6829e1d1754f4b4a23cc9ef418c4529105c4bea5aa39e711ef0b12887fe8946",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 任务名称 | 任务内容 | 每颗星任务奖励（额外奖励） |\n| 在模拟实战中获胜 | 获胜1次 | 5英勇18活跃（1冰火封印石1村庄补给箱） |\n| 在模拟实战中获胜 | 获胜2次 | 5英勇25活跃（1冰火封印石1村庄补给箱） |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务 / 7.3.4.6荣耀与伤痕",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "e86fa22d392b0bfd923489e6c3bc1a0d39ac733e66c6d8553303abaf50f71e7f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

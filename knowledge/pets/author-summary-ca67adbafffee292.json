@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 风系草系跟宠 | | | |\n| 100 | 蘑菇浓汤 | 200 | 咸鱼茄子 |\n| 400 | 黄金炒饭 | 1000 | 海姆海鲜焗饭 |\n| 火系岩系跟宠 | | | |\n| 100 | 罗宋汤 | 200 | 秘制烤鱼 |\n| 400 | 转生春卷 | 1000 | 米德加德烤串 |\n| 雷系光系跟宠 | | | |\n| 100 | 甜馅饼 | 200 | 花椒炖鲜奶 |\n| 400 | 梦魇鱼面 | 1000 | 亚尔夫杂果捞 |\n| 毒系暗系跟宠 | | | |\n| 100 | 百香果汁 | 200 | 鱼肉蔬菜浓汤 |\n| 400 | 戴欧尼鸡尾酒 | 1000 | 穆斯贝尔沙拉 |\n| 水系冰系跟宠 | | | |\n| 100 | 葡萄酒 | 200 | 海鲜大杂烩 |\n| 400 | 阿斯加德特饮 | 1000 | 瓦泰尔千层面 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.8跟宠食物",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "886adda05c164bd371312c145083c07e436b0fb1e9ccab210f9086ee32f57dab",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

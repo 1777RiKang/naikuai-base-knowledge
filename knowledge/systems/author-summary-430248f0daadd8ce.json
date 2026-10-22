@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 村庄猎魔 | | |\n| 等级 | 声望积分区间 | 周奖励村庄活跃度 |\n| 初级 | 150-400 | 800 |\n| 中级 | 400-1000 | 2000 |\n| 高级 | 1000-MAX | 6000 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.2村庄猎魔",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "8fb8dd7cdad62a87615180c852fd38ee93605e0e3a7c9fa2106c2f70e19ca5c3",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

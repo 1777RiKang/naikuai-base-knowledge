@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 火 | 水 | 雷 | 冰 | 草 |\n| T2硫磺粉 | T2女妖泪石 | T2黄铜粉 | T2磁石粉 | T2远古树脂 |\n| T2龙鹰翼 | T3娜迦鳞片 | T3异种角质 | T3寒冰血脉 | T2女妖之泪 |\n| T3烈焰核心 | T4雨栗果 | T4附魔胫骨 | T3雪莲花 | T3食人花瓣 |\n| T4煞血皮毛 | T4凋零之泪 | T5坦桑石矿石 | T4蓝铜粉 | T3毒箭草叶 |\n| T5凤炎果实 | T5碧落露水 | T5金绿猫眼 | T5结实筋腱 | T4梦魇根茎 |\n| T6幽冥铃兰 | T6巨人骸骨 | T5秘术星体 | T5元素聚核 | T5角木果实 |\n| T7杀戮冥火 | T6鱼眼石 | T6耶梦加得鳞片 | T6乌德尔泉水 | T6纯洁之花 |\n| T8燃火之爪 | T7梦魇结晶碎石 | T7杀戮结晶碎石 | T7吞噬之莲 | T7毁灭之兰 |\n| T8赤红果实 | T8蒙尘珍珠 | T8闪锌矿 | T8冲突之结晶 | T8蓝绿孔雀石 |\n|  | T8战争之泉水 | T8绀碧果实 | T8月白果实 | T8明黄果实 |\n|  | T8绀碧果实 |  |  |  |\n| …………………………分界线………………………… | | | | |\n| 岩 | 风 | 毒 | 暗 | 光 |\n| T2硝化岩 | T2狂野兽血 | T1蜘蛛毒囊 | T2幽灵狼牙 | T2萤石粉 |\n| T2黑色泥浆 | T3水晶颅骨 | T2巫毒娃娃 | T3奥数核心 | T2机械核心 |\n| T3流沙结品 | T4恶魔之翼 | T3蝎尾 | T3月之石 | T3日之石 |\n| T3沙漠之星 | T4远古残片 | T4幽冥果 | T4辉夜晶石 | T4烁星果 |\n| T4赤铁陨石 | T5坚固翼爪 | T4恶魔之血 | T5爪影果实 | T5日光矿石 |\n| T5黑皮玛瑙 | T5猩红翎羽 | T5幻蝶粉末 | T5月光矿石 | T6银星石 |\n| T6重晶石 | T6灵虫羽翼 | T6嗜血魔蕨 | T6暗影之爪 | T7梦魇利齿 |\n| T7特维提奇岩 | T6芙蕾雅耳坠 | T7奇美拉毒焰 | T7恐惧药粉 | T7轮回之县 |\n| T8破碎鳞片 | T7莉莉丝魔翼 | T8猛铝榴石 | T7恐惧结晶碎石 | T8时间之砂砾 |\n| T8赤红果实 | T8月白果实 | T8暗紫果实 | T8暗紫果实 | T8明黄果实 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.10跟宠进化 / 5.10.2进化材料",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "8a99ed76035ad0f802aa0458aff7880bb67ec0ef9f31d6cc6294745832ad41ab",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

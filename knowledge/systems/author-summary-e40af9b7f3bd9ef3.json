@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 唐风隔扇窗 | ~~通过精英怪掉落配方~~ |\n| 唐风槛窗 | ~~通过精英怪掉落配方~~ |\n| 唐风隔扇花窗 | ~~通过精英怪掉落配方~~ |\n| 唐风支摘窗 | ~~通过精英怪掉落配方~~ |\n| 唐风木纹窗棂 | ~~通过精英怪掉落配方~~ |\n| 唐风红漆窗棂 | ~~通过精英怪掉落配方~~ |\n| 唐风田字漏窗 | ~~通过精英怪掉落配方~~ |\n| 唐风方格漏窗 | ~~通过精英怪掉落配方~~ |\n| 唐风兰花漏窗 | ~~通过精英怪掉落配方~~ |\n| 唐风槛条隔扇门 | ~~通过精英怪掉落配方~~ |\n| 唐风木纹隔扇门 | ~~通过精英怪掉落配方~~ |\n| 唐风红漆隔扇门 | ~~通过精英怪掉落配方~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.3唐风 / 7.5.3.2门窗",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "de037e033f32552fc7685c6f2293d43297dfeeeb904a2d73160da735468ef512",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

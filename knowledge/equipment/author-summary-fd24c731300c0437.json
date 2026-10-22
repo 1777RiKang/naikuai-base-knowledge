@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 传说武器名称 | 传说任务名称 | 传说任务内容 |\n| 传说龙枪Ⅰ阶 | 枪之试炼 | 城堡核心击败12小时内击败黑夜女神 |\n| 传说龙爪Ⅰ阶 | 爪之试炼 | 黑夜女神击败12小时内击败火焰领主 |\n| 传说战刃Ⅰ阶 | 刃之试炼 | 火焰领主击败12小时内击败黑夜女神 |\n| 传说之刺Ⅰ阶 | 刺之试炼 | 黑夜女神击败12小时内击败城堡核心 |\n\n副本时间表\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 遗忘之境T4 | | | |\n| 城堡核心T4 | 时间00-60 | 黑夜女神T4 | 时间00-60 |\n| 火焰领主T4 | 时间00-60 |  | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.4职业-尼伯龙根 / 9.4.1传说武器的升阶任务 / 9.4.1.1Ⅰ阶升Ⅱ阶的升阶任务",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "e83d8e3b02d4832a6c4b44b0545c0d534b251cd4613c17579fbd91a3a14b5da2",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

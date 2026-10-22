@@ -7,17 +7,18 @@
     "数据摘要",
     "第十章 奶块活动记录"
   ],
+  "content": "|  |  |\n| --- | --- |\n| ~~新春活动~~ | ~~2020/01/13-2020/02/09~~ |\n| ~~四周年周年庆~~ | ~~2020/02/22-2020/03/11~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十章 奶块活动记录 / 10.4年份：2020",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "22c7f44773747ab0d909191bb0ae7dd3dce0b6c931d16ea0109138137aaac690",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

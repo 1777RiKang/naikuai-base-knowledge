@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| NPC基础信息 | |\n| 小怪 | 1500生命，70攻击，46防御，攻击等级3，防御等级10 |\n| 精英怪 | 30000生命，300攻击，120防御，攻击等级3，防御等级10 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.7埃琉德尼尔 / 3.7.2场内NPC基础信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "b82538f86d9b101e2d25487e230611944ee97b272e96e71f45231f828f3588ed",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

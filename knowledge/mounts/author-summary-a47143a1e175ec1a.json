@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 坐骑名称 | 坐骑高度 | 受伤高度 |\n| 猪 | 2.35 | 2.35 |\n| 奶牛 | 2.8 | 2.8 |\n| 绵羊 | 2.5 | 2.5 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.1初级坐骑 / 8.2.1.2骑乘信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "6992592cd96f315c4129f3cb9c0c7093683c5df6e83d19425b33723b1d00b1bc",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

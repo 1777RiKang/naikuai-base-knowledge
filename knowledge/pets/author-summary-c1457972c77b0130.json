@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 技能元素↓ | 跟宠自身元素 | | | | | | | | | | |\n| 无 | 火 | 水 | 雷 | 冰 | 草 | 岩 | 风 | 毒 | 暗 | 光 |\n| 无 |  |  |  |  |  |  |  |  |  |  |  |\n| 火 |  |  | 水→火 |  | 火→冰 | 火→草 | 岩→火 | 火→风 |  |  |  |\n| 水 |  | 水→火 |  | 雷→水 | 冰→水 | 草→水 | 水→岩 |  |  |  |  |\n| 雷 |  |  | 雷→水 |  | 冰→雷 | 雷→草 | 岩→雷 | 风→雷 | 雷→毒 |  |  |\n| 冰 |  | 火→冰 | 冰→水 | 冰→雷 |  |  |  |  | 毒→冰 |  |  |\n| 草 |  | 火→草 | 草→水 | 雷→草 |  |  | 草→岩 | 草→风 | 毒→草 |  |  |\n| 岩 |  | 岩→火 | 水→岩 | 岩→雷 |  | 草→岩 |  | 风→岩 |  |  |  |\n| 风 |  | 火→风 |  | 风→雷 |  | 草→风 | 风→岩 |  |  |  |  |\n| 毒 |  |  |  | 雷→毒 | 毒→冰 | 毒→草 |  |  |  |  |  |\n| 暗 |  |  |  |  |  |  |  |  |  |  | 光→暗 |\n| 光 |  |  |  |  |  |  |  |  |  | 暗→光 |  |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.7跟宠克制关系",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "fb8236038469ef1f64c49d4c706ae10389dacd7173ed9df721a35b3dfbae7c60",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

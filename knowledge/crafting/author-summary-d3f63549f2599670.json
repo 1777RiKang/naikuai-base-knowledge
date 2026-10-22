@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |\n| --- | --- |\n| Ⅰ阶合成材料 | 传说碎片\\*99 |\n| Ⅰ阶升Ⅱ阶 | 传说秘石\\*12+Ⅰ阶传说武器 |\n| Ⅱ阶升Ⅲ阶 | 传说魂晶块\\*18+雕刻石材\\*9 |\n| Ⅲ阶升Ⅳ阶 | 古代神魂晶\\*50+星灵彩石\\*1+T5药水\\*9+T5合成材料若干（骑士：日光矿石/月光矿石/金绿猫眼\\*99，射手：魔物精华/幻灵精华/猛禽精华\\*75，法师：碧落露水\\*66）+蓝钻结晶\\*9 |\n| Ⅳ阶升Ⅴ阶 | Ⅳ阶传说武器+审判石\\*20+古代神魂晶\\*20+传说碎片\\*20+T8锭皮毛\\*4 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.3职业-米德加德 / 9.3.2传说武器的升阶材料",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "8f35af9e99c0a74794308c4cebc0b5209ce8a233f27dee61dfb26c4049ac94d7",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

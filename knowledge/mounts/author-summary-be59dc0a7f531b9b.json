@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |\n| --- | --- |\n| ~~陆地移速增益~~ | ~~陆地行走移速增益+陆行进化移速增益~~ |\n| ~~陆地移速~~ | ~~4\\*（100%+陆地移速增益）~~ |\n| ~~空中移速增益~~ |  |\n| ~~空中移速~~ | ~~2.5\\*空中移速增益~~ |\n| ~~水中移速增益~~ | ~~100%+当前坐骑移速增益比+坐骑组合移速增益比+30%+当前坐骑水中移速增益比+坐骑组合水中移速增益比~~ |\n| ~~水中移速~~ | ~~2\\*水中基础移速~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.1玩家坐骑面板 / 8.1.3玩家移速计算（未完成）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3d99330c50d9a7ebda3121a3120dae8874b43ee22b2e3d100d76819fd189b4b7",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 粗野木板 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 兽纹粗野木板 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 星纹粗野木板 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 盾纹粗野木板 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 纹饰图腾木块底 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 纹饰图腾木块中 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 纹饰图腾木块上 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 纹饰图腾木块顶 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 部落染血污渍布料 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 部落染血污渍布料 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 部落染血污渍布料 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 部落染血污渍布料 | 在天空之城的木匠（450，2，535）处购买配方 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.5群星 / 7.5.5.4兽人",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "c2b24281b8da3ecc7ff950ebb5bf9e6fce62a946c0d6f86795dceba3696da788",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

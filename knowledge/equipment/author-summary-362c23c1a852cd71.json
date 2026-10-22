@@ -7,17 +7,18 @@
     "数据摘要",
     "第九章 传说武器/装备"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 传说武器名称 | 传说任务名称 | 传说任务内容 |\n| 传说之剑Ⅰ阶 | 剑之试炼 | 阿努比斯击败12小时内击败冰霜女巫 |\n| 传说之盾Ⅰ阶 | 盾之试炼 | 黑曜石守卫击败12小时内击败斯芬克斯 |\n| 传说之弓Ⅰ阶 | 弓之试炼 | 斯芬克斯击败12小时内击败冰霜女巫 |\n| 传说箭袋Ⅰ阶 | 箭之试炼 | 黑曜石守卫击败12小时内击败阿努比斯 |\n| 传说圣杖Ⅰ阶 | 杖之试炼 | 阿努比斯击败12小时内击败黑曜石守卫 |\n| 传说法杖Ⅰ阶 | 杖之试炼 | 阿努比斯击败12小时内击败黑曜石守卫 |\n| 传说法典Ⅰ阶 | 典之试炼 | 冰霜女巫击败12小时内击败斯芬克斯 |\n| 传说镰刀Ⅰ阶 | 镰之试炼 | 斯芬克斯击败12小时内击败黑曜石守卫 |\n| 传说提灯Ⅰ阶 | 灯之试炼 | 冰霜女巫击败12小时内击败阿努比斯 |\n\n副本时间表\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 炽热大陆T3 | | | |\n| 阿努比斯T3 | 时间00-20 | 斯芬克斯T3 | 时间20-40 |\n| 极寒之境T3 | | | |\n| 黑曜石守卫T3 | 时间00-30 | 冰霜女巫T3 | 时间30-60 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第九章 传说武器/装备 / 9.3职业-米德加德 / 9.3.1传说武器的升阶任务 / 9.3.1.1Ⅰ阶升Ⅱ阶的升阶任务",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "bd98651bf38635593caf6539598ded869d81ab5f72814d94706c4e1e235d934b",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

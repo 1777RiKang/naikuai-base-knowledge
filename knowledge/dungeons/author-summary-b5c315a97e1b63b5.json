@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "秘境内玩家额外易伤的计算公式：\n\n~~额外易伤百分比N=35%\\*[x/2]（向上取整）+100%\\*[x/2]（向下取整）（x≥1）~~\n\n额外易伤百分比N=35%\\*x（x≥1）\n\n列举10T以内的额外易伤百分比（额外易伤T无上限）：\n\n|  |  |\n| --- | --- |\n| 额外易伤T级=副本限制-玩家不含主手的总T级 | 玩家额外易伤百分比N |\n| ≤0T | 0% |\n| 1T | +35% |\n| 2T | +70% |\n| 3T | +105% |\n| 4T | +140% |\n| 5T | +175% |\n| 6T | +210% |\n| 7T | +245% |\n| 8T | +280% |\n| 9T | +315% |\n| 10T | +350% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.0副本信息 / 4.0.4副本T级 / 4.0.4.3秘境内玩家额外易伤的T级规律",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "bcaf4c9306c37be0dc74bef2adb44b9aaff2cb048a9f0842126825d3729d0f56",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "进化前1-30所需经验：275700（普通小书+100，普通中书+1200，普通高书+15000）\n\n2757普通小书/229普通中书+9普通小书/18普通高书+57普通小书\n\n进化后30-50所需经验：979000（转生小书+200，转生中书+750，转生高书+3000）\n\n4895转生小书/1304转生中书+5转生小书/326转生高书+5转生小书",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.11跟宠经验 / 5.11.1经验书升级",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "05f9a6e0f6287f92d18132d888dbd53b9483ae9220868df0841313ecd4520cc5",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

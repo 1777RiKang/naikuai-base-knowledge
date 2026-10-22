@@ -7,17 +7,18 @@
     "数据摘要",
     "第十章 奶块活动记录"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 元旦活动 | 2026/01/01-2626/01/25 |\n| 新春活动（群星之界十人本） | 2026/01/27-2026/03/08 |\n| 花朝节 | 2026/03/20-2026/04/08 |\n| 十周年周年庆（十周年狂欢①） | 2025/04/16-2025/05/13 |\n| 六一（十周年狂欢②） | 2025/05/21-2025/06/03 |\n| 端午（辉夜姬二命） | 2025/06/10-2025/07/01 |\n| 夏日游园（伊登二命） | 2025/07/09-2025/08/12 |\n| 夏日游园Ⅱ（五人碎星城） | 2025/08/06-2025/09/16 |\n| 双节活动（中秋+国庆）（妲己二命） | 2025/09/17-2025/10/18 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十章 奶块活动记录 / 10.10年份：2026",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "01213ae56b7732186667d744ab130a6ff23fd3246f673b1102d2b1f62f3f2f42",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

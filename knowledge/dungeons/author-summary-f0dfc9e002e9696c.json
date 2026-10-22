@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 轮回塔第一层-20220105 | | | | |\n| 骷髅兵，250生命，40攻击，45防御，攻击等级4，防御等级10 | | | | |\n| 骷髅守卫：造成100%近战物理伤害；  骷髅射手：造成100%远程物理伤害。 | | | | |\n| 天启，5000生命，80攻击，92防御，攻击等级4，防御等级10 | | | | |\n| 征服骑士：造成100%远程物理伤害，束缚箭对目标造成30%远程物理伤害，并附带束缚领域，离开领域将被定身，无法移动，无法跳跃，无法攻击；  战争骑士：造成100%近战物理的范围伤害，断筋对目标造成30%远程物理伤害，并附带断筋buff，降低目标50%移速，效果持续5秒；  饥荒骑士：造成100%远程魔法的子弹伤害，每10秒对目标造成100%远程魔法的大范围近距离魔法攻击，地雷给玩家附带火焰喷发buff，每秒在玩家脚下召唤一个暗雷（99999生命，80攻击，99999防御），持续5秒，暗雷造成150%远程魔法的AOE伤害；  死亡骑士：造成100%近战魔法的范围伤害，击飞技能对目标造成30%近战魔法伤害并击退。 | | | | |\n| 第一层奖励（概率尖晶石） | | | | |\n| 10000经验 | 300曙光声望 | 0蓝钻/0粉钻 | 5中级药水 | 3小书/1中书 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.2轮回塔 / 4.2.1轮回塔第一层-20220106",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "3f8cbbd5a9fa459f25de6afb038c83a4ced261f729a25d5aed7bc8554e710c10",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

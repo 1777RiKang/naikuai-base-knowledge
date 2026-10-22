@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 副本名称 | 开启时间 | 开启人数 | 总经验值 | 坐标 |\n| 领主藏书馆 | 00-20 | 1-5 | 9k | 6783-6622/1181-2603 |\n| 领主-未知上线时间，6500生命，26攻击，144防御，攻击等级2，防御等级10 | | | | |\n| 普通攻击：每2秒对最大仇恨目标造成100%近战物理伤害；  范围群攻：每10秒在自身8格范围内对玩家造成100%近战魔法伤害；  魔法攻击：每20秒对所有玩家造成90%远程魔法的子弹伤害。 | | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.1秘境 / 4.1.1暮色森林T2-20160926 / 4.1.1.1领主藏书馆",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "1fba9c97447b643a461b240f7696a237fb9276a4a18a49fe3334fe41321721bd",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

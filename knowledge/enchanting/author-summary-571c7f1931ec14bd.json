@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 附魔属性 | 修理耗材数量 | 附魔等级要求 |\n| 坚固Ⅰ/Ⅱ/Ⅲ | 2/4/7 | ~~≥1/≥20/≥39~~ |\n| 生命Ⅰ/Ⅱ/Ⅲ/Ⅳ/Ⅴ | 2/4/7/7/7 | ~~≥1/≥16/≥31/≥42/≥47~~ |\n| 抗性护甲Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 2/4/7/7/7 | ~~≥1/≥16/≥31/≥42/≥47~~ |\n| 灵攻Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 2/4/7/7/7 | ~~≥1/≥16/≥31/≥42/≥47~~ |\n| 锋利力量魔咒Ⅳ/Ⅴ/Ⅵ/Ⅶ/Ⅷ | 2/4/7/7/7 | ~~≥1/≥16/≥31/≥42/≥47~~ |\n| 龙吼致伤弹射Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥39/≥43/≥48~~ |\n| 烈焰花环寒冰花环Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥39/≥43/≥48~~ |\n| 石化魔法抑制Ⅰ/Ⅱ/Ⅲ | 7/7/7 | ~~≥39/≥43/≥48~~ |\n| 缴械沉默狂怒猛击Ⅱ/Ⅲ | 7/7 | ~~≥43/≥48~~ |\n| 雷霆花环生命花环Ⅱ/Ⅲ | 7/7 | ~~≥43/≥48~~ |\n| 不屈驱散净化Ⅱ/Ⅲ | 7/7 | ~~≥43/≥48~~ |\n| 盾牌反射庇护赐福Ⅲ | 7 | ~~≥48~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.3装备修理耗材数量及等级限制 / 11.1.1.6戒指",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f566b7de5a6ad9c8f1ee5d0a8540a8ee621767dd6edbce3c23042a86f8ddb027",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

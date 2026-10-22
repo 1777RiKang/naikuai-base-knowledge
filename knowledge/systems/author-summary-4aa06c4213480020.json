@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 猎魔福利（个人猎魔积分≥15） | |\n| 等级 | 猎魔奖励 |\n| 初级 | 3个村庄猎魔补给（绿） |\n| 中级 | 3个村庄猎魔补给（蓝） |\n| 高级 | 3个村庄猎魔补给（紫） |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.3村庄福利 / 7.3.3.4猎魔福利",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "37b8b69f4d64b070de2402af09cd801ec1e6ac1a62cf1df05424156c7bcfb6b3",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

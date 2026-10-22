@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 跟宠栏位数 | 解锁需要材料 |\n| 第1栏 | 无 |\n| 第2栏 | 无 |\n| 第3栏 | 无 |\n| 第4栏 | 跟宠栏位石\\*15 |\n| 第5栏 | 跟宠栏位石\\*30 |\n| 第6栏 | 跟宠栏位石\\*50 |\n| 第7栏 | 跟宠栏位石\\*50 |\n| 第8栏 | 跟宠栏位石\\*50 |\n| 第9栏 | 跟宠栏位石\\*50 |\n| 第10栏 | 跟宠栏位石\\*50 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.9跟宠栏位及跟宠仓库 / 5.9.1跟宠栏位",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "7e2c8f5fe8838229fe64c4fe8dcee0c03b5e1b433e3eebfa788a7564cf138370",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

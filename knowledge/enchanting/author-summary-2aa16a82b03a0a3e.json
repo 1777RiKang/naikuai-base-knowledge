@@ -7,17 +7,18 @@
     "数据摘要",
     "第十一章 附魔、占卜"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 附魔属性 | 修理所需经验 | 价值量 |\n| 耐久Ⅰ/Ⅱ/Ⅲ | 50/200/1200 | 00/01/02 |\n| 抗性护甲锋利力量魔咒灵咒灵攻灵防Ⅰ/Ⅱ/Ⅲ/Ⅳ/Ⅴ | 50/200/1200/1200/1200 | 00/01/02/03/04 |\n| 韧性Ⅰ/Ⅱ/Ⅲ/Ⅳ | 50/200/1200/1200 | 01/01/01/01 |\n| 盾墙治愈寒冰爆裂魔灵水灵火灵Ⅰ/Ⅱ/Ⅲ | 1200/1200/1200 | 05/05/05 |\n| 挑衅隐蔽Ⅰ/Ⅱ/Ⅲ | 1200/1200/1200 | 00/00/00 |\n| 暴击Ⅰ/Ⅱ/Ⅲ | 50/200/1200 | 00/01/02 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.2装备修理所需经验及修理优先级 / 11.1.2.1T2T3防具/武器",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "db162f94c3c21c32f3a2fe41a74ee297ffb38f6c4cfab0ee1867448a0b287411",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

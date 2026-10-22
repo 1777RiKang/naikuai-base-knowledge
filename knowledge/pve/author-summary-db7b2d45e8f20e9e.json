@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 辉夜姬二命 | |\n| 任务总数量 | 5个 |\n| 任务总奖励 | 初级精灵学识宝典\\*25+初级转生精灵宝典\\*25+羁绊之心\\*1 |\n| 任务副本 | 蓬莱月影（辉夜姬剧情本） |\n| 辉夜姬：获得线索 | 目标：在艾芙海姆击败10只【暗鹰身人】 |\n| 辉夜姬：共振感应 | 目标：在尼伯龙根击败10头【恶灵龙人守卫】 |\n| 辉夜姬：仪式开始 | 目标：在尼伯龙根的【祭坛】处完成共鸣仪式 |\n| 辉夜姬：原初之水 | 目标：在无尽之海击败10个【进阶水元素】 |\n| 辉夜姬：蔓延的枝叶 | 目标：通过尼伯龙根【祭坛】中的传送门，进入并完成秘境 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.8成就任务（主线支线） / 2.8.9精灵羁绊故事线 / 2.8.9.1辉夜姬",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "9f5af8899d6161242ae0edbc4602a2ddcedd18d491026c5af391b2d8e4848acf",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

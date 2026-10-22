@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 圣殿杯赛季（比赛地图） | 持续时间 |\n| 第1届（远古圣殿） | 2018-07-28至2018-08-25 |\n| 第2届（远古圣殿） | 2019-07-11至2019-08-10 |\n| 第3届（远古圣殿） | 2020-07-27至2020-08-15 |\n| 第4届（精灵圣殿） | 2021-07-09至2021-08-14 |\n| 第5届（远古圣殿） | 2022-07-08至2022-08-13 |\n| 第6届（远古圣殿） | 2023-07-14至2023-08-13 |\n| 第7届（远古圣殿） | 2024-08-01至2024-08-24 |\n| 第8届（远古圣殿） | 2025-07-14至2025-08-17 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.9圣殿杯",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "ca12b3c3e073b4b37b77347727c65f0cf0e465e01ccab004b5ab840f8d1a6efc",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

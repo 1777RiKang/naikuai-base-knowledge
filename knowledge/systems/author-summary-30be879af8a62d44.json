@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 饥饿值≥80%时，每4秒恢复最大生命值5% | |\n| 回城石冷却时间 | 30min（会员：5min） |\n| 世界频道喊话次数及冷却（非会员） | 20次（冷却90秒） |\n| 世界频道喊话次数及冷却（会员） | 200次（0-20次冷却45秒，~~21-40次冷却60秒，~~41-60次冷却120秒~~，61-80次冷却180秒，~~81-100次冷却240秒，101-120次冷却300秒，~~121-140次冷却360秒，141-160次冷却420秒，161-180次冷却480秒，181-200次冷却540秒）~~ |\n| 玩家主世界移速 | 4格/秒 |\n| 玩家主世界潜行 | 1.33格/秒 |\n| 玩家主世界水下移速 | 未知 |\n| 玩家主世界空中移速 | 未知 |\n| 玩家竞技场移速 | 3格/秒 |\n| 玩家竞技场潜行 | 1格/秒 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.1玩家基础数据（未完成）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "4e93eaec54090ff3df81f606e7fa9576b8e40f3befd60addbdb95cd501e356c6",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

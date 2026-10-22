@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "抗性即魔法防御，增加玩家魔法防御力，对龙骑士有加伤效果\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 武器/防具 | | 食物汤 | |\n| 抗性Ⅰ | +5魔法防御 | 抗性Ⅲ | +16魔法防御 |\n| 抗性Ⅱ | +10魔法防御 | 抗性Ⅳ | +23魔法防御 |\n| 抗性Ⅲ | +16魔法防御 | 抗性Ⅴ | +31魔法防御 |\n| 抗性Ⅳ | +23魔法防御 | 抗性Ⅵ | +40魔法防御 |\n| 抗性Ⅴ | +31魔法防御 | 抗性Ⅶ | +51魔法防御 |\n| 抗性Ⅵ | +40魔法防御 | 抗性Ⅷ | +63魔法防御 |\n| 抗性Ⅶ | +51魔法防御 | 抗性Ⅸ | +90魔法防御 |\n| 抗性Ⅷ | +63魔法防御 | 戒指 | |\n| 抗性Ⅸ | +70魔法防御 | 抗性Ⅳ | +17魔法防御 |\n| ~~抗性Ⅹ~~ | ~~+80魔法防御~~ | 抗性Ⅴ | +26魔法防御 |\n|  | | 抗性Ⅵ | +35魔法防御 |\n| 抗性Ⅶ | +44魔法防御 |\n| 抗性Ⅷ | +53魔法防御 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.4加成：抗性Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "dd1c3e71f7b96e2116f3bcf8f325f6ec9a4ff1d5fb632588b9dcb51b1fc4b55f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

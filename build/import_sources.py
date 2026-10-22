@@ -1,4 +1,4 @@
-"""Import supplied offline snapshots. Publish metadata only; keep bodies local."""
+"""Import the authorized Data Summary text; no external site snapshot is used."""
 import argparse
 from collections import Counter
 import copy
@@ -7,7 +7,6 @@ import hashlib
 import json
 from pathlib import Path
 import re
-import sqlite3
 
 from common import ROOT, norm
 from knowledge import ATTRIBUTIONS, collect_knowledge_errors, digest, load_knowledge, redact
@@ -17,11 +16,7 @@ CATEGORIES = {
     '五': 'pets', '六': 'fairies', '七': 'systems', '八': 'mounts',
     '九': 'equipment', '十': 'events', '十一': 'enchanting',
 }
-KINDS = {
-    'equipment': ('equipment', 'name'), 'gems': ('gems', 'name'),
-    'gem_attributes': ('gem-attributes', 'name'), 'fairies': ('fairies', 'name'),
-    'encyclopedia': ('encyclopedia', 'title'),
-}
+SUMMARY_URL = 'https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md'
 
 
 def clean_metadata(text):
@@ -61,192 +56,97 @@ def split_summary(text):
                'section': stack[0][1], 'locator': path, 'body': body}
 
 
-def fingerprint(text):
-    text = re.sub(r'^#{1,6}\s+.*$', '', text, flags=re.M)
-    text = re.sub(r'(?m)^\s*\|?[\s|:\-]{3,}\|?\s*$', '', text)
-    return digest(re.sub(r'\s+', '', text))
-
-
-def is_summary_article(row, summary_compact):
-    section = row.get('categoryName') or ''
-    body = row.get('content') or ''
-    if section == '免责声明' or re.match(r'^第.+章', section):
-        return True, 'summary-chapter'
-    if re.search(r'^#\s+第.+章', body, re.M):
-        return True, 'summary-heading'
-    compact = re.sub(r'[\s#*|\-]+', '', body)
-    if len(compact) >= 120:
-        samples = [compact[i:i+100] for i in (0, len(compact)//2, max(0, len(compact)-100))]
-        if sum(sample in summary_compact for sample in samples) >= 2:
-            return True, 'summary-text-match'
-    return False, 'site-record'
-
-
-def make_record(entry_id, title, category, source, via, locator, fetched_at,
-                updated_at, body, tags=(), aliases=(), rule='direct-source'):
+def make_record(entry_id, title, category, locator, fetched_at, body, tags=(), aliases=()):
+    body = body.replace('](images/', '](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/main/sources/data-summary/images/')
+    body = redact(body, allow_author_contact=category == 'notices')
     record = {
         'id': entry_id, 'title': clean_metadata(title), 'category': category,
         'aliases': sorted({clean_metadata(a) for a in aliases if norm(str(a)) != norm(title)}),
         'tags': sorted({clean_metadata(t)[:128] for t in tags if t}),
+        'content': body,
         'provenance': {
-            'source': source, 'attribution': ATTRIBUTIONS[source],
-            'acquired_via': via, 'url': 'https://nkwiki.cc/',
-            'locator': locator, 'source_updated_at': updated_at,
-            'fetched_at': fetched_at, 'content_sha256': digest(redact(body)),
-            'license': 'LicenseRef-Original-Source', 'publication': 'metadata-only',
-            'origin_rule': rule,
+            'source': 'author', 'attribution': ATTRIBUTIONS['author'],
+            'acquired_via': 'local-file', 'url': SUMMARY_URL,
+            'locator': locator, 'source_updated_at': None, 'fetched_at': fetched_at,
+            'content_sha256': digest(body), 'license': 'LicenseRef-Original-Source',
+            'publication': 'fulltext', 'origin_rule': 'direct-summary',
         },
         'review': {'status': 'draft', 'reviewer': None, 'reviewed_at': None},
         'imported': True, 'credit_eligible': False,
     }
-    return record, redact(body)
+    return record
 
 
-def load_aliases(database):
-    """Use only the base wiki database, never patched community records."""
-    if not database.exists():
-        return {}
-    db = sqlite3.connect(database.resolve().as_uri() + '?mode=ro', uri=True)
-    try:
-        names = {}
-        for name, alias in db.execute('SELECT e.name,a.alias FROM entities e JOIN aliases a ON a.entity_id=e.id'):
-            names.setdefault(norm(name), set()).add(alias)
-        return names
-    finally:
-        db.close()
-
-
-def collect_snapshot(wiki_dir, summary_path):
-    wiki_dir, summary_path = Path(wiki_dir), Path(summary_path)
-    manifest = json.loads((wiki_dir/'raw/manifest.json').read_text(encoding='utf-8-sig'))
-    for filename, expected in manifest['files'].items():
-        raw = (wiki_dir/'raw'/filename).read_bytes()
-        if hashlib.sha256(raw).hexdigest() != expected['sha256']:
-            raise ValueError(f'原始快照校验失败：{filename}')
-    fetched_at = manifest['fetchedAt']
+def collect_snapshot(summary_path):
+    summary_path = Path(summary_path)
     summary = summary_path.read_text(encoding='utf-8-sig')
-    compact_summary = re.sub(r'[\s#*|\-]+', '', summary)
-    rows, bodies, fingerprints = [], {}, {}
-    aliases = load_aliases(wiki_dir/'wiki-kb.sqlite')
-
-    def append(record, body):
-        fp = fingerprint(body)
-        if len(body) > 30 and fp in fingerprints:
-            record['duplicate_of'] = fingerprints[fp]
-        elif len(body) > 30:
-            fingerprints[fp] = record['id']
-        rows.append(record)
-        bodies[record['id']] = {'id': record['id'], 'content': body,
-                                'content_sha256': record['provenance']['content_sha256']}
-
+    fetched_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    rows = []
     for part in split_summary(summary):
-        record, body = make_record(part['id'], part['title'],
-            category_for(part['title'], part['section']), 'author', 'local-file',
-            part['locator'], fetched_at, None, part['body'], [part['section'], '数据摘要'],
-            rule='direct-summary')
-        append(record, body)
-
-    articles = json.loads((wiki_dir/'raw/articles.json').read_text(encoding='utf-8-sig'))
-    for row in sorted(articles, key=lambda r: r['id']):
-        if row.get('isDeleted') or row.get('isPublished') is False:
-            continue
-        author, rule = is_summary_article(row, compact_summary)
-        section = row.get('categoryName') or ''
-        record, body = make_record('knowledge.nkwiki-article-' + str(row['id']),
-            row['title'], category_for(row['title'], section),
-            'author' if author else 'nkwiki', 'nkwiki', 'article:' + str(row['id']),
-            fetched_at, row.get('updatedAt'), row.get('content') or '', [section],
-            rule=rule)
-        append(record, body)
-
-    details = json.loads((wiki_dir/'raw/encyclopedia_detail.json').read_text(encoding='utf-8-sig'))
-    for kind, (category, name_key) in KINDS.items():
-        dataset = json.loads((wiki_dir/'raw'/f'{kind}.json').read_text(encoding='utf-8-sig'))
-        for row in sorted(dataset, key=lambda r: r['id']):
-            if row.get('isDeleted'):
-                continue
-            detailed = details.get(str(row['id']), row) if kind == 'encyclopedia' else row
-            # Keep source fields locally; discard site author/account and tracking fields.
-            safe = {k: v for k, v in detailed.items() if k not in {
-                'authorId', 'authorName', 'viewCount', 'likeCount', 'commentCount',
-                'collectionCount', 'deletedAt'}}
-            body = json.dumps(safe, ensure_ascii=False, indent=2)
-            name = row[name_key]
-            record, body = make_record(
-                'knowledge.nkwiki-' + kind.replace('_', '-') + '-' + str(row['id']),
-                name, category, 'nkwiki', 'nkwiki', kind + ':' + str(row['id']),
-                fetched_at, row.get('updatedAt'), body, [row.get('categoryName') or category],
-                aliases.get(norm(name), ()))
-            append(record, body)
+        record = make_record(part['id'], part['title'],
+            category_for(part['title'], part['section']), part['locator'], fetched_at,
+            part['body'], [part['section'], '数据摘要'])
+        rows.append(record)
     receipt = {
-        'source': 'offline-user-supplied-snapshot', 'fetched_at': fetched_at,
-        'external_content_publication': 'metadata-only',
-        'summary_attribution': ATTRIBUTIONS['author'], 'site_attribution': ATTRIBUTIONS['nkwiki'],
-        'source_files': {k: {'sha256': v['sha256'], 'bytes': v['bytes']}
-                         for k,v in manifest['files'].items()},
+        'source': 'authorized-author-summary', 'fetched_at': fetched_at,
+        'external_content_publication': 'fulltext',
+        'summary_attribution': ATTRIBUTIONS['author'],
+        'summary_version': '8.6.26.10',
         'summary_sha256': hashlib.sha256(summary_path.read_bytes()).hexdigest(),
-        'wiki_database_sha256': hashlib.sha256((wiki_dir/'wiki-kb.sqlite').read_bytes()).hexdigest(),
-        'counts': {'knowledge_catalog': len(rows), 'categories': dict(sorted(Counter(r['category'] for r in rows).items())),
-                   'sources': dict(Counter(r['provenance']['source'] for r in rows)),
-                   'exact_duplicates': sum('duplicate_of' in r for r in rows)},
-        'source_snapshot_counts': manifest['counts'],
+        'authorization': {'confirmed_by': 'maintainer', 'confirmed_on': '2026-10-22',
+                          'public_fulltext_requested_on': '2026-10-22',
+                          'license': 'LicenseRef-Original-Source'},
+        'counts': {'knowledge_entries': len(rows),
+                   'categories': dict(sorted(Counter(r['category'] for r in rows).items())),
+                   'sources': {'author': len(rows)}},
     }
-    return rows, bodies, receipt
+    return rows, receipt
 
 
-def write_snapshot(records, bodies, receipt, catalog_dir, private_dir):
-    catalog_dir, private_dir = Path(catalog_dir), Path(private_dir)
-    try:
-        private_dir.resolve().relative_to((ROOT/'.local').resolve())
-    except ValueError:
-        raise ValueError('本地全文输出必须位于本仓库被忽略的 .local/ 目录') from None
+def write_snapshot(records, receipt, catalog_dir):
+    catalog_dir = Path(catalog_dir)
     previous = {d['id']: (p,d) for p,d in load_knowledge(catalog_dir)}
-    present = set()
     candidates = []
     for record in records:
-        present.add(record['id'])
         old = previous.get(record['id'])
         if old and old[1]['provenance']['content_sha256'] == record['provenance']['content_sha256']:
             record['review'] = copy.deepcopy(old[1]['review'])
-        target = catalog_dir/record['category']/(record['id'].split('.',1)[1]+'.json')
+            record['provenance']['fetched_at'] = old[1]['provenance']['fetched_at']
+        target = catalog_dir / record['category'] / (record['id'].split('.',1)[1]+'.json')
         candidates.append((target, record))
+    # Missing author sections stay deprecated for traceability. Site records are removed.
     for entry_id,(path,doc) in previous.items():
-        if entry_id not in present:
+        if entry_id not in {record['id'] for record in records} and doc.get('content') and doc['provenance']['source'] == 'author':
             doc = copy.deepcopy(doc)
             doc['review'] = {'status':'deprecated','reviewer':None,'reviewed_at':None}
-            # A retired copy must not retain a link to a newly changed source body.
-            doc.pop('duplicate_of', None)
+            doc.pop('duplicate_of',None)
             candidates.append((path,doc))
     errors = collect_knowledge_errors(candidates)
     if errors:
         raise ValueError('\n'.join(errors))
+    expected = {path for path,_ in candidates}
+    # Only remove catalog files discovered under the explicitly supplied catalog root.
+    for path,_ in previous.values():
+        path.resolve().relative_to(catalog_dir.resolve())
+        if path not in expected:
+            path.unlink()
     for path,record in candidates:
         path.parent.mkdir(parents=True,exist_ok=True)
         path.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-        old = previous.get(record['id'])
-        if old and old[0] != path:
-            old[0].unlink()
-    private_dir.mkdir(parents=True,exist_ok=True)
-    with (private_dir/'bodies.jsonl').open('w',encoding='utf-8') as output:
-        for key in sorted(bodies):
-            output.write(json.dumps(bodies[key],ensure_ascii=False)+'\n')
-    (private_dir/'import-receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     return candidates
 
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--nkwiki-dir',type=Path,required=True)
-    parser.add_argument('--summary',type=Path,required=True)
-    args=parser.parse_args()
-    records,bodies,receipt=collect_snapshot(args.nkwiki_dir,args.summary)
-    write_snapshot(records,bodies,receipt,ROOT/'knowledge',ROOT/'.local')
-    (ROOT/'sources').mkdir(exist_ok=True)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--summary', type=Path, default=ROOT/'sources/data-summary/full.md')
+    args = parser.parse_args()
+    records,receipt = collect_snapshot(args.summary)
+    write_snapshot(records,receipt,ROOT/'knowledge')
     (ROOT/'sources/import-manifest.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     from catalog_docs import generate
     generate()
     print(json.dumps(receipt['counts'],ensure_ascii=False,indent=2))
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()

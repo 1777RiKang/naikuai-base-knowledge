@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 任务名称 | 任务内容 | 每颗星任务奖励（额外奖励） |\n| 在主世界地底开采煤矿石 | 开采煤矿石10个 | 200经验10活跃 |\n| 在主世界地底开采硫磺矿石 | 开采硫磺矿石1个 | 200经验5活跃 |\n| 在主世界地底开采硝化岩矿石 | 开采硝化岩矿石1个 | 200经验5活跃 |\n| 在主世界地底开采萤石矿石 | 开采萤石矿石1个 | 200经验5活跃 |\n| 在主世界地底开采磁石矿石 | 开采磁石矿石1个 | 200经验5活跃 |\n| 在主世界地底开采黄铜矿石 | 开采黄铜矿石1个 | 200经验5活跃 |\n| 使用熔炉熔炼铁锭 | 从熔炉内得到铁锭10个 | 200经验6活跃 |\n| 使用熔炉熔炼金锭 | 从熔炉内得到金锭3个 | 200经验6活跃 |\n| 使用熔炉熔炼黑铁锭 | 从熔炉内得到黑铁锭5个 | 200经验6活跃 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.4村庄任务 / 7.3.4.2下矿时间",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f46511bbfdc7817279bb8099d7d887ae9f3fedb2ab51a45ee796e26ba31e2e08",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

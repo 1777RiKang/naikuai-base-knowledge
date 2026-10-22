@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 副本名称 | 开启时间 | 开启人数 | 总经验值 | 坐标 |\n| 寒冰宫殿 | 30-60 | 2-5 | 9k | 3820-1275/3787-6778/1194-3639  6727-1143/6850-3703/6751-8755  1340-8711/8687-6771 |\n| 冰霜女巫-未知上线时间，12000生命，60攻击，204防御，攻击等级3，防御等级10 | | | | |\n| 普通攻击：造成100%远程魔法伤害，附带迟缓，减少40%移速，持续5秒；  群体寒冰箭：对全场目标造成80%远程魔法伤害，附带迟缓，减少40%移速，持续5秒；  群体定身并召唤：对全场目标造成50%远程魔法伤害，附带迟缓，减少80%移速，持续2秒，并在目标脚下召唤自爆史莱姆（999999生命，24攻击，9999防御，攻击等级3，防御等级10），对周围目标造成100%近战物理伤害；  召唤：每8秒召唤2只冰霜射手（70生命，20攻击，0防御，攻击等级3，防御等级10）；  冰结之力：击杀冰霜女巫后获得12小时的“冰结之力”。 | | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.1秘境 / 4.1.3极寒之境T3-20170100 / 4.1.3.2寒冰宫殿",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "a4db413f8be3b7c8eb941d4e3bb04584e3afdb9f58c7cb697ee4cc7a376e28c9",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

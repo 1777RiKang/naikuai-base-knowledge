@@ -7,17 +7,18 @@
     "数据摘要",
     "第三章 PVP数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 韧性加成（n为PVP点总数） | |\n| ~~主世界伤害的韧性增益~~ | ~~1.03^n（猜测为1+0.025\\*n）~~ |\n| ~~竞技场伤害的韧性增益~~ | ~~1.06^n（猜测为1+0.05\\*n）~~ |\n| 造成治疗和附加护盾的韧性增益 | 1+0.01\\*n |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第三章 PVP数据总结 / 3.4韧性 / 3.4.2韧性加成",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "abaf4d94c1bb49e8d9c882f10547ece003a785d8c898989b37a6c764ecf1b4df",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "灵攻即魔灵攻击，增加玩家魔灵攻击数值，对召唤师、触须宝石有加伤效果\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| T5及以上武器/防具 | | T4及以下武器/防具 | |\n| 灵攻Ⅲ | +37魔灵攻击 | 灵攻Ⅰ | +3魔灵攻击 |\n| 灵攻Ⅳ | +54魔灵攻击 | 灵攻Ⅱ | +4魔灵攻击 |\n| 灵攻Ⅴ | +72魔灵攻击 | 灵攻Ⅲ | +5魔灵攻击 |\n| 灵攻Ⅵ | +97魔灵攻击 | 灵攻Ⅳ | +11魔灵攻击 |\n| 灵攻Ⅶ | +121魔灵攻击 | 灵攻Ⅴ | +18魔灵攻击 |\n| 灵攻Ⅷ | +151魔灵攻击 | 戒指 | |\n| 灵攻Ⅸ | +165魔灵攻击 | 灵攻Ⅳ | +24魔灵攻击 |\n| ~~灵攻Ⅹ~~ | ~~+220魔灵攻击~~ | 灵攻Ⅴ | +36魔灵攻击 |\n|  | | 灵攻Ⅵ | +48魔灵攻击 |\n| 灵攻Ⅶ | +60魔灵攻击 |\n| 灵攻Ⅷ | +72魔灵攻击 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.6加成：灵攻Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "795bc3eceff06706202d4144c93723d35d41d9f44cadba2f464dcd54f94bd85a",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

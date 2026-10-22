@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 蓝漆海洋双开门 | 击败彷徨铠甲精英怪获得配方 |\n| 白木海洋双开门 | 击败蝴蝶妖精英怪获得配方 |\n| 六方白木窗 | 击败法师巨人精英怪获得配方 |\n| 六方蓝漆窗 | 击败花仙女精英怪获得配方 |\n| 六方湛蓝漆窗 | 击败仙鹿术士精英怪获得配方 |\n| 湛蓝海洋隔断 | 击败幽冥沙虫精英怪获得配方 |\n| 白木海洋隔断 | 击败恶灵凋零精英怪获得配方 |\n| 蓝漆海洋隔断 | 击败幽冥巨石守卫精英怪获得配方 |\n| 实木海洋隔断 | 击败幽冥奇美拉精英怪获得配方 |\n| 海洋白木邮箱 | 在天空之城的木匠（450，2，535）处购买配方 |\n| 蓝漆一米置物架 | 在尼伯龙根的卡戎处购买配方 |\n| 白漆一米置物架 | 在尼伯龙根的卡戎处购买配方 |\n| 蓝漆三米置物架 | 在尼伯龙根的卡戎处购买配方 |\n| 白漆三米置物架 | 在尼伯龙根的卡戎处购买配方 |\n| 蓝漆两米植物架 | 击败恶灵凋零精英怪获得配方 |\n| 白漆两米植物架 | 击败亡灵骑卫精英怪获得配方 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.4海洋 / 7.5.4.2门窗",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d3cb7bfffc17b0543f02c83d2750e3f916c4b70f8575d558fdb195959c6b4b33",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

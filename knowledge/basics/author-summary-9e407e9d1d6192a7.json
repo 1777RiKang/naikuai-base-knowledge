@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "除T1以外的破甲数字计算公式：N=2t2+10t+20（t≥2）\n\n列举8T以内的破甲数字（T1除外）：\n\n|  |  |\n| --- | --- |\n| NPC攻击等级n/玩家主手武器T级t | 破甲数字N |\n| NPC攻击等级1/玩家主手武器T1 | 34 |\n| NPC攻击等级2/玩家主手武器T2 | 48 |\n| NPC攻击等级3/玩家主手武器T3 | 68 |\n| NPC攻击等级4/玩家主手武器T4 | 92 |\n| NPC攻击等级5/玩家主手武器T5 | 120 |\n| NPC攻击等级6/玩家主手武器T6 | 152 |\n| NPC攻击等级7/玩家主手武器T7 | 188 |\n| NPC攻击等级8/玩家主手武器T8 | 228 |\n| ~~NPC攻击等级9/玩家主手武器T9~~ | ~~272~~ |\n| ~~NPC攻击等级10/玩家主手武器T10~~ | ~~320~~ |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.8T级表",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "b37693de7eba449c9ccb2a1a31d38155e41c390f7cfdbd9126ee2c9e6e7913cd",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

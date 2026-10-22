@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 每周福利 | |\n| 周贡献区间 | 奶酪奖励 |\n| 0-170 | 0 |\n| 170-210 | 15 |\n| 210-310 | 30 |\n| 310-410 | 50 |\n| 410-510 | 65 |\n| 510-610 | 75 |\n| 610-MAX | 80 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.3村庄福利 / 7.3.3.2每周福利",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "29a615c347d7635cf41fcd3e704113ba5fd828af6333f79f6ddd4b3f0f7d478d",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

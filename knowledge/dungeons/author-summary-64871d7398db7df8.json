@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "副本T级分为副本限制和副本破甲。\n\n攻击等级（攻击等级由4.1.2秘境boss基础及技能和4.2.2轮回塔NPC基础及技能提供）不含主手的最小T级要求说明：攻击等级2，不含主手的最小T级要求为8；攻击等级3，不含主手的最小T级要求为13；攻击等级4，不含主手的最小T级要求为18；攻击等级5，不含主手的最小T级要求为23；攻击等级6，不含主手的最小T级要求为28；攻击等级7，不含主手的最小T级要求为33；攻击等级8，不含主手的最小T级要求为38。",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.0副本信息 / 4.0.4副本T级",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "f8fd0941ead20da18fad09120bd6aebd3f03c4dcb2cead2b7caf3cde0c32959d",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

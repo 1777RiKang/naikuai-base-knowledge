@@ -7,17 +7,18 @@
     "数据摘要",
     "第六章 精灵"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 凯兰崔尔（精灵装备为风之歌系列，暗精灵军需官商店兑换） | |\n| 精灵面板对照6.3.6.2精灵显性面板，精灵技能面板对照6.3.7.1精灵隐性面板 | |\n| 50级面板+壹命加成 | |\n| 近战物攻：50+10，远程物攻：20+4，近战魔攻：20+4，远程魔攻：20+4  物理防御：25%+0+5%，魔法防御：40%+50+8%+10 | |\n| 精灵礼物 | |\n| 转生前喜欢的礼物：精灵香水瓶、圣洁宝石项链、晨星石戒指  转生后喜欢的礼物：摄魂香水瓶、魔眼石项链、魔眼石戒指 | |\n| 50级精灵技能数值 | |\n| 嘲讽 | 零命技能（200S）：挑衅前方6格120°扇形范围内的所有敌人，强制他们攻击自己10秒。 |\n| 贰命技能（180S）：（主动冷却时被动失效）常驻被动：提升15近战物理攻击力；主动：使自身受到的伤害降低20%，挑衅前方6格120°扇形范围内的所有敌人，强制他们攻击自己10秒； |\n| 风墙 | 零命技能（200S）：在面前制造一堵风墙，可以抵挡飞来的子弹。 |\n| 贰命技能（180S）：（主动冷却时被动失效）常驻被动：提升15近战物理攻击力；主动：在面前制造一堵风墙，可以抵挡飞来的子弹。 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第六章 精灵 / 6.2各精灵介绍 / 6.2.2凯兰崔尔-200817（三星）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "5264f330216fbdc466cbc2aa8b13e62fea8b014633883581c77d5505b36e6118",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

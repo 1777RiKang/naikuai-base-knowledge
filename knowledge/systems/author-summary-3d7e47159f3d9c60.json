@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 玩家背包 | | | | | | | |\n| 格数 | 解锁条件 | 格数 | 解锁条件 | 格数 | 解锁条件 | 格数 | 解锁条件 |\n| 0-32 | 免费 | 33-36 | 10奶酪 | 37-39 | 15奶酪 | 40-42 | 25奶酪 |\n| 会员分界线 | | | | | | | |\n| 43-45 | 40奶酪 | 46-48 | 60奶酪 | 49-51 | 75奶酪 | 52-54 | 90奶酪 |\n| 55-57 | 120奶酪 | 58-60 | 150奶酪 | 61-63 | 200奶酪 | 64-68 | 240奶酪 |\n| 69-74 | 270奶酪 | 75-80 | 300奶酪 | 总计6985奶酪 | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.1玩家基础数据（未完成） / 7.1.2玩家背包",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "bffb14fa30799f68a543b6eb95ded4bfb896caa20e5f9e1248f1307b7666cd72",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

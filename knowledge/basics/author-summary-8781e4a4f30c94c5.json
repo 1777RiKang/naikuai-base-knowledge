@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "力量即远程物理，增加玩家远程物理攻击力，对弓箭手、影刃、猎魔人有加伤效果\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 武器/防具 | | 食物汤 | |\n| 力量Ⅰ | +7远程物理攻击力 | 力量Ⅲ | +25远程物理攻击力 |\n| 力量Ⅱ | +16远程物理攻击力 | 力量Ⅳ | +36远程物理攻击力 |\n| 力量Ⅲ | +25远程物理攻击力 | 力量Ⅴ | +48远程物理攻击力 |\n| 力量Ⅳ | +36远程物理攻击力 | 力量Ⅵ | +64远程物理攻击力 |\n| 力量Ⅴ | +48远程物理攻击力 | 力量Ⅶ | +81远程物理攻击力 |\n| 力量Ⅵ | +64远程物理攻击力 | 力量Ⅷ | +100远程物理攻击力 |\n| 力量Ⅶ | +81远程物理攻击力 | 力量Ⅸ | +145远程物理攻击力 |\n| 力量Ⅷ | +100远程物理攻击力 | 戒指 | |\n| 力量Ⅸ | +115远程物理攻击力 | 力量Ⅳ | +16远程物理攻击力 |\n| ~~力量Ⅹ~~ | ~~+130远程物理攻击力~~ | 力量Ⅴ | +24远程物理攻击力 |\n|  | | 力量Ⅵ | +32远程物理攻击力 |\n| 力量Ⅶ | +40远程物理攻击力 |\n| 力量Ⅷ | +48远程物理攻击力 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.3加成：力量Ⅰ-Ⅹ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "a7ef1760d20bfedb9d509ab92903500f50a41e449c2c888f52935d929f4f32d0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 祭坛等级 | 解锁图腾 | | | |\n| 1 | 骷髅守卫 | | 血月守卫 | |\n| 2 | 女妖 | 怨灵 | | 领主 |\n| 3 | 斯芬克斯 | | 黑曜石守卫 | |\n| 4 | 冰霜女巫 | | 阿努比斯 | |\n| 5 | 死神 | 魅魔 | | 彷徨 |\n| 6 | 城堡核心 | | 火焰领主 | |\n| 7 | 黑夜女神 | | | |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.6村庄祭坛 / 7.3.6.1村庄祭坛等级对应可解锁图腾",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "aa783746022cf526977a089e82ec1453d5274d191a6b1a622775a612b7ddb558",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 升级档次 | | 消耗材料 |\n| 三角 | 普通升级为幻光 | 精灵宝石精华液\\*9 |\n| 幻光升级为命运 | 虚无结晶碎石\\*9 |\n| 命运升级为溯时 | 深海宝石精华液\\*9 |\n| 四角 | 普通升级为幻光 | 精灵宝石精华液\\*18 |\n| 幻光升级为命运 | 虚无结晶碎石\\*12+虚无石英柱\\*6 |\n| 命运升级为溯时 | 深海宝石精华液\\*12+高级深海宝石精华液\\*4 |\n| 五角 | 普通升级为幻光 | 精灵宝石精华液\\*36 |\n| 幻光升级为命运 | 虚无结晶碎石\\*18+虚无石英柱\\*18 |\n| 命运升级为溯时 | 深海宝石精华液\\*18+高级深海宝石精华液\\*9 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.6宝石 / 2.6.3宝石升级材料",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "87f916dd3446936f7fc707860abcb31c2c91ea845660a0ba68ed4b9d3b388de0",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

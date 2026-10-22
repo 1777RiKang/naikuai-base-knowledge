@@ -7,17 +7,18 @@
     "数据摘要",
     "第一章 基础数据"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 防具 | 耐久/坚固Ⅰ  Ⅰ阶+25% | T5以下+25% |\n| T5+50% |\n| T5以上+100% |\n| 耐久/坚固Ⅱ  Ⅱ阶+35% | T5以下+35% |\n| T5+70% |\n| T5以上+140% |\n| 耐久/坚固Ⅲ  Ⅲ阶+50%，Ⅳ阶/Ⅴ阶+100%，Ⅵ阶+300% | T5以下+50% |\n| T5+100% |\n| T5以上+200% |\n| 武器 | 耐久Ⅰ  Ⅰ阶+40% | T5以下+40% |\n| T5+80% |\n| T5以上+160% |\n| 耐久Ⅱ  Ⅱ阶+70% | T5以下+70% |\n| T5+140% |\n| T5以上+280% |\n| 耐久Ⅲ  Ⅲ阶+100%，Ⅳ阶/Ⅴ阶+200%，Ⅵ阶+600% | T5以下+100% |\n| T5+200% |\n| T5以上+400% |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第一章 基础数据 / 1.1武器/防具特殊附魔属性 / 1.1.4属性：耐久/坚固Ⅰ-Ⅲ",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "94d187b2dc11dee0112a47646b3464863af43efac75a0175c9e46e5246e76459",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

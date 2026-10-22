@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 家具名称 | 解锁条件 |\n| 双开镂空实木门 | 可在切割台直接合成 |\n| 六方实木窗 | 可在切割台直接合成 |\n| 雕花玻璃块 | 击败亡灵夫人精英怪获得配方 |\n| 雕花玻璃顶 | 击败魅惑魔女精英怪获得配方 |\n| 六方实木细杆窗 | 击败亡灵巨兽精英怪获得配方 |\n| 双开实木大门 | 击败黑色收割者精英怪获得配方 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.5家具 / 7.5.2田园 / 7.5.2.2门窗",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "51bf885e50fbf64291f266c9339bbacf12a39b3c36d0a5a33b1d776d61cb5b73",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

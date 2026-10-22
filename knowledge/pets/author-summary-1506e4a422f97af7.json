@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 生命值 | 与跟宠自身面板有关 |\n| 速度 | 与跟宠自身面板有关 |\n| 物攻 | 与跟宠自身面板有关 |\n| 魔攻 | 与跟宠自身面板有关 |\n| 物防 | 与跟宠自身面板有关 |\n| 魔防 | 与跟宠自身面板有关 |\n| 基础闪躲率 | 未知 |\n| 基础命中率 | 未知 |\n| 基础暴击率 | 未知 |\n| 基础暴击伤害 | 150%暴击伤害 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.5跟宠资质 / 5.5.3跟宠面板",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "9d361e62c9c3f30137102851fd362e32a0e7cb5b8d6fff124074a630849cc72c",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

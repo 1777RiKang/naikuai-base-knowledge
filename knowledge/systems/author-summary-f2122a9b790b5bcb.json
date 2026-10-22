@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 普通玩家 | 奖励 | 会员玩家额外奖励 | 奖励 |\n| 累计登录1天 | 奶酪\\*1 | 累计登录1天 | 奶酪\\*8 |\n| 累计登录2天 | 奶酪\\*1 | 累计登录2天 | 奶酪\\*12 |\n| 累计登录3天 | 奶酪\\*2 | 累计登录3天 | 奶酪\\*16 |\n| 累计登录4天 | 奶酪\\*2 | 累计登录4天 | 奶酪\\*32 |\n| 累计登录5天 | 奶酪\\*3 | 累计登录5天 | 奶酪\\*32 |\n| 累计登录6天 | 奶酪\\*5 | 累计登录6天 | 奶酪\\*32 |\n| 累计登录7天 | 奶酪\\*8 | 累计登录7天 | 奶酪\\*32 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.1玩家基础数据（未完成） / 7.1.4玩家每周福利",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "749b3f481fd79fc5173cfec40ccf7dde4f2ba0ffa80e0007d44c2d0a8c427ce5",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

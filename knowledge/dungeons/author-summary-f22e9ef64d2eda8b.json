@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "副本防御是副本防御值对玩家造成伤害的削弱，常用于计算玩家在副本内对首领造成伤害的破甲比例（破甲公式由4.0.1副本破甲计算公式提供，破甲比例由4.0.2副本破甲表提供）。\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| 副本防御（副本防御值对玩家造成伤害的削弱） | | | |\n| 暮色森林 | | 米德加德 | |\n| 女妖 | T2防御本 | 瓦尔基里 | T5防御本 |\n| 怨灵 | T2防御本 | 芬里尔 | T4防御本 |\n| 丛林领主 | T2防御本 | 无界之地 | |\n| 魔女小樱 | T2防御本 | 天启四骑士 | T4防御本 |\n| 精英小樱 | T3防御本 | 伯爵狗 | T5防御本 |\n| 炽热大陆 | | 双生女神 | T5防御本 |\n| 阿努比斯 | T3防御本 | 黑暗巨龙 | T5防御本 |\n| 斯芬克斯 | T3防御本 | 艾芙海姆 | |\n| 埃及法老 | T3防御本 | 丝卡蒂 | T6防御本 |\n| 精英艳后 | T3防御本 | 卓尔 | T6防御本 |\n| 极寒之境 | | 提尔 | T6防御本 |\n| 黑曜石守卫 | T3防御本 | 尼伯龙根 | |\n| 冰霜女巫 | T3防御本 | 三人本 | 低T防御本 |\n| 精英女巫 | T3防御本 | 双仆 | T6防御本 |\n| 遗忘之境 | | 海拉 | T7防御本 |\n| 城堡核心 | T4防御本 | 无尽之海 | |\n| 精英厄运 | T4防御本 | 三人本 | T8防御本 |\n| 火焰领主 | T4防御本 | 双神 | T8防御本 |\n| 黑夜女神 | T4防御本 | 群星之界 | |\n| 精英黑女 | T4防御本 | 三人本 | T8防御本 |\n|  |  | 碎星城 | T8防御本 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.0副本信息 / 4.0.4副本T级 / 4.0.4.2副本防御",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d69bc8a1da62f0f8eca26d2b1d319daa893c6a52b75575314500bbd978bc7f56",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

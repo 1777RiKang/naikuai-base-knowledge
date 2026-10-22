@@ -7,17 +7,18 @@
     "数据摘要",
     "第五章 跟宠"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 小无灵-无属性跟宠 | “元灵”与“虚无” |\n| 名将虎-火系跟宠 | “灼焰之火”、“野兽”与“利爪” |\n| 大师虎-火系跟宠 | “灼焰之火”、“野兽”与“利爪” |\n| 王者虎-火系跟宠 | “灼焰之火”、“野兽”与“王者” |\n| 暴暴龙-暗系跟宠 | “寂灭之暗”、“龙”与“鳞甲” |\n| 暴暴龙战士-暗系跟宠 | “寂灭之暗”、“龙”与“虚无” |\n| 奶龙-光系跟宠 | “圣辉之光”、“龙”与“利爪” |\n| 奶龙骑士-光系跟宠 | “圣辉之光”、“龙”与“王者” |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第五章 跟宠 / 5.4跟宠天赋及羁绊 / 5.4.3羁绊 / 5.4.3.3特殊跟宠羁绊",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "fbc6292b818ee3fbbd2b14f4ed9950b75fcc3af7288e45ae7a3fcee33fff1cc1",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

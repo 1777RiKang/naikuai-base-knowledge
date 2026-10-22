@@ -7,17 +7,18 @@
     "数据摘要",
     "第二章 PVE数据总结"
   ],
+  "content": "|  |  |\n| --- | --- |\n| 艾芙海姆T6 | |\n| 敌对 | 0-29999 |\n| 警惕 | 30000-30119 |\n| 和缓 | 30120-30479 |\n| 友善 | 30480-31799 |\n| 亲密 | 31800-2100000000 |\n| 尼伯龙根T7（阵营关系达到亲密时，玩家全攻击属性提升5%，尼伯龙根大世界无效（尼伯龙根大世界：克制阵营比例为10%，被克制阵营比例为-10%，其他阵营无效果）） | |\n| 敌对 | 0-29999 |\n| 警惕 | 30000-30119 |\n| 和缓 | 30120-30479 |\n| 友善 | 30480-31799 |\n| 亲密 | 31800-2100000000 |\n| 群星之界T8 | |\n| 中立 | 0-999 |\n| 友善 | 1000-1999 |\n| 亲密 | 2000-4999 |\n| 尊敬 | 5000-14999 |\n| 崇敬 | 15000-29999 |\n| 崇拜 | 30000-2100000000 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.1异世界基础信息 / 2.2.1.4阵营晋升",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "d62b8e8407d522b9b0507377dc6eb99712acf30827cd68dbcc8eb969a561e900",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

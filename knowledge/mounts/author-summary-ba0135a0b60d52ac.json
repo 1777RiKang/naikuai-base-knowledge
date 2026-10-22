@@ -7,17 +7,18 @@
     "数据摘要",
     "第八章 坐骑"
   ],
+  "content": "|  |  |  |\n| --- | --- | --- |\n| 坐骑名称 | 坐骑高度 | 受伤高度 |\n| 龙马 | 2.3 | 2.3 |\n| 仙狐 | 2.6 | 2.6 |\n| 仙鹿 | 2.6 | 2.6 |\n| 狮鹫 | 2.8 | 2.8 |\n| 羊驼玛特 | 2.95 | 2.95 |\n| 幽灵狼 | 2.85 | 2.85 |\n| 雪人 | 3.7 | 3.7 |\n| 鳄鱼 | 1.85 | 1.85 |\n| 天狗 | 2.85 | 2.85 |\n| 长毛象 | 3.4 | 3.4 |\n| 骆驼 | 3.4 | 3.4 |\n| 黑暗战马 | 2.95 | 2.95 |\n| 熔岩骏马 | 2.95 | 2.95 |\n| 圣诞驯鹿 | 2.95 | 3.0 |\n| 红年兽 | 2.95 | 2.95 |\n| 赤狐 | 2.95 | 3.0 |\n| 陆行鸟 | 2.8 | 2.8 |\n| 陆行鸟 | 2.8 | 2.8 |\n| 黑犀牛 | 2.6 | 2.6 |\n| 剑齿虎 | 2.85 | 2.85 |\n| 亡灵军马 | 2.95 | 2.95 |\n| 亡灵军马 | 2.95 | 2.95 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.3精良坐骑 / 8.2.3.2骑乘信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "aae084efcf239045a59a4284218f8b31864d8d7fb991453c0a05ea39dbc9512f",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

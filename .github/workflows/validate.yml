@@ -30,7 +30,7 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Build sqlite
         run: python build/build_sqlite.py dist
-      - name: Build metadata-only knowledge catalog
+      - name: Build authorized full-text knowledge database
         run: python build/build_knowledge.py --out dist
       - name: Upload build artifact
         uses: actions/upload-artifact@v4

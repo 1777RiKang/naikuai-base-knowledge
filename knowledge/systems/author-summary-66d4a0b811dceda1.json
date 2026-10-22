@@ -7,17 +7,18 @@
     "数据摘要",
     "第七章 玩家"
   ],
+  "content": "|  |  |  |  |\n| --- | --- | --- | --- |\n| 祭坛等级 | 召唤普通怪7min CD：10S | 召唤精英怪2min  CD：10S | 召唤自身 |\n| 1 | 43波，3个/波 | 11波，1个/波 | 1波，1个/波 |\n| 2 | 43波，3个/波 | 11波，1个/波 | 1波，1个/波 |\n| 3 | 43波，5个/波 | 11波，2个/波 | 1波，1个/波 |\n| 4 | 43波，5个/波 | 11波，2个/波 | 1波，1个/波 |\n| 5 | 43波，7个/波 | 11波，3个/波 | 1波，1个/波 |\n| 6 | 43波，7个/波 | 11波，3个/波 | 1波，1个/波 |\n| 7 | 43波，7个/波 | 11波，3个/波 | 1波，1个/波 |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第七章 玩家 / 7.3村庄 / 7.3.6村庄祭坛 / 7.3.6.4村庄祭坛召唤NPC信息",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "6b895cf7c1c2abb6ff2fd37a7e84d7d846e3d30eaf9ba572482625f28366292c",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {

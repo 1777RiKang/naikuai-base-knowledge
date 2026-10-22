@@ -7,17 +7,18 @@
     "数据摘要",
     "第四章 副本"
   ],
+  "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| ~~轮回塔第八层-00000000（未上线，数据为猜测）~~ | | | | |\n| ~~首领，未知生命，未知攻击，564防御，攻击等级7，防御等级10~~ | | | | |\n| ~~未知技能~~ | | | | |\n| ~~第八层奖励~~ | | | | |\n|  |  |  |  |  |",
   "provenance": {
     "source": "author",
     "attribution": "乱走丶沙城",
     "acquired_via": "local-file",
-    "url": "https://nkwiki.cc/",
+    "url": "https://github.com/1777RiKang/naikuai-base-knowledge/blob/main/sources/data-summary/full.md",
     "locator": "第四章 副本 / 4.2轮回塔 / 4.2.8轮回塔第八层-00000000（未完成）",
     "source_updated_at": null,
     "fetched_at": "2026-10-22T03:24:44+00:00",
     "content_sha256": "03f1d3c873af1409b3246b16f28a3c7aa97e1586663c2a8021e0bc9bce7dfb30",
     "license": "LicenseRef-Original-Source",
-    "publication": "metadata-only",
+    "publication": "fulltext",
     "origin_rule": "direct-summary"
   },
   "review": {
