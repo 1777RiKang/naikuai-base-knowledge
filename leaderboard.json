@@ -3,12 +3,12 @@
   "scoring": "one-confirmed-entry-one-point",
   "seed_entries_excluded": 0,
   "seed_entries_attributed": 50,
-  "seed_entries_credited": 46,
-  "seed_entries_pending": 4,
+  "seed_entries_credited": 50,
+  "seed_entries_pending": 0,
   "contributors": [
     {
       "github_user_id": 141936832,
-      "points": 46,
+      "points": 50,
       "entry_ids": [
         "composite.jingling-feixing",
         "consumable.chuzhiliao",
@@ -27,11 +27,13 @@
         "consumable.zuoqi-shiwu",
         "item.dakong-shi",
         "item.ditai",
+        "item.feixing-qiyue",
         "item.gaoan",
         "item.haidaoxiang",
         "item.heinai2",
         "item.heizhang",
         "item.nanguadeng",
+        "item.qiegeqi",
         "item.zuoqidan",
         "jargon.heizi",
         "jargon.jinzhan",
@@ -39,12 +41,14 @@
         "material.heiding",
         "material.hexin",
         "material.hunsui",
+        "material.jinglingshi",
         "material.jiujing",
         "material.lvshui",
         "material.mingyun-baoshi",
         "material.pimaoding",
         "material.shenpan",
         "material.suipian",
+        "material.tiekuai",
         "material.wujiao",
         "material.zhuzi",
         "material.zi-mingyun",
@@ -57,19 +61,14 @@
         "system.chongwu",
         "system.ruantang"
       ],
-      "pending_entry_ids": [
-        "item.feixing-qiyue",
-        "item.qiegeqi",
-        "material.jinglingshi",
-        "material.tiekuai"
-      ],
+      "pending_entry_ids": [],
       "display_name": "空调房里晒太阳",
       "rank": 1,
-      "pending_count": 4,
+      "pending_count": 0,
       "total_entries": 50
     }
   ],
-  "total_points": 46,
-  "source_commit": "74c95e1e8df74c2ba0e37ef9d784a6146dcc2398",
-  "built_at": "2026-10-22T13:18:17+00:00"
+  "total_points": 50,
+  "source_commit": "cd514ab6e23b79d9e816f70e086a212e14cb71ac",
+  "built_at": "2026-10-22T13:40:57+00:00"
 }
