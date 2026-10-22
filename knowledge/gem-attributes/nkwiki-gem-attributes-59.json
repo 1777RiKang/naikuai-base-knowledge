@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-59",
+  "title": "瞄准",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:59",
+    "source_updated_at": "2026-10-19T07:47:39.414Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "797b4588e1a6b0f6fbab9a75f7c8e6bedd1668aee4b04dad09a239339886847e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-c2e85880dba2e4f8",
+  "title": "5.4.2.1特殊天赋备注",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.4跟宠天赋及羁绊 / 5.4.2跟宠特殊天赋 / 5.4.2.1特殊天赋备注",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "eb5882ac315d1337d0ed6428d1a82bdfd342d78b69201502f71be42435facb1c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

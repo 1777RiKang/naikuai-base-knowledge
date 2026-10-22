@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-148",
+  "title": "魂铸意志龙爪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:148",
+    "source_updated_at": "2026-06-25T08:44:03.076Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "0247a94cc3220e45c321933d686603af465bb6f29cfd847c78cc87b95cac0446",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

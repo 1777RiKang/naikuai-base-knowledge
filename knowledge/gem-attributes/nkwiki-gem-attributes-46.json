@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-46",
+  "title": "伺机",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:46",
+    "source_updated_at": "2026-10-19T07:42:04.030Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d3825bf001eb939bb08779174413fff7f076e0177801542ea8982df1c749c79a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

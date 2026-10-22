@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-72",
+  "title": "逆流刺剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:72",
+    "source_updated_at": "2026-06-24T09:19:06.634Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7834046a3b49e617dd768e24d7cb6477e14f199b0fa0c585f5b213116e36c831",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-35",
+  "title": "耐热",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:35",
+    "source_updated_at": "2026-10-19T07:37:54.902Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3f6866a8732920eaaf7329f3adf466ed1e3f9b9f678df195b483fc9b917957d3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

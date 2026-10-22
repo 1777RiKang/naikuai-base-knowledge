@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-82ef03fbcf0d0b1a",
+  "title": "9.1.2Ⅱ阶（破甲T4，面板T4.5）",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.1传说武器面板 / 9.1.2Ⅱ阶（破甲T4，面板T4.5）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c938ec386353079f8b7ae204e01d5308e633c718090d04e150bc79092bc37ea1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

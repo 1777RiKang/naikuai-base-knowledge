@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-189",
+  "title": "传说战刃 I 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:189",
+    "source_updated_at": "2026-06-30T02:49:05.385Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3b6353c26e622e2987d08fd6368437c384d231cd83392455aaa0cf3cb3052aa3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f69476f292194a84",
+  "title": "1.2.1属性：生命Ⅰ-Ⅴ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.2戒指特殊附魔属性 / 1.2.1属性：生命Ⅰ-Ⅴ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e1ebab9e7196cb92de683e4f68e459e8dff4762b268498470a7510a1f335fa02",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

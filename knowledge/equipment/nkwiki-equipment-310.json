@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-310",
+  "title": "能量法袍",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:310",
+    "source_updated_at": "2026-07-03T20:29:56.519Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "fa634301a51b366fac0e34bb0ab355f43983759d4a5f1b4cb315962cce19f863",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

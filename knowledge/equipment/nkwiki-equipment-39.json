@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-39",
+  "title": "复仇战靴",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:39",
+    "source_updated_at": "2026-06-24T06:48:33.962Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ee61679cb374eee3a65aa9e1dad3952b8bf0f676763ad79bbf71aa2f09df7492",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-475",
+  "title": "羽落星辰猎弓",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:475",
+    "source_updated_at": "2026-10-21T05:54:40.189Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ff6f893a58d44a8a09a61761c334b2ef1425fceb661b2c44d1868a51782e9e72",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

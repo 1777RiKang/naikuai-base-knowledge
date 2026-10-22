@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-59d1f8290c136e93",
+  "title": "6.3.6.5充值赠送精灵",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.3其他记录 / 6.3.6精灵显性面板 / 6.3.6.5充值赠送精灵",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "985cf5f9ef43628216055156414198a69ebd6e466798930be712ed14d60c482c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

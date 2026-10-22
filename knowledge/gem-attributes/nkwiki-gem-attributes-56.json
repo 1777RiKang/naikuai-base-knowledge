@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-56",
+  "title": "破魔",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:56",
+    "source_updated_at": "2026-10-19T07:46:00.249Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "da14b7ddbd4511b3f8acc30d4450319326a26e1db129aa26b92f5a372991268f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

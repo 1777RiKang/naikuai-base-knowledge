@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-5b13a4d5862f0241",
+  "title": "9.2.2.1前置技能",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.2传说武器技能效果 / 9.2.2Ⅵ阶传说武器技能 / 9.2.2.1前置技能",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "03b2aa8da152ab64c7ed2a24e34696273f6fd776efc5101f68aaf05d779b59d3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-5",
+  "title": "铁制战靴",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:5",
+    "source_updated_at": "2026-06-24T04:17:23.080Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "93dbae7ae88fe61c1fab025a09e841fe4b0dfebfcbc560258aff48f06d2a1452",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

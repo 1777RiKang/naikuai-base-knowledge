@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-188",
+  "title": "逆流战刃",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:188",
+    "source_updated_at": "2026-06-30T02:48:59.116Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "490eafb0df20255aa5cf6f41854026ffbe4a0ff4e4ef124eed83b72d933b18e2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

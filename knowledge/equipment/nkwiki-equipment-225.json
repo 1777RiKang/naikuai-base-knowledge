@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-225",
+  "title": "英勇壁垒",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:225",
+    "source_updated_at": "2026-06-30T06:08:44.937Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "07c913ae6dea97cbcdeca59eafd40714cdb7a9900bb302cae970bf2f679685aa",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

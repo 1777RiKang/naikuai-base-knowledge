@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-efeaa7a37a226da3",
+  "title": "4.1.9.7精英悲惨宫殿",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.9尼伯龙根T7-20220106 / 4.1.9.7精英悲惨宫殿",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b317c2bfd1c8b791cc4d146e29e598b328fd0c3789a7adc2a7755e5d47a527bb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

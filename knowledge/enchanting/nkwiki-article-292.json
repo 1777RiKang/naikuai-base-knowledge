@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-292",
+  "title": "11.1.1.4T6防具-武器",
+  "category": "enchanting",
+  "aliases": [],
+  "tags": [
+    "第十一章 附魔、占卜"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:292",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "45f4797ab828df210c01d58138ab11f789eb7b9b021fb01b110e6f4961960b4e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-1431b683fa609559"
+}

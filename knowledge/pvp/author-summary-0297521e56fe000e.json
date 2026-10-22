@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0297521e56fe000e",
+  "title": "3.4.2韧性加成",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第三章 PVP数据总结 / 3.4韧性 / 3.4.2韧性加成",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "abaf4d94c1bb49e8d9c882f10547ece003a785d8c898989b37a6c764ecf1b4df",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

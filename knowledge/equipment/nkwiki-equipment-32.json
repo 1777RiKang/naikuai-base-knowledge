@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-32",
+  "title": "断浪头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:32",
+    "source_updated_at": "2026-06-24T06:08:57.270Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "10ba9621263250a07b3172ed30e090446a6e4bc780b77709db5dd7f1f4a0f0dd",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

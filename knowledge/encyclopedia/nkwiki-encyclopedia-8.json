@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-encyclopedia-8",
+  "title": "奶块常识 - 红月与满月时间",
+  "category": "encyclopedia",
+  "aliases": [],
+  "tags": [
+    "encyclopedia"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "encyclopedia:8",
+    "source_updated_at": "2026-04-24 07:58:14",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "800e32be814d77c8651b8a8bcf60a43c1e77c4f533769be828e99b947837fd3f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

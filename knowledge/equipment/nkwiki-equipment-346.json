@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-346",
+  "title": "征服兜帽",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:346",
+    "source_updated_at": "2026-07-08T01:47:58.290Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "172d9ae9f0945510f16ee1fc2c5ac30bd039bcc26d3c47e884ce8ea62be5cced",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

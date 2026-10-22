@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-65",
+  "title": "明昼",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:65",
+    "source_updated_at": "2026-10-19T07:50:05.345Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "307769265074eb883ba7b5f30737a7aba9d3eb3a0cb6c50ee3f7a60c315454a7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

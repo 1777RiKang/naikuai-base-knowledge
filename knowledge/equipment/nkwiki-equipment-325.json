@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-325",
+  "title": "黑暗信使长裤",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:325",
+    "source_updated_at": "2026-07-08T01:23:43.924Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8508416d5ba3881d1cea62cb3dd63acf983f6269e3106c8a072b6690df054e60",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

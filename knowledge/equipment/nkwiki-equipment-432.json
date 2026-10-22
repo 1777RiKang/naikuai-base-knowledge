@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-432",
+  "title": "传说圣杖 II 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:432",
+    "source_updated_at": "2026-09-02T09:42:21.417Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6b9031271b1a57b4766e7b5258eeca13ddcce838abeae9f6f524a69c4fba4d89",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

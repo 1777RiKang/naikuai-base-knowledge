@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-89013232f85c993f",
+  "title": "9.4.2传说武器的升阶材料",
+  "category": "crafting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.4职业-尼伯龙根 / 9.4.2传说武器的升阶材料",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ee2ca2ecba607a16d4d847248462f5ed5b4aa53d2e5adb67faf11ded11885bb7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

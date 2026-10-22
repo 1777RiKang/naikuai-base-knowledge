@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-162",
+  "title": "传说龙爪 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:162",
+    "source_updated_at": "2026-06-29T03:17:22.376Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c5908d39061dc0bc8ea08d17cfae377a2bc6f0d107626fcaf628a3d5542ff1c4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-172",
+  "title": "断浪龙枪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:172",
+    "source_updated_at": "2026-06-29T03:10:57.467Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b9abce13eeb3615149e9cd794212c1353d3d07e1072d072b8bef5a0c8e42ff56",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

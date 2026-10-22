@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-d2105cbbc097de42",
+  "title": "2.3.1.3装备的合成材料",
+  "category": "crafting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.1各职业的基础数据 / 2.3.1.3装备的合成材料",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "344612cc4091158e60eaed4c20b8c785af21e004684ef7a3527cdf4e408bc690",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

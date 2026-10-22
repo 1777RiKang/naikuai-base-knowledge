@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-706",
+  "title": "尼奥尔德/男神/双神",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "无尽之海"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:706",
+    "source_updated_at": "2026-10-14T03:46:46.780Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6c8fb044de2b4eab61c70fd76a61ccb4d07fa6ee7cac91dc5c9391501b23d662",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

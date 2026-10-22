@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-65",
+  "title": "溯时 · 紫龙晶",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "紫龙晶"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:65",
+    "source_updated_at": "2026-10-19T07:08:16.448Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8f00ba772328774ca02db463a19cd6acf042e4c8e7726967ec4c519a0b597512",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

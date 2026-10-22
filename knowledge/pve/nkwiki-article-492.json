@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-492",
+  "title": "2.3.5.4占星师辅助效果",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:492",
+    "source_updated_at": "2026-08-06T09:23:14.849Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "6e47fb46a5bfacca6bda8758529d6592eaa6d5a2882ee48e40ea2a32ac3ed84e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

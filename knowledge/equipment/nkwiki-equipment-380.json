@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-380",
+  "title": "深渊行者便鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:380",
+    "source_updated_at": "2026-08-07T08:30:43.954Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c7a10ca4cd4fff4a6edcfb0bbd3ccad1ed1bbac64240dba61b3b804af32ae6d4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

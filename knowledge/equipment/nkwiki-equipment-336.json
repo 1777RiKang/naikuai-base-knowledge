@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-336",
+  "title": "英勇软鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:336",
+    "source_updated_at": "2026-07-08T01:36:51.612Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c081a3329cc44a93b6c7ea2d82ec4d96f7634f65ec0c3a9b8b3814d8d886c3f5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ed1d1a23aabde9ee",
+  "title": "10.2年份：2018",
+  "category": "events",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十章 奶块活动记录"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十章 奶块活动记录 / 10.2年份：2018",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8cd5e2f539183d6e60ea053d94c7d195dd9e870f31812d96cb44f1bda26dfb81",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

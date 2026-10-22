@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-154",
+  "title": "毁灭龙爪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:154",
+    "source_updated_at": "2026-06-29T02:47:42.198Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a9c7eddaf5539e5a35f9ee3df050eafb977cb00942ab5d7bc4d1c676c2c44690",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

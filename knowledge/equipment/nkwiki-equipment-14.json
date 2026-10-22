@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-14",
+  "title": "魂铸意志头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:14",
+    "source_updated_at": "2026-06-24T04:44:30.307Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "17eb96453473da7983e60b3f2d43e16b457b992cefd9284844f934e35ca21bf2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

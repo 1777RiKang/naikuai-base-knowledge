@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-377",
+  "title": "狂怒护胸",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:377",
+    "source_updated_at": "2026-08-07T08:30:27.286Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "65d46289a13567c6be9946980aa08f14a0a88835d9d215902f6317a17ef9072a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

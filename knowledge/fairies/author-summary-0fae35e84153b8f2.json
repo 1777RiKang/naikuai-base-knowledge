@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0fae35e84153b8f2",
+  "title": "6.1.2精灵装备与玩家装备及BUFF的数值对比",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.1精灵装备 / 6.1.2精灵装备与玩家装备及BUFF的数值对比",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4403f85d8926283dc56328d4b6831b0e4ba50a926f9a02179afda527e96bee2b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-248",
+  "title": "精英寒冰宫殿/精英冰雪女巫/精英冰女",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "极寒之境"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:248",
+    "source_updated_at": "2026-05-25T07:06:06.066Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "98eb90d4fdc76c56017f16a1409a9e1a6f5a6d233411321952e225298caa5c3f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

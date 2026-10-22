@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-4eec4bf119994aa3",
+  "title": "2.3.5.2占星师辅助效果",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.3对各职业的深刻理解 / 2.3.5占星师备注 / 2.3.5.2占星师辅助效果",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "dc318ffcfa77a43015a25818062a5ef6614536e69c66d6b3126f3e1b08d49fac",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

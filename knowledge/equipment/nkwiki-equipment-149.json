@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-149",
+  "title": "无畏勇气龙爪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:149",
+    "source_updated_at": "2026-06-25T08:44:58.887Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8a701003a34136113b24294c5c44fc39b3505b37d0219439d20b43ac78c45807",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

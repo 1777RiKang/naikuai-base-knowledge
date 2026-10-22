@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-396",
+  "title": "5.3.2.1关卡通关奖励",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:396",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "37e7513a55b907c5b680f34e4895970d42b38181dad095354aa6edf004b9e3df",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

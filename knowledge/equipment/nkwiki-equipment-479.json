@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-479",
+  "title": "吞噬猎弓",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:479",
+    "source_updated_at": "2026-10-21T05:57:45.669Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "cc553b1c5b74b0c1c0511504dea2151a4f8b8ceaaff2bb0995875c29f53e5e1b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

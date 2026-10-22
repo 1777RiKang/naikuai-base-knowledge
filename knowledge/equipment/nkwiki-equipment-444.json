@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-444",
+  "title": "耀动蓝塔菲指环",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "蓝塔菲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:444",
+    "source_updated_at": "2026-10-13T09:53:48.620Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d69450017511b56da6cd8eff0ba9d0d8ae1c352ea12256e3bd92324c1fda13c4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

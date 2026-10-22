@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-20416d8b665de730",
+  "title": "1.0.2加成：魔咒Ⅰ-Ⅹ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.0模块化数据 / 1.0.2加成：魔咒Ⅰ-Ⅹ",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2f336d4510760b23f7b629fb05809b2940d06e5da6688ff127edc8964f8e8513",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

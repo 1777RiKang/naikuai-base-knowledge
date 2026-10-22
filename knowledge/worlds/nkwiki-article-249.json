@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-249",
+  "title": "黑夜女神/黑女",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "遗忘之境"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:249",
+    "source_updated_at": "2026-06-04T05:13:37.121Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c9f4c00b8149e3f91832107e890a90482d1fa8ac0d5c61bc09efe399652403a3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

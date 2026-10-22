@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-365",
+  "title": "狩猎便鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:365",
+    "source_updated_at": "2026-08-07T08:02:57.206Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f2b271bb2cbd3e2e9b0b62e6b41ed8217d0c0bb74898c8a1672dd56f85d264e6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

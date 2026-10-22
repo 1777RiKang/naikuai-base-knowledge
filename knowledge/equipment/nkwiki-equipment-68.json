@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-68",
+  "title": "浴血刺剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:68",
+    "source_updated_at": "2026-06-25T02:33:02.467Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "533da159e24fdfaf5d468917e84babdf1c47286dc85547a39196ee8434cbe4e6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

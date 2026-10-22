@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-998fc03a5b5ecb6a",
+  "title": "11.1.1.7T8防具/武器",
+  "category": "enchanting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十一章 附魔、占卜"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.3装备修理耗材数量及等级限制 / 11.1.1.7T8防具/武器",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "751c55b7cedaf9b5313df59205c13c446120c167397ebfea52307b24abbc3d03",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

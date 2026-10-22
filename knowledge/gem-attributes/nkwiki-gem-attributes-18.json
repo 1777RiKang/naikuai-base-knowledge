@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-18",
+  "title": "祈福",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:18",
+    "source_updated_at": "2026-10-19T07:29:31.626Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ade3ea7e3f324e67093620f519b1eeb03f5b863ec53e239d47059ad4acddaf10",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

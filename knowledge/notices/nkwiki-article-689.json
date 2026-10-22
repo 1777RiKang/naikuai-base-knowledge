@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-689",
+  "title": "7.知识产权与内容归属",
+  "category": "notices",
+  "aliases": [],
+  "tags": [
+    "免责声明"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:689",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "783797bbdade8d2bcfb4075eaf9ba2474ec6da365f1912402db0f76f06ebba2c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

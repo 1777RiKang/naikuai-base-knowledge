@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-3",
+  "title": "辉夜姬",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:3",
+    "source_updated_at": "2026-05-08T06:44:57.338Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a66a1210391c3b45440b7cfd54ab63b731dc4ce0f174565c17d6c94b6e659b85",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

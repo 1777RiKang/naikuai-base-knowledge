@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-13",
+  "title": "莫德琳",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:13",
+    "source_updated_at": "2026-05-08T08:58:59.255Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2c9cf588f1dad74a12c363c5890b9ada05acb0c1ce5f8241bc92e92e5b4cd2fd",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

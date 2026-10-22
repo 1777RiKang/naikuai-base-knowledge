@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ccbccabbc32860d3",
+  "title": "3.4.1韧性来源",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第三章 PVP数据总结 / 3.4韧性 / 3.4.1韧性来源",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d4aab78407f098e091a55a9e75ad6af55b6d10a43a84f8ea597d8ea6da9b7391",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

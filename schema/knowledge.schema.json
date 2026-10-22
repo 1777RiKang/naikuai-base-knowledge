@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "外部知识目录（仅元数据）",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "category",
+    "aliases",
+    "tags",
+    "provenance",
+    "review",
+    "imported",
+    "credit_eligible"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^knowledge\\.[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "category": {
+      "enum": [
+        "items",
+        "equipment",
+        "gems",
+        "gem-attributes",
+        "fairies",
+        "encyclopedia",
+        "basics",
+        "pve",
+        "pvp",
+        "dungeons",
+        "pets",
+        "systems",
+        "mounts",
+        "quests",
+        "crafting",
+        "events",
+        "enchanting",
+        "worlds",
+        "notices"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128
+      },
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "attribution",
+        "acquired_via",
+        "url",
+        "locator",
+        "source_updated_at",
+        "fetched_at",
+        "content_sha256",
+        "license",
+        "publication"
+      ],
+      "properties": {
+        "source": {
+          "enum": [
+            "author",
+            "nkwiki"
+          ]
+        },
+        "attribution": {
+          "enum": [
+            "作者",
+            "nkwiki"
+          ]
+        },
+        "acquired_via": {
+          "enum": [
+            "local-file",
+            "nkwiki"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_updated_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fetched_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "license": {
+          "const": "LicenseRef-Original-Source"
+        },
+        "publication": {
+          "const": "metadata-only"
+        },
+        "origin_rule": {
+          "type": "string",
+          "enum": [
+            "direct-source",
+            "direct-summary",
+            "summary-chapter",
+            "summary-heading",
+            "summary-text-match",
+            "site-record"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reviewer",
+        "reviewed_at"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "confirmed",
+            "disputed",
+            "deprecated"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "imported": {
+      "const": true
+    },
+    "credit_eligible": {
+      "const": false
+    },
+    "duplicate_of": {
+      "type": "string",
+      "pattern": "^knowledge\\.[a-z0-9-]+$"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fd18c1b4b04b8694",
+  "title": "4.1.9.4甘拉狄秘室",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.9尼伯龙根T7-20220106 / 4.1.9.4甘拉狄秘室",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c09b60bdc0b50c85390456576696ec8c2262d5d98344fd66ddfb8508e095a714",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

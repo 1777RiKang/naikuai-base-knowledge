@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-45571844c14f93b2",
+  "title": "3.6.0.1俯瞰地图",
+  "category": "pvp",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第三章 PVP数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第三章 PVP数据总结 / 3.6远古竞技场 / 3.6.0地图 / 3.6.0.1俯瞰地图",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "70f52e49958b9d2ce49ca6b2b3538d6e4c4917a04e334ea82dd3e8d76dc1b7e5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

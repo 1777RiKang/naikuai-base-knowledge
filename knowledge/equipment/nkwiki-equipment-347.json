@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-347",
+  "title": "轮回法袍",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:347",
+    "source_updated_at": "2026-07-08T01:49:21.236Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "185cb4dc2eb47275940b7f1720ca7b0249cdc911f646edc23bee73ffc6f39935",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

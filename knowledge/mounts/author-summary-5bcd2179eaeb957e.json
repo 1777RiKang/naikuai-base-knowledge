@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-5bcd2179eaeb957e",
+  "title": "8.2.2.2骑乘信息",
+  "category": "mounts",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第八章 坐骑"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第八章 坐骑 / 8.2坐骑图鉴 / 8.2.2普通坐骑 / 8.2.2.2骑乘信息",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "aadfa96d3fbdaa1b720026e5ec3cb65736afad21c127bef7532d8f68d872e078",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

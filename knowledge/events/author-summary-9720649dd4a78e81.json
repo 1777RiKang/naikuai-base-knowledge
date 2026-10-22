@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-9720649dd4a78e81",
+  "title": "10.10年份：2026",
+  "category": "events",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十章 奶块活动记录"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十章 奶块活动记录 / 10.10年份：2026",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "01213ae56b7732186667d744ab130a6ff23fd3246f673b1102d2b1f62f3f2f42",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

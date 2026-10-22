@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-44",
+  "title": "英勇头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:44",
+    "source_updated_at": "2026-06-24T07:13:54.499Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f6f283153b0cf9c34d99662b6202ba6a757b706e15f5b8c3bf250bc833e14f75",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

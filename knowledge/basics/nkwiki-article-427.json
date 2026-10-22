@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-427",
+  "title": "1.1.1属性：灵防Ⅰ-Ⅴ",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:427",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5a5c3529d69546ab2ba4861826537ea8813c1e34228b7fbff4f6b866c69a1f18",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-6843e9ab14d67146"
+}

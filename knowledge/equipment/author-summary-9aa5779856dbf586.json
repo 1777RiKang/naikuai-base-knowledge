@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-9aa5779856dbf586",
+  "title": "9.3.1.2Ⅱ阶升Ⅲ阶的升阶任务",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.3职业-米德加德 / 9.3.1传说武器的升阶任务 / 9.3.1.2Ⅱ阶升Ⅲ阶的升阶任务",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "72f78983055c12632a8d6f5e78967ba28bba92a649743660c604bda7e96f3d34",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-c0e110c0726a00f0",
+  "title": "4.1.4.5精英城堡天台",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.4遗忘之境T4-20171127 / 4.1.4.5精英城堡天台",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "30c80a1c0611f16d55e2492f83e1823fa7bb5d7ba7140af3cc3b9f3d11596c3d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-327",
+  "title": "黑暗信使软鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:327",
+    "source_updated_at": "2026-07-08T01:29:44.702Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3f6ab2016ee3b226127bc5552a3768535ab214b9d806ab982a129a40af9bfbba",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

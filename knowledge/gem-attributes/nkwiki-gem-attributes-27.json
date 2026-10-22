@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-27",
+  "title": "触须",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:27",
+    "source_updated_at": "2026-10-19T07:34:34.060Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "41c4e8b9e9e4c0e309b3b247d3bbaaeb3864cf0a02880bf9d4965c6bc389d6e6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

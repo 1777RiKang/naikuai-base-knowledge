@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-431",
+  "title": "传说法杖 II 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:431",
+    "source_updated_at": "2026-09-02T09:42:01.044Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "544d494a9fee09e623313e49324d3798bd2bbe2bba9fa77201e93ff69c80b096",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-33",
+  "title": "专注",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:33",
+    "source_updated_at": "2026-10-19T07:37:16.147Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c927a491ab3471007622a7c4cebaa4fc18e0f22cf0df748cdfc6f1c5e882a9fb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

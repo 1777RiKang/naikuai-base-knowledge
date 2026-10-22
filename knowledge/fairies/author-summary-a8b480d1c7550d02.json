@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-a8b480d1c7550d02",
+  "title": "6.3.2.2羁绊耗材",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.3其他记录 / 6.3.2精灵材料 / 6.3.2.2羁绊耗材",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ac54527862adbefd056b4d1c316fd925b3d51c6422368dd5cfdd600d8cffc5a0",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-372",
+  "title": "复仇护胸",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:372",
+    "source_updated_at": "2026-08-07T08:20:34.531Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ba1874abd9e4b982ace170249daf556181b4ba4f7fda4d94c7ab58a97120738a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

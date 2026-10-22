@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-2100e96578799f77",
+  "title": "9.6.1赐福台合成材料",
+  "category": "crafting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.6赐福 / 9.6.1赐福台合成材料",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "0b2c5b8bde97f8211feeb0c368229ccc4a6a559555bfc4235dbab69bb0b1d1f0",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

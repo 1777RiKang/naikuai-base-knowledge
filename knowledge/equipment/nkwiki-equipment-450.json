@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-450",
+  "title": "堕落天使法典",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:450",
+    "source_updated_at": "2026-10-14T12:47:16.648Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8ed1f31ceb0de5690bc8d2da9d26a291a7670c4bf0b2351f72f7ad6d2638f76e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

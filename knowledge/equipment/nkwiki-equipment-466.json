@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-466",
+  "title": "传说法典 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:466",
+    "source_updated_at": "2026-10-14T13:09:06.920Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d1532fb715a0a892404fd9fb0de428b4b012191837f7615002476dda92af3722",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

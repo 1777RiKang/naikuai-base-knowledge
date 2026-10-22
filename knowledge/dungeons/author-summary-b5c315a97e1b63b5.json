@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-b5c315a97e1b63b5",
+  "title": "4.0.4.3秘境内玩家额外易伤的T级规律",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.0副本信息 / 4.0.4副本T级 / 4.0.4.3秘境内玩家额外易伤的T级规律",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bcaf4c9306c37be0dc74bef2adb44b9aaff2cb048a9f0842126825d3729d0f56",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

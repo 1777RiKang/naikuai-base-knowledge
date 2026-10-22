@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-457",
+  "title": "浴血法典",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:457",
+    "source_updated_at": "2026-10-14T12:52:39.907Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "cba3618fc6221002a438ecbd7574cc9073ff2e49e5e3113cfb86b47a66519ce7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

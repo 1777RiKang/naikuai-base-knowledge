@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-76483a063ce11bb9",
+  "title": "4.0.4.1副本限制",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.0副本信息 / 4.0.4副本T级 / 4.0.4.1副本限制",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5bc3fea260e3766ecc321589ddc349c4a6be6ae2a2b62637760604df1dfa537b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

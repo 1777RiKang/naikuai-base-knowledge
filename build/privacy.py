@@ -45,6 +45,7 @@ def scan_repository(root=ROOT):
         cwd=root, check=True, capture_output=True,
     )
     errors = []
+    from knowledge import CONTACT
     for raw in result.stdout.split(b"\0"):
         if not raw:
             continue
@@ -62,6 +63,8 @@ def scan_repository(root=ROOT):
         for number, line in enumerate(content.splitlines(), 1):
             if contains_secret(line):
                 errors.append(f"{rel}:{number}: 疑似凭据，请删除（不回显内容）")
+            if CONTACT.search(line):
+                errors.append(f"{rel}:{number}: 疑似个人联系方式，请脱敏（不回显内容）")
     return errors
 
 

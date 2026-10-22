@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-539",
+  "title": "6.1.1.1发饰",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:539",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "70378bb1794fa54faf0ab349846081016301d78f285ebd1b7f30cde6665f66c5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-7c23cbdd6bfe7646"
+}

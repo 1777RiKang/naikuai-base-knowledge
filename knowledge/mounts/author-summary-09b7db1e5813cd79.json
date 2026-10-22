@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-09b7db1e5813cd79",
+  "title": "8.3.1坐骑本身加成",
+  "category": "mounts",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第八章 坐骑"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第八章 坐骑 / 8.3特殊坐骑效果 / 8.3.1坐骑本身加成",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b93671e2e90ae7ba18f9d364fd5bffbb155be49cdfabb64c919fdac55ac1da36",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-363",
+  "title": "狩猎护胸",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:363",
+    "source_updated_at": "2026-08-07T08:01:07.849Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9bedb8be68a0e137eb77a27443fa1f18569d9faecaec31046a0db6cbf2f96a87",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

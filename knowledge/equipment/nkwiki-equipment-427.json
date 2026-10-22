@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-427",
+  "title": "征服法杖",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:427",
+    "source_updated_at": "2026-09-02T09:36:51.956Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "28b21be12de7c804bd3faa898d2396f46c248faefca00bf0f10c8e77fc3a70c4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-472",
+  "title": "深渊行者猎弓",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:472",
+    "source_updated_at": "2026-10-21T05:50:48.975Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a1f63fe30740ba59ba027f8dd1734f1fee26fb61de77f5c603c728dbb07c3b4f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

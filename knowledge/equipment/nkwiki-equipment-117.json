@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-117",
+  "title": "浴血之镰",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:117",
+    "source_updated_at": "2026-06-25T07:02:48.292Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5b136925163a3d3d97e2b67f2c874d4cfb02b6130c1428d72697ad3f1e2e2e8c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

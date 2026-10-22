@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-encyclopedia-4",
+  "title": "奶块黑话 - 日常篇",
+  "category": "encyclopedia",
+  "aliases": [],
+  "tags": [
+    "encyclopedia"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "encyclopedia:4",
+    "source_updated_at": "2026-04-24 03:25:52",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8eca27e6a83478d617ff2573edc8e55f7298e4352b6864cd844bfe6307dfbf3d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

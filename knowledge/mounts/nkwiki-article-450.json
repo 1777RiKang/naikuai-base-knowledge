@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-450",
+  "title": "8.2.3.3组合效果",
+  "category": "mounts",
+  "aliases": [],
+  "tags": [
+    "第八章 坐骑"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:450",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ae8508a02481accc01a174e8d65015f9c7825c398412a0bf4cd13a3fed5a56c5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-04d70ff95d3dc7cb"
+}

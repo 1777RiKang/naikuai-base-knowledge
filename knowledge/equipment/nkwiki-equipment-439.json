@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-439",
+  "title": "传说法杖 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:439",
+    "source_updated_at": "2026-09-02T09:57:27.193Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a54681b127595e4e65c682c1446b604e7ac94bdf97b9648508c4b86fd4ac359b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

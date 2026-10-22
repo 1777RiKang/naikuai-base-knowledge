@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-11",
+  "title": "菲黛尔",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:11",
+    "source_updated_at": "2026-05-08T07:56:37.777Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d8c53d371ea449cb46956b4fe467d1463abf46b3ebc9d6833192e405b6dcecb8",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

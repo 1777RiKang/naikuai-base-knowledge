@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-440",
+  "title": "传说冰杖 V 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:440",
+    "source_updated_at": "2026-09-02T09:58:07.427Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "dd8938ca09e72d6e7c277f39dde6ed1d64f3c45e65fc81a783b8d2ead4323ff6",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

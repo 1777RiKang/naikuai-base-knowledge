@@ -71,3 +71,11 @@ updated_at: '2026-10-22'
 
 提交即同意以 CC BY-NC-SA 4.0 发布词条数据、以 MIT 发布代码。
 只提交你有权提供的内容，不复制第三方攻略正文。
+
+## 外部知识目录贡献
+
+knowledge/<category>/ 中的 JSON 是外部来源的元数据目录，按 knowledge.schema.json 校验。
+禁止在这些文件中粘贴第三方全文、摘要正文或联系方式。目录来源与使用范围必须保留。
+需要更新资料时，使用 import_sources.py 读取已取得的本地快照，并运行 catalog_docs.py 更新目录统计。
+导入记录均为 imported=true、credit_eligible=false，不计个人积分；来源内容变化会重新待审。
+本地全文只放在 .local/，不提交到 GitHub，也不放进 CI 产物。

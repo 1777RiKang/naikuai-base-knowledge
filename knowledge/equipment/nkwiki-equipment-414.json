@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-414",
+  "title": "能量法杖",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:414",
+    "source_updated_at": "2026-08-20T10:08:20.125Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e150262a28cdca5600bbf73a0ee9f08cea070075da55128a050f8babb774908e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

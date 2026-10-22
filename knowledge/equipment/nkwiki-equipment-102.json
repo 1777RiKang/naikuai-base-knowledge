@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-102",
+  "title": "传说命盘 IV 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:102",
+    "source_updated_at": "2026-06-25T05:49:28.937Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f859cdad367ab1155e6ba77054061e80209636aa2ee3ae5b5f52499dbb895dd2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

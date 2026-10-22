@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-70",
+  "title": "征服刺剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:70",
+    "source_updated_at": "2026-06-24T09:16:33.808Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d61b4fe221d9c6155ef2adaa9988bae3f4eedcbce581e46fd18ae75e2adae2f4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

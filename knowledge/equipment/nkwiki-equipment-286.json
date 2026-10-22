@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-286",
+  "title": "复仇箭袋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:286",
+    "source_updated_at": "2026-07-03T17:45:01.975Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8af420c0ad81833eecc964842a4d601af6ae6230a3cd995cc8c369d9ce539d92",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

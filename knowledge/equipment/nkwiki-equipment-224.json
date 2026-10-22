@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-224",
+  "title": "周年曙光壁垒",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:224",
+    "source_updated_at": "2026-06-30T06:08:12.691Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "27e2c031a845e7cc15e36b02ec94b732288d3ecd752af85f655577d8f919fc74",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

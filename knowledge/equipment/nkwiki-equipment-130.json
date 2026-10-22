@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-130",
+  "title": "能量提灯",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:130",
+    "source_updated_at": "2026-06-25T08:05:03.008Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "df8bf11b6c98053c110d1de0eae6c162e77e753f7e344858d0440fe2a694067a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

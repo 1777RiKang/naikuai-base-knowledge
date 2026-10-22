@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-421",
+  "title": "神圣信念法杖",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:421",
+    "source_updated_at": "2026-08-31T10:23:27.122Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ad152045043c4984126b9052e6af9d4c39845b2d7b71cf0c6c8b7534030b6c51",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

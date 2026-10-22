@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-403",
+  "title": "征服护腿",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:403",
+    "source_updated_at": "2026-08-07T08:56:45.310Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "51ad8ab9f967a791531db310f03b6f0cdc25b3814e6940003f5d0e1de2cf4a6e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

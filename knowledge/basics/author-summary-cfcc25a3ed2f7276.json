@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-cfcc25a3ed2f7276",
+  "title": "1.6不同T级防具/武器可附魔的属性等级",
+  "category": "basics",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第一章 基础数据"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第一章 基础数据 / 1.6不同T级防具/武器可附魔的属性等级",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f6b49c55eb7544d07620f07e7fb668384cbff8dffd25ebd7ec2effd481b25e5a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

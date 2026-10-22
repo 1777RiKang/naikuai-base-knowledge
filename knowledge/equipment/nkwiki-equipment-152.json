@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-152",
+  "title": "亚玟龙爪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:152",
+    "source_updated_at": "2026-06-25T08:47:38.950Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "83a19d99e3762d68567c5518b1b9a03a793fd58b592f0fdc57b018b3535f67d2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

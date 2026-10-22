@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-175451ef9c80be21",
+  "title": "《数据摘要》系列文件使用说明",
+  "category": "notices",
+  "aliases": [],
+  "tags": [
+    "《数据摘要》系列文件使用说明",
+    "数据摘要"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "《数据摘要》系列文件使用说明",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5e395b602a5f3a0b4202fd9f7e605e8f815073120eb5759f739c80a6b4bd8098",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

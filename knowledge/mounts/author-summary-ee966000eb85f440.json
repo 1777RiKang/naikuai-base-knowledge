@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-ee966000eb85f440",
+  "title": "8.3.2坐骑道具加成",
+  "category": "mounts",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第八章 坐骑"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第八章 坐骑 / 8.3特殊坐骑效果 / 8.3.2坐骑道具加成",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4cc18a16b4ad22da02390a41fe4cb0c336674a53e6b46d4b299b6b1cf6dfdf01",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

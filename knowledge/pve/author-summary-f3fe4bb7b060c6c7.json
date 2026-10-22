@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f3fe4bb7b060c6c7",
+  "title": "2.6.2破甲和冲撞宝石解释",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.6宝石 / 2.6.2破甲和冲撞宝石解释",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1c071c3995853517e1f06da430bb29140f98b3005e3b95751a12c9cb1802cbfa",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

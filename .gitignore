@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# 本地外部全文、导入缓存和数据库；公开目录只含元数据
+.local/
+*.sqlite
+*.sqlite-*

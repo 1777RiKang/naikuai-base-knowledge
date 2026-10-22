@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-447",
+  "title": "简约蓝塔菲指环",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "蓝塔菲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:447",
+    "source_updated_at": "2026-10-13T09:53:10.276Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e4ccec82325e35fcf1c91cfab2bde5b495a6690e88e2270f5742b37859a0280a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

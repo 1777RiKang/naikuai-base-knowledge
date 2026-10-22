@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-253",
+  "title": "断浪短剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:253",
+    "source_updated_at": "2026-07-01T02:45:39.681Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b7d53e9e1b004ca6a76dc6f4e6d993bb00774dee1710693fd094e58b316c4693",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

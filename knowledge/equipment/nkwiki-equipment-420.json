@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-420",
+  "title": "圣诞魔杖",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:420",
+    "source_updated_at": "2026-08-31T10:22:09.788Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "471f7b9753eb1e566902edcc7af8a6923ed4d5fca37d5c3fa5d2d6bd8d8f4c1c",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

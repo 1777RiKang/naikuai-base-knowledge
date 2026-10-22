@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-250",
+  "title": "精英厄运教堂",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "遗忘之境"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:250",
+    "source_updated_at": "2026-05-25T07:14:38.117Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d37c3d196c7f774a051ed5f08428d68743eed0d7692fc0efe7f5310d7341ca98",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

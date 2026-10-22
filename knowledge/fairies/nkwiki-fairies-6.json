@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-6",
+  "title": "伊登",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:6",
+    "source_updated_at": "2026-05-08T06:47:11.115Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "938f9803d2d35f4f993cec61601129c3aa08379c3ce2e9239af473fb4fdf62b9",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

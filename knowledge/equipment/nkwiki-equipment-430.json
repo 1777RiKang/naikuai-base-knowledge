@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-430",
+  "title": "传说圣杖 I 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:430",
+    "source_updated_at": "2026-09-02T09:40:42.271Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "68fda5740aed79e0589793eda9ca3d87cacf1e16f7f75d1020b4a915c4d22b64",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

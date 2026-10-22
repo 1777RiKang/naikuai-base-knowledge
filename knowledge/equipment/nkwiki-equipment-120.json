@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-120",
+  "title": "唤潮之镰",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:120",
+    "source_updated_at": "2026-06-25T07:06:53.635Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "bb6dd9ea7d575cc256a7941b99be92778ea9ddc83975f6b2a72919fe872b6e38",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

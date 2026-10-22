@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-320",
+  "title": "复仇兜帽",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:320",
+    "source_updated_at": "2026-07-08T01:19:28.643Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ee9e6e3573131411ba1baf8d9de288452e321c4ee65bfb0b739bc73c91ba17d8",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

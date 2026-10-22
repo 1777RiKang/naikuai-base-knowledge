@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-131",
+  "title": "堕落天使提灯",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:131",
+    "source_updated_at": "2026-06-25T08:06:19.325Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "df3238053e93910c474d13c131d0495cac8c25ff2dff0c8107b80cb55a397cf4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

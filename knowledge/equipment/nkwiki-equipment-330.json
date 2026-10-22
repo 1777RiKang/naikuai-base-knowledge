@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-330",
+  "title": "英勇兜帽",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:330",
+    "source_updated_at": "2026-07-08T01:32:34.529Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "d84f1489dbd06f37d7333fe3fbc91c1a24e76a43f02a429044d2305e50ad5356",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

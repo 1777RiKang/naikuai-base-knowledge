@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-297",
+  "title": "传说箭袋 I 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:297",
+    "source_updated_at": "2026-07-03T20:09:40.257Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "87a401ce75b71487fa0cc1f18d4236b28f8c96b5d9bb811d660e58cb922c54e8",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

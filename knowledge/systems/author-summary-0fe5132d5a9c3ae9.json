@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-0fe5132d5a9c3ae9",
+  "title": "7.3.5.3村庄秘境通关奖励（村长可领）",
+  "category": "systems",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第七章 玩家"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第七章 玩家 / 7.3村庄 / 7.3.5村庄秘境 / 7.3.5.3村庄秘境通关奖励（村长可领）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e01f7a75ff66b71453911b7714975ce784ba9ecbefeec17a3d21bcdf07783d5a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

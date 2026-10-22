@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-132",
+  "title": "黑暗信使提灯",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:132",
+    "source_updated_at": "2026-06-25T08:07:22.254Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "28ceeb1948f218a5a30678e69b8a4773eb587c1d507266f1b03eb54728c7306e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

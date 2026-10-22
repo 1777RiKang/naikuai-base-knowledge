@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-685",
+  "title": "3.数据准确性与完整性免责",
+  "category": "notices",
+  "aliases": [],
+  "tags": [
+    "免责声明"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:685",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e5aa94b73491d8f4454baba78792216dda3a2f07ae5d99c1472790e80fc6abeb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

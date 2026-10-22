@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-2",
+  "title": "蜃",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:2",
+    "source_updated_at": "2026-05-08T06:44:32.026Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "fac8b087ee9293aa0f9301f24133ede35448797460d71d830ee616839d16344e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

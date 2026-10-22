@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-166",
+  "title": "无畏勇气龙枪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:166",
+    "source_updated_at": "2026-06-29T03:00:27.149Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "3998c09d3d1c1a9480668df5cfdb83a8918c5cdb3ab97ac36cbf2c070c34a97e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

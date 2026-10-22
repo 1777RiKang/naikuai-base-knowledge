@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-283",
+  "title": "皮质箭袋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:283",
+    "source_updated_at": "2026-07-03T17:40:07.241Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8b4e36262649a085cd0813ecf1f1f896b4c41e6e00a3fb3a7b9d59c5489d13cb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

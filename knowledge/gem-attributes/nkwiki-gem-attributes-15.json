@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-15",
+  "title": "冻结",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:15",
+    "source_updated_at": "2026-10-19T07:28:09.746Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "b956038703290fbe1b71239410c89a012e831ca0ea0fd4119d6a2ad21ce89393",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

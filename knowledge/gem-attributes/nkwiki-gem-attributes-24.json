@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-24",
+  "title": "统御",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:24",
+    "source_updated_at": "2026-10-19T07:32:00.909Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5782692d5735abe80e05fc3a823f228785651e9d5778292a1bba03ef64f25645",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

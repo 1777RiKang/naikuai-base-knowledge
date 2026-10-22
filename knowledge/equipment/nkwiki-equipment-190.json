@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-190",
+  "title": "传说战刃 II 阶",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:190",
+    "source_updated_at": "2026-06-30T02:50:49.820Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a1e667ca13a2fcdcb73bdc0a4668b5bb435793e555200a94762e9429e25e7067",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-473",
+  "title": "狂怒猎弓",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:473",
+    "source_updated_at": "2026-10-21T05:51:20.190Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "184588cc5284cb2b508c779f4963b53db0e0104b50d319628cdacb2cfd5c569a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

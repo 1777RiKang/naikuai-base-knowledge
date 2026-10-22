@@ -125,7 +125,11 @@ def collect_errors(docs):
 def main():
     docs = load_terms()
     errors = collect_errors(docs)
+    from knowledge import collect_knowledge_errors, load_knowledge
+    knowledge = load_knowledge()
+    errors.extend(collect_knowledge_errors(knowledge))
     print(f"扫描 {len(docs)} 个词条文件")
+    print(f"扫描 {len(knowledge)} 条外部知识目录（仅元数据）")
     if errors:
         for err in errors:
             print(f"  ✗ {err}")

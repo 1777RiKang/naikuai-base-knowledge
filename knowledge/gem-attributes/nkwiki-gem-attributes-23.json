@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-23",
+  "title": "征召",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:23",
+    "source_updated_at": "2026-10-19T07:31:33.701Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "577a8c161cf1903904152672995be22a4cbbf9542bda03b7eb0988a8f422abc5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

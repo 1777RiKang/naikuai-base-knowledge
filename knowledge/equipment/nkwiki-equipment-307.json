@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-307",
+  "title": "粗布长裤",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:307",
+    "source_updated_at": "2026-07-03T20:28:03.590Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1a77c6dcde0fe1a90e3abae60fdc01a46e4791d95fbfde94c11f993bada727b1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-39",
+  "title": "烟雾",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:39",
+    "source_updated_at": "2026-10-19T07:39:34.409Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a34684b4a7f09b7af24fa28e08a1d2d0ce298e6bd7a2dba83fe976bbc07d1ec7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

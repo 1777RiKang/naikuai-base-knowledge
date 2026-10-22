@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.nkwiki-article-540",
+  "title": "6.1.1.2项链",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:540",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "266dccb8307ce34b9e5079f9dbd5b25e77a232d1121a579040f5670147c32da4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false,
+  "duplicate_of": "knowledge.author-summary-0979924bfbe8579b"
+}

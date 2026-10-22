@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-165",
+  "title": "狂怒龙枪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:165",
+    "source_updated_at": "2026-06-29T02:59:33.192Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "acb49c94bc09e143dd3cc33ec7293d69d6dd023ec14b2f8b8b18da80cf84a010",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

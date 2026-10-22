@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-409",
+  "title": "逆流便鞋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:409",
+    "source_updated_at": "2026-08-07T09:04:23.728Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "8184afecbd682dddd31880d776abd4757a518a56c1d5f17952030a8006773a7f",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-169",
+  "title": "浴血龙枪",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:169",
+    "source_updated_at": "2026-06-29T03:02:42.541Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "ef264f7c2a38df6a054ac4e5cf51d724500d5594ad5a6567bfa69d0a60815560",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

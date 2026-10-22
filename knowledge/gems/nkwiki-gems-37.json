@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-37",
+  "title": "孔雀石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "孔雀石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:37",
+    "source_updated_at": "2026-10-19T06:52:46.970Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f391afc6ced43a963f43ad01aa347bcf98b07d55d52eb35ea630d8cce042b849",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

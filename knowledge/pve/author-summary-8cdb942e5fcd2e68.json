@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-8cdb942e5fcd2e68",
+  "title": "2.7.1龙骑士/影刃阵营升阶",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.7新职业阵营升阶 / 2.7.1龙骑士/影刃阵营升阶",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "2bcdca1cf0767ce09a50c86311b8619766abbbe78a40be13000c966270dafab5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-8",
+  "title": "骑士腿甲",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:8",
+    "source_updated_at": "2026-06-24T04:20:54.633Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "aba006339009ec8f0339cee09ad67d8b0e95a6f92deb62191e7475a67d4e969a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

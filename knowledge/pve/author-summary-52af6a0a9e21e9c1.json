@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-52af6a0a9e21e9c1",
+  "title": "2.7.2猎魔/占星阵营升阶（未完成）",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.7新职业阵营升阶 / 2.7.2猎魔/占星阵营升阶（未完成）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "cd568c743602b9c77026d18570fe0d9e4a02a4b235be40286ff805709b975fb7",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

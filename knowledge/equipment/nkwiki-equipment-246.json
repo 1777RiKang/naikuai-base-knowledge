@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-246",
+  "title": "无头骑士魔剑",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:246",
+    "source_updated_at": "2026-07-01T02:35:27.378Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f5619b719e5f3377a5166a2423e77d112563c9fcc5d2072abda2b79a9dcbf6dd",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

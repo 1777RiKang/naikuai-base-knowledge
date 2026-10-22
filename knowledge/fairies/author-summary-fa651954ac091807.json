@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-fa651954ac091807",
+  "title": "6.3.6.2骑士魔防精灵-凯兰崔尔",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第六章 精灵 / 6.3其他记录 / 6.3.6精灵显性面板 / 6.3.6.2骑士魔防精灵-凯兰崔尔",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "56b5df39333df2c45354dbce25b509860db573af57ffacef31c0eb880e45a8e5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

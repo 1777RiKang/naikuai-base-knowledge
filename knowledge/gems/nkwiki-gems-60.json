@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-60",
+  "title": "溯时 · 海蓝石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "海蓝石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:60",
+    "source_updated_at": "2026-10-19T07:07:00.383Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "80b4dd065e82c40acbf8ad9fbfc644b2b8f39de394191a8c400affcb291a9a7d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

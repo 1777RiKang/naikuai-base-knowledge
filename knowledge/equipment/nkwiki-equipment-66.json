@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-66",
+  "title": "征服火铳",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:66",
+    "source_updated_at": "2026-06-24T09:08:22.973Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "20a92c48b033eb068e40eb67274c9591de156d0583275420943d27cd71dfaf8d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

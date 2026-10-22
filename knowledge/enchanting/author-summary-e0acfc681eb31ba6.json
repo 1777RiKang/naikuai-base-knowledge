@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-e0acfc681eb31ba6",
+  "title": "11.1.1.4T6防具/武器",
+  "category": "enchanting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第十一章 附魔、占卜"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第十一章 附魔、占卜 / 11.1附魔 / 11.1.1装备附魔权重及附魔属性类型 / 11.1.1.4T6防具/武器",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "794275ff97db422263be3b31f37fcd6ace5c132db7d6edede72ea5a77dbb27eb",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

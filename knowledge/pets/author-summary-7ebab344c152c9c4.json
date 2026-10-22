@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-7ebab344c152c9c4",
+  "title": "5.5.2.2跟宠-20260521",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.5跟宠资质 / 5.5.2跟宠五星50级面板数值 / 5.5.2.2跟宠-20260521",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c3e6836add83b3f2616621f0e3742a51542f8cbd8742f7003f37b11bd03a48b3",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

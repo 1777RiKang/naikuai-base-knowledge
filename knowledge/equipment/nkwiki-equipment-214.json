@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-214",
+  "title": "铁盾",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:214",
+    "source_updated_at": "2026-06-30T05:51:11.150Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "9ebdfc65474ac9b4ca4527c37bf7b939ecf72e0d7bddfdfbf93e56fd5013cdb4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

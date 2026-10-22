@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-115",
+  "title": "英勇之镰",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "主手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:115",
+    "source_updated_at": "2026-06-25T07:01:06.933Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "4ee501273f1b31ad189c0b744c06006248ea1ece200d35f1b03281139d18d0df",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

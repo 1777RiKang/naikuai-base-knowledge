@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-d921de93377fb949",
+  "title": "9.5.1传说武器的升阶材料",
+  "category": "crafting",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第九章 传说武器/装备"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第九章 传说武器/装备 / 9.5职业-群星之界 / 9.5.1传说武器的升阶材料",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "fdadce186c24a711f93281f008cbecef663c5fe2f48982f906f80d470d81908e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

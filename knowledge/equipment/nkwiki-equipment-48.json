@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-48",
+  "title": "浴血头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:48",
+    "source_updated_at": "2026-06-24T07:31:23.979Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c14c21e328f90e1f21d73f5b4793e5a37c69b509266102840037605814a5177b",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

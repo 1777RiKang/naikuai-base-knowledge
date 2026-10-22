@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-55",
+  "title": "命运 · 绿龙晶",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "绿龙晶"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:55",
+    "source_updated_at": "2026-10-19T07:05:29.034Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7d7510a559cacb155df5fd8b62289cd9688d2e0fd824a17dff520452c2d47697",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

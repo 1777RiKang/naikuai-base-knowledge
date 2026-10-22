@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-2",
+  "title": "铁制头盔",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "头盔"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:2",
+    "source_updated_at": "2026-06-24T04:47:28.398Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "dc7b888694544010d4f3a47a08ba7b0c08e5ded1435a99497fda7d3d67424861",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-f70c29ef3aa78bf1",
+  "title": "2.2.2.6药水商店（24小时刷新1次）",
+  "category": "pve",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第二章 PVE数据总结"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第二章 PVE数据总结 / 2.2异世界及世界boss / 2.2.2异世界商人 / 2.2.2.6药水商店（24小时刷新1次）",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "15fbfa409e8b3f4ef79a7fc87c004c5ad35a540694ae243f77435f000f3c54e1",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

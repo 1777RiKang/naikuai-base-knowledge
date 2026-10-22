@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-285",
+  "title": "永恒梦魇箭袋",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "副手"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:285",
+    "source_updated_at": "2026-07-03T17:45:09.202Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "a775eaab6c6e1078dd17c191e9d892d4dab34ef2d271136abc2bdb2f9e5554bc",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

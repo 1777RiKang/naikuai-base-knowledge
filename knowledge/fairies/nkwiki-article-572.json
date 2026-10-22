@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-572",
+  "title": "6.3.5精灵召回及精灵远程修理",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "第六章 精灵"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:572",
+    "source_updated_at": "2026-10-10T07:01:48.594Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7d63b705ceabb6f515bd30d9f1d6725119bc4d83fab620cf8d066f7277cf11f4",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "summary-chapter"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-369",
+  "title": "永恒梦魇护腿",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "战靴"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:369",
+    "source_updated_at": "2026-08-07T08:10:27.509Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "026cc0a89c836198e9f4819d969d68250ad9a6df01a74a0a3d5cf6898b7be98d",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

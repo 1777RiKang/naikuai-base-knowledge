@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-39",
+  "title": "海蓝石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "海蓝石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:39",
+    "source_updated_at": "2026-10-19T06:55:22.660Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "15fc45d5fd0726187ede72f578feffbc49f6bc904e4f28e67e311da683021103",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

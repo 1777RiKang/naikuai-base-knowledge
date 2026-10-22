@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-331",
+  "title": "神圣信念法袍",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "胸甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:331",
+    "source_updated_at": "2026-07-08T01:33:56.797Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "e9cc5ff522c1962b17d889e9f76bd0e8e463057f46101378dc6270d02e21dc9a",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

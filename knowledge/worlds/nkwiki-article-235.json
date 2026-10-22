@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-235",
+  "title": "领主图书馆/丛林领主",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "暮色森林"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:235",
+    "source_updated_at": "2026-04-09T09:35:47.586Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "5b2ebda2dd5117b58feb4f7858a6aad4b2ecdd00f11dc83fcaf322789f6eeb05",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

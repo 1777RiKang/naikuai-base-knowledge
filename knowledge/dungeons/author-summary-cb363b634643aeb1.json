@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-cb363b634643aeb1",
+  "title": "4.1.7.1丝卡蒂试炼",
+  "category": "dungeons",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第四章 副本"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第四章 副本 / 4.1秘境 / 4.1.7艾芙海姆T6-20200817 / 4.1.7.1丝卡蒂试炼",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "7d2fde9424514b587bf9bfeaa56ad563075a9872adab9720d28b4f881a58f4c2",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

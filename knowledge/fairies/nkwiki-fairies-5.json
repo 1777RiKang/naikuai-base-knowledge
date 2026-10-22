@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-fairies-5",
+  "title": "哈弗古法",
+  "category": "fairies",
+  "aliases": [],
+  "tags": [
+    "fairies"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "fairies:5",
+    "source_updated_at": "2026-05-08T06:46:24.663Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "cced0951389dfb6c2c306289537b802ad26cb41204d18f561f60e7214e718a40",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

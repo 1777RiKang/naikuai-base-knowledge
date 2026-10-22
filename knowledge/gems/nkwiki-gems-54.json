@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-54",
+  "title": "命运 · 海靛石",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "海靛石"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:54",
+    "source_updated_at": "2026-10-19T07:05:06.094Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "f5062ef2ef91ce5c8bc19025cd15c26c5f19597fdd4d87e34a3e0f4de217f6ff",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

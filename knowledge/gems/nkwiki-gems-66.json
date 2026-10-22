@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gems-66",
+  "title": "溯时 · 碧龙晶",
+  "category": "gems",
+  "aliases": [],
+  "tags": [
+    "碧龙晶"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gems:66",
+    "source_updated_at": "2026-10-19T08:22:49.834Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "1396a6dced498fce840d1fb542f2f3c71e71bfd628f900f18382dd04c6a1910e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

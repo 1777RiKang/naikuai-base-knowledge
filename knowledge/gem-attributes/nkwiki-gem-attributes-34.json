@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-gem-attributes-34",
+  "title": "抗寒",
+  "category": "gem-attributes",
+  "aliases": [],
+  "tags": [
+    "gem-attributes"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "gem_attributes:34",
+    "source_updated_at": "2026-10-19T07:37:38.087Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "eb2ee7e569577c11d9836b4288528e4999febdc52a78a977c250717f625a2675",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

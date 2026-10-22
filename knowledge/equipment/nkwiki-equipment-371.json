@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-371",
+  "title": "复仇护腿",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:371",
+    "source_updated_at": "2026-08-07T08:19:50.723Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "39bc86aa0d0f7aab375f6a87d0a7b23e8a79a311f37eee8fd1567c56858179c9",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

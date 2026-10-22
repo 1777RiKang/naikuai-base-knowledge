@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-article-239",
+  "title": "精英暮色钟楼/精英小樱",
+  "category": "worlds",
+  "aliases": [],
+  "tags": [
+    "暮色森林"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "article:239",
+    "source_updated_at": "2026-04-11T06:39:29.004Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "dce29439dfa38effa62d05fb6d04809492485cef9126f5e69f7a1e667ff4edc5",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "site-record"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

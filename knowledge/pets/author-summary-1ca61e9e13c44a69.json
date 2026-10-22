@@ -1,0 +1,30 @@
+{
+  "id": "knowledge.author-summary-1ca61e9e13c44a69",
+  "title": "5.3.3.3商店3",
+  "category": "pets",
+  "aliases": [],
+  "tags": [
+    "数据摘要",
+    "第五章 跟宠"
+  ],
+  "provenance": {
+    "source": "author",
+    "attribution": "作者",
+    "acquired_via": "local-file",
+    "url": "https://nkwiki.cc/",
+    "locator": "第五章 跟宠 / 5.3破晓之路PVE / 5.3.3商店道具信息 / 5.3.3.3商店3",
+    "source_updated_at": null,
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "75842fa4240d0aea309b9b17e9a694bdc9b25a873e446c2c47bf5c9b95b7ec95",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-summary"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}

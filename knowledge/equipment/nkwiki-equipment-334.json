@@ -1,0 +1,29 @@
+{
+  "id": "knowledge.nkwiki-equipment-334",
+  "title": "英勇长裤",
+  "category": "equipment",
+  "aliases": [],
+  "tags": [
+    "腿甲"
+  ],
+  "provenance": {
+    "source": "nkwiki",
+    "attribution": "nkwiki",
+    "acquired_via": "nkwiki",
+    "url": "https://nkwiki.cc/",
+    "locator": "equipment:334",
+    "source_updated_at": "2026-07-08T01:35:14.385Z",
+    "fetched_at": "2026-10-22T03:24:44+00:00",
+    "content_sha256": "c802f7fec19331226311377430bd9810bb8da01d7ce96cca5d4a7d5a45d2510e",
+    "license": "LicenseRef-Original-Source",
+    "publication": "metadata-only",
+    "origin_rule": "direct-source"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "imported": true,
+  "credit_eligible": false
+}
