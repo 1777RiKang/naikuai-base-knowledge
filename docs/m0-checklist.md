@@ -32,4 +32,13 @@
 - [x] 贡献榜按非种子 confirmed 词条计分，归原始 PR 作者，自选公开贡献名
 - [x] 榜单在独立产物分支更新，README 展示，不向 main 自动写入
 - [x] SQLite 完整溯源、释义检索与默认状态过滤
-- [ ] GitHub 首次远端 CI、产物下载和分支规则验收
+- [x] GitHub 首次远端 CI、产物下载和分支规则验收
+
+首次公开验收：2026-10-22。Python 3.12 下 20 项测试通过；远端 validate 成功，
+实际下载 glossary-sqlite 并验证 SHA-256、SQLite 完整性与全部 50 条原始数据。
+初始 50 条 YAML 与迁移前逐字节一致；双许可保留，源码未包含 dist 或缓存。
+README 榜单图片已发布，种子数据不计分，初始为空榜。
+
+- [首次 validate 运行](https://github.com/1777RiKang/naikuai-base-knowledge/actions/runs/39772640900)
+- [首次排行榜发布](https://github.com/1777RiKang/naikuai-base-knowledge/actions/runs/39772640927)
+- [日常维护说明](maintainer-guide.md)
