@@ -67,7 +67,7 @@ tests/                    数据、查询、归因与计分测试
 贡献者自愿公开的贡献名用于署名与排行榜；聊天证据仍必须删除昵称、QQ 号和个人信息。
 不提交任何凭据。自动检查只能拦截常见格式，人工审核仍须检查脱敏与事实依据。
 
-详见 [贡献指南](CONTRIBUTING.md) 与 [审核指南](docs/review-guide.md)。
+详见 [贡献指南](CONTRIBUTING.md) 、[审核指南](docs/review-guide.md) 与 [日常维护说明](docs/maintainer-guide.md)。
 
 ## 许可
 
