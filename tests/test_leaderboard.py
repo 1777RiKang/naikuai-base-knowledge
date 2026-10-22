@@ -20,6 +20,7 @@ def document(entry_id, status='confirmed'):
 class LeaderboardTest(unittest.TestCase):
     def test_repository_configuration(self):
         leaderboard.load_profiles(leaderboard.ROOT / 'credits/display-names.json')
+        leaderboard.load_seed_attribution(leaderboard.ROOT / 'credits/m0-seed-attribution.json')
         seeds = json.loads((leaderboard.ROOT / 'credits/m0-seed-ids.json').read_text(encoding='utf-8'))
         self.assertIsInstance(seeds, list)
         self.assertEqual(len(seeds), len(set(seeds)))
@@ -38,13 +39,45 @@ class LeaderboardTest(unittest.TestCase):
             calls.append(doc['id'])
             return {'github_user_id': 42, 'display_name': '自选贡献名', 'merged_at': '2026-10-22'}
 
-        board = leaderboard.calculate(docs, {'item.seed'}, {}, origin)
+        seed_attribution = {'github_user_id': 42, 'display_name': '种子贡献者', 'recorded_on': '2026-10-22'}
+        board = leaderboard.calculate(docs, {'item.seed'}, {}, origin, seed_attribution)
         self.assertEqual(calls, ['item.a', 'item.b'])
-        self.assertEqual(board['total_points'], 2)
+        self.assertEqual(board['total_points'], 3)
         self.assertEqual(len(board['contributors']), 1)
-        self.assertEqual(board['contributors'][0]['entry_ids'], ['item.a', 'item.b'])
+        self.assertEqual(board['contributors'][0]['entry_ids'], ['item.a', 'item.b', 'item.seed'])
         with self.assertRaises(ValueError):
-            leaderboard.calculate(docs + [docs[1]], {'item.seed'}, {}, origin)
+            leaderboard.calculate(docs + [docs[1]], {'item.seed'}, {}, origin, seed_attribution)
+
+    def test_pending_seeds_are_attributed_and_score_after_confirmation(self):
+        docs = [(Path('a'), document('item.a')),
+                (Path('b'), document('item.b', 'draft')),
+                (Path('c'), document('item.c', 'disputed')),
+                (Path('d'), document('item.d', 'deprecated'))]
+        attribution = {'github_user_id': 42, 'display_name': '种子贡献者', 'recorded_on': '2026-10-22'}
+
+        def no_pr_lookup(path, doc):
+            self.fail('种子词条应使用指定归属，不查找不存在的初始 PR')
+
+        seeds = {doc['id'] for _, doc in docs}
+        board = leaderboard.calculate(docs, seeds, {'42': '自选公开名'}, no_pr_lookup, attribution)
+        self.assertEqual(board['total_points'], 1)
+        self.assertEqual(board['seed_entries_excluded'], 0)
+        self.assertEqual(board['seed_entries_attributed'], 4)
+        self.assertEqual(board['seed_entries_pending'], 2)
+        person = board['contributors'][0]
+        self.assertEqual(person['display_name'], '自选公开名')
+        self.assertEqual(person['pending_entry_ids'], ['item.b', 'item.c'])
+        self.assertEqual(person['total_entries'], 3)
+        docs[1][1]['review']['status'] = 'confirmed'
+        board = leaderboard.calculate(docs, seeds, {}, no_pr_lookup, attribution)
+        self.assertEqual(board['total_points'], 2)
+        self.assertEqual(board['seed_entries_pending'], 1)
+
+    def test_seed_credit_requires_explicit_attribution_and_complete_registry(self):
+        with self.assertRaises(ValueError):
+            leaderboard.calculate([(Path('a'), document('item.a'))], {'item.a'}, {}, lambda *_: {})
+        with self.assertRaises(ValueError):
+            leaderboard.calculate([], {'item.missing'}, {}, lambda *_: {})
 
     def test_same_name_is_not_same_identity_and_ties_share_rank(self):
         def origin(path, doc):

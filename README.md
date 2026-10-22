@@ -62,15 +62,16 @@ tests/                    数据、查询、归因与计分测试
 
 ## 贡献排行榜
 
-![贡献排行榜](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/leaderboard/leaderboard.svg)
+![贡献排行榜](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/leaderboard/leaderboard.svg?v=seed-credit-20261022)
 
 [完整榜单](https://github.com/1777RiKang/naikuai-base-knowledge/blob/leaderboard/leaderboard.md)
 · [JSON 数据](https://raw.githubusercontent.com/1777RiKang/naikuai-base-knowledge/leaderboard/leaderboard.json)
 · [计分与贡献名规则](docs/leaderboard.md)
 
 每次 main 合并后自动更新，README 图片可能稍有缓存延迟。
-每个新增且当前为 confirmed 的独立词条计 1 分，归给最初引入词条的 PR 作者。
-现有 50 条种子数据不追溯个人积分；字数、别名、PR 数、格式调整和审核不单独计分。
+每个当前为 confirmed 的独立词条计 1 分；新增词条归给最初引入词条的 PR 作者。
+初始 50 条种子归属“空调房里晒太阳”，已确认计分，待审核单列并在确认后自动计分。
+字数、别名、PR 数、格式调整和审核不单独计分。
 贡献者可自填公开贡献名；同名贡献者通过 GitHub 数字用户 ID 区分。
 
 ## 审核与隐私

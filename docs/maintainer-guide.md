@@ -30,7 +30,8 @@ validate 仍然必须成功。检查无误后可以使用 GitHub 的规则绕过
 
 ## 榜单与贡献名
 
-一个非种子 confirmed 词条计 1 分，不按字数或 PR 数计分。
+一个 confirmed 词条计 1 分，包含已指定归属的种子词条，不按字数或 PR 数计分。
+初始 50 条归“空调房里晒太阳”；待审种子单列，确认后自动计分。
 每次 main 合并后自动更新 leaderboard 分支；README 展示前 15 名，完整榜单与 JSON 保留全部。
 如果贡献者提出改名，核对申请人 GitHub 数字 ID 后，接受其 display-names.json 配置 PR。
 
