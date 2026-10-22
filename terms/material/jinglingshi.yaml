@@ -5,8 +5,7 @@ aliases: []
 kind: material
 senses:
 - context: 材料
-  definition: 用于精灵转生等用途。
-  notes: 由「精灵飞行」组合条目的拆分需要而建，说明待补充。
+  definition: 用于精灵转生，也可用于精灵打包等。
 provenance:
   source: community
   evidence:
@@ -18,8 +17,8 @@ contributors:
 - name: 空调房里晒太阳
   role: annotator
 review:
-  status: draft
-  reviewer: null
-  reviewed_at: null
-version: 1
+  status: confirmed
+  reviewer: 1777RiKang
+  reviewed_at: '2026-10-22'
+version: 2
 updated_at: '2026-10-22'

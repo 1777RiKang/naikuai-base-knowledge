@@ -55,12 +55,19 @@ class GlossaryTest(unittest.TestCase):
 
     def test_content_search_and_status_filter(self):
         self.assertIn('material.jiujing', [d['id'] for d in search(self.db, '燃料', limit=50)])
-        confirmed = {d['id'] for _, d in self.docs if d['review']['status'] == 'confirmed'}
-        rows = search(self.db, '铁块', limit=50)
-        self.assertTrue(all(d['id'] in confirmed for d in rows))
-        all_rows = search(self.db, '铁块', include_unconfirmed=True)
-        self.assertEqual(all_rows[0]['id'], 'material.tiekuai')
-        self.assertNotIn('material.tiekuai', [d['id'] for d in rows])
+        self.assertIn('material.tiekuai', [d['id'] for d in search(self.db, '铁块', limit=50)])
+
+    def test_status_filter_excludes_draft(self):
+        docs = [(path, copy.deepcopy(doc)) for path, doc in self.docs]
+        target = next(doc for _, doc in docs if doc['id'] == 'material.tiekuai')
+        target['review'] = {'status': 'draft', 'reviewer': None, 'reviewed_at': None}
+        with tempfile.TemporaryDirectory() as temporary, patch.object(build_sqlite, 'load_terms', return_value=docs):
+            build_sqlite.build(Path(temporary))
+            db = Path(temporary) / 'glossary.sqlite'
+            rows = search(db, '铁块', limit=50)
+            self.assertNotIn('material.tiekuai', [d['id'] for d in rows])
+            all_rows = search(db, '铁块', include_unconfirmed=True, limit=50)
+            self.assertIn('material.tiekuai', [d['id'] for d in all_rows])
 
     def test_normalization_matches_validation(self):
         docs = [(path, copy.deepcopy(doc)) for path, doc in self.docs]
