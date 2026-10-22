@@ -53,7 +53,7 @@ tests/                    数据、查询、归因与计分测试
 
 ## 数据摘要与 nkwiki
 
-- [《数据摘要》接入说明](docs/data-summary.md)：原始归属标为“乱走丶沙城”。
+- [《数据摘要》接入说明](docs/data-summary.md)：原始归属标为“乱走丶沙城”，已记录维护者确认取得作者授权，作者公开联系方式见该说明。
 - [nkwiki 接入说明](docs/nkwiki-integration.md)：站点资料标为“nkwiki”，转载部分保留作者归属。
 - [分类知识目录](knowledge/README.md) · [本批次来源与数量概览](docs/source-overview.md)。
 

@@ -4,6 +4,13 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Only the explicitly approved author-contact line is public; all other contacts
+# and every credential still go through the normal checks.
+PUBLIC_CONTACT_PATH = "docs/data-summary.md"
+PUBLIC_CONTACT_LINE = (
+    "作者公开联系 " + "QQ：" + "24134" + "93480"
+    + "（维护者于 2026-10-22 指定公开）。"
+)
 LONG_NUMBER = re.compile(r"(?<!\d)\d{6,}(?!\d)")
 SECRET_PATTERNS = (
     re.compile(r"gh[pousr]_[A-Za-z0-9]{20,}"),
@@ -63,7 +70,7 @@ def scan_repository(root=ROOT):
         for number, line in enumerate(content.splitlines(), 1):
             if contains_secret(line):
                 errors.append(f"{rel}:{number}: 疑似凭据，请删除（不回显内容）")
-            if CONTACT.search(line):
+            if CONTACT.search(line) and not (rel == PUBLIC_CONTACT_PATH and line == PUBLIC_CONTACT_LINE):
                 errors.append(f"{rel}:{number}: 疑似个人联系方式，请脱敏（不回显内容）")
     return errors
 
