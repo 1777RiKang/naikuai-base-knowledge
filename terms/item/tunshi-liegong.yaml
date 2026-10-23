@@ -1,0 +1,27 @@
+id: item.tunshi-liegong
+term: 吞噬猎弓
+canonical: 吞噬猎弓
+aliases:
+- 吞噬弓
+- t7弓
+kind: item
+senses:
+- context: 装备/武器
+  definition: T7 猎弓，吞噬系列武器，由黯淡的吞噬猎弓×1、吞噬皮革×8、丝卡蒂鞣革×2 合成。
+  notes: 玩家整理，非官方；与游戏内不符时以游戏内为准。
+provenance:
+  source: community
+  evidence:
+  - text: T7 猎弓，吞噬系列武器，由黯淡的吞噬猎弓×1、吞噬皮革×8、丝卡蒂鞣革×2 合成。
+    channel: 群聊
+    captured_at: '2026-10-23'
+    redacted: true
+contributors:
+- name: 空调房里晒太阳
+  role: annotator
+review:
+  status: confirmed
+  reviewer: local-owner
+  reviewed_at: '2026-10-23'
+version: 1
+updated_at: '2026-10-23'
