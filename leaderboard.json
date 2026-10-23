@@ -8,7 +8,7 @@
   "contributors": [
     {
       "github_user_id": 141936832,
-      "points": 50,
+      "points": 51,
       "entry_ids": [
         "composite.jingling-feixing",
         "consumable.chuzhiliao",
@@ -34,6 +34,7 @@
         "item.heizhang",
         "item.nanguadeng",
         "item.qiegeqi",
+        "item.tunshi-liegong",
         "item.zuoqidan",
         "jargon.heizi",
         "jargon.jinzhan",
@@ -65,10 +66,10 @@
       "display_name": "空调房里晒太阳",
       "rank": 1,
       "pending_count": 0,
-      "total_entries": 50
+      "total_entries": 51
     }
   ],
-  "total_points": 50,
-  "source_commit": "045908854ca9ec9a2f234894dedc69e4f99d82d1",
-  "built_at": "2026-10-22T13:47:58+00:00"
+  "total_points": 51,
+  "source_commit": "9a7752430663cd5da293397a08e1eca5dce07cd5",
+  "built_at": "2026-10-23T02:23:00+00:00"
 }
