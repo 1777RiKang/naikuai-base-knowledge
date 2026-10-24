@@ -716,25 +716,17 @@ class KBVerifier:
         else:
             res_f5.fail_test(f"Version/homonym entity failures: {'; '.join(version_failures)}")
 
-        # 6. 已知检索限制监控测试：测试“海拉怎么打”查询，实测记录其首条返回“琳的庇护”的行为，将其作为已知限制（Known Limitation）进行断言和记录，绝不在测试中断言其已完美修复。
-        res_f6 = TestResult("Known Retrieval Limitation Monitoring ('海拉怎么打')", "Module F")
+        # Unqualified Hela questions must clarify variant before retrieving.
+        res_f6 = TestResult("Hela Variant Clarification Before Retrieval", "Module F")
         f6_failures = []
         ret_hela = kb.lookup("海拉怎么打")
-        if ret_hela.get("action") != "answer":
-            f6_failures.append(f"Query '海拉怎么打' expected action='answer', got '{ret_hela.get('action')}'")
-        elif not ret_hela.get("chunks"):
-            f6_failures.append("Query '海拉怎么打' returned 0 chunks")
-        else:
-            top_chunk = ret_hela["chunks"][0]
-            top_sec = top_chunk.get("section", "")
-            if "琳的庇护" not in top_sec:
-                f6_failures.append(f"Query '海拉怎么打' top-1 section was '{top_sec}', expected to contain '琳的庇护' as known limitation")
+        if ret_hela.get("action") != "clarify" or ret_hela.get("chunks") or ret_hela.get("facts"):
+            f6_failures.append("Unqualified Hela question did not stop for variant clarification")
 
         if not f6_failures:
             res_f6.pass_test(
-                f"Known limitation observed & verified: '海拉怎么打' top-1 recalls '{top_sec}' (recorded as Known Limitation; not asserting perfect fix)",
-                query="海拉怎么打",
-                top_1_section=top_sec
+                "Unqualified Hela question returned clarification with no retrieved materials",
+                query="海拉怎么打"
             )
         else:
             res_f6.fail_test(f"Known limitation monitoring failed: {'; '.join(f6_failures)}")
