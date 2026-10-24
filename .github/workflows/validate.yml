@@ -32,9 +32,19 @@ jobs:
         run: python build/build_sqlite.py dist
       - name: Build authorized full-text knowledge database
         run: python build/build_knowledge.py --out dist
+      - name: Build reviewed public r3 snapshot
+        run: python build/build_public_r3.py --out dist/public-r3
+      - name: Upload public r3 database and checksums
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-r3-sqlite
+          path: dist/public-r3/
+          if-no-files-found: error
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
           name: glossary-sqlite
-          path: dist/
+          path: |
+            dist/
+            !dist/public-r3/**
           if-no-files-found: error
