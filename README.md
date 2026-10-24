@@ -27,6 +27,8 @@ python build/query.py dist/glossary.sqlite "燃料"
 
 详见 [AI 接入说明](docs/ai-usage.md) 和 [字段规范](docs/field-spec.md)。
 
+可选的 [QQ 机器人接入与合成测试](docs/qq-bot-r3-integration.md) 独立存放运行时组件、r3 查询/构建脚本和自然问法问题清单，不包含真实数据库、聊天记录或模型凭据。
+
 ## 结构与产物
 
 ```text

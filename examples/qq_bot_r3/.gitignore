@@ -1,0 +1,10 @@
+.env
+.env.*
+.state/
+.review/
+logs/
+private-data/
+*.sqlite
+*.sqlite-*
+*.zip
+__pycache__/
