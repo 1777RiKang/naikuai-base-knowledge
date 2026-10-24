@@ -1,0 +1,106 @@
+alias	canonical	kind	source	status	ref	note	conflict	primary	use_in_chat	resolution	publishable
+精灵飞行	精灵石 + 飞行契约	composite	repo_term	confirmed	terms/composite/jingling-feixing.yaml	组合缩写：精灵石用于精灵转生等，飞行契约用于解锁坐骑飞行；公屏常把两者连写。		primary	yes	single	yes
+精灵飞行	精灵石+飞行契约	组合缩写	manual_review	reviewed	review_final.csv	精灵石用于精灵转生等，飞行契约用于解锁坐骑飞行			yes	single	yes
+飞行精灵石	精灵石 + 飞行契约	composite	repo_term	confirmed	terms/composite/jingling-feixing.yaml	组合缩写：精灵石用于精灵转生等，飞行契约用于解锁坐骑飞行；公屏常把两者连写。	conflict	primary	yes	variant	yes
+飞行精灵石	飞行契约，精灵石	道具	manual_review	reviewed	review_final.csv	飞行契约用于解锁坐骑飞行，精灵石用于精灵转生等用途	conflict		no	variant	yes
+初治疗	初级治疗药水	consumable	repo_term	confirmed	terms/consumable/chuzhiliao.yaml	饮用后回复少量血量的初级治疗药水。		primary	yes	single	yes
+初治疗	初级治疗药水	黑话/服务	manual_review	reviewed	review_final.csv	饮用回复少量血			yes	single	yes
+改名卡	改名卡	consumable	repo_term	confirmed	terms/consumable/gaimingka.yaml	软糖道具，用于修改玩家昵称。		primary	yes	single	yes
+改名卡	改名卡	道具	manual_review	reviewed	review_final.csv	软糖道具，用于修改玩家昵称			yes	single	yes
+幻光成长包	幻光成长包	consumable	repo_term	confirmed	terms/consumable/huanguang-bao.yaml	选择获得某职业全套幻光装备并解锁权限，可完成部分主线；不包含猎魔人和占星师。		primary	yes	single	yes
+幻光成长包	幻光成长包	礼包	manual_review	reviewed	review_final.csv	选择获得某职业全套幻光装备并解锁权限 使用可完成[主线]暮色征服者、[主线]冰之歌、[主线]火之歌、[主线]灵魂摆渡人、[主线]成为战士、我要变强、萌新之路 影刃和龙骑士的职业任务仍需要自己完成 不包含猎魔人和占星师			yes	single	yes
+会员卡	会员卡（七天）	consumable	repo_term	confirmed	terms/consumable/huiyuanka.yaml	使用后获得 7 天会员。		primary	yes	single	yes
+会员卡	会员卡（七天）	道具	manual_review	reviewed	review_final.csv	使用之后可以获得7天会员			yes	single	yes
+精灵礼物	精灵礼物	consumable	repo_term	confirmed	terms/consumable/jingling-liwu.yaml	用于喂食精灵，增加精灵心情。		primary	yes	single	yes
+精灵礼物	精灵礼物	礼包/道具	manual_review	reviewed	review_final.csv	用于喂食精灵，增加精灵心情			yes	single	yes
+精灵书	精灵学识宝典	consumable	repo_term	confirmed	terms/consumable/jingling-shu.yaml	给精灵增加经验。分初级/中级/高级及对应转生宝典；转生宝典只能喂30级以上转生的精灵，非转生宝典只能喂30级以下。		primary	yes	single	yes
+精灵书	精灵学识宝典	道具	manual_review	reviewed	review_final.csv	用于给精灵增加经验，种类很多，有初级，中级，高级，初级转生，中级转生，高级转生精灵学识宝典，转生宝典只能喂食30级以上转生的精灵，非转生宝典，只能喂食30级之下的精灵			yes	single	yes
+经验瓶	经验瓶	consumable	repo_term	confirmed	terms/consumable/jingyanping.yaml	使用后获得玩家经验，可用于附魔、修理装备等。		primary	yes	single	yes
+经验瓶	经验瓶	消耗品	manual_review	reviewed	review_final.csv	使用之后可以获得玩家经验，玩家经验可以用于附魔，修理装备等用途			yes	single	yes
+角色改名卡	角色改名卡	consumable	repo_term	confirmed	terms/consumable/juese-gaimingka.yaml	软糖道具，用于角色改名。		primary	yes	single	yes
+角色改名卡	角色改名卡	道具	manual_review	reviewed	review_final.csv	软糖道具，用于角色改名			yes	single	yes
+灵魂	灵魂药水	consumable	repo_term	confirmed	terms/consumable/linghun.yaml	饮用后可以复活。		primary	yes	single	yes
+灵魂	灵魂药水	材料	manual_review	reviewed	review_final.csv	喝了可以复活			yes	single	yes
+饲料	坐骑饲料	consumable	repo_term	confirmed	terms/consumable/siliao.yaml	坐骑饲料这一大类，用于喂食坐骑。	conflict	primary	yes	variant	yes
+饲料	饲料	道具	manual_review	reviewed	review_final.csv	这里指的就是坐骑饲料这一大类，用于喂食坐骑	conflict		no	variant	yes
+无畏药	无畏药水	consumable	repo_term	confirmed	terms/consumable/wuweiyao.yaml	炼金获得，用于合成勇气精锭，也叫 T5 锭。		primary	yes	single	yes
+无畏药	无畏药水	消耗品	manual_review	reviewed	review_final.csv	炼金获得，用于合成勇气精锭，也叫做T5锭			yes	single	yes
+雨落药	雨落药水	consumable	repo_term	confirmed	terms/consumable/yuluoyao.yaml	用于合成星辰鳞皮，也叫 T5 皮。		primary	yes	single	yes
+雨落药	雨落药水	消耗品	manual_review	reviewed	review_final.csv	用于合成星辰鳞皮，也叫做T5皮			yes	single	yes
+转生礼物	转生礼物	consumable	repo_term	confirmed	terms/consumable/zhuansheng-liwu.yaml	转生之后使用的精灵礼物。		primary	yes	single	yes
+转生礼物	转生礼物	物品	manual_review	reviewed	review_final.csv	转生之后的精灵礼物			yes	single	yes
+坐骑食物	坐骑食物	consumable	repo_term	confirmed	terms/consumable/zuoqi-shiwu.yaml	坐骑食物这一大类，用于喂食坐骑。		primary	yes	single	yes
+坐骑食物	坐骑食物	道具	manual_review	reviewed	review_final.csv	坐骑食物这一大类，用于喂食坐骑			yes	single	yes
+打孔石	打孔石	item	repo_term	confirmed	terms/item/dakong-shi.yaml	用于填满装备孔位的垃圾宝石。镶孔流程：打孔石填满、打垫子宝石、再打入有效宝石。		primary	yes	single	yes
+打孔石	打孔石	道具	manual_review	reviewed	review_final.csv	用于填满装备的垃圾宝石，一件装备的宝石镶嵌通常是1：使用打孔石把孔填满2：打垫子宝石3：打入有效宝石；因为宝石镶嵌的机制，打孔宝石和垫子宝石是必要的			yes	single	yes
+低台	低级誓言台	item	repo_term	confirmed	terms/item/ditai.yaml	用于玩家结婚的低级誓言台。		primary	yes	single	yes
+低台	低级誓言台	黑话/服务档位	manual_review	reviewed	review_final.csv	用于玩家结婚			yes	single	yes
+飞行契约	飞行契约	item	repo_term	confirmed	terms/item/feixing-qiyue.yaml	用于解锁坐骑飞行。		primary	yes	single	yes
+高安	精致鞍具	item	repo_term	confirmed	terms/item/gaoan.yaml	捕捉高级坐骑时使用的鞍具。		primary	yes	single	yes
+高安	精致鞍具	黑话/服务档位	manual_review	reviewed	review_final.csv	捕捉高级坐骑使用			yes	single	yes
+海盗箱	海盗箱	item	repo_term	confirmed	terms/item/haidaoxiang.yaml	150 格的储物箱子，普通箱子是 30 格。		primary	yes	single	yes
+海盗箱	海盗箱	道具/箱子	manual_review	reviewed	review_final.csv	150格的储物箱子，普通箱子是30格子			yes	single	yes
+黑奶2	黑暗信使法杖	item	repo_term	confirmed	terms/item/heinai2.yaml	带有治愈2附魔的黑暗信使法杖。		primary	yes	single	yes
+黑奶2	黑暗信使法杖	黑话	manual_review	reviewed	review_final.csv	这里指的的黑暗信使法杖带有治愈2的附魔			yes	single	yes
+黑杖	黑暗信使法杖	item	repo_term	confirmed	terms/item/heizhang.yaml	一般指无附魔的黑暗信使法杖。		primary	yes	single	yes
+黑杖	黑暗信使法杖	装备	manual_review	reviewed	review_final.csv	这里一般指无附魔的黑暗信使法杖			yes	single	yes
+黑仗	黑暗信使法杖	item	repo_term	confirmed	terms/item/heizhang.yaml	一般指无附魔的黑暗信使法杖。		primary	yes	single	yes
+黑仗	黑暗信使法杖	装备	manual_review	reviewed	review_final.csv	这里应该是写错字了			yes	single	yes
+南瓜灯	南瓜灯	item	repo_term	confirmed	terms/item/nanguadeng.yaml	一种建筑方块。		primary	yes	single	yes
+南瓜灯	南瓜灯	道具	manual_review	reviewed	review_final.csv	一种建筑方块			yes	single	yes
+切割器	切割器	item	repo_term	confirmed	terms/item/qiegeqi.yaml	用于切割宝石。		primary	yes	single	yes
+吞噬猎弓	吞噬猎弓	item	repo_term	confirmed	terms/item/tunshi-liegong.yaml	T7 猎弓，吞噬系列武器，由黯淡的吞噬猎弓×1、吞噬皮革×8、丝卡蒂鞣革×2 合成。		primary	yes	single	yes
+吞噬弓	吞噬猎弓	item	repo_term	confirmed	terms/item/tunshi-liegong.yaml	T7 猎弓，吞噬系列武器，由黯淡的吞噬猎弓×1、吞噬皮革×8、丝卡蒂鞣革×2 合成。		primary	yes	single	yes
+t7弓	吞噬猎弓	item	repo_term	confirmed	terms/item/tunshi-liegong.yaml	T7 猎弓，吞噬系列武器，由黯淡的吞噬猎弓×1、吞噬皮革×8、丝卡蒂鞣革×2 合成。		primary	yes	single	yes
+坐骑蛋	坐骑蛋	item	repo_term	confirmed	terms/item/zuoqidan.yaml	通指坐骑召唤石这一类，用于获得坐骑。		primary	yes	single	yes
+坐骑蛋	坐骑蛋	道具	manual_review	reviewed	review_final.csv	通指坐骑召唤石这一类，用于获得坐骑			yes	single	yes
+黑子	黛丽拉	jargon	repo_term	confirmed	terms/jargon/heizi.yaml	黛丽拉精灵的外号。		primary	yes	single	yes
+黑子	黛丽拉	坐骑/精灵	manual_review	reviewed	review_final.csv	黛丽拉精灵的外号			yes	single	yes
+近战	近战	jargon	repo_term	confirmed	terms/jargon/jinzhan.yaml	指带有近战属性的精灵项链。		primary	yes	single	yes
+近战	近战	职业/定位黑话	manual_review	reviewed	review_final.csv	这里指的是带有近战属性的，精灵项链			yes	single	yes
+果子	果子	material	repo_term	confirmed	terms/material/guozi.yaml	部分农作物的叫法，常用于喂食跟宠。		primary	yes	single	yes
+果子	果子	材料	manual_review	reviewed	review_final.csv	部分农作物的叫法			yes	single	yes
+黑锭	赤炼锭	material	repo_term	confirmed	terms/material/heiding.yaml	也叫 T4 锭、魂珠锭；其他语境可能指黑铁锭。		primary	yes	single	yes
+黑锭	赤炼锭	材料	manual_review	reviewed	review_final.csv	也叫做T4锭，魂珠锭；在其他语境中可能指代的是黑铁锭			yes	single	yes
+核心	核心	material	repo_term	confirmed	terms/material/hexin.yaml	用于跟宠进化的材料。		primary	yes	single	yes
+核心	核心	材料	manual_review	reviewed	review_final.csv	用于跟宠进化			yes	single	yes
+魂碎	魂晶 / 碎片	material	repo_term	confirmed	terms/material/hunsui.yaml	碎片用于合成1阶传说武器；魂晶是3阶传说武器升级4阶的关键材料。		primary	yes	single	yes
+魂碎	魂晶，碎片	材料	manual_review	reviewed	review_final.csv	碎片：用于合成1阶传说武器；魂晶：用于3阶传说武器升级4阶的关键材料			yes	single	yes
+碎魂	魂晶 / 碎片	material	repo_term	confirmed	terms/material/hunsui.yaml	碎片用于合成1阶传说武器；魂晶是3阶传说武器升级4阶的关键材料。	conflict	primary	yes	variant	yes
+碎魂	碎片，魂晶	材料	manual_review	reviewed	review_final.csv	碎片：用于合成1阶传说武器；魂晶：用于3阶传说武器升级4阶的关键材料	conflict		no	variant	yes
+精灵石	精灵石	material	repo_term	confirmed	terms/material/jinglingshi.yaml	用于精灵转生，也可用于精灵打包等。		primary	yes	single	yes
+酒精	酒精	material	repo_term	confirmed	terms/material/jiujing.yaml	用于炼金台、熔炉等，可充当燃料，由小麦、土豆等农作物蒸馏而成。		primary	yes	single	yes
+酒精	酒精	材料	manual_review	reviewed	review_final.csv	用于炼金台，熔炉等，可以充当燃料，由小麦，土豆等农作物蒸馏而成			yes	single	yes
+绿水	绿水晶	material	repo_term	confirmed	terms/material/lvshui.yaml	绿水晶，用于附魔。		primary	yes	single	yes
+绿水	绿水晶	材料/药水	manual_review	reviewed	review_final.csv	用于附魔			yes	single	yes
+命运宝石	命运宝石	material	repo_term	confirmed	terms/material/mingyun-baoshi.yaml	命运等级的宝石，可指三角、四角、五角、绿、蓝、紫的任意搭配；三角只有绿色。		primary	yes	single	yes
+命运宝石	命运宝石	材料	manual_review	reviewed	review_final.csv	命运等级的宝石，可以指三角，四角，五角，绿，蓝，紫的任意搭配，其中三角只有绿色			yes	single	yes
+皮毛锭	皮 / 毛 / 锭	material	repo_term	confirmed	terms/material/pimaoding.yaml	皮（射手）、毛（法师）、锭（骑士）三类合成装备的关键材料合称。		primary	yes	single	yes
+皮毛锭	皮，毛，锭	材料	manual_review	reviewed	review_final.csv	皮（射手）毛（法师）锭（骑士）合成装备的关键材料泛指			yes	single	yes
+审判	审判	material	repo_term	confirmed	terms/material/shenpan.yaml	四阶武器升级5阶的关键材料，一般很贵。		primary	yes	single	yes
+审判	审判	物品/跟宠相关	manual_review	reviewed	review_final.csv	四阶武器升级5阶的关键材料，一般很贵			yes	single	yes
+碎片	赐福碎片	material	repo_term	confirmed	terms/material/suipian.yaml	这里指赐福碎片；其他语境也可能指装备碎片或传说碎片。	conflict	primary	yes	ambiguous	yes
+碎片	碎片	材料	manual_review	reviewed	review_final.csv	这里指的是赐福碎片，其他地方可能指的是装备碎片或者是传说碎片等	conflict		no	ambiguous	yes
+铁块	铁块	material	repo_term	confirmed	terms/material/tiekuai.yaml	建筑材料，也可用于装备和工具合成。		primary	yes	single	yes
+五角	五角宝石	material	repo_term	confirmed	terms/material/wujiao.yaml	可指绿龙晶、蓝龙晶或紫龙晶，需结合上下文判断具体颜色。		primary	yes	single	yes
+五角	五角宝石	材料	manual_review	reviewed	review_final.csv	可以指绿龙晶，蓝龙晶，紫龙晶			yes	single	yes
+柱子	虚无石英柱	material	repo_term	confirmed	terms/material/zhuzi.yaml	一种矿物，用来升级宝石。		primary	yes	single	yes
+柱子	虚无石英柱	物品	manual_review	reviewed	review_final.csv	一种矿物，用来升级宝石			yes	single	yes
+紫命运	命运-紫龙晶	material	repo_term	confirmed	terms/material/zi-mingyun.yaml	用于镶嵌装备的紫色命运宝石。		primary	yes	single	yes
+紫命运	命运-紫龙晶	装备/材料	manual_review	reviewed	review_final.csv	用于镶嵌装备的宝石			yes	single	yes
+钻晶	蓝钻结晶	material	repo_term	confirmed	terms/material/zuanjing.yaml	与蓝钻、蓝钻块并列为玩家通用货币，99蓝钻=11蓝钻块=1蓝钻结晶。		primary	yes	single	yes
+钻晶	蓝钻结晶	材料/货币	manual_review	reviewed	review_final.csv	和蓝钻，蓝钻块并列为奶块玩家通用货币，其中99蓝钻=11蓝钻块=1蓝钻结晶			yes	single	yes
+钻块	蓝钻块	material	repo_term	confirmed	terms/material/zuankuai.yaml	玩家通用货币之一，可参考钻晶（蓝钻结晶）的换算说明。		primary	yes	single	yes
+钻块	蓝钻块	货币/材料	manual_review	reviewed	review_final.csv	玩家货币，可以参考钻晶（蓝钻结晶）的说明			yes	single	yes
+独角	独角兽	mount	repo_term	confirmed	terms/mount/dujiao.yaml	独角兽，双人坐骑。		primary	yes	single	yes
+独角	独角兽	坐骑	manual_review	reviewed	review_final.csv	双人坐骑			yes	single	yes
+渡鸦	金羽渡鸦	mount	repo_term	confirmed	terms/mount/duya.yaml	金羽渡鸦坐骑。		primary	yes	single	yes
+渡鸦	金羽渡鸦	坐骑/宠物	manual_review	reviewed	review_final.csv	坐骑			yes	single	yes
+小初桌	小食物桌	service	repo_term	confirmed	terms/service/xiaochu-zhuo.yaml	用于给多人提供大量 buff 的食物桌服务档位。		primary	yes	single	yes
+小初桌	小食物桌	黑话/服务档位	manual_review	reviewed	review_final.csv	用于给多人提供大量buff的食物桌子			yes	single	yes
+中桌	中级食物桌	service	repo_term	confirmed	terms/service/zhongzhuo.yaml	用于给群体提供大量 buff 的食物桌服务档位。		primary	yes	single	yes
+中桌	中级食物桌	黑话/服务档位	manual_review	reviewed	review_final.csv	用于给群体大量buff			yes	single	yes
+宠物	跟宠	system	repo_term	confirmed	terms/system/chongwu.yaml	可以召唤用于打本的系统名词，正式叫法为「跟宠」。		primary	yes	single	yes
+宠物	跟宠	系统名词	manual_review	reviewed	review_final.csv	可以召唤用于打本			yes	single	yes
+软糖	软糖	system	repo_term	confirmed	terms/system/ruantang.yaml	游戏氪金货币，用于购买商城道具。		primary	yes	single	yes
+软糖	软糖	道具/材料	manual_review	reviewed	review_final.csv	游戏氪金货币			yes	single	yes

@@ -1,0 +1,8 @@
+*.sqlite
+*.sqlite-*
+*.tmp*
+*.pyc
+__pycache__/
+private-review/
+.env
+.env.*

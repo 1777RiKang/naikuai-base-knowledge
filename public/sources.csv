@@ -1,0 +1,5 @@
+﻿名称,版本,授权依据,链接
+开源术语条目 (terms/*.yaml),v0.3.0,CC BY-NC-SA 4.0 (社区共同维护，禁止商业牟利，要求署名与相同方式共享),https://github.com/1777RiKang/naikuai-base-knowledge/tree/main/terms
+人工审定公屏术语别名 (review_final.csv),2026-10-22,CC BY-NC-SA 4.0 兼容授权 (社区公屏人工标注，经隐私审计脱敏，无私密个人信息),https://github.com/1777RiKang/naikuai-base-knowledge
+《数据摘要》系列衍生知识分块 (author/乱走丶沙城),8.6.26.10,LicenseRef-Original-Source (原作者乱走丶沙城授权非商业公开使用与引用；保留原作者署名与免责声明，不得删改，已清除个人联系方式),https://github.com/1777RiKang/naikuai-base-knowledge
+开源基础设施与构建脚本规范 (unified-r3),r3-public,MIT License (宽松开源协议，代码自由复用与系统集成),https://github.com/1777RiKang/naikuai-base-knowledge

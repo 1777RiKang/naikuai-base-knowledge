@@ -1,0 +1,73 @@
+{
+  "schema_version": "unified-r3-public",
+  "kb_version": "8.6.26.10-public",
+  "snapshot_date": "2026-10-21",
+  "review_due": "2026-11-21",
+  "upstream_commit": "42849623ddc9d9795e25bef230d5846a439b6b56",
+  "statistics": {
+    "chunks": 574,
+    "facts": 0,
+    "aliases": 105,
+    "enabled_aliases": 101,
+    "alias_senses": 3,
+    "alias_groups": 0
+  },
+  "scope": "Reviewed public snapshot; not the private VPS database.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 74,
+      "sha256": "aee8a86d33b2407b03ffd4d68f0dc10042b17c29d56cd4cdda46fce15ef4564e"
+    },
+    {
+      "path": "glossary/alias_groups.tsv",
+      "size_bytes": 26,
+      "sha256": "a7e975494551ea7eb252c341ed15cab2a2333f2c3c4e848ef19f13ffd2309195"
+    },
+    {
+      "path": "glossary/alias_senses.tsv",
+      "size_bytes": 102,
+      "sha256": "667c2a37a419b90298c2490c9e310d7b21b57b448b4afa5f6af73c3bb2f7ebd0"
+    },
+    {
+      "path": "glossary/aliases.tsv",
+      "size_bytes": 16787,
+      "sha256": "d8a0848353038a359d978d32bcc127a518fd77b2c54c8289a203eba4237aa0ba"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 3489,
+      "sha256": "b4f0b1f57f6df63cda68839e8c2d84aeb2c7038e69ed674968a8b9564ffb1700"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4500,
+      "sha256": "afce921e54f31b14528cfa35c7cefdce22a0bde0080bceb004fb27f05a220b80"
+    },
+    {
+      "path": "scripts/build_public.py",
+      "size_bytes": 13535,
+      "sha256": "e4e02afd4bdfe043a2c284f79b29aed004e9c40fac57509b6eb04cf49ca2a5fc"
+    },
+    {
+      "path": "scripts/kb_query_public.py",
+      "size_bytes": 13383,
+      "sha256": "45d5bc0cf6240a317324e0b05f8d6fcfc62122fbf80c9db9eefe01ac60babd9c"
+    },
+    {
+      "path": "sources/chunks.jsonl",
+      "size_bytes": 1221677,
+      "sha256": "e44e3ad073318a6d47bf79b976aed9100917804874fec1955117ee8215a9f578"
+    },
+    {
+      "path": "sources/sources.csv",
+      "size_bytes": 949,
+      "sha256": "fbc891f8c74575dbfae9ef03ad99526ec2bfbdcdf71331bbe5c9fd3391cb3199"
+    },
+    {
+      "path": "sources.csv",
+      "size_bytes": 949,
+      "sha256": "fbc891f8c74575dbfae9ef03ad99526ec2bfbdcdf71331bbe5c9fd3391cb3199"
+    }
+  ]
+}
