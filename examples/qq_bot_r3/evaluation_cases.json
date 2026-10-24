@@ -1,0 +1,32 @@
+[
+  {
+    "question": "宝石怎么打",
+    "expected_handling": "识别镶嵌/配装/获取意图，必要时反问",
+    "observed_r3": "召回弓系和旧版说明，没有意图澄清",
+    "status": "known_issue"
+  },
+  {
+    "question": "什么是无尽三人本",
+    "expected_handling": "约束世界和人数，召回目标三人秘境介绍",
+    "observed_r3": "混入其他世界三人本和无关表格",
+    "status": "known_issue"
+  },
+  {
+    "question": "猎魔人怎么玩",
+    "expected_handling": "优先职业攻略，排除同名 NPC",
+    "observed_r3": "部分职业条目命中，同时出现 NPC 属性",
+    "status": "known_issue"
+  },
+  {
+    "question": "宝石镶嵌规则",
+    "expected_handling": "返回相关规则并保留未核验限定",
+    "observed_r3": "手机私聊已确认收到正常回复",
+    "status": "owner_confirmed_smoke_only"
+  },
+  {
+    "question": "碎片多少钱",
+    "expected_handling": "只反问义项，停止生成模型调用",
+    "observed_r3": "手机确认收到反问，安装版钩子合成测试确认停止生成边界",
+    "status": "owner_confirmed_smoke_only"
+  }
+]
