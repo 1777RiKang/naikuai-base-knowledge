@@ -1,0 +1,67 @@
+name: release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version in VERSION, without a v prefix
+        required: true
+        default: '0.4.0'
+      publish:
+        description: Publish immediately (otherwise create a draft)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate requested version
+        env:
+          RELEASE_VERSION: ${{ inputs.version }}
+        run: |
+          python - <<'PY'
+          import os,pathlib,re
+          version=os.environ['RELEASE_VERSION']
+          assert re.fullmatch(r'\d+\.\d+\.\d+',version), 'Invalid release version'
+          assert version==pathlib.Path('VERSION').read_text().strip(), 'Version differs from VERSION'
+          PY
+      - run: pip install -r requirements.txt
+      - run: python build/validate.py
+      - run: python build/privacy.py
+      - run: python -m unittest discover -s tests -v
+      - run: python build/build_public_r3.py --out dist/public-r3
+      - run: python build/evaluate_public_r3.py dist/public-r3/naikuai-kb-public.sqlite --output dist/retrieval-evaluation.json
+      - name: Prepare release notes and publish assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ inputs.version }}
+          PUBLISH: ${{ inputs.publish }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib
+          path=pathlib.Path('dist/public-r3/manifest.json')
+          digest=hashlib.sha256(path.read_bytes()).hexdigest()
+          pathlib.Path('dist/release-notes.md').write_text(
+              'Public r3 snapshot only; no private client or Wiki data.\n\n'
+              'Manifest SHA-256: `'+digest+'`\n\n'
+              'Verify the manifest before staging. This release does not deploy the QQ bot.\n',encoding='utf-8')
+          PY
+          args=(--draft)
+          if [ "$PUBLISH" = "true" ]; then args=(); fi
+          gh release create "v$RELEASE_VERSION" dist/public-r3/* dist/retrieval-evaluation.json \
+            --target "$GITHUB_SHA" --title "Public r3 v$RELEASE_VERSION" \
+            --notes-file dist/release-notes.md "${args[@]}"

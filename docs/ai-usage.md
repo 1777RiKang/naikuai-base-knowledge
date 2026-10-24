@@ -2,6 +2,8 @@
 
 词库核心提供可追溯的数据与最小检索 CLI，不启动聊天机器人或模型服务。可选的 [QQ 接入示例](qq-bot-r3-integration.md) 独立提供运行时组件参考和合成测试，不改变默认审核规则。
 
+0.4.0 提供 [固定自然问句评测](m1-progress.md) 与 [Release 缓存/私用层回调适配](releases.md)。适配器不替换私用数据库，未在本轮接入 VPS；现有权限、工具、记忆边界由调用方继续执行。
+
 ```bash
 python build/build_sqlite.py dist
 python build/query.py dist/glossary.sqlite "黑仗"

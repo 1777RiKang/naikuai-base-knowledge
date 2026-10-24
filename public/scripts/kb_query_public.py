@@ -16,9 +16,54 @@ def norm(s):
     s = unicodedata.normalize('NFKC', s or '').lower()
     return re.sub(r'[\s·・\-_/|\\,，。、:：;；"“”\'‘’()（）\[\]【】<>《》!！?？*#`~]+', '', s)
 
-STOP = sorted(['怎么样', '怎么打', '怎么', '如何', '什么', '多少', '哪里', '哪个', '哪些', '几个', '为什么', '是不是', '有没有', '能不能',
+STOP = sorted(['卖什么', '怎么样', '怎么打', '怎么', '如何', '什么', '多少', '哪里', '哪个', '哪些', '几个', '为什么', '是不是', '有没有', '能不能',
                '可以', '请问', '一下', '大佬', '求问', '知道', '告诉我', '是啥', '咋打', '咋', '吗', '呢', '啊', '吧', '呀', '的', '了', '是', '有',
                '技能', '打法', '攻略', '机制', '教学', '教程', '属性'], key=len, reverse=True)
+
+PROFESSIONS = ('猎魔人', '魔导师', '召唤师', '占星师', '弓箭手', '影刃', '龙骑士', '骑士')
+
+
+def question_plan(question):
+    """Route explicit topics to evidence sections; never invent missing facts."""
+    q = norm(question)
+    if ('宝石' in q and any(t in q for t in ('怎么打', '咋打', '如何打'))
+            and not any(t in q for t in ('镶嵌', '升级', '效果', '切割'))):
+        return {'kind': 'gem_ambiguous', 'prompt': '你指宝石镶嵌、升级，还是某种宝石的效果？'}
+    if '宝石' in q and '镶嵌' in q:
+        return {'kind': 'inlay', 'query': '宝石镶嵌', 'section': '%镶嵌%'}
+    if '宝石' in q and '升级' in q:
+        return {'kind': 'gem_upgrade', 'query': '宝石升级材料', 'section': '%宝石升级材料%'}
+    if '宝石' in q and any(t in q for t in ('效果', '属性')):
+        term = re.sub(r'请问|是多少|是什么|宝石|效果|属性|什么|的', '', q)
+        return {'kind': 'gem_effect', 'query': term or '宝石效果', 'section': '%2.6宝石%'}
+    if '无尽' in q and re.search(r'(三|3)(人|个)(小)?(副本|本|秘境)', q):
+        return {'kind': 'sea_three', 'query': '无尽之海', 'section': '%第四章%无尽之海%'}
+    if '海拉' in q and not any(t in q for t in ('庇护', '琳')):
+        five = bool(re.search(r'(?<![一二三四五六七八九十])五人|(?<!\d)5人', q))
+        ten = bool(re.search(r'(?<![一二三四五六七八九十])十人|(?<!\d)10人|精英', q))
+        if five == ten:
+            return {'kind': 'hela_ambiguous', 'prompt': '你指五人海拉，还是十人精英海拉？'}
+        return {'kind': 'hela_ten' if ten else 'hela_five', 'query': '海拉', 'section': '%悲惨宫殿%'}
+    if (not any(t in q for t in ('npc', '怪物'))
+            and any(t in q for t in ('怎么玩', '如何玩', '玩法', '技能', '连招', '加点', '怎么输出', '教学'))):
+        for profession in PROFESSIONS:
+            if profession in q:
+                return {'kind': 'profession', 'query': profession, 'section': '%对各职业的深刻理解%'}
+    return None
+
+
+def route_accepts(plan, section, body):
+    kind = plan['kind']
+    leaf = section.split('/')[-1]
+    if kind == 'sea_three':
+        return bool(re.search(r'\|\s*3\s*-\s*3\s*\|', body))
+    if kind.startswith('hela_'):
+        return ('精英' in leaf) == (kind == 'hela_ten')
+    if kind == 'profession':
+        return leaf.endswith(plan['query'])
+    if kind == 'gem_effect':
+        return '效果' in section or '解释' in section
+    return True
 
 class PublicKB:
     def __init__(self, db_path=None):
@@ -96,6 +141,10 @@ class PublicKB:
         return raw_segs
 
     def chunks(self, q, names, k=4, per_chunk=900, budget=2400):
+        plan = question_plan(q)
+        if plan and 'query' in plan:
+            q = plan['query']
+            names = [q]
         segs = self._segments(q)
         ent = [norm(n) for n in names if len(norm(n)) >= 2]
         tri = sorted({s[i:i + 3] for s in segs + ent for i in range(len(s) - 2)})
@@ -124,6 +173,14 @@ class PublicKB:
                 'ORDER BY c.rowid LIMIT 30', ('%' + x + '%', '%' + x + '%')
             ):
                 cand.setdefault(rid, 0.0)
+
+        if plan and 'section' in plan:
+            # Filters apply at candidate collection, before ranking and limits.
+            candidates = self.conn.execute(
+                'SELECT rowid,section,text FROM chunks WHERE section LIKE ? '
+                'AND sensitive=0 AND review_status="active" AND publishable=1 ORDER BY chunk_id',
+                (plan['section'],)).fetchall()
+            cand = {rid: 0.0 for rid, section, body in candidates if route_accepts(plan, section, body)}
 
         if not cand:
             return []
@@ -197,12 +254,15 @@ class PublicKB:
         for r, score_val, _ in valid_rows:
             if len(out) >= k or used >= budget:
                 break
-            if docs.get(r[2], 0) >= 2:
+            doc_key = r[4] if plan and plan['kind'] == 'sea_three' else r[2]
+            if docs.get(doc_key, 0) >= (1 if plan and plan['kind'] == 'sea_three' else 2):
                 continue
-            text = self._passage(r[10], ent + tri + bi, min(per_chunk, budget - used))
+            available = min(per_chunk, budget - used)
+            text = (r[10][:available] if plan and plan['kind'] == 'sea_three'
+                    else self._passage(r[10], ent + tri + bi, available))
             if not text:
                 continue
-            docs[r[2]] = docs.get(r[2], 0) + 1
+            docs[doc_key] = docs.get(doc_key, 0) + 1
             used += len(text)
             out.append({
                 'chunk_id': r[1], 'doc_id': r[2], 'title': r[3], 'section': r[4],
@@ -253,6 +313,7 @@ class PublicKB:
 
     def lookup(self, q, **kw):
         t = time.perf_counter()
+        plan = question_plan(q)
         hits, clarify = self.resolve(q)
         names = list(dict.fromkeys(n for h in hits for n in h['names']))
         res = {
@@ -266,6 +327,14 @@ class PublicKB:
             'summary_review_due': self.meta.get('summary_review_due'),
             'content_scope': self.meta.get('content_scope')
         }
+        if plan:
+            res['retrieval_intent'] = plan['kind']
+        if plan and 'prompt' in plan:
+            res.update(action='clarify', prompt=plan['prompt'], terms=[], clarify=[{
+                'surface': q, 'options': (['宝石镶嵌', '宝石升级', '宝石效果'] if plan['kind'] == 'gem_ambiguous'
+                                          else ['五人海拉', '十人精英海拉'])}])
+            res['ms'] = round((time.perf_counter() - t) * 1000, 1)
+            return res
         if clarify:
             res['action'] = 'clarify'
             res['prompt'] = f"请问您指的是【{'】、【'.join(clarify[0]['options'])}】？"

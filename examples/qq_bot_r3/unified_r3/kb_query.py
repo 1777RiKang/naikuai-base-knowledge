@@ -42,6 +42,14 @@ def compact(attrs):
     return '；'.join(out)
 KIND_ORDER = {'boss': 0, 'gem': 1, 'wiki_gem': 2, 'wiki_gem_attr': 3, 'wiki_equipment': 4, 'wiki_fairy': 5, 'item': 6, 'skill': 7, 'gem_ref': 8, 'npc': 9}
 
+def profession_question(q):
+    text = norm(q)
+    if any(t in text for t in ('npc', '怪物')):
+        return None
+    if not any(t in text for t in ('怎么玩', '如何玩', '玩法', '技能', '连招', '加点', '怎么输出', '教学')):
+        return None
+    return next((name for name in ('猎魔人', '魔导师', '召唤师', '占星师', '弓箭手', '影刃', '骑士', '龙骑士') if name in text), None)
+
 class KB:
     def __init__(self, path=DB, public_only=False):
         self.c = sqlite3.connect(__import__('pathlib').Path(path).resolve().as_uri() + '?mode=ro&immutable=1', uri=True, timeout=0.25); self.public = public_only
@@ -81,10 +89,12 @@ class KB:
         return hits, clarify
 
     # ---- 2. 事实 ----
-    def facts(self, names, max_n=6, budget=1200, per_fact=600):
+    def facts(self, names, max_n=6, budget=1200, per_fact=600, exclude_npc=False):
         """先精简再计预算；单条装不下就跳过（记入 skipped），不影响后面的候选"""
         out, skipped, used, seen = [], [], 0, set()
         pub = ' and publishable=1' if self.public else ''
+        if exclude_npc:
+            pub += " and kind<>'npc'"
         per_name = []
         for n in names:
             rs = self.c.execute(f'select id,kind,name,tier,version,source,flags,attrs from facts where name_norm=? and answerable=1{pub}', (norm(n),)).fetchall()
@@ -132,6 +142,8 @@ class KB:
                 cand.setdefault(rid, 0.0)
         if not cand: return []
         rows = self.c.execute(f"select rowid,chunk_id,doc_id,title,section,source,version,tier,review_status,status_note,text from chunks where rowid in ({','.join(map(str, cand))})").fetchall()
+        if profession_question(q):
+            rows = [r for r in rows if 'npc' not in (r[3] + r[4] + r[5]).casefold() and '家具' not in r[4]]
         def score(r):
             head, body = norm(r[3] + r[4]), norm(r[10])
             s_ent = sum(3 * (e in head) + 1 * (e in body) for e in ent)
@@ -188,7 +200,7 @@ class KB:
             res['action'] = 'clarify'; res['versions'] = []; res['ms'] = round((time.perf_counter() - t) * 1000, 1)
             return res
         res['action'] = 'answer'
-        res['facts'] = self.facts(names); res['facts_skipped'] = self._skipped
+        res['facts'] = self.facts(names, exclude_npc=bool(profession_question(q))); res['facts_skipped'] = self._skipped
         res['chunks'] = self.chunks(q, names, **kw)
         res['versions'] = sorted({c['version'] for c in res['chunks']} | {f['version'] for f in res['facts']})
         res['ms'] = round((time.perf_counter() - t) * 1000, 1)

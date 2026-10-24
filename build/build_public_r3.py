@@ -23,6 +23,8 @@ def build(output):
     manifest = {
         "schema_version": "unified-r3-public",
         "kb_version": "8.6.26.10-public",
+        "release_version": (ROOT / 'VERSION').read_text(encoding='utf-8').strip(),
+        "repository": "1777RiKang/naikuai-base-knowledge",
         "files": [{"path": name, "size_bytes": (output / name).stat().st_size,
                    "sha256": hashlib.sha256((output / name).read_bytes()).hexdigest()}
                   for name in (db.name, "README.md", "LICENSE.md", "source-manifest.json")],

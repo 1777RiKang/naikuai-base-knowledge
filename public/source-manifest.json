@@ -41,8 +41,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4500,
-      "sha256": "afce921e54f31b14528cfa35c7cefdce22a0bde0080bceb004fb27f05a220b80"
+      "size_bytes": 4839,
+      "sha256": "dd6bb966d4e9ab5950cc0a66b0ce0ab9c3ddbb04283025afc675b96120d44496"
     },
     {
       "path": "scripts/build_public.py",
@@ -51,8 +51,13 @@
     },
     {
       "path": "scripts/kb_query_public.py",
-      "size_bytes": 13383,
-      "sha256": "45d5bc0cf6240a317324e0b05f8d6fcfc62122fbf80c9db9eefe01ac60babd9c"
+      "size_bytes": 17377,
+      "sha256": "278f07ab842fd488463b012df57cb89085f6a4c553863c632afb25b320de23fc"
+    },
+    {
+      "path": "scripts/release_cache.py",
+      "size_bytes": 5829,
+      "sha256": "f2a3f44928a996e073692c4774a3378dd28c0c0dd80211fb514cf2cc511cdab0"
     },
     {
       "path": "sources/chunks.jsonl",
@@ -69,5 +74,7 @@
       "size_bytes": 949,
       "sha256": "fbc891f8c74575dbfae9ef03ad99526ec2bfbdcdf71331bbe5c9fd3391cb3199"
     }
-  ]
+  ],
+  "release_version": "0.4.0",
+  "query_policy_version": 2
 }
