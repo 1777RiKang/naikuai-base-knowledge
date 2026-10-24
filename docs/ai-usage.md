@@ -1,6 +1,6 @@
 # AI 接入说明
 
-词库提供可追溯的数据与最小检索 CLI，不包含聊天机器人或模型服务。
+词库核心提供可追溯的数据与最小检索 CLI，不启动聊天机器人或模型服务。可选的 [QQ 接入示例](qq-bot-r3-integration.md) 独立提供运行时组件参考和合成测试，不改变默认审核规则。
 
 ```bash
 python build/build_sqlite.py dist
