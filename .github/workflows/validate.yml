@@ -34,6 +34,8 @@ jobs:
         run: python build/build_knowledge.py --out dist
       - name: Build reviewed public r3 snapshot
         run: python build/build_public_r3.py --out dist/public-r3
+      - name: Check typed public text reader against the built snapshot
+        run: python -m unittest discover -s tests -p test_public_text_reader.py -v
       - name: Evaluate fixed natural-language retrieval cases
         run: python build/evaluate_public_r3.py dist/public-r3/naikuai-kb-public.sqlite --output dist/retrieval-evaluation.json
       - name: Upload public r3 database and checksums
