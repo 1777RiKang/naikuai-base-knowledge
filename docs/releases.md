@@ -6,6 +6,17 @@
 
 流程会运行原校验、隐私检查、全部单元测试和 30 道固定检索题，再构建数据库、来源指纹及 SHA-256 清单。发布附件只有公开 r3；不读取 VPS，也不读取私用资料目录。首次发布前仍需审阅内容和既有作者授权记录。
 
+发布前还会运行离线预检：
+
+```bash
+python build/release_preflight.py \
+  --directory dist/public-r3 \
+  --evaluation dist/retrieval-evaluation.json \
+  --output dist/release-preflight.json
+```
+
+工作流已在内置构建与评测之后调用它，非零退出会阻止创建 Release。预检只读本地产物：要求产物目录的直接成员恰好为 manifest 与 4 个白名单资产（无额外文件、目录或符号链接），核对版本、manifest 契约、资产大小与 SHA-256、公开元数据、`facts=0`、可公开标记，并验证受信流水线评测报告的完整性及其与当前数据库、题集的实际字节绑定。预检不独立重跑评测，也不据此证明模型或 QQ 效果。检查项与阶段证据见 [发布检查清单](release-checklist.md)。
+
 Release 说明提供 `manifest.json` 的 SHA-256。它用于固定本次下载内容；不要从未经核对的聊天或第三方链接复制一个摘要作为信任依据。
 
 ## 下载到独立缓存
