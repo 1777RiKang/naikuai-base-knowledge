@@ -1,5 +1,6 @@
 """Fixed natural-language retrieval checks; no model calls or chat collection."""
 import argparse
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -14,7 +15,9 @@ def evaluate(database, cases_path=ROOT / "eval/retrieval_cases.json", query_modu
     spec = importlib.util.spec_from_file_location("evaluated_public_query", path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    cases = json.loads(Path(cases_path).read_text(encoding="utf-8"))["cases"]
+    cases_bytes = Path(cases_path).read_bytes()
+    cases = json.loads(cases_bytes.decode("utf-8"))["cases"]
+    database_sha256 = hashlib.sha256(Path(database).read_bytes()).hexdigest()
     kb = module.PublicKB(str(database))
     rows = []
     try:
@@ -48,6 +51,8 @@ def evaluate(database, cases_path=ROOT / "eval/retrieval_cases.json", query_modu
         kb.conn.close()
     times = sorted(r["ms"] for r in rows)
     return {"cases": len(rows), "passed": sum(r["passed"] for r in rows),
+            "database_sha256": database_sha256,
+            "cases_sha256": hashlib.sha256(cases_bytes).hexdigest(),
             "median_ms": statistics.median(times), "p95_ms": times[min(len(times)-1, int(len(times)*.95))],
             "results": rows}
 
