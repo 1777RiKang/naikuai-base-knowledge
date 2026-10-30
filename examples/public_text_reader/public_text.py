@@ -9,7 +9,7 @@ import json
 import re
 import sqlite3
 import unicodedata
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Any
 
@@ -104,6 +104,286 @@ def _table_cells(line: str) -> list[str]:
 
 def _is_table_separator(cells: list[str]) -> bool:
     return bool(cells) and all(re.fullmatch(r":?-{2,}:?", cell) for cell in cells)
+
+
+@dataclass
+class _TableBlock:
+    rows: list[list[str]]
+
+
+def _table_row_cells(line: str) -> list[str]:
+    stripped = line.strip()
+    if not stripped.startswith("|"):
+        return []
+    parts = stripped.split("|")
+    if parts and not parts[0].strip():
+        parts = parts[1:]
+    if parts and not parts[-1].strip():
+        parts = parts[:-1]
+    return [cell.strip() for cell in parts]
+
+
+def _table_blocks(raw: str) -> list[_TableBlock]:
+    blocks: list[_TableBlock] = []
+    current: list[list[str]] = []
+    for line in (raw or "").splitlines():
+        cells = _table_row_cells(line)
+        if not cells:
+            if current:
+                blocks.append(_TableBlock(current))
+                current = []
+            continue
+        if _is_table_separator([cell for cell in cells if cell]):
+            continue
+        if any(cell for cell in cells):
+            current.append(cells)
+    if current:
+        blocks.append(_TableBlock(current))
+    return blocks
+
+
+def _render_table_block(block: _TableBlock) -> str:
+    width = max((len(row) for row in block.rows), default=0)
+    lines: list[str] = []
+    for row in block.rows:
+        padded = row + [""] * (width - len(row))
+        rendered = " | ".join(padded).strip()
+        if rendered:
+            lines.append(rendered)
+    return "\n".join(lines)
+
+
+def _render_table_blocks(raw: str) -> str:
+    rendered = [_render_table_block(block) for block in _table_blocks(raw)]
+    return "\n\n".join(part for part in rendered if part)
+
+
+def _table_cell_text(value: str) -> str:
+    return _readable_text(value)
+
+
+def _system_bonus_groups(raw: str) -> list[tuple[str, list[tuple[str, str]]]]:
+    groups: list[tuple[str, list[tuple[str, str]]]] = []
+    for block in _table_blocks(raw):
+        headings = [
+            index
+            for index, row in enumerate(block.rows)
+            if sum("精灵装备加成" in cell for cell in row) >= 2
+        ]
+        for heading_index in headings:
+            heading = block.rows[heading_index]
+            end = next(
+                (index for index in headings if index > heading_index),
+                len(block.rows),
+            )
+            anchors = [
+                index for index, cell in enumerate(heading) if "精灵装备加成" in cell
+            ]
+            for anchor in anchors:
+                label = heading[anchor].split("-", 1)[-1].strip()
+                values: list[tuple[str, str]] = []
+                for row in block.rows[heading_index + 1 : end]:
+                    if anchor >= len(row):
+                        continue
+                    level = _table_cell_text(row[anchor])
+                    effect = _table_cell_text(row[anchor + 1]) if anchor + 1 < len(row) else ""
+                    if level or effect:
+                        values.append((level, effect))
+                if label and values:
+                    groups.append((label, values))
+    return groups
+
+
+def _system_slot(segment: "_SectionSegment") -> str:
+    for part in reversed(segment.chunk.parts):
+        match = re.match(r"^\d+(?:\.\d+)+\s*(.+)$", part.strip())
+        if not match:
+            continue
+        label = match.group(1).strip()
+        if label and "精灵装备加成" not in label:
+            return label
+    return ""
+
+
+def _system_bonus_condition(segments: list["_SectionSegment"]) -> str | None:
+    for segment in segments:
+        match = re.search(r"[（(]([^）)]*精灵属性发挥百分比[^）)]*)[）)]", segment.title)
+        if match:
+            return match.group(1).strip()
+    return None
+
+
+def _system_set_rows(segments: list["_SectionSegment"]) -> list[tuple[str, str]]:
+    rows: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for segment in segments:
+        for block in _table_blocks(segment.raw):
+            for row in block.rows:
+                if len(row) < 2:
+                    continue
+                name = _table_cell_text(row[0])
+                effect = _table_cell_text(row[1])
+                if not name or not effect:
+                    continue
+                if name == "套装名称" or name.startswith("---"):
+                    continue
+                item = (name, effect)
+                if item not in seen:
+                    seen.add(item)
+                    rows.append(item)
+    return rows
+
+
+def _system_level_filter(question_norm: str) -> set[int] | None:
+    if any(term in question_norm for term in ("各级", "每级", "所有等级", "全部等级")):
+        return None
+    range_match = re.search(r"(\d{1,2})\s*[-–—－~～到至]\s*(\d{1,2})\s*级", question_norm)
+    if range_match:
+        low, high = sorted((int(range_match.group(1)), int(range_match.group(2))))
+        return set(range(low, high + 1))
+    levels = {int(value) for value in re.findall(r"(\d{1,2})\s*级", question_norm)}
+    return levels or None
+
+
+def _system_detail_requested(question_norm: str) -> bool:
+    if re.search(r"\d{1,2}\s*级", question_norm):
+        return True
+    if re.search(r"多少(?:个)?部位|几个部位|几件|哪些部位", question_norm):
+        return False
+    return any(
+        term in question_norm
+        for term in ("数值", "具体", "多少", "每级", "各级", "等级表", "几级", "满级")
+    )
+
+
+def _render_system_segment(
+    segment: "_SectionSegment",
+    levels: set[int] | None = None,
+    wanted_labels: set[str] | None = None,
+) -> str:
+    title = f"{segment.code}{segment.title.split(' / ')[0]}".strip()
+    groups = _system_bonus_groups(segment.raw)
+    if not groups:
+        rendered = _render_table_blocks(segment.raw)
+        body = rendered or segment.readable
+        return f"{title}\n{body}" if title and title not in body else body
+    slot = _system_slot(segment)
+    lines: list[str] = []
+    for label, values in groups:
+        if label == "无":
+            continue
+        if wanted_labels is not None and label not in wanted_labels:
+            continue
+        filtered: list[tuple[str, str]] = []
+        for level, effect in values:
+            if levels is not None:
+                match = re.search(r"(\d{1,2})\s*级", level)
+                if not match or int(match.group(1)) not in levels:
+                    continue
+            filtered.append((level, effect))
+        if not filtered:
+            continue
+        if not lines and title:
+            lines.append(title)
+        if slot:
+            lines.append(f"{slot}｜{label}")
+        else:
+            lines.append(label)
+        lines.extend(f"{level}：{effect}" for level, effect in filtered)
+    return "\n".join(lines)
+
+
+def _system_overview_source(segment: "_SectionSegment") -> str:
+    title = f"{segment.code}{segment.title.split(' / ')[0]}".strip()
+    groups = _system_bonus_groups(segment.raw)
+    if groups:
+        slot = _system_slot(segment)
+        names = [name for name, _values in groups if name != "无"]
+        line = f"{slot}：{'、'.join(names)}" if slot else f"属性：{'、'.join(names)}"
+        condition = _system_bonus_condition([segment])
+        return "\n".join(part for part in (title, line, condition) if part)
+    sets = _system_set_rows([segment])
+    if sets:
+        return "\n".join(
+            [title] + [f"{name}：{effect}" for name, effect in sets]
+        )
+    return _render_system_segment(segment)
+
+
+def _gem_effect_row_text(text: str, name: str) -> str:
+    lines = [line.strip() for line in (text or "").splitlines() if line.strip()]
+    if not name:
+        return "\n".join(lines)
+    key = normalize(name)
+    if not key:
+        return ""
+    chosen: list[int] = []
+    for index, line in enumerate(lines):
+        head = re.split(r"[：:]", line, maxsplit=1)[0]
+        if key in normalize(head):
+            chosen.append(index)
+    if not chosen:
+        return ""
+    selected: set[int] = set()
+    for index in chosen:
+        for back in range(index - 1, -1, -1):
+            line = lines[back]
+            if "：" in line or ":" in line:
+                continue
+            if re.match(r"^\d+(?:\.\d+)+\s", line) or len(line) > 30:
+                break
+            selected.add(back)
+            break
+        selected.add(index)
+    return "\n".join(lines[index] for index in sorted(selected))
+
+
+def _gem_upgrade_groups(raw: str) -> list[tuple[str, list[tuple[str, str, str]]]]:
+    groups: list[tuple[str, list[tuple[str, str, str]]]] = []
+    shape = ""
+    rows: list[tuple[str, str, str]] = []
+    for block in _table_blocks(raw):
+        for row in block.rows:
+            if len(row) >= 3 and "升级档次" in row[0]:
+                continue
+            if len(row) >= 3 and "消耗材料" in row[1]:
+                continue
+            if len(row) >= 3 and "升级" in row[1]:
+                first = _table_cell_text(row[0])
+                if first and "升级" not in first:
+                    if shape and rows:
+                        groups.append((shape, rows))
+                    shape = first
+                    rows = []
+                stage = _table_cell_text(row[1])
+                material = _table_cell_text(row[2])
+                if shape and (stage or material):
+                    rows.append((shape, stage, material))
+            elif len(row) >= 2 and shape and "升级" in row[0]:
+                stage = _table_cell_text(row[0])
+                material = _table_cell_text(row[1])
+                if stage or material:
+                    rows.append((shape, stage, material))
+    if shape and rows:
+        groups.append((shape, rows))
+    return groups
+
+
+def _gem_upgrade_text(segment: "_SectionSegment", conditions: dict[str, Any]) -> str:
+    groups = _gem_upgrade_groups(segment.raw)
+    if not groups:
+        return segment.readable
+    wanted_shape = conditions.get("gem_shape")
+    wanted_stage = conditions.get("gem_stage")
+    lines = ["升级材料（形状｜升级档次：材料）"]
+    for shape, rows in groups:
+        if wanted_shape and shape != wanted_shape:
+            continue
+        for row_shape, stage, material in rows:
+            if wanted_stage and wanted_stage not in stage:
+                continue
+            lines.append(f"{row_shape}｜{stage}：{material}")
+    return "\n".join(lines) if len(lines) > 1 else segment.readable
 
 
 def _readable_text(raw: str | None) -> str:
@@ -464,6 +744,57 @@ class _Chunk:
 
 
 @dataclass
+class _SectionSegment:
+    chunk: _Chunk
+    code: str
+    title: str
+    raw: str
+    readable: str
+    historical: bool
+    had_strikethrough: bool
+
+
+def _section_segments(chunk: _Chunk) -> list[_SectionSegment]:
+    raw = chunk.raw_text
+    heading = re.compile(r"^\s*\*\*(\d+(?:\.\d+)+[^\n*]*)\*\*\s*$", re.M)
+    matches = list(heading.finditer(raw))
+    pieces: list[tuple[str, str]] = []
+    if matches:
+        first_leaf = re.split(r"[；;]", chunk.leaf_raw, maxsplit=1)[0]
+        pieces.append((raw[: matches[0].start()], first_leaf))
+        for index, match in enumerate(matches):
+            end = matches[index + 1].start() if index + 1 < len(matches) else len(raw)
+            pieces.append((raw[match.start() : end], match.group(1).strip()))
+    else:
+        pieces.append((raw, chunk.leaf_raw))
+    segments: list[_SectionSegment] = []
+    for piece_raw, title in pieces:
+        code_match = re.match(r"^(\d+(?:\.\d+)+)\s*(.*)$", (title or "").strip())
+        code = code_match.group(1) if code_match else ""
+        title_text = (code_match.group(2) if code_match else (title or "")).strip()
+        parent_context = " / ".join(part.strip() for part in chunk.parts[:-1] if part.strip())
+        if parent_context:
+            title_text = f"{title_text} / {parent_context}".strip(" /")
+        readable = _readable_text(piece_raw)
+        struck = "~~" in piece_raw
+        historical = chunk.historical or (struck and not readable)
+        if not title_text and code:
+            title_text = code
+        segments.append(
+            _SectionSegment(
+                chunk=chunk,
+                code=code,
+                title=title_text,
+                raw=piece_raw,
+                readable=readable,
+                historical=historical,
+                had_strikethrough=struck,
+            )
+        )
+    return segments
+
+
+@dataclass
 class _EntityRef:
     name: str
     domain: str
@@ -794,6 +1125,11 @@ _INTENT_STOPWORDS = (
     "是不是",
     "有没有",
     "能不能",
+    "有什么作用",
+    "有什么用",
+    "有啥用",
+    "用处",
+    "作用",
     "可以",
     "吗",
     "呢",
@@ -872,9 +1208,75 @@ _NON_FAIRY_ITEM_TERMS = (
     "精灵飞行",
     "精灵转生",
     "精灵项链",
-    "精灵装备",
     "精灵打包",
 )
+
+_SYSTEM_QUERY_TOPICS = (
+    ("dismantle", ("分解", "拆解")),
+    ("correspondence", ("对应", "适配", "哪个精灵", "哪些精灵", "给谁")),
+    ("set", ("套装",)),
+    ("comparison", ("对比", "比较", "相比", "比得上")),
+    ("upgrade", ("升级", "升阶")),
+    ("cut", ("切割", "切石")),
+    ("inlay", ("镶嵌",)),
+    ("parts", ("部位", "部件", "发饰", "项链", "戒指", "几件")),
+    ("acquisition", ("获取", "获得", "哪里得", "哪里获得", "怎么得", "出处", "来源", "掉落")),
+    (
+        "bonus",
+        (
+            "加成",
+            "属性",
+            "作用",
+            "用途",
+            "用处",
+            "有用",
+            "有什么用",
+            "有啥用",
+            "怎么用",
+            "用来",
+            "干什么",
+            "干啥",
+            "干嘛",
+            "能做什么",
+            "做什么",
+            "提升什么",
+            "效果",
+        ),
+    ),
+)
+
+_SYSTEM_TITLE_TOPICS = (
+    ("dismantle", ("分解", "拆解")),
+    ("correspondence", ("对应",)),
+    ("set", ("套装",)),
+    ("comparison", ("对比", "比较")),
+    ("upgrade", ("升级", "升阶")),
+    ("cut", ("切割",)),
+    ("inlay", ("镶嵌",)),
+    ("effect", ("效果",)),
+    ("bonus", ("加成", "属性")),
+)
+
+_SYSTEM_MISSING_LABELS = {
+    "acquisition": "获取/来源说明",
+    "upgrade": "升级规则或材料",
+    "cut": "切割规则或概率",
+    "inlay": "镶嵌规则或效果",
+}
+
+
+def _system_query_topic(question_norm: str) -> str | None:
+    for topic, terms in _SYSTEM_QUERY_TOPICS:
+        if any(term in question_norm for term in terms):
+            return topic
+    return None
+
+
+def _segment_topic(title: str) -> str | None:
+    for topic, terms in _SYSTEM_TITLE_TOPICS:
+        if any(term in title for term in terms):
+            return topic
+    return None
 
 
 def _leftover(question_norm: str) -> str:
@@ -1039,6 +1441,8 @@ class PublicTextReader:
                 "char_budget": self.total_chars,
                 "per_chunk_budget": self.per_chunk_chars,
                 "char_used": 0,
+                "remaining_candidates": 0,
+                "note": None,
             },
             "intent": {
                 "domain": "out_of_scope",
@@ -1054,6 +1458,15 @@ class PublicTextReader:
                 "conflict_resolution": "out_of_scope",
                 "config_values": "not_answered",
                 "evidence_policy": "public_summary_text_is_conditional",
+                "confirmation_scope": {
+                    "current_game_config_checked": False,
+                    "basis": "public_summary_only",
+                    "release_sha256": self.actual_sha256,
+                    "manifest_verified": self.manifest_verified,
+                    "kb_version": self.meta.get("kb_version"),
+                },
+                "excerpt_scope": "source_fragment_not_complete_current_guide",
+                "source_processing": [],
             },
         }
 
@@ -1068,6 +1481,8 @@ class PublicTextReader:
             "char_budget": self.total_chars,
             "per_chunk_budget": self.per_chunk_chars,
             "char_used": 0,
+            "remaining_candidates": 0,
+            "note": None,
         }
 
     def lookup(self, question: str, limit: int | None = None, cursor: str | None = None) -> dict[str, Any]:
@@ -1101,6 +1516,14 @@ class PublicTextReader:
                 return self._clarify_world_abbrev(question, conditions, ambiguous_worlds, result)
         if world:
             conditions.world = world["name"]
+        if hint in {"fairy", "profession"}:
+            system_labels = self._system_labels(hint)
+            if any(normalize(label) in question_norm for label in system_labels):
+                system_result = self._lookup_system(
+                    question, question_norm, hint, conditions, result, limit, cursor
+                )
+                if system_result is not None:
+                    return system_result
         if not matches:
             if hint == "fairy" and any(term in question_norm for term in _NON_FAIRY_ITEM_TERMS):
                 result["reason"] = "out_of_scope"
@@ -1126,16 +1549,18 @@ class PublicTextReader:
         if entity:
             question_norm = question_norm.replace(normalize(entity), "")
         if domain == "gem":
-            return "overview"
+            return result["intent"].get("mode") or "overview"
         if domain == "dungeon":
+            if any(term in question_norm for term in ("怎么打", "打法", "攻略", "机制", "技能")):
+                return "guide"
             if self._is_list_question(question_norm):
                 return "list"
-            if any(term in question_norm for term in ("怎么打", "打法", "攻略", "机制")):
-                return "guide"
             if any(term in question_norm for term in ("是什么", "是啥", "定义", "介绍")):
                 return "intro"
             return "general"
         if domain == "fairy":
+            if result["intent"].get("system"):
+                return "system"
             if any(term in question_norm for term in ("技能", "连招", "加点", "输出")):
                 return "skills"
             if any(term in question_norm for term in ("培养", "升星", "面板", "装备", "礼物")):
@@ -1163,11 +1588,17 @@ class PublicTextReader:
         elif domain == "profession":
             family = "profession_guide"
         elif domain == "fairy":
-            family = "elf_skills"
+            family = "elf_system" if result["intent"].get("system") else "elf_skills"
         elif domain == "dungeon":
             family = "dungeon_guide" if requested_intent == "guide" else "dungeon_intro"
         elif domain == "gem":
-            family = "gem_overview"
+            family = {
+                "upgrade": "gem_upgrade",
+                "cut": "gem_cut",
+                "inlay": "gem_inlay",
+                "effect": "gem_effect",
+                "source": "gem_source",
+            }.get(result["intent"].get("mode"), "gem_overview")
         else:
             family = None
         if not result["matched"]:
@@ -1175,6 +1606,8 @@ class PublicTextReader:
         scope = "non_game" if not result["matched"] else "game"
         result["scope"] = scope
         entity_type = {"fairy": "elf"}.get(domain, domain)
+        if result["intent"].get("system"):
+            entity_type = "elf_system"
         result["entity_type"] = entity_type if domain in {"profession", "fairy", "dungeon", "gem"} else None
         result["entity"] = result["intent"].get("entity")
         result["conditions"] = dict(result["intent"].get("conditions") or {})
@@ -1272,6 +1705,301 @@ class PublicTextReader:
         longest = max(item[0] for item in expanded.values())
         return [item for item in expanded.values() if item[0] == longest]
 
+    def _system_labels(self, domain: str) -> dict[str, set[str]]:
+        labels: dict[str, set[str]] = {}
+        for chunk in self.index.chunks:
+            if chunk.domain != domain or chunk.labels:
+                continue
+            for part in chunk.parts:
+                match = re.match(r"^(\d+(?:\.\d+)+)\s*(.+)$", part.strip())
+                if not match:
+                    continue
+                code, label = match.groups()
+                if code.count(".") != 1:
+                    continue
+                label = label.strip()
+                if len(label) < 2 or label in _GENERIC_LABELS:
+                    continue
+                labels.setdefault(label, set()).add(code)
+        return labels
+
+    def _system_candidates(self, domain: str, codes: set[str]) -> list[_Chunk]:
+        candidates: list[_Chunk] = []
+        for chunk in self.index.chunks:
+            if chunk.domain != domain or chunk.labels:
+                continue
+            for part in chunk.parts:
+                match = re.match(r"^(\d+(?:\.\d+)+)\s*", part.strip())
+                if not match:
+                    continue
+                code = match.group(1)
+                if any(code == prefix or code.startswith(prefix + ".") for prefix in codes):
+                    candidates.append(chunk)
+                    break
+        return candidates
+
+    def _system_intent(
+        self, domain: str, label: str, conditions: _Conditions
+    ) -> dict[str, Any]:
+        return {
+            "domain": domain,
+            "entity": label,
+            "conditions": self._conditions_payload(conditions),
+            "branch": None,
+            "system": label,
+        }
+
+    def _system_missing(
+        self,
+        result: dict[str, Any],
+        domain: str,
+        label: str,
+        topic: str | None,
+        chunks: list[_Chunk],
+    ) -> dict[str, Any]:
+        detail = _SYSTEM_MISSING_LABELS.get(topic or "", "对应正文")
+        return self._abstain(
+            result,
+            True,
+            "not_in_public_snapshot",
+            f"public_text.{domain}",
+            f"本公开快照的「{label}」章节没有{detail}；已检查该章节的实际段落，未用其他章节代答。",
+            unknown_kind="not_in_public_snapshot",
+            unknown_detail=f"公开快照的「{label}」章节未收录{detail}。",
+            unknown_chunks=chunks,
+            unknown_scope_note=f"检查了公开快照中「{label}」章节的段落与子章节标题。",
+        )
+
+    def _system_historical(
+        self,
+        result: dict[str, Any],
+        domain: str,
+        label: str,
+        segments: list[_SectionSegment],
+    ) -> dict[str, Any]:
+        titles = "、".join(
+            dict.fromkeys(segment.title.split(" / ")[0] for segment in segments)
+        )
+        return self._abstain(
+            result,
+            True,
+            "only_historical_or_unreleased",
+            f"public_text.{domain}",
+            f"公开正文的「{label}·{titles}」内容全部带删除线（历史/旧值），"
+            "没有可用的当前内容；不把删除线数值当作当前规则。",
+            unknown_kind="historical_source",
+            unknown_detail=f"「{label}·{titles}」在公开正文中仅保留删除线历史内容，已排除。",
+            unknown_type="source_boundary",
+            unknown_chunks=[segment.chunk for segment in segments],
+            unknown_scope_note="检查了该子章节的当前文本与删除线标记，当前内容为空。",
+        )
+
+    def _system_overview_text(
+        self,
+        label: str,
+        topic: str | None,
+        bonus_segments: list[_SectionSegment],
+        set_segments: list[_SectionSegment],
+    ) -> str | None:
+        by_slot: dict[str, list[str]] = {}
+        has_empty = False
+        for segment in bonus_segments:
+            slot = _system_slot(segment) or "属性"
+            for name, _values in _system_bonus_groups(segment.raw):
+                if name == "无":
+                    has_empty = True
+                    continue
+                labels = by_slot.setdefault(slot, [])
+                if name not in labels:
+                    labels.append(name)
+        sets = _system_set_rows(set_segments)
+        lines: list[str] = []
+        if by_slot:
+            lines.append(f"「{label}」是公开正文中的属性与套装加成内容。")
+            lines.append("公开正文按部位列出属性字段；未说明具体作用对象或结算方式。")
+            condition = _system_bonus_condition(bonus_segments)
+            if condition:
+                lines.append(f"主要限制：{condition}。")
+            lines.append("部位与表头列出的属性：")
+            for slot, names in by_slot.items():
+                lines.append(f"- {slot}：{'、'.join(names)}")
+            if has_empty:
+                lines.append("表头标注“无”的栏没有对应加成。")
+        if topic == "set" and sets:
+            lines.append("套装属性（按公开原文列出；删除线概率不计入）：")
+            lines.extend(f"- {name}：{effect}" for name, effect in sets)
+        elif sets:
+            examples = "、".join(f"{name}（{effect}）" for name, effect in sets[:3])
+            suffix = f"等 {len(sets)} 个套装档位" if len(sets) > 3 else ""
+            lines.append(f"相关套装：{examples}{suffix}。")
+        if by_slot:
+            lines.append("表内档位是装备等级，不是精灵等级；未问具体数值时不展开等级表。")
+        if not lines:
+            return None
+        codes = sorted(
+            {
+                ".".join(segment.code.split(".")[:3])
+                for segment in bonus_segments + set_segments
+                if segment.code
+            }
+        )
+        source_label = "、".join(codes) if codes else "对应"
+        lines.append(f"以上名称和属性取自公开正文 {source_label} 子章节。")
+        return "\n".join(lines)
+
+    def _lookup_system(
+        self,
+        question: str,
+        question_norm: str,
+        hint: str,
+        conditions: _Conditions,
+        result: dict[str, Any],
+        limit: int | None,
+        cursor: str | None,
+    ) -> dict[str, Any] | None:
+        labels = self._system_labels(hint)
+        if not labels:
+            return None
+        matched_label = None
+        for label in sorted(labels, key=len, reverse=True):
+            if normalize(label) and normalize(label) in question_norm:
+                matched_label = label
+                break
+        if matched_label is None:
+            return None
+        candidates = self._system_candidates(hint, labels[matched_label])
+        if not candidates:
+            return None
+        segments = [segment for chunk in candidates for segment in _section_segments(chunk)]
+        if not segments:
+            return None
+        topic = _system_query_topic(question_norm)
+        rest = question_norm.replace(normalize(matched_label), "")
+        leftover = _leftover(rest)
+        if topic is None and leftover:
+            return None
+        detail = _system_detail_requested(question_norm)
+        levels = _system_level_filter(question_norm) if detail else None
+        bonus_segments = [
+            segment for segment in segments if _segment_topic(segment.title) == "bonus"
+        ]
+        set_segments = [
+            segment for segment in segments if _segment_topic(segment.title) == "set"
+        ]
+        all_bonus_labels = {
+            name
+            for segment in bonus_segments
+            for name, _values in _system_bonus_groups(segment.raw)
+            if name != "无"
+        }
+        wanted_labels = {
+            name
+            for name in all_bonus_labels
+            if len(name) >= 2 and normalize(name) in question_norm
+        }
+        if topic in {"parts", "bonus"}:
+            selected = bonus_segments if detail else bonus_segments + set_segments
+        elif topic == "set":
+            selected = set_segments
+        elif topic == "overview" or topic is None:
+            selected = bonus_segments if detail else bonus_segments + set_segments
+        else:
+            selected = [segment for segment in segments if _segment_topic(segment.title) == topic]
+        specific = [
+            term for term in ("发饰", "项链", "戒指") if term in question_norm
+        ]
+        if specific and topic in {"parts", "bonus", None}:
+            refined = [
+                segment
+                for segment in bonus_segments
+                if any(
+                    term in segment.title
+                    or term in segment.readable
+                    or term in segment.chunk.leaf_raw
+                    for term in specific
+                )
+            ]
+            if refined:
+                selected = refined + (
+                    [] if detail else [segment for segment in selected if segment in set_segments]
+                )
+        if not selected:
+            result["intent"] = self._system_intent(hint, matched_label, conditions)
+            return self._system_missing(result, hint, matched_label, topic, candidates)
+        selected = [
+            segment for segment in selected if segment.readable or segment.historical
+        ]
+        if not selected:
+            result["intent"] = self._system_intent(hint, matched_label, conditions)
+            return self._system_missing(result, hint, matched_label, topic, candidates)
+        current = [
+            segment for segment in selected if segment.readable and not segment.historical
+        ]
+        historical = [
+            segment for segment in selected if segment.historical and not segment.readable
+        ]
+        result["intent"] = self._system_intent(hint, matched_label, conditions)
+        if not current:
+            if historical:
+                return self._system_historical(result, hint, matched_label, historical)
+            return self._system_missing(result, hint, matched_label, topic, candidates)
+        overview = None
+        if not detail and topic in {"overview", "bonus", "parts", "set", None}:
+            overview = self._system_overview_text(
+                matched_label,
+                topic,
+                [segment for segment in current if _segment_topic(segment.title) == "bonus"],
+                [segment for segment in current if _segment_topic(segment.title) == "set"],
+            )
+        ranked = [
+            replace(
+                segment.chunk,
+                readable=(
+                    _render_system_segment(segment, levels, wanted_labels or None)
+                    if detail
+                    else _system_overview_source(segment)
+                    if overview
+                    else _render_system_segment(segment)
+                ),
+                had_strikethrough=segment.had_strikethrough,
+                historical=False,
+                branch_label=f"{segment.code} {segment.title.split(' / ')[0]}".strip(),
+                leaf_raw=segment.title,
+            )
+            for segment in current
+        ]
+        page_limit = limit if limit is not None else (4 if overview else None)
+        answer = self._answer_from_chunks(
+            question,
+            hint,
+            matched_label,
+            ranked,
+            result,
+            page_limit,
+            cursor,
+            multi=False,
+            conditions=None,
+            text_override=overview,
+        )
+        if answer.get("evidence"):
+            quotes = {segment.chunk.chunk_id: segment.raw.strip() for segment in current}
+            for item in answer["evidence"]:
+                quote = quotes.get(item["chunk_id"])
+                if quote:
+                    item["quote"] = quote
+        if historical and answer.get("action") == "answer_with_caveat":
+            answer["limits"]["source_processing"].append(
+                {
+                    "record_type": "execution_note",
+                    "kind": "historical_subsection_excluded",
+                    "detail": "同章节中仅含删除线/历史内容的子段未纳入当前回答。",
+                    "chunk_ids": list(
+                        dict.fromkeys(segment.chunk.chunk_id for segment in historical)
+                    ),
+                }
+            )
+        return answer
+
     def _lookup_entity(
         self,
         question: str,
@@ -1295,7 +2023,14 @@ class PublicTextReader:
                     hinted = expanded
                 else:
                     actual = sorted(domains)[0] if domains else "other"
-                    return self._type_mismatch(question, top[0][2].name, hint, actual, result)
+                    return self._type_mismatch(
+                        question,
+                        top[0][2].name,
+                        hint,
+                        actual,
+                        result,
+                        [self.index.chunks[position] for _, _, ref in top for position in ref.positions],
+                    )
             selected_refs = [item[2] for item in hinted if item[0] == max(x[0] for x in hinted)]
             domain = hint
         else:
@@ -1336,7 +2071,13 @@ class PublicTextReader:
         return self._abstain(result, True, "entity_type_mismatch", f"public_text.{domain}", "该条目不属于公开正文的正文检索范围。")
 
     def _type_mismatch(
-        self, question: str, entity: str, requested: str, actual: str, result: dict[str, Any]
+        self,
+        question: str,
+        entity: str,
+        requested: str,
+        actual: str,
+        result: dict[str, Any],
+        chunks: list[_Chunk],
     ) -> dict[str, Any]:
         requested_label = self._domain_label(requested)
         actual_label = self._domain_label(actual)
@@ -1346,10 +2087,13 @@ class PublicTextReader:
         result["intent"]["domain"] = requested
         result["intent"]["entity"] = entity
         result["buckets"]["unknown"].append(
-            {
-                "kind": "type_mismatch",
-                "detail": f"公开正文中的同名条目属于{actual_label}，不是{requested_label}；未跨类型代答。",
-            }
+            self._unknown_record(
+                "type_mismatch",
+                f"公开正文中的同名条目属于{actual_label}，不是{requested_label}；未跨类型代答。",
+                record_type="source_boundary",
+                chunks=chunks,
+                checked="检查了同名公开条目在索引中的实际正文类型。",
+            )
         )
         result["text"] = (
             f"公开正文中的「{entity}」是{actual_label}条目，"
@@ -1435,6 +2179,9 @@ class PublicTextReader:
                         f"只找到「{entity}」标注未上线、猜测或历史的段落，不能当作当前攻略。",
                         unknown_kind="historical_source",
                         unknown_detail="相关内容在公开正文中标注为历史或未上线，已排除。",
+                        unknown_type="source_boundary",
+                        unknown_chunks=candidates,
+                        unknown_scope_note="检查了该实体在公开快照中的当前/历史/未上线状态。",
                     )
                 return self._abstain(
                     result,
@@ -1444,6 +2191,9 @@ class PublicTextReader:
                     f"只找到「{entity}」标注未完成、未上线、猜测或历史的段落，不能当作当前攻略。",
                     unknown_kind="incomplete_source",
                     unknown_detail="相关内容在公开正文中标注未完成或未上线，已排除。",
+                    unknown_type="source_boundary",
+                    unknown_chunks=candidates,
+                    unknown_scope_note="检查了该实体在公开快照中的当前/未完成/未上线状态。",
                 )
             return self._abstain(
                 result,
@@ -1467,6 +2217,8 @@ class PublicTextReader:
                     f"公开正文中没有符合「{'、'.join(conditions.describe())}」条件的「{entity}」分支。",
                     unknown_kind="condition_mismatch",
                     unknown_detail="已按世界/人数/层/难度条件筛选，没有回退到其他分支。",
+                    unknown_chunks=chunks,
+                    unknown_scope_note="检查了候选公开入口的 world/players/layer/difficulty/tier 字段。",
                 )
             return self._clarify_branches(result, entity, groups)
         if len(filtered) > 1:
@@ -1587,6 +2339,8 @@ class PublicTextReader:
                     f"公开正文的「{world_name}」下没有符合「{'、'.join(conditions.describe())}」条件的入口。",
                     unknown_kind="condition_mismatch",
                     unknown_detail="已按世界/人数/层/难度条件筛选，没有回退到其他分支。",
+                    unknown_chunks=chunks,
+                    unknown_scope_note="检查了候选公开入口的 world/players/layer/difficulty/tier 字段。",
                 )
             return self._abstain(
                 result,
@@ -1704,6 +2458,156 @@ class PublicTextReader:
             prompt += f"（共 {len(all_options)} 个条目，下面只列出前 {len(options)} 个）"
         return self._clarify(result, "clarify_entity", f"public_text.clarify.{hint}", prompt, options)
 
+    @staticmethod
+    def _gem_conditions(question_norm: str) -> dict[str, Any]:
+        shape = next((item for item in ("三角", "四角", "五角") if item in question_norm), None)
+        stage = None
+        if "溯时" in question_norm:
+            stage = "命运升级为溯时"
+        elif "命运" in question_norm:
+            stage = "幻光升级为命运"
+        elif "幻光" in question_norm:
+            stage = "普通升级为幻光"
+        conditions: dict[str, Any] = {}
+        if shape:
+            conditions["gem_shape"] = shape
+        if stage:
+            conditions["gem_stage"] = stage
+        return conditions
+
+    def _gem_missing(
+        self,
+        result: dict[str, Any],
+        question_norm: str,
+        mode: str,
+        entity: str,
+        topic_label: str,
+        chunks: list[_Chunk],
+    ) -> dict[str, Any]:
+        result["intent"] = {
+            "domain": "gem",
+            "entity": entity,
+            "conditions": self._gem_conditions(question_norm),
+            "branch": None,
+            "mode": mode,
+        }
+        note = (
+            "这只说明本公开快照未收录，不代表游戏没有该机制。"
+            if mode == "inlay"
+            else ""
+        )
+        return self._abstain(
+            result,
+            True,
+            "not_in_public_snapshot",
+            "public_text.gem",
+            f"本公开快照的 2.6 宝石章节没有{topic_label}；"
+            "已检查效果、升级、切割等实际段落，未用其他表冒充。" + note,
+            unknown_kind="not_in_public_snapshot",
+            unknown_detail=f"公开快照的 2.6 宝石章节未收录{topic_label}。",
+            unknown_chunks=chunks,
+            unknown_scope_note="检查了公开快照 2.6 宝石章节的实际段落与子章节标题（效果、升级、切割等）。",
+        )
+
+    def _gem_answer(
+        self,
+        question: str,
+        question_norm: str,
+        entity: str,
+        mode: str,
+        selected: list[_SectionSegment],
+        result: dict[str, Any],
+    ) -> dict[str, Any]:
+        gem_conditions = self._gem_conditions(question_norm)
+        result["intent"] = {
+            "domain": "gem",
+            "entity": entity,
+            "conditions": gem_conditions,
+            "branch": None,
+            "mode": mode,
+        }
+        current = [segment for segment in selected if segment.readable and not segment.historical]
+        historical = [segment for segment in selected if segment.historical and not segment.readable]
+        if not current:
+            if historical:
+                titles = "、".join(
+                    dict.fromkeys(
+                        segment.title.split(" / ")[0] for segment in historical
+                    )
+                )
+                return self._abstain(
+                    result,
+                    True,
+                    "only_historical_or_unreleased",
+                    "public_text.gem",
+                    f"公开正文的「2.6 宝石·{titles}」内容全部带删除线（历史/旧值），"
+                    "没有可用的当前内容；不把删除线数值当作当前规则。",
+                    unknown_kind="historical_source",
+                    unknown_detail=f"「2.6 宝石·{titles}」在公开正文中仅保留删除线历史内容，已排除。",
+                    unknown_type="source_boundary",
+                    unknown_chunks=[segment.chunk for segment in historical],
+                    unknown_scope_note="检查了 2.6 宝石子章节的当前文本与删除线标记，当前内容为空。",
+                )
+            return self._abstain(
+                result,
+                True,
+                "not_in_public_snapshot",
+                "public_text.gem",
+                "本公开快照的 2.6 宝石章节没有可用的当前正文。",
+            )
+        ranked = [
+            replace(
+                segment.chunk,
+                readable=(
+                    _gem_upgrade_text(segment, gem_conditions)
+                    if mode == "upgrade"
+                    else segment.readable
+                ),
+                had_strikethrough=segment.had_strikethrough,
+                historical=False,
+                branch_label=f"{segment.code} {segment.title.split(' / ')[0]}".strip(),
+                leaf_raw=segment.title,
+            )
+            for segment in current
+        ]
+        answer = self._answer_from_chunks(
+            question,
+            "gem",
+            entity,
+            ranked,
+            result,
+            None,
+            None,
+            multi=False,
+            conditions=None,
+        )
+        if mode == "upgrade" and answer.get("evidence"):
+            quotes = {segment.chunk.chunk_id: segment.raw.strip() for segment in current}
+            for item in answer["evidence"]:
+                quote = quotes.get(item["chunk_id"])
+                if quote:
+                    item["quote"] = quote
+        conditions = result["intent"].get("conditions") or {}
+        labels = [
+            conditions[key]
+            for key in ("gem_shape", "gem_stage")
+            if conditions.get(key)
+        ]
+        if labels and answer.get("action") == "answer_with_caveat":
+            answer["text"] += "\n\n已识别条件：" + "、".join(labels) + "；摘录保留原文的档次/部位分栏。"
+        if historical and answer.get("action") == "answer_with_caveat":
+            answer["limits"]["source_processing"].append(
+                {
+                    "record_type": "execution_note",
+                    "kind": "historical_subsection_excluded",
+                    "detail": "同章节中仅含删除线/历史内容的子段未纳入当前回答。",
+                    "chunk_ids": list(
+                        dict.fromkeys(segment.chunk.chunk_id for segment in historical)
+                    ),
+                }
+            )
+        return answer
+
     def _lookup_gem(
         self,
         question: str,
@@ -1712,10 +2616,14 @@ class PublicTextReader:
         result: dict[str, Any],
     ) -> dict[str, Any]:
         result["intent"]["domain"] = "gem"
+        all_chunks = [self.index.chunks[position] for position in self.index.gem_positions]
+        segments = [segment for chunk in all_chunks for segment in _section_segments(chunk)]
         has_inlay = "镶嵌" in question_norm
         has_upgrade = "升级" in question_norm
         has_cut = "切割" in question_norm
-        has_effect = "效果" in question_norm
+        has_effect = any(
+            term in question_norm for term in ("效果", "作用", "用处", "有什么用", "有啥用")
+        )
         has_source = any(term in question_norm for term in ("获得", "获取", "出处", "哪里掉"))
         broad_action = any(term in question_norm for term in ("怎么打", "怎么玩", "怎么用", "攻略", "玩法"))
         if broad_action and not (has_inlay or has_upgrade or has_cut or has_effect or has_source):
@@ -1726,34 +2634,57 @@ class PublicTextReader:
                 "你指的是宝石镶嵌、升级、效果，还是切割？公开正文没有把它们混成同一张表。",
                 ["宝石镶嵌", "宝石升级", "宝石效果", "宝石切割"],
             )
-        if has_inlay or has_upgrade or has_cut or has_source:
-            if has_inlay:
-                mode = "镶嵌"
-            elif has_upgrade:
-                mode = "升级"
-            elif has_cut:
-                mode = "切割"
-            else:
-                mode = "获取"
-            return self._abstain(
-                result,
-                True,
-                "not_in_public_snapshot",
-                "public_text.gem",
-                f"公开快照只收录了宝石效果类正文，没有{mode}模型；不能拿效果表冒充{mode}规则。",
-                unknown_kind="not_in_public_snapshot",
-                unknown_detail=f"公开快照未收录宝石{mode}章节。",
-            )
+        if has_inlay:
+            selected = [segment for segment in segments if "镶嵌" in segment.title]
+            if not selected:
+                return self._gem_missing(
+                    result, question_norm, "inlay", "宝石镶嵌", "镶嵌规则或效果", all_chunks
+                )
+            return self._gem_answer(question, question_norm, "宝石镶嵌", "inlay", selected, result)
+        if has_upgrade:
+            selected = [segment for segment in segments if "升级" in segment.title]
+            if not selected:
+                return self._gem_missing(
+                    result, question_norm, "upgrade", "宝石升级", "升级规则或材料", all_chunks
+                )
+            return self._gem_answer(question, question_norm, "宝石升级", "upgrade", selected, result)
+        if has_cut:
+            selected = [segment for segment in segments if "切割" in segment.title]
+            if not selected:
+                return self._gem_missing(
+                    result, question_norm, "cut", "宝石切割", "切割规则或概率", all_chunks
+                )
+            return self._gem_answer(question, question_norm, "宝石切割", "cut", selected, result)
+        if has_source:
+            selected = [
+                segment
+                for segment in segments
+                if any(term in segment.title for term in ("获取", "获得", "来源", "掉落", "出处"))
+            ]
+            if not selected:
+                return self._gem_missing(
+                    result, question_norm, "source", "宝石获取", "获取/来源说明", all_chunks
+                )
+            return self._gem_answer(question, question_norm, "宝石获取", "source", selected, result)
         if has_effect:
             leftover = _leftover(question_norm)
-            positions = []
-            for position in self.index.gem_positions:
-                chunk = self.index.chunks[position]
-                if leftover and leftover not in chunk.text_norm:
-                    continue
-                positions.append(position)
-            chunks = [self.index.chunks[position] for position in positions if self.index.chunks[position].readable]
-            if not chunks:
+            effect_segments = [
+                segment
+                for segment in segments
+                if _segment_topic(segment.title) == "effect"
+                and segment.readable
+                and not segment.historical
+            ]
+            picked: list[tuple[_SectionSegment, str]] = []
+            for segment in effect_segments:
+                if leftover:
+                    selected_text = _gem_effect_row_text(segment.readable, leftover)
+                else:
+                    selected_text = segment.readable
+                if selected_text:
+                    picked.append((segment, selected_text))
+            if not picked:
+                result["intent"]["mode"] = "effect"
                 return self._abstain(
                     result,
                     True,
@@ -1762,10 +2693,30 @@ class PublicTextReader:
                     f"公开正文的宝石效果章节没有找到「{leftover or '该宝石'}」的对应内容。",
                     unknown_kind="not_in_public_snapshot",
                     unknown_detail="具体宝石名称未在公开效果表中出现。",
+                    unknown_chunks=all_chunks,
+                    unknown_scope_note="检查了公开快照宝石效果章节中的宝石名称。",
                 )
-            ranked = self._rank_chunks(chunks, "drops", "宝石")
+            ranked = [
+                replace(
+                    segment.chunk,
+                    readable=selected_text,
+                    had_strikethrough=segment.had_strikethrough,
+                    historical=False,
+                    branch_label=f"{segment.code} {segment.title.split(' / ')[0]}".strip(),
+                    leaf_raw=segment.title,
+                )
+                for segment, selected_text in picked
+            ]
             result["intent"]["entity"] = leftover or "宝石效果"
-            return self._answer_from_chunks(question, "gem", leftover or "宝石效果", ranked, result, None, None, multi=False, conditions=None)
+            result["intent"]["mode"] = "effect"
+            answer = self._answer_from_chunks(question, "gem", leftover or "宝石效果", ranked, result, None, None, multi=False, conditions=None)
+            if answer.get("evidence"):
+                quotes = {segment.chunk.chunk_id: segment.raw.strip() for segment, _ in picked}
+                for item in answer["evidence"]:
+                    quote = quotes.get(item["chunk_id"])
+                    if quote:
+                        item["quote"] = quote
+            return answer
         return self._clarify(
             result,
             "ambiguous_gem",
@@ -1934,7 +2885,7 @@ class PublicTextReader:
             return self._select_profession(chunk.readable)
         if chunk.domain == "dungeon" and intent == "list":
             return self._select_dungeon_overview(chunk.readable)
-        if chunk.domain == "dungeon" and intent == "strategy":
+        if chunk.domain == "dungeon" and intent in {"strategy", "skills"}:
             return self._select_dungeon_guide(chunk.readable)
         return chunk.readable
 
@@ -1992,6 +2943,7 @@ class PublicTextReader:
         *,
         multi: bool,
         conditions: _Conditions | None,
+        text_override: str | None = None,
     ) -> dict[str, Any]:
         if not ranked:
             return self._abstain(
@@ -2005,7 +2957,11 @@ class PublicTextReader:
         if entity:
             intent_norm = intent_norm.replace(normalize(entity), "")
         intent = self._intent_name(intent_norm)
-        if domain == "dungeon" and (multi or self._is_list_question(normalize(question))):
+        if domain == "dungeon" and intent == "skills":
+            intent = "strategy"
+        if domain == "dungeon" and intent != "strategy" and (
+            multi or self._is_list_question(normalize(question))
+        ):
             intent = "list"
             overviews = [chunk for chunk in ranked if chunk.overview]
             if overviews:
@@ -2022,6 +2978,8 @@ class PublicTextReader:
                 "不把入口表或生命/攻击表当作完整打法。",
                 unknown_kind="missing_strategy",
                 unknown_detail="公开正文未收录该副本的机制或攻略段落。",
+                unknown_chunks=ranked,
+                unknown_scope_note="检查了该副本候选段落是否包含阶段/机制/攻略标记。",
             )
         offset = 0
         if cursor:
@@ -2067,6 +3025,8 @@ class PublicTextReader:
                 "char_budget": self.total_chars,
                 "per_chunk_budget": per_chunk,
                 "char_used": 0,
+                "remaining_candidates": 0,
+                "note": "没有更多可展示的公开正文段落。",
             }
             return result
         evidence: list[dict[str, Any]] = []
@@ -2098,18 +3058,22 @@ class PublicTextReader:
         header = (
             f"据《数据摘要》公开摘要（{self.meta.get('kb_version') or '版本未知'}，"
             f"快照 {self.meta.get('summary_snapshot_date') or '日期未知'}）："
-            "以下为条件性摘录，未与当前配置逐项核对。"
+            "以下为条件性摘录，未与当前配置逐项核对；"
+            "仅为公开来源片段，不构成完整当前攻略。"
         )
         if conditions and conditions.any():
             header += " 适用条件：" + "、".join(conditions.describe()) + "。"
         if multi:
             header += " 同一世界下可检索到以下入口，具体打法需再指定单个副本。"
-        blocks = [header]
-        for item in evidence:
-            blocks.append(f"【{item['section']}】\n{item['excerpt']}")
-        if has_more:
-            blocks.append("（还有更多段落未展示，可用 next_cursor 继续分页。）")
-        result["text"] = "\n\n".join(blocks)
+        if text_override:
+            result["text"] = f"{header}\n\n{text_override}"
+        else:
+            blocks = [header]
+            for item in evidence:
+                blocks.append(f"【{item['section']}】\n{item['excerpt']}")
+            if has_more:
+                blocks.append("（还有更多段落未展示，可用 next_cursor 继续分页。）")
+            result["text"] = "\n\n".join(blocks)
         result["pagination"] = {
             "limit": page_limit,
             "returned": len(evidence),
@@ -2120,33 +3084,38 @@ class PublicTextReader:
             "char_budget": self.total_chars,
             "per_chunk_budget": per_chunk,
             "char_used": used,
+            "remaining_candidates": max(0, total - page_end),
+            "note": (
+                f"还有 {total - page_end} 段候选正文未在本页展示。"
+                if has_more
+                else None
+            ),
         }
-        if has_more:
-            result["buckets"]["unknown"].append(
-                {
-                    "kind": "pagination",
-                    "detail": f"还有 {total - page_end} 段候选正文未在本页展示。",
-                }
-            )
-        for unit in page:
-            chunk = unit.chunk
+        page_chunks = list({unit.chunk.chunk_id: unit.chunk for unit in page}.values())
+        for chunk in page_chunks:
             if chunk.incomplete:
                 result["buckets"]["unknown"].append(
-                    {
-                        "kind": "incomplete_source",
-                        "detail": f"{chunk.section} 在原文中标注未完成，摘录只作条件性参考。",
-                    }
+                    self._unknown_record(
+                        "incomplete_source",
+                        f"{chunk.section} 在原文中标注未完成，摘录只作条件性参考。",
+                        record_type="source_boundary",
+                        chunks=[chunk],
+                        checked="检查了所选公开段落是否标注未完成。",
+                    )
                 )
         if domain == "dungeon":
-            selected_players = {unit.chunk.players for unit in page}
+            selected_players = {chunk.players for chunk in page_chunks}
             if any(players is None for players in selected_players) and not multi:
                 result["buckets"]["unknown"].append(
-                    {
-                        "kind": "missing_field",
-                        "detail": "部分副本段落未标注开启人数，不能推断人数条件。",
-                    }
+                    self._unknown_record(
+                        "missing_field",
+                        "部分副本段落未标注开启人数，不能推断人数条件。",
+                        record_type="knowledge_gap",
+                        chunks=page_chunks,
+                        checked="检查了所选副本段落的开启人数字段。",
+                    )
                 )
-        result["buckets"]["unknown"].extend(self._historical_notes(ranked))
+        result["limits"]["source_processing"].extend(self._historical_notes(ranked))
         branches: list[str] = []
         for unit in page:
             if unit.chunk.branch_label not in branches:
@@ -2155,16 +3124,67 @@ class PublicTextReader:
         return result
 
     @staticmethod
-    def _historical_notes(chunks: list[_Chunk]) -> list[dict[str, str]]:
-        notes: list[dict[str, str]] = []
-        if any(chunk.had_strikethrough for chunk in chunks):
-            notes.append(
-                {
-                    "kind": "strikethrough_sanitized",
-                    "detail": "原文含删除线旧值，输出已剔除删除线内容，未当作当前攻略。",
-                }
-            )
-        return notes
+    def _historical_notes(chunks: list[_Chunk]) -> list[dict[str, Any]]:
+        affected = [chunk.chunk_id for chunk in chunks if chunk.had_strikethrough]
+        if not affected:
+            return []
+        return [
+            {
+                "record_type": "execution_note",
+                "kind": "strikethrough_sanitized",
+                "detail": "原文含删除线旧值，输出已剔除删除线内容，未当作当前攻略。",
+                "chunk_ids": list(dict.fromkeys(affected)),
+            }
+        ]
+
+    @staticmethod
+    def _document_locator(chunk: _Chunk) -> dict[str, Any]:
+        return {
+            "source": chunk.source,
+            "doc_id": chunk.doc_id,
+            "chunk_id": chunk.chunk_id,
+            "title": chunk.title,
+            "section": chunk.section,
+            "version": chunk.version,
+            "world": chunk.world,
+            "players": list(chunk.players) if chunk.players else None,
+            "difficulty": chunk.difficulty,
+            "layer": chunk.layer,
+            "tier_tag": chunk.tier_tag,
+        }
+
+    def _source_scope(self, chunks: list[_Chunk], checked: str | None) -> dict[str, Any]:
+        documents: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for chunk in chunks:
+            if chunk.chunk_id in seen:
+                continue
+            seen.add(chunk.chunk_id)
+            documents.append(self._document_locator(chunk))
+        scope: dict[str, Any] = {
+            "basis": "verified_release_and_checked_document_scope",
+            "release": self.database_info(),
+            "documents": documents,
+        }
+        if checked:
+            scope["checked"] = checked
+        return scope
+
+    def _unknown_record(
+        self,
+        kind: str,
+        detail: str,
+        *,
+        record_type: str,
+        chunks: list[_Chunk] | None = None,
+        checked: str | None = None,
+    ) -> dict[str, Any]:
+        return {
+            "record_type": record_type,
+            "kind": kind,
+            "detail": detail,
+            "scope": self._source_scope(chunks or [], checked),
+        }
 
     def _evidence(self, chunk: _Chunk, excerpt: str, truncated: bool) -> dict[str, Any]:
         return {
@@ -2233,6 +3253,9 @@ class PublicTextReader:
         *,
         unknown_kind: str | None = None,
         unknown_detail: str | None = None,
+        unknown_type: str = "knowledge_gap",
+        unknown_chunks: list[_Chunk] | None = None,
+        unknown_scope_note: str | None = None,
     ) -> dict[str, Any]:
         result["matched"] = matched
         result["action"] = "abstain"
@@ -2240,7 +3263,15 @@ class PublicTextReader:
         result["route"] = route
         result["text"] = text
         if unknown_kind and unknown_detail:
-            result["buckets"]["unknown"].append({"kind": unknown_kind, "detail": unknown_detail})
+            result["buckets"]["unknown"].append(
+                self._unknown_record(
+                    unknown_kind,
+                    unknown_detail,
+                    record_type=unknown_type,
+                    chunks=unknown_chunks,
+                    checked=unknown_scope_note,
+                )
+            )
         result["pagination"] = self._empty_pagination(0)
         return result
 
